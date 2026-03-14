@@ -1,0 +1,36 @@
+Symbol,Sector,Peer Score,Peer Count,ROE Peer Score,Revenue Peer Score,Profit Peer Score,Margin Peer Score,ROCE Peer Score,Debt Peer Score,RevYoY Peer Score,ProfYoY Peer Score
+PERSISTENT,Information Technology,32.0,5,4,4.0,4,1.0,4.0,5.0,5.0,5.0
+DIVISLAB,Healthcare,30.0,5,5,3.0,3,5.0,4.0,5.0,3.0,2.0
+GRANULES,Healthcare,28.0,5,3,5.0,5,3.0,2.0,1.0,5.0,4.0
+AAVAS,Financial Services,27.4,6,2,4.0,5,4.0,,3.0,4.0,2.0
+MUTHOOTFIN,Financial Services,27.4,6,3,1.0,3,5.0,,2.0,5.0,5.0
+FINEORG,Chemicals,26.0,6,4,3.0,4,3.0,4.0,4.0,2.0,2.0
+DHANUKA,Chemicals,26.0,6,5,2.0,2,2.0,5.0,1.0,4.0,5.0
+ABSLAMC,Financial Services,26.0,6,5,,2,,2.0,,,4.0
+VINATIORGA,Chemicals,26.0,6,3,5.0,1,5.0,2.0,5.0,1.0,4.0
+TCS,Information Technology,25.0,5,5,2.0,2,5.0,5.0,3.0,1.0,2.0
+SUNPHARMA,Healthcare,25.0,5,4,1.0,1,4.0,4.0,4.0,4.0,3.0
+GARFIBRES,Textiles,24.0,2,3,3.0,3,3.0,3.0,3.0,3.0,3.0
+BEL,Capital Goods,24.0,4,4,3.0,3,1.0,4.0,3.0,4.0,2.0
+PARAS,Capital Goods,24.0,4,2,4.0,4,4.0,2.0,2.0,3.0,3.0
+TITAN,Consumer Durables,24.0,4,4,4.0,4,2.0,1.0,1.0,4.0,4.0
+LTTS,Information Technology,24.0,5,3,3.0,3,2.0,3.0,3.0,3.0,4.0
+PIIND,Chemicals,23.0,6,2,4.0,5,4.0,3.0,3.0,1.0,1.0
+HAPPSTMNDS,Information Technology,22.0,5,1,5.0,5,4.0,1.0,1.0,4.0,1.0
+SYMPHONY,Consumer Durables,21.7,4,3,2.0,1,4.0,4.0,4.0,1.0,
+CHOLAFIN,Financial Services,21.7,6,3,3.0,4,2.0,,1.0,3.0,3.0
+IPCALAB,Healthcare,21.0,5,2,2.0,4,2.0,2.0,3.0,1.0,5.0
+CREDITACC,Financial Services,20.0,6,1,5.0,1,1.0,,5.0,2.0,
+HAL,Capital Goods,20.0,4,3,1.0,2,3.0,3.0,3.0,1.0,4.0
+HAVELLS,Consumer Durables,20.0,4,2,1.0,3,3.0,3.0,3.0,3.0,2.0
+RELIANCE,"Oil, Gas & Consumable Fuels",16.0,1,2,2.0,2,2.0,2.0,2.0,2.0,2.0
+WIPRO,Information Technology,16.0,5,2,1.0,1,3.0,2.0,2.0,2.0,3.0
+SUPRAJIT,Automobile and Auto Components,16.0,1,2,2.0,2,2.0,2.0,2.0,2.0,2.0
+WONDERLA,Consumer Services,16.0,1,2,2.0,2,2.0,2.0,2.0,2.0,2.0
+GALAXYSURF,Chemicals,16.0,6,1,1.0,3,1.0,1.0,1.0,5.0,3.0
+MANAPPURAM,Financial Services,14.9,6,1,2.0,1,3.0,,4.0,1.0,1.0
+APLLTD,Healthcare,14.0,5,1,4.0,2,1.0,1.0,2.0,2.0,1.0
+VGUARD,Consumer Durables,14.0,4,1,3.0,2,1.0,2.0,2.0,2.0,1.0
+MIDHANI,Capital Goods,11.0,4,1,2.0,1,2.0,1.0,1.0,2.0,1.0
+RALLIS,Chemicals,10.0,6,1,1.0,1,1.0,1.0,1.0,3.0,1.0
+HIMATSEIDE,Textiles,8.0,2,1,1.0,1,1.0,1.0,1.0,1.0,1.0
