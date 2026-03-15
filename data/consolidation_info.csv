@@ -1,0 +1,9 @@
+Symbol,Fund Score,Sector,consolidating,consol_days,duration_label,range_high,range_low,range_pct,pct_to_breakout,is_breaking_out,breakout_volume,has_bell,resistance_touches,support_touches,current_price
+FINEORG,61.0,Chemicals,True,798,798d (2+ years),5468.25,3978.82,37.43,-21.59,False,0.58,True,69,68,4287.7
+RELIANCE,46.0,"Oil, Gas & Consumable Fuels",True,606,606d (1.5-2 years),1559.75,1156.63,34.85,-11.48,False,1.82,True,53,44,1380.7
+SUNPHARMA,66.0,Healthcare,True,520,520d (1.5-2 years),1851.62,1468.86,26.06,-2.7,False,1.83,True,63,66,1801.6
+SUPRAJIT,41.0,Automobile and Auto Components,True,491,491d (1-1.5 years),532.59,383.17,38.99,-24.23,False,0.87,True,61,48,403.55
+HAL,61.0,Capital Goods,True,484,484d (1-1.5 years),5142.18,3432.94,49.79,-23.88,False,1.12,True,37,33,3914.4
+IPCALAB,58.0,Healthcare,True,481,481d (1-1.5 years),1613.74,1170.79,37.83,-3.25,False,2.91,True,52,32,1561.3
+GRANULES,63.0,Healthcare,True,440,440d (1-1.5 years),667.07,451.11,47.87,-15.72,False,1.1,True,27,46,562.2
+PERSISTENT,72.0,Information Technology,True,383,383d (1-1.5 years),6453.55,4732.07,36.38,-28.12,False,0.75,True,55,25,4638.8
