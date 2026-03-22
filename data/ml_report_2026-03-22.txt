@@ -1,0 +1,137 @@
+══════════════════════════════════════════════════════════════════════════════
+  ML SIGNALS — 22 March 2026
+══════════════════════════════════════════════════════════════════════════════
+
+  ⚠️  MODEL NOTE: Trend model predicts next 20-day price direction.
+      Confidence <55% shows as 'Uncertain'. Current downtrends may
+      Model can show only uptrend or sideways. it is not trained for downtrend
+
+  TREND & REVERSAL SIGNALS
+  ──────────────────────────────────────────────────────────────────────────
+  Symbol       Sector                 Trend         Conf   Bottom%   Top%
+  ──────────────────────────────────────────────────────────────────────────
+  PERSISTENT   Information Technolo   Sideways       58%  ⚡ 64.7%     0.0%
+  CHOLAFIN     Financial Services     Sideways       70%     49.8%     0.0%
+  MUTHOOTFIN   Financial Services     Sideways       67%      0.2%     0.1%
+  FINEORG      Chemicals              Sideways       74%     29.1%     0.1%
+  TITAN        Consumer Durables      Uncertain      50%      0.1%     0.1%
+  DHANUKA      Chemicals              Sideways       79%     36.4%     0.1%
+  PIIND        Chemicals              Sideways       72%      0.4%     0.1%
+  BEL          Capital Goods          Uncertain      42%      0.1%     0.1%
+  ABSLAMC      Financial Services     Uncertain      47%      0.0%    21.6%
+  SUNPHARMA    Healthcare             Uncertain      54%      0.0%     0.1%
+  COFORGE      Information Technolo   Sideways       69%  ⚡ 81.3%     0.1%
+  DIVISLAB     Healthcare             Sideways       56%      0.1%     0.1%
+  GARFIBRES    Textiles               Uncertain      49%  ⚡ 66.5%     0.1%
+  PARAS        Capital Goods          Sideways       72%      0.2%     0.1%
+  HAPPSTMNDS   Information Technolo   Sideways       78%      0.1%    22.9%
+  TCS          Information Technolo   Sideways       71%     47.1%     0.1%
+  HAL          Capital Goods          Uncertain      44%  ⚡ 64.1%     0.0%
+  INFY         Information Technolo   Sideways       65%  ⚡ 79.3%     0.1%
+  LTTS         Information Technolo   Sideways       84%     40.9%     0.1%
+  GRANULES     Healthcare             Uncertain      46%      0.0%     0.2%
+  HAVELLS      Consumer Durables      Uncertain      49%  ⚡ 73.9%     0.1%
+  VINATIORGA   Chemicals              Sideways       68%  ⚡ 77.2%     0.1%
+  HDFCBANK     Financial Services     Sideways       57%  ⚡ 78.9%     0.0%
+  RELIANCE     Oil, Gas & Consumabl   Sideways       57%      0.1%     0.1%
+  IPCALAB      Healthcare             Uncertain      54%      0.0%    41.9%
+  WONDERLA     Consumer Services      Sideways       74%      0.1%    58.2%
+  GALAXYSURF   Chemicals              Uncertain      50%  ⚡ 78.4%     0.0%
+  VGUARD       Consumer Durables      Uncertain      52%      0.1%     0.1%
+  SYMPHONY     Consumer Durables      Uncertain      50%  ⚡ 84.2%     0.1%
+  SUPRAJIT     Automobile and Auto    Sideways       61%      0.1%     0.1%
+  WIPRO        Information Technolo   Sideways       75%  ⚡ 65.8%     0.1%
+  CREDITACC    Financial Services     Sideways       80%     27.2%     0.0%
+  HIMATSEIDE   Textiles               Uncertain      38%  ⚡ 86.1%     0.1%
+  APLLTD       Healthcare             Sideways       55%  ⚡ 72.9%     0.0%
+  MIDHANI      Capital Goods          Uncertain      54%  ⚡ 63.6%     0.1%
+  MANAPPURAM   Financial Services     Sideways       56%  ⚡ 71.3%     0.1%
+  RALLIS       Chemicals              Uncertain      48%  ⚡ 84.7%     0.1%
+
+  25-DAY FORECAST
+  ──────────────────────────────────────────────────────────────────────────
+  Symbol        Current Price   Expected  Target Price
+  ──────────────────────────────────────────────────────────────────────────
+  PERSISTENT        Rs 4717.0  +    3.8%     Rs 4894.0
+  CHOLAFIN          Rs 1440.0  +    1.7%     Rs 1465.0
+  MUTHOOTFIN        Rs 3316.0  +    6.4%     Rs 3528.0
+  FINEORG           Rs 4256.0     -1.8%     Rs 4180.0
+  TITAN             Rs 4107.0  +    0.1%     Rs 4111.0
+  DHANUKA            Rs 962.0  +    7.1%     Rs 1031.0
+  PIIND             Rs 2910.0  +    1.5%     Rs 2953.0
+  BEL                Rs 426.0  +    1.2%      Rs 431.0
+  ABSLAMC            Rs 945.0  +    8.1%     Rs 1021.0
+  SUNPHARMA         Rs 1777.0  +    1.5%     Rs 1804.0
+  COFORGE           Rs 1089.0  +    6.3%     Rs 1158.0
+  DIVISLAB          Rs 6100.0  +    1.0%     Rs 6162.0
+  GARFIBRES          Rs 612.0     -2.1%      Rs 599.0
+  PARAS              Rs 627.0  +    3.4%      Rs 648.0
+  HAPPSTMNDS         Rs 411.0     -0.7%      Rs 408.0
+  TCS               Rs 2391.0  +    6.8%     Rs 2553.0
+  HAL               Rs 3782.0  +    5.2%     Rs 3981.0
+  INFY              Rs 1256.0  +    4.0%     Rs 1306.0
+  LTTS              Rs 3229.0  +    7.6%     Rs 3475.0
+  GRANULES           Rs 591.0  +    0.8%      Rs 596.0
+  HAVELLS           Rs 1281.0  +    1.9%     Rs 1306.0
+  VINATIORGA        Rs 1386.0  +    3.3%     Rs 1432.0
+  HDFCBANK           Rs 780.0  +    0.8%      Rs 787.0
+  RELIANCE          Rs 1414.0  +    1.4%     Rs 1434.0
+  IPCALAB           Rs 1545.0  +    1.9%     Rs 1575.0
+  WONDERLA           Rs 520.0     -1.5%      Rs 512.0
+  GALAXYSURF        Rs 1641.0  +    5.4%     Rs 1730.0
+  VGUARD             Rs 325.0  +    3.8%      Rs 337.0
+  SYMPHONY           Rs 771.0  +    4.1%      Rs 803.0
+  SUPRAJIT           Rs 403.0     -0.5%      Rs 401.0
+  WIPRO              Rs 191.0  +    5.3%      Rs 201.0
+  CREDITACC         Rs 1157.0  +    2.0%     Rs 1180.0
+  HIMATSEIDE          Rs 79.0  +    3.8%       Rs 82.0
+  APLLTD             Rs 677.0  +    6.5%      Rs 722.0
+  MIDHANI            Rs 315.0  +    0.6%      Rs 317.0
+  MANAPPURAM         Rs 259.0  +    2.3%      Rs 265.0
+  RALLIS             Rs 239.0  +    4.1%      Rs 248.0
+
+  45-DAY FORECAST
+  ──────────────────────────────────────────────────────────────────────────
+  Symbol        Current Price   Expected  Target Price
+  ──────────────────────────────────────────────────────────────────────────
+  PERSISTENT        Rs 4717.0  +    9.5%     Rs 5167.0
+  CHOLAFIN          Rs 1440.0  +    9.8%     Rs 1582.0
+  MUTHOOTFIN        Rs 3316.0  +    9.1%     Rs 3618.0
+  FINEORG           Rs 4256.0     -1.4%     Rs 4196.0
+  TITAN             Rs 4107.0     -0.8%     Rs 4072.0
+  DHANUKA            Rs 962.0  +   19.4%     Rs 1148.0
+  PIIND             Rs 2910.0  +    3.1%     Rs 3001.0
+  BEL                Rs 426.0  +    4.0%      Rs 443.0
+  ABSLAMC            Rs 945.0  +   11.6%     Rs 1054.0
+  SUNPHARMA         Rs 1777.0  +    4.1%     Rs 1849.0
+  COFORGE           Rs 1089.0  +    9.6%     Rs 1194.0
+  DIVISLAB          Rs 6100.0  +    1.5%     Rs 6192.0
+  GARFIBRES          Rs 612.0     -1.6%      Rs 602.0
+  PARAS              Rs 627.0  +    1.0%      Rs 633.0
+  HAPPSTMNDS         Rs 411.0  +    1.9%      Rs 419.0
+  TCS               Rs 2391.0  +   11.0%     Rs 2653.0
+  HAL               Rs 3782.0  +    2.7%     Rs 3884.0
+  INFY              Rs 1256.0  +    6.7%     Rs 1340.0
+  LTTS              Rs 3229.0  +   14.8%     Rs 3706.0
+  GRANULES           Rs 591.0  +    2.2%      Rs 604.0
+  HAVELLS           Rs 1281.0  +    2.6%     Rs 1315.0
+  VINATIORGA        Rs 1386.0  +    9.3%     Rs 1516.0
+  HDFCBANK           Rs 780.0  +    4.1%      Rs 812.0
+  RELIANCE          Rs 1414.0  +    2.8%     Rs 1454.0
+  IPCALAB           Rs 1545.0  +    4.3%     Rs 1612.0
+  WONDERLA           Rs 520.0     -0.3%      Rs 518.0
+  GALAXYSURF        Rs 1641.0  +    8.4%     Rs 1779.0
+  VGUARD             Rs 325.0  +    5.4%      Rs 343.0
+  SYMPHONY           Rs 771.0  +    5.0%      Rs 810.0
+  SUPRAJIT           Rs 403.0     -0.9%      Rs 399.0
+  WIPRO              Rs 191.0  +   10.4%      Rs 211.0
+  CREDITACC         Rs 1157.0  +    8.3%     Rs 1252.0
+  HIMATSEIDE          Rs 79.0  +    0.8%       Rs 80.0
+  APLLTD             Rs 677.0  +    8.7%      Rs 736.0
+  MIDHANI            Rs 315.0  +    1.4%      Rs 320.0
+  MANAPPURAM         Rs 259.0  +    3.9%      Rs 269.0
+  RALLIS             Rs 239.0  +    8.3%      Rs 259.0
+
+  6-MONTH FORECAST  — No stocks qualify (need Uptrend + conf >60%)
+
+══════════════════════════════════════════════════════════════════════════════
