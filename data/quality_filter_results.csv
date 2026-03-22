@@ -1,0 +1,2143 @@
+Symbol,Sector,Market_Cap_Cr,Cap_Tier,Passed,Fail_Reason
+20MICRONS,Metals & Mining,534.54,Small Cap,True,
+360ONE,Financial Services,42239.61,Large Cap,True,
+3IINFOLTD,Information Technology,287.09,Small Cap,False,ROE 7.7% < 10% (Small Cap)
+3MINDIA,Diversified,36352.38,Large Cap,True,
+5PAISA,Financial Services,911.3,Small Cap,True,
+63MOONS,Information Technology,2448.99,Mid Cap,False,TTM Profit negative or zero
+AAATECH,Services,119.29,Small Cap,False,TTM Profit negative or zero
+AADHARHFC,Financial Services,19561.12,Mini Large,True,
+AAREYDRUGS,Healthcare,196.47,Small Cap,False,TTM Profit negative or zero
+AARON,Capital Goods,288.52,Small Cap,False,TTM Profit negative or zero
+AARTECH,Capital Goods,148.15,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+AARTIDRUGS,Healthcare,3133.45,Mid Cap,True,
+AARTIIND,Chemicals,15518.95,Mini Large,False,ROE 5.8% < 7% (Mini Large)
+AARTIPHARM,Healthcare,5852.62,Mini Large,True,
+AARTISURF,Chemicals,299.34,Small Cap,False,ROE 6.4% < 10% (Small Cap)
+AARVI,Services,192.76,Small Cap,False,ROE 7.5% < 10% (Small Cap)
+AAVAS,Financial Services,8696.06,Mini Large,True,
+ABB,Capital Goods,133446.45,Large Cap,True,
+ABBOTINDIA,Healthcare,56767.51,Large Cap,False,TTM Profit negative or zero
+ABCAPITAL,Financial Services,81531.05,Large Cap,True,
+ABCOTS,Textiles,885.9,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+ABDL,Fast Moving Consumer Goods,11424.76,Mini Large,False,Inconsistent profits: 8.0/12.0 quarters
+ABFRL,Consumer Services,7295.89,Mini Large,False,TTM Profit negative or zero
+ABINFRA,Construction,1084.03,Mid Cap,False,TTM Profit negative or zero
+ABREL,Forest Materials,12884.56,Mini Large,False,TTM Profit negative or zero
+ABSLAMC,Financial Services,27282.08,Large Cap,True,
+ACC,Construction Materials,25940.93,Large Cap,True,
+ACCELYA,Information Technology,1769.24,Mid Cap,True,
+ACE,Capital Goods,9868.77,Mini Large,True,
+ACI,Chemicals,7422.94,Mini Large,True,
+ACL,Construction Materials,488.45,Small Cap,False,TTM Profit negative or zero
+ACMESOLAR,Power,14929.33,Mini Large,False,ROE 5.2% < 7% (Mini Large)
+ADANIENSOL,Power,121541.9,Large Cap,False,ROE 3.9% < 6% (Large Cap)
+ADANIENT,Metals & Mining,262458.16,Large Cap,True,
+ADANIGREEN,Power,142167.77,Large Cap,False,D/E 4.52 > 2.5 (Large Cap)
+ADANIPORTS,Services,314582.58,Large Cap,True,
+ADANIPOWER,Power,292260.69,Large Cap,True,
+ADFFOODS,Fast Moving Consumer Goods,1916.35,Mid Cap,True,
+ADOR,Capital Goods,1596.01,Mid Cap,True,
+ADSL,Information Technology,573.9,Small Cap,False,ROE 5.3% < 10% (Small Cap)
+ADVANIHOTR,Consumer Services,478.18,Small Cap,False,TTM Profit negative or zero
+ADVENZYMES,Healthcare,3051.12,Mid Cap,True,
+AEGISLOG,"Oil, Gas & Consumable Fuels",21470.67,Large Cap,True,
+AEROFLEX,Capital Goods,3095.56,Mid Cap,True,
+AERONEU,Capital Goods,172.75,Small Cap,False,TTM Profit negative or zero
+AETHER,Chemicals,15331.19,Mini Large,False,ROE 6.8% < 7% (Mini Large)
+AFCONS,Construction,10252.0,Mini Large,True,
+AFFLE,Information Technology,18077.32,Mini Large,True,
+AFFORDABLE,Capital Goods,159.8,Small Cap,False,TTM Profit negative or zero
+AFSL,Financial Services,1022.83,Mid Cap,True,
+AGARIND,Chemicals,616.93,Small Cap,True,
+AGARWALEYE,Healthcare,13443.73,Mini Large,False,ROE 5.7% < 7% (Mini Large)
+AGI,Capital Goods,3229.05,Mid Cap,True,
+AGIIL,Realty,3891.71,Mid Cap,True,
+AHLADA,Consumer Durables,50.88,Small Cap,False,TTM Profit negative or zero
+AHLEAST,Consumer Services,262.75,Small Cap,False,ROE 7.9% < 10% (Small Cap)
+AHLUCONT,Construction,4856.26,Mid Cap,True,
+AIAENG,Capital Goods,31818.51,Large Cap,True,
+AIIL,Financial Services,41798.88,Large Cap,False,Promoter selling: -6.16% in 4Q
+AIRAN,Information Technology,190.28,Small Cap,True,
+AJANTPHARM,Healthcare,36307.74,Large Cap,True,
+AJAXENGG,Capital Goods,5388.56,Mini Large,False,TTM Profit negative or zero
+AJMERA,Realty,2137.04,Mid Cap,False,Poor CF: 6.0/12.0 yrs
+AKSHARCHEM,Chemicals,147.83,Small Cap,True,
+AKUMS,Healthcare,7405.85,Mini Large,True,
+AKZOINDIA,Consumer Durables,13138.84,Mini Large,False,Promoter selling: -13.56% in 4Q
+ALANKIT,Services,205.02,Small Cap,False,ROE 7.2% < 10% (Small Cap)
+ALBERTDAVD,Healthcare,377.62,Small Cap,False,TTM Profit negative or zero
+ALEMBICLTD,Realty,2051.69,Mid Cap,True,
+ALICON,Automobile and Auto Components,1057.57,Mid Cap,False,ROE 7.5% < 8% (Mid Cap)
+ALIVUS,Healthcare,11688.63,Mini Large,False,ROE nan% < 7% (Mini Large)
+ALKEM,Healthcare,62861.3,Large Cap,True,
+ALKYLAMINE,Chemicals,6607.81,Mini Large,True,
+ALLCARGO,Services,1211.37,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+ALLDIGI,Services,1118.19,Mid Cap,True,
+ALMONDZ,Financial Services,249.05,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+ALOKINDS,Textiles,6375.37,Mini Large,False,TTM Profit negative or zero
+ALPA,Healthcare,126.6,Small Cap,False,Poor CF: 7.0/12.0 yrs
+ALPHAGEO,"Oil, Gas & Consumable Fuels",117.68,Small Cap,False,TTM Profit negative or zero
+AMBER,Consumer Durables,23418.3,Large Cap,False,Inconsistent profits: 9.0/13.0 quarters
+AMBIKCO,Textiles,731.23,Small Cap,False,TTM Profit negative or zero
+AMBUJACEM,Construction Materials,103952.53,Large Cap,True,
+AMDIND,Capital Goods,73.8,Small Cap,False,ROE 5.8% < 10% (Small Cap)
+AMJLAND,Realty,156.74,Small Cap,False,ROE 8.3% < 10% (Small Cap)
+AMNPLST,Chemicals,835.97,Small Cap,True,
+AMRUTANJAN,Healthcare,1489.94,Mid Cap,True,
+ANANDRATHI,Financial Services,24936.82,Large Cap,True,
+ANANTRAJ,Realty,16774.06,Mini Large,False,Poor CF: 6.0/12.0 yrs
+ANDHRAPAP,Forest Materials,1201.06,Mid Cap,False,TTM Profit negative or zero
+ANDHRSUGAR,Chemicals,962.77,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+ANGELONE,Financial Services,21028.26,Large Cap,False,Promoter selling: -6.7% in 4Q
+ANIKINDS,Services,106.93,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+ANUHPHR,Healthcare,747.89,Small Cap,False,TTM Profit negative or zero
+ANUP,Capital Goods,3200.98,Mid Cap,True,
+ANURAS,Chemicals,14277.73,Mini Large,False,ROE 5.0% < 7% (Mini Large)
+APARINDS,Capital Goods,38856.2,Large Cap,True,
+APCL,Construction Materials,331.55,Small Cap,False,TTM Profit negative or zero
+APCOTEXIND,Capital Goods,1831.03,Mid Cap,False,Poor CF: 1.0/2.0 yrs
+APEX,Fast Moving Consumer Goods,1178.87,Mid Cap,False,TTM Profit negative or zero
+APLAPOLLO,Capital Goods,54793.24,Large Cap,True,
+APLLTD,Healthcare,13345.47,Mini Large,True,
+APOLLO,Capital Goods,7470.14,Mini Large,False,ROE 5.2% < 7% (Mini Large)
+APOLLOHOSP,Healthcare,105890.21,Large Cap,True,
+APOLLOPIPE,Capital Goods,1699.48,Mid Cap,False,ROE 4.1% < 8% (Mid Cap)
+APOLLOTYRE,Automobile and Auto Components,26653.35,Large Cap,True,
+APOLSINHOT,Consumer Services,277.07,Small Cap,False,ROE 5.3% < 10% (Small Cap)
+APTECHT,Consumer Services,460.31,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+APTUS,Financial Services,10457.01,Mini Large,False,Promoter selling: -29.13% in 4Q
+AQYLON,"Media, Entertainment & Publication",1660.5,Mid Cap,False,TTM Profit negative or zero
+ARCHIDPLY,Consumer Durables,138.72,Small Cap,False,TTM Profit negative or zero
+ARE&M,Automobile and Auto Components,13895.9,Mini Large,True,
+ARIES,Chemicals,440.91,Small Cap,False,Inconsistent profits: 10.0/13.0 quarters
+ARIHANTCAP,Financial Services,746.33,Small Cap,True,
+ARIHANTSUP,Realty,916.66,Small Cap,False,D/E 2.38 > 1.0 (Small Cap)
+ARKADE,Realty,1916.42,Mid Cap,False,Poor CF: 2.0/5.0 yrs
+ARMANFIN,Financial Services,1589.13,Mid Cap,False,ROE 6.0% < 8% (Mid Cap)
+ARROWGREEN,Capital Goods,571.0,Small Cap,True,
+ARTEMISMED,Healthcare,,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+ARVIND,Textiles,9416.47,Mini Large,True,
+ARVINDFASN,Consumer Services,5312.51,Mini Large,False,ROE 3.3% < 7% (Mini Large)
+ARVSMART,Realty,2450.21,Mid Cap,False,Poor CF: 6.0/11.0 yrs
+ASAHIINDIA,Automobile and Auto Components,20660.57,Large Cap,True,
+ASAHISONG,Chemicals,244.73,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+ASAL,Automobile and Auto Components,666.0,Small Cap,False,TTM Profit negative or zero
+ASALCBR,Fast Moving Consumer Goods,1461.36,Mid Cap,True,
+ASHAPURMIN,Metals & Mining,4803.53,Mid Cap,True,
+ASHIANA,Realty,3050.93,Mid Cap,False,ROE 2.3% < 8% (Mid Cap)
+ASHIMASYN,Textiles,271.47,Small Cap,False,TTM Profit negative or zero
+ASHOKA,Construction,3194.37,Mid Cap,True,
+ASHOKLEY,Capital Goods,99203.53,Large Cap,False,D/E 4.33 > 2.5 (Large Cap)
+ASIANENE,"Oil, Gas & Consumable Fuels",1268.48,Mid Cap,False,Poor CF: 5.0/12.0 yrs
+ASIANHOTNR,Consumer Services,1228.31,Mid Cap,False,TTM Profit negative or zero
+ASIANPAINT,Consumer Durables,210449.79,Large Cap,True,
+ASIANTILES,Consumer Durables,1797.15,Mid Cap,False,ROE 1.5% < 8% (Mid Cap)
+ASKAUTOLTD,Automobile and Auto Components,8067.08,Mini Large,True,
+ASMS,Information Technology,237.65,Small Cap,False,Promoter selling: -11.92% in 4Q
+ASPINWALL,Services,162.49,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+ASTEC,Chemicals,1254.12,Mid Cap,False,TTM Profit negative or zero
+ASTERDM,Healthcare,32417.06,Large Cap,True,
+ASTRAL,Capital Goods,43838.34,Large Cap,True,
+ASTRAMICRO,Capital Goods,8457.7,Mini Large,False,Promoter 6.54% < 20% (Mini Large)
+ASTRAZEN,Healthcare,20802.5,Large Cap,False,TTM Profit negative or zero
+ATALREAL,Realty,289.42,Small Cap,False,ROE 5.8% < 10% (Small Cap)
+ATGL,"Oil, Gas & Consumable Fuels",60730.65,Large Cap,True,
+ATL,Services,651.43,Small Cap,False,ROE 9.7% < 10% (Small Cap)
+ATLANTAA,Construction,304.0,Small Cap,False,D/E 1.54 > 1.0 (Small Cap)
+ATUL,Chemicals,18386.38,Mini Large,True,
+ATULAUTO,Capital Goods,1157.37,Mid Cap,False,ROE 4.0% < 8% (Mid Cap)
+AUBANK,Financial Services,67358.34,Large Cap,True,
+AURIONPRO,Information Technology,4502.66,Mid Cap,True,
+AUROPHARMA,Healthcare,75004.72,Large Cap,True,
+AURUM,Information Technology,1300.11,Mid Cap,False,TTM Profit negative or zero
+AUTOAXLES,Automobile and Auto Components,2520.17,Mid Cap,False,TTM Profit negative or zero
+AUTOIND,Automobile and Auto Components,271.03,Small Cap,False,D/E 1.55 > 1.0 (Small Cap)
+AVADHSUGAR,Fast Moving Consumer Goods,913.04,Small Cap,False,TTM Profit negative or zero
+AVALON,Capital Goods,6355.47,Mini Large,False,Promoter selling: -6.16% in 4Q
+AVANTEL,Capital Goods,3384.62,Mid Cap,True,
+AVANTIFEED,Fast Moving Consumer Goods,16431.22,Mini Large,True,
+AVG,Services,260.86,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+AVL,Consumer Services,5913.72,Mini Large,False,TTM Profit negative or zero
+AVONMORE,Financial Services,340.88,Small Cap,False,ROE 9.0% < 10% (Small Cap)
+AVROIND,Consumer Durables,165.59,Small Cap,False,ROE nan% < 10% (Small Cap)
+AVTNPL,Fast Moving Consumer Goods,905.92,Small Cap,False,ROE 9.2% < 10% (Small Cap)
+AWFIS,Services,1885.81,Mid Cap,False,D/E 2.91 > 1.5 (Mid Cap)
+AWHCL,Utilities,1244.24,Mid Cap,True,
+AWL,Fast Moving Consumer Goods,24903.36,Large Cap,False,Promoter selling: -30.94% in 4Q
+AXISBANK,Financial Services,374443.17,Large Cap,True,
+AXISCADES,Capital Goods,6062.98,Mini Large,True,
+AYMSYNTEX,Textiles,1073.62,Mid Cap,False,ROE 2.1% < 8% (Mid Cap)
+AZAD,Capital Goods,9489.64,Mini Large,False,ROE 5.9% < 7% (Mini Large)
+BAIDFIN,Financial Services,167.59,Small Cap,False,TTM Profit negative or zero
+BAJAJ-AUTO,Automobile and Auto Components,252751.46,Large Cap,True,
+BAJAJCON,Fast Moving Consumer Goods,4784.55,Mid Cap,True,
+BAJAJELEC,Consumer Durables,4088.82,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+BAJAJFINSV,Financial Services,273219.95,Large Cap,True,
+BAJAJHCARE,Healthcare,988.76,Small Cap,False,TTM Profit negative or zero
+BAJAJHFL,Financial Services,67836.95,Large Cap,False,TTM Profit negative or zero
+BAJAJHIND,Fast Moving Consumer Goods,2012.32,Mid Cap,False,TTM Profit negative or zero
+BAJAJHLDNG,Financial Services,105862.39,Large Cap,True,
+BAJAJINDEF,Capital Goods,745.12,Small Cap,True,
+BAJEL,Capital Goods,1887.75,Mid Cap,False,ROE 2.1% < 8% (Mid Cap)
+BAJFINANCE,Financial Services,516298.57,Large Cap,True,
+BALAJEE,Capital Goods,201.56,Small Cap,False,Poor CF: 1.0/5.0 yrs
+BALAJITELE,"Media, Entertainment & Publication",1019.59,Mid Cap,False,Poor CF: 3.0/12.0 yrs
+BALAMINES,Chemicals,3457.51,Mid Cap,True,
+BALAXI,Healthcare,97.44,Small Cap,False,Poor CF: 3.0/7.0 yrs
+BALKRISIND,Automobile and Auto Components,40695.2,Large Cap,True,
+BALMLAWRIE,Diversified,2777.9,Mid Cap,False,Promoter nan% < 25% (Mid Cap)
+BALRAMCHIN,Fast Moving Consumer Goods,9819.4,Mini Large,True,
+BALUFORGE,Capital Goods,5316.28,Mini Large,True,
+BANARISUG,Fast Moving Consumer Goods,4517.93,Mid Cap,False,TTM Profit negative or zero
+BANCOINDIA,Automobile and Auto Components,7919.98,Mini Large,True,
+BANDHANBNK,Financial Services,25524.25,Large Cap,False,TTM Profit negative or zero
+BANKBARODA,Financial Services,144772.29,Large Cap,True,
+BANKINDIA,Financial Services,68513.1,Large Cap,True,
+BANSALWIRE,Capital Goods,3878.68,Mid Cap,False,Poor CF: 1.0/4.0 yrs
+BANSWRAS,Textiles,384.7,Small Cap,False,ROE 3.9% < 10% (Small Cap)
+BASF,Chemicals,14337.07,Mini Large,True,
+BASML,Textiles,160.23,Small Cap,False,ROE 1.5% < 10% (Small Cap)
+BATAINDIA,Consumer Durables,8525.23,Mini Large,True,
+BAYERCROP,Chemicals,21213.99,Large Cap,False,Poor CF: 1.0/2.0 yrs
+BBL,Capital Goods,2612.46,Mid Cap,False,TTM Profit negative or zero
+BBOX,Information Technology,8631.31,Mini Large,True,
+BBTC,Fast Moving Consumer Goods,10497.88,Mini Large,True,
+BCLIND,Fast Moving Consumer Goods,800.17,Small Cap,True,
+BCONCEPTS,Consumer Services,284.96,Small Cap,False,ROE 6.5% < 10% (Small Cap)
+BDL,Capital Goods,45816.65,Large Cap,False,TTM Profit negative or zero
+BECTORFOOD,Fast Moving Consumer Goods,5608.38,Mini Large,True,
+BEL,Capital Goods,311469.68,Large Cap,True,
+BEML,Capital Goods,12618.0,Mini Large,False,Inconsistent profits: 9.0/13.0 quarters
+BEPL,Chemicals,2159.31,Mid Cap,True,
+BERGEPAINT,Consumer Durables,48705.07,Large Cap,True,
+BETA,Healthcare,1116.56,Mid Cap,True,
+BFINVEST,Financial Services,1406.08,Mid Cap,False,ROE 3.1% < 8% (Mid Cap)
+BHAGCHEM,Chemicals,2343.77,Mid Cap,False,ROE 2.0% < 8% (Mid Cap)
+BHAGERIA,Chemicals,619.08,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+BHAGYANGR,Metals & Mining,466.61,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+BHARATFORG,Automobile and Auto Components,81824.87,Large Cap,True,
+BHARATGEAR,Automobile and Auto Components,150.84,Small Cap,False,TTM Profit negative or zero
+BHARATRAS,Chemicals,2120.52,Mid Cap,True,
+BHARATWIRE,Capital Goods,1126.5,Mid Cap,False,D/E 1.85 > 1.5 (Mid Cap)
+BHARTIARTL,Telecommunication,1124546.56,Large Cap,True,
+BHARTIHEXA,Telecommunication,79205.0,Large Cap,False,TTM Profit negative or zero
+BHEL,Capital Goods,91247.47,Large Cap,False,ROE 2.2% < 6% (Large Cap)
+BIGBLOC,Construction Materials,709.58,Small Cap,False,ROE 2.3% < 10% (Small Cap)
+BIKAJI,Fast Moving Consumer Goods,15795.25,Mini Large,True,
+BIL,Consumer Durables,947.11,Small Cap,False,ROE 3.3% < 10% (Small Cap)
+BIOCON,Healthcare,61688.43,Large Cap,False,ROE 5.3% < 6% (Large Cap)
+BIRLACABLE,Telecommunication,385.56,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+BIRLACORPN,Construction Materials,6280.54,Mini Large,False,ROE 4.1% < 7% (Mini Large)
+BIRLAMONEY,Financial Services,632.84,Small Cap,True,
+BLACKBUCK,Services,11187.38,Mini Large,False,TTM Profit negative or zero
+BLAL,Financial Services,688.4,Small Cap,False,TTM Profit negative or zero
+BLISSGVS,Healthcare,2225.5,Mid Cap,False,ROE 7.9% < 8% (Mid Cap)
+BLKASHYAP,Construction,1113.88,Mid Cap,False,ROE 5.1% < 8% (Mid Cap)
+BLS,Consumer Services,9905.29,Mini Large,True,
+BLSE,Information Technology,1308.59,Mid Cap,True,
+BLUEDART,Services,12104.81,Mini Large,True,
+BLUEJET,Healthcare,6209.2,Mini Large,False,Promoter selling: -6.19% in 4Q
+BLUESTARCO,Consumer Durables,35127.25,Large Cap,True,
+BODALCHEM,Chemicals,688.28,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+BOMDYEING,Textiles,2130.61,Mid Cap,False,Inconsistent profits: 8.0/13.0 quarters
+BOROLTD,Consumer Durables,2654.84,Mid Cap,True,
+BORORENEW,Capital Goods,5900.55,Mini Large,False,TTM Profit negative or zero
+BOROSCI,Capital Goods,931.23,Small Cap,False,ROE 6.7% < 10% (Small Cap)
+BOSCHLTD,Automobile and Auto Components,89656.92,Large Cap,True,
+BPCL,"Oil, Gas & Consumable Fuels",124862.18,Large Cap,True,
+BPL,Consumer Durables,230.68,Small Cap,False,TTM Profit negative or zero
+BRIGADE,Realty,15749.37,Mini Large,True,
+BRITANNIA,Fast Moving Consumer Goods,135331.85,Large Cap,True,
+BRNL,Construction,158.08,Small Cap,False,D/E 1.05 > 1.0 (Small Cap)
+BROOKS,Healthcare,155.28,Small Cap,False,TTM Profit negative or zero
+BSE,Financial Services,113963.88,Large Cap,False,Promoter nan% < 15% (Large Cap)
+BSHSL,Fast Moving Consumer Goods,823.02,Small Cap,False,TTM Profit negative or zero
+BSOFT,Information Technology,10007.01,Mini Large,True,
+BTML,"Media, Entertainment & Publication",116.78,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+BUTTERFLY,Consumer Durables,1145.81,Mid Cap,False,TTM Profit negative or zero
+BVCL,Construction Materials,87.71,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+BYKE,Consumer Services,171.89,Small Cap,False,TTM Profit negative or zero
+CAMLINFINE,Chemicals,2280.32,Mid Cap,False,TTM Profit negative or zero
+CAMPUS,Consumer Durables,6875.85,Mini Large,True,
+CAMS,Financial Services,15898.64,Mini Large,True,
+CANBK,Financial Services,123759.97,Large Cap,True,
+CANFINHOME,Financial Services,10925.57,Mini Large,False,TTM Profit negative or zero
+CANTABIL,Textiles,1982.64,Mid Cap,False,TTM Profit negative or zero
+CAPACITE,Construction,1902.68,Mid Cap,True,
+CAPITALSFB,Financial Services,1090.28,Mid Cap,False,TTM Profit negative or zero
+CAPLIPOINT,Healthcare,12213.6,Mini Large,True,
+CARBORUNIV,Capital Goods,14420.28,Mini Large,True,
+CARERATING,Financial Services,4620.33,Mid Cap,False,Promoter nan% < 25% (Mid Cap)
+CARRARO,Automobile and Auto Components,2512.55,Mid Cap,True,
+CARTRADE,Consumer Services,8126.9,Mini Large,False,ROE 6.2% < 7% (Mini Large)
+CARYSIL,Consumer Durables,2223.96,Mid Cap,True,
+CASTROLIND,"Oil, Gas & Consumable Fuels",18530.22,Mini Large,False,TTM Profit negative or zero
+CCCL,Realty,668.8,Small Cap,False,Inconsistent profits: 5.0/13.0 quarters
+CCL,Fast Moving Consumer Goods,14486.62,Mini Large,True,
+CDSL,Financial Services,24887.72,Large Cap,True,
+CEATLTD,Automobile and Auto Components,14270.81,Mini Large,True,
+CEIGALL,Construction,4713.32,Mid Cap,False,Poor CF: 1.0/5.0 yrs
+CELLO,Consumer Durables,9355.96,Mini Large,True,
+CENTENKA,Textiles,914.08,Small Cap,False,ROE 4.6% < 10% (Small Cap)
+CENTEXT,Capital Goods,152.29,Small Cap,False,TTM Profit negative or zero
+CENTRALBK,Financial Services,30945.18,Large Cap,True,
+CENTRUM,Financial Services,1163.37,Mid Cap,False,TTM Profit negative or zero
+CENTUM,Capital Goods,4414.74,Mid Cap,False,TTM Profit negative or zero
+CENTURYPLY,Consumer Durables,14461.24,Mini Large,True,
+CERA,Consumer Durables,6128.85,Mini Large,True,
+CESC,Power,20246.76,Large Cap,True,
+CEWATER,Utilities,585.6,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+CGCL,Financial Services,16364.31,Mini Large,False,Promoter selling: -9.95% in 4Q
+CGPOWER,Capital Goods,107346.38,Large Cap,True,
+CHALET,Consumer Services,15854.52,Mini Large,False,ROE 4.2% < 7% (Mini Large)
+CHAMBLFERT,Chemicals,17169.95,Mini Large,True,
+CHEMBOND,Chemicals,169.88,Small Cap,True,
+CHEMCON,Chemicals,536.86,Small Cap,False,TTM Profit negative or zero
+CHEMFAB,Chemicals,513.43,Small Cap,False,TTM Profit negative or zero
+CHEMPLASTS,Chemicals,4445.86,Mid Cap,False,TTM Profit negative or zero
+CHENNPETRO,"Oil, Gas & Consumable Fuels",15870.51,Mini Large,False,ROE 2.4% < 7% (Mini Large)
+CHEVIOT,Forest Materials,575.78,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+CHOICEIN,Financial Services,13712.45,Mini Large,True,
+CHOLAFIN,Financial Services,122735.95,Large Cap,True,
+CHOLAHLDNG,Financial Services,26466.55,Large Cap,True,
+CIEINDIA,Automobile and Auto Components,17521.08,Mini Large,True,
+CIGNITITEC,Information Technology,2942.84,Mid Cap,True,
+CINELINE,"Media, Entertainment & Publication",301.58,Small Cap,False,TTM Profit negative or zero
+CIPLA,Healthcare,101489.57,Large Cap,True,
+CLEAN,Chemicals,7427.22,Mini Large,False,Promoter selling: -24.01% in 4Q
+CLSEL,Fast Moving Consumer Goods,1161.46,Mid Cap,False,TTM Profit negative or zero
+CMSINFO,Services,4670.2,Mid Cap,False,Promoter 0.0% < 25% (Mid Cap)
+COALINDIA,"Oil, Gas & Consumable Fuels",288508.12,Large Cap,True,
+COASTCORP,Fast Moving Consumer Goods,293.44,Small Cap,False,ROE 1.5% < 10% (Small Cap)
+COCHINSHIP,Capital Goods,35302.09,Large Cap,True,
+COFFEEDAY,Consumer Services,503.41,Small Cap,False,TTM Profit negative or zero
+COFORGE,Information Technology,36590.54,Large Cap,True,
+COLPAL,Fast Moving Consumer Goods,51571.2,Large Cap,True,
+COMSYN,Capital Goods,612.95,Small Cap,True,
+CONCOR,Services,34067.17,Large Cap,True,
+CONCORDBIO,Healthcare,11427.23,Mini Large,True,
+CONFIPET,"Oil, Gas & Consumable Fuels",1207.02,Mid Cap,False,ROE 6.6% < 8% (Mid Cap)
+CONTROLPR,Information Technology,996.74,Small Cap,True,
+CORDSCABLE,Capital Goods,191.81,Small Cap,False,TTM Profit negative or zero
+COROMANDEL,Chemicals,56320.67,Large Cap,True,
+COSMOFIRST,Capital Goods,1617.47,Mid Cap,True,
+CPCAP,Financial Services,151.78,Small Cap,False,ROE 7.0% < 10% (Small Cap)
+CRAFTSMAN,Automobile and Auto Components,16488.98,Mini Large,False,ROE 6.6% < 7% (Mini Large)
+CREDITACC,Financial Services,18523.29,Mini Large,True,
+CREST,Financial Services,933.51,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+CRISIL,Financial Services,29279.3,Large Cap,True,
+CROMPTON,Consumer Durables,15892.23,Mini Large,False,Promoter nan% < 20% (Mini Large)
+CROWN,Capital Goods,130.9,Small Cap,False,TTM Profit negative or zero
+CSBBANK,Financial Services,6118.13,Mini Large,False,TTM Profit negative or zero
+CSLFINANCE,Financial Services,555.33,Small Cap,False,TTM Profit negative or zero
+CUB,Financial Services,17933.45,Mini Large,False,TTM Profit negative or zero
+CUBEXTUB,Capital Goods,127.51,Small Cap,False,TTM Profit negative or zero
+CUMMINSIND,Capital Goods,127936.11,Large Cap,True,
+CUPID,Fast Moving Consumer Goods,10715.18,Mini Large,True,
+CYBERTECH,Information Technology,342.81,Small Cap,True,
+CYIENT,Information Technology,9113.07,Mini Large,True,
+CYIENTDLM,Capital Goods,2420.33,Mid Cap,False,ROE 6.9% < 8% (Mid Cap)
+DABUR,Fast Moving Consumer Goods,76392.84,Large Cap,True,
+DALBHARAT,Construction Materials,34560.87,Large Cap,False,ROE 4.0% < 6% (Large Cap)
+DALMIASUG,Fast Moving Consumer Goods,2594.91,Mid Cap,True,
+DAMCAPITAL,Financial Services,917.86,Small Cap,True,
+DATAMATICS,Information Technology,4056.77,Mid Cap,True,
+DATAPATTNS,Capital Goods,18087.3,Mini Large,False,TTM Profit negative or zero
+DBCORP,"Media, Entertainment & Publication",3700.56,Mid Cap,True,
+DBEIL,Construction,340.41,Small Cap,False,TTM Profit negative or zero
+DBL,Construction,6682.98,Mini Large,False,Promoter selling: -7.01% in 4Q
+DBOL,Fast Moving Consumer Goods,650.8,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+DBREALTY,Consumer Services,5319.38,Mini Large,False,TTM Profit negative or zero
+DCAL,Healthcare,2481.06,Mid Cap,False,ROE 0.1% < 8% (Mid Cap)
+DCBBANK,Financial Services,5471.44,Mini Large,False,TTM Profit negative or zero
+DCI,Information Technology,463.3,Small Cap,False,ROE nan% < 10% (Small Cap)
+DCMNVL,Textiles,223.16,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+DCMSHRIRAM,Diversified,16140.77,Mini Large,True,
+DCMSRIND,Fast Moving Consumer Goods,959.18,Small Cap,True,
+DCW,Chemicals,1401.51,Mid Cap,False,TTM Profit negative or zero
+DCXINDIA,Capital Goods,1824.0,Mid Cap,False,ROE 2.7% < 8% (Mid Cap)
+DDEVPLSTIK,Chemicals,2374.79,Mid Cap,False,TTM Profit negative or zero
+DECCANCE,Construction Materials,913.86,Small Cap,False,ROE 1.1% < 10% (Small Cap)
+DEEDEV,Capital Goods,1852.45,Mid Cap,False,ROE 5.3% < 8% (Mid Cap)
+DEEPAKFERT,Chemicals,11480.92,Mini Large,True,
+DEEPAKNTR,Chemicals,18962.73,Mini Large,True,
+DEEPINDS,"Oil, Gas & Consumable Fuels",2622.4,Mid Cap,False,TTM Profit negative or zero
+DELHIVERY,Services,31757.11,Large Cap,False,ROE 1.7% < 6% (Large Cap)
+DELPHIFX,Financial Services,3656.63,Mid Cap,False,ROE 0.8% < 8% (Mid Cap)
+DELTACORP,Consumer Services,1443.43,Mid Cap,True,
+DEN,"Media, Entertainment & Publication",1237.21,Mid Cap,False,ROE 5.3% < 8% (Mid Cap)
+DENORA,Capital Goods,370.68,Small Cap,False,TTM Profit negative or zero
+DENTA,Utilities,645.07,Small Cap,True,
+DEVIT,Information Technology,155.37,Small Cap,True,
+DEVYANI,Consumer Services,12843.53,Mini Large,False,TTM Profit negative or zero
+DHAMPURSUG,Fast Moving Consumer Goods,814.51,Small Cap,False,ROE 4.6% < 10% (Small Cap)
+DHANBANK,Financial Services,883.86,Small Cap,False,TTM Profit negative or zero
+DHANUKA,Chemicals,4336.99,Mid Cap,True,
+DHARMAJ,Chemicals,812.18,Small Cap,False,ROE 7.9% < 10% (Small Cap)
+DHRUV,Services,56.98,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+DHUNINV,Financial Services,467.62,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+DIACABS,Capital Goods,6700.44,Mini Large,False,ROE nan% < 7% (Mini Large)
+DIAMINESQ,Chemicals,217.28,Small Cap,False,ROE 1.8% < 10% (Small Cap)
+DIAMONDYD,Fast Moving Consumer Goods,2174.28,Mid Cap,False,ROE 3.0% < 8% (Mid Cap)
+DICIND,Chemicals,456.88,Small Cap,True,
+DIFFNKG,Capital Goods,946.35,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+DIGISPICE,Information Technology,352.62,Small Cap,False,TTM Profit negative or zero
+DIVGIITTS,Automobile and Auto Components,2156.1,Mid Cap,False,TTM Profit negative or zero
+DIVISLAB,Healthcare,161935.83,Large Cap,True,
+DIXON,Consumer Durables,62786.87,Large Cap,True,
+DLF,Realty,133901.16,Large Cap,True,
+DLINKINDIA,Information Technology,1400.08,Mid Cap,True,
+DMART,Consumer Services,245378.43,Large Cap,True,
+DMCC,Chemicals,547.58,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+DODLA,Fast Moving Consumer Goods,6119.05,Mini Large,True,
+DOLATALGO,Financial Services,1256.21,Mid Cap,True,
+DOLLAR,Textiles,1478.13,Mid Cap,True,
+DOLPHIN,"Oil, Gas & Consumable Fuels",1538.98,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+DOMS,Fast Moving Consumer Goods,13832.56,Mini Large,True,
+DONEAR,Textiles,447.2,Small Cap,False,D/E 1.56 > 1.0 (Small Cap)
+DPABHUSHAN,Consumer Durables,2341.0,Mid Cap,True,
+DPSCLTD,Power,775.14,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+DPWIRES,Capital Goods,221.8,Small Cap,False,TTM Profit negative or zero
+DRCSYSTEMS,Information Technology,190.19,Small Cap,False,Promoter 20.63% < 30% (Small Cap)
+DREAMFOLKS,Services,376.14,Small Cap,True,
+DREDGECORP,Services,2458.82,Mid Cap,False,TTM Profit negative or zero
+DRREDDY,Healthcare,108145.26,Large Cap,True,
+DSSL,Information Technology,1142.23,Mid Cap,True,
+DVL,Diversified,736.18,Small Cap,False,ROE 4.4% < 10% (Small Cap)
+DWARKESH,Fast Moving Consumer Goods,735.28,Small Cap,False,TTM Profit negative or zero
+DYCL,Capital Goods,1305.72,Mid Cap,False,TTM Profit negative or zero
+DYNAMATECH,Capital Goods,6590.31,Mini Large,False,ROE 5.6% < 7% (Mini Large)
+DYNPRO,Chemicals,273.59,Small Cap,False,ROE 6.4% < 10% (Small Cap)
+EASEMYTRIP,Consumer Services,2491.24,Mid Cap,True,
+ECLERX,Services,13689.63,Mini Large,True,
+ECOSMOBLTY,Services,671.16,Small Cap,True,
+EDELWEISS,Financial Services,9913.82,Mini Large,True,
+EICHERMOT,Automobile and Auto Components,189523.68,Large Cap,True,
+EIDPARRY,Fast Moving Consumer Goods,14044.54,Mini Large,True,
+EIEL,Utilities,2595.39,Mid Cap,False,Poor CF: 3.0/6.0 yrs
+EIFFL,Fast Moving Consumer Goods,575.16,Small Cap,False,TTM Profit negative or zero
+EIHAHOTELS,Consumer Services,1838.45,Mid Cap,False,D/E 2.23 > 1.5 (Mid Cap)
+EIHOTEL,Consumer Services,19355.02,Mini Large,True,
+EIMCOELECO,Capital Goods,903.16,Small Cap,False,Promoter selling: -24.68% in 4Q
+EKC,Capital Goods,1169.58,Mid Cap,False,ROE 7.6% < 8% (Mid Cap)
+ELDEHSG,Realty,802.74,Small Cap,False,ROE 5.6% < 10% (Small Cap)
+ELECON,Capital Goods,8748.23,Mini Large,True,
+ELECTCAST,Capital Goods,4625.88,Mid Cap,True,
+ELECTHERM,Capital Goods,843.98,Small Cap,False,ROE nan% < 10% (Small Cap)
+ELGIEQUIP,Capital Goods,15159.57,Mini Large,True,
+ELGIRUBCO,Capital Goods,190.84,Small Cap,False,TTM Profit negative or zero
+ELIN,Consumer Durables,581.6,Small Cap,False,ROE 5.2% < 10% (Small Cap)
+EMAMILTD,Fast Moving Consumer Goods,17581.7,Mini Large,True,
+EMAMIPAP,Forest Materials,413.23,Small Cap,False,TTM Profit negative or zero
+EMAMIREAL,Realty,263.44,Small Cap,False,TTM Profit negative or zero
+EMCURE,Healthcare,28025.13,Large Cap,True,
+EMIL,Consumer Services,3540.07,Mid Cap,True,
+EMKAY,Financial Services,583.15,Small Cap,True,
+EMMBI,Capital Goods,146.8,Small Cap,False,ROE 3.1% < 10% (Small Cap)
+EMSLIMITED,Utilities,1650.6,Mid Cap,True,
+EMUDHRA,Information Technology,3242.49,Mid Cap,True,
+ENDURANCE,Automobile and Auto Components,32075.35,Large Cap,True,
+ENGINERSIN,Construction,10779.54,Mini Large,True,
+ENIL,"Media, Entertainment & Publication",504.64,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+ENTERO,Consumer Services,4877.14,Mid Cap,False,ROE 6.1% < 8% (Mid Cap)
+EPACK,Consumer Durables,2258.48,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+EPIGRAL,Chemicals,3648.46,Mid Cap,True,
+EPL,Capital Goods,6106.49,Mini Large,False,Promoter selling: -25.07% in 4Q
+EQUITASBNK,Financial Services,6510.69,Mini Large,False,TTM Profit negative or zero
+ERIS,Healthcare,17801.38,Mini Large,True,
+ESABINDIA,Capital Goods,8321.47,Mini Large,True,
+ESAFSFB,Financial Services,1189.03,Mid Cap,False,TTM Profit negative or zero
+ESCORTS,Capital Goods,33661.05,Large Cap,True,
+ESSARSHPNG,Services,490.4,Small Cap,False,ROE nan% < 10% (Small Cap)
+ESTER,Capital Goods,893.11,Small Cap,False,ROE 1.8% < 10% (Small Cap)
+ETERNAL,Consumer Services,211666.03,Large Cap,False,ROE 1.7% < 6% (Large Cap)
+ETHOSLTD,Consumer Durables,5985.7,Mini Large,False,ROE 6.7% < 7% (Mini Large)
+EUREKAFORB,Consumer Durables,8949.0,Mini Large,False,ROE 3.6% < 7% (Mini Large)
+EUROBOND,Capital Goods,359.17,Small Cap,False,ROE nan% < 10% (Small Cap)
+EVEREADY,Fast Moving Consumer Goods,2191.69,Mid Cap,True,
+EVERESTIND,Construction Materials,516.5,Small Cap,False,TTM Profit negative or zero
+EXCELINDUS,Chemicals,1100.25,Mid Cap,False,ROE 4.7% < 8% (Mid Cap)
+EXICOM,Capital Goods,1231.45,Mid Cap,False,TTM Profit negative or zero
+EXIDEIND,Automobile and Auto Components,25732.35,Large Cap,False,ROE 5.4% < 6% (Large Cap)
+EXPLEOSOL,Information Technology,1117.89,Mid Cap,True,
+EXXARO,Consumer Durables,306.03,Small Cap,False,TTM Profit negative or zero
+FACT,Chemicals,51212.51,Large Cap,False,ROE 3.0% < 6% (Large Cap)
+FAIRCHEMOR,Chemicals,639.24,Small Cap,False,TTM Profit negative or zero
+FCL,Chemicals,2539.33,Mid Cap,True,
+FDC,Healthcare,5419.13,Mini Large,True,
+FEDERALBNK,Financial Services,65798.92,Large Cap,False,Promoter nan% < 15% (Large Cap)
+FEDFINA,Financial Services,5022.26,Mini Large,False,TTM Profit negative or zero
+FIEMIND,Automobile and Auto Components,5334.47,Mini Large,True,
+FILATEX,Textiles,1806.43,Mid Cap,True,
+FINCABLES,Capital Goods,13430.37,Mini Large,True,
+FINEORG,Chemicals,13049.19,Mini Large,True,
+FINOPB,Financial Services,1255.58,Mid Cap,False,TTM Profit negative or zero
+FINPIPE,Capital Goods,10797.62,Mini Large,True,
+FIRSTCRY,Consumer Services,12171.26,Mini Large,False,TTM Profit negative or zero
+FIVESTAR,Financial Services,10331.71,Mini Large,True,
+FLAIR,Fast Moving Consumer Goods,3239.85,Mid Cap,True,
+FLUOROCHEM,Chemicals,34975.14,Large Cap,True,
+FMGOETZE,Automobile and Auto Components,2125.43,Mid Cap,True,
+FOCUS,Consumer Durables,446.86,Small Cap,True,
+FOODSIN,Fast Moving Consumer Goods,396.33,Small Cap,False,ROE 7.7% < 10% (Small Cap)
+FORCEMOT,Automobile and Auto Components,28440.96,Large Cap,True,
+FORTIS,Healthcare,62061.33,Large Cap,True,
+FOSECOIND,Chemicals,3974.42,Mid Cap,False,ROE 7.2% < 8% (Mid Cap)
+FSL,Services,14996.85,Mini Large,True,
+FUSION,Financial Services,2571.45,Mid Cap,False,TTM Profit negative or zero
+GABRIEL,Automobile and Auto Components,12395.75,Mini Large,True,
+GAEL,Fast Moving Consumer Goods,6169.58,Mini Large,True,
+GAIL,"Oil, Gas & Consumable Fuels",93938.16,Large Cap,True,
+GALAPREC,Capital Goods,959.69,Small Cap,False,ROE 9.9% < 10% (Small Cap)
+GALAXYSURF,Chemicals,6001.92,Mini Large,True,
+GALLANTT,Capital Goods,13414.01,Mini Large,True,
+GANDHAR,"Oil, Gas & Consumable Fuels",1297.27,Mid Cap,False,ROE 6.4% < 8% (Mid Cap)
+GANDHITUBE,Capital Goods,979.62,Small Cap,False,TTM Profit negative or zero
+GANECOS,Textiles,2156.41,Mid Cap,True,
+GANESHBE,"Oil, Gas & Consumable Fuels",549.93,Small Cap,False,ROE 6.5% < 10% (Small Cap)
+GARFIBRES,Textiles,6072.09,Mini Large,True,
+GARUDA,Construction,1487.18,Mid Cap,False,Poor CF: 0/1.0 yrs
+GATEWAY,Services,2552.11,Mid Cap,True,
+GEECEE,Realty,550.4,Small Cap,False,ROE 5.7% < 10% (Small Cap)
+GEEKAYWIRE,Capital Goods,219.07,Small Cap,False,TTM Profit negative or zero
+GENCON,Realty,247.42,Small Cap,False,ROE 4.2% < 10% (Small Cap)
+GENESYS,Information Technology,1127.09,Mid Cap,True,
+GENUSPOWER,Capital Goods,7421.15,Mini Large,True,
+GEOJITFSL,Financial Services,1672.78,Mid Cap,False,Promoter selling: -16.58% in 4Q
+GESHIP,Services,20411.42,Large Cap,True,
+GFLLIMITED,Financial Services,471.86,Small Cap,False,TTM Profit negative or zero
+GHCL,Chemicals,3984.89,Mid Cap,False,Promoter 19.83% < 25% (Mid Cap)
+GHCLTEXTIL,Textiles,723.49,Small Cap,False,TTM Profit negative or zero
+GICHSGFIN,Financial Services,769.14,Small Cap,False,ROE 9.0% < 10% (Small Cap)
+GICRE,Financial Services,65289.99,Large Cap,True,
+GILLETTE,Fast Moving Consumer Goods,26073.06,Large Cap,False,TTM Profit negative or zero
+GINNIFILA,Textiles,324.7,Small Cap,False,TTM Profit negative or zero
+GIPCL,Power,2062.1,Mid Cap,True,
+GLAND,Healthcare,26807.52,Large Cap,True,
+GLAXO,Healthcare,40399.95,Large Cap,True,
+GLENMARK,Healthcare,61543.76,Large Cap,False,Inconsistent profits: 9.0/13.0 quarters
+GLOBAL,Consumer Services,505.1,Small Cap,True,
+GLOBALVECT,Services,218.69,Small Cap,False,TTM Profit negative or zero
+GLOBUSSPR,Fast Moving Consumer Goods,2509.57,Mid Cap,False,ROE 2.1% < 8% (Mid Cap)
+GLOSTERLTD,Forest Materials,563.25,Small Cap,False,TTM Profit negative or zero
+GMBREW,Fast Moving Consumer Goods,2298.51,Mid Cap,False,TTM Profit negative or zero
+GMDCLTD,Metals & Mining,18310.32,Mini Large,True,
+GMMPFAUDLR,Capital Goods,3854.65,Mid Cap,False,ROE 4.2% < 8% (Mid Cap)
+GMRAIRPORT,Services,95622.08,Large Cap,False,TTM Profit negative or zero
+GMRP&UI,Power,8163.19,Mini Large,False,D/E 8.23 > 2.0 (Mini Large)
+GNA,Automobile and Auto Components,1611.41,Mid Cap,True,
+GNFC,Chemicals,5981.22,Mini Large,False,ROE 6.9% < 7% (Mini Large)
+GOACARBON,Metals & Mining,280.58,Small Cap,False,D/E 1.99 > 1.0 (Small Cap)
+GOCLCORP,Chemicals,1173.42,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+GOCOLORS,Consumer Services,1488.19,Mid Cap,False,Poor CF: 1.0/3.0 yrs
+GODAVARIB,Fast Moving Consumer Goods,1621.77,Mid Cap,False,TTM Profit negative or zero
+GODFRYPHLP,Fast Moving Consumer Goods,31063.77,Large Cap,True,
+GODIGIT,Financial Services,30108.65,Large Cap,False,TTM Profit negative or zero
+GODREJAGRO,Fast Moving Consumer Goods,11328.47,Mini Large,True,
+GODREJCP,Fast Moving Consumer Goods,104125.37,Large Cap,True,
+GODREJIND,Diversified,28023.85,Large Cap,False,D/E 4.48 > 2.5 (Large Cap)
+GODREJPROP,Realty,46672.14,Large Cap,False,Poor CF: 3.0/12.0 yrs
+GOKEX,Textiles,4258.59,Mid Cap,False,ROE 7.4% < 8% (Mid Cap)
+GOKUL,Fast Moving Consumer Goods,424.89,Small Cap,False,ROE 4.3% < 10% (Small Cap)
+GOKULAGRO,Fast Moving Consumer Goods,5357.0,Mini Large,True,
+GOLDIAM,Consumer Durables,3343.5,Mid Cap,True,
+GOLDTECH,Information Technology,208.9,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+GOODLUCK,Capital Goods,3384.81,Mid Cap,True,
+GOPAL,Fast Moving Consumer Goods,3404.15,Mid Cap,False,TTM Profit negative or zero
+GPIL,Capital Goods,17037.26,Mini Large,True,
+GPPL,Services,7335.15,Mini Large,True,
+GPTHEALTH,Healthcare,989.99,Small Cap,True,
+GPTINFRA,Construction,1309.39,Mid Cap,True,
+GRANULES,Healthcare,14643.56,Mini Large,True,
+GRAPHITE,Capital Goods,11868.65,Mini Large,True,
+GRASIM,Construction Materials,177409.4,Large Cap,False,Poor CF: 7.0/12.0 yrs
+GRAVITA,Metals & Mining,10235.04,Mini Large,True,
+GREAVESCOT,Capital Goods,3137.99,Mid Cap,False,TTM Profit negative or zero
+GREENLAM,Consumer Durables,5463.88,Mini Large,False,ROE 6.0% < 7% (Mini Large)
+GREENPANEL,Consumer Durables,2381.28,Mid Cap,True,
+GREENPLY,Consumer Durables,2409.82,Mid Cap,True,
+GREENPOWER,Power,1097.74,Mid Cap,False,ROE 3.5% < 8% (Mid Cap)
+GRINDWELL,Capital Goods,15525.16,Mini Large,True,
+GRINFRA,Construction,8328.5,Mini Large,False,Poor CF: 2.0/9.0 yrs
+GRMOVER,Fast Moving Consumer Goods,3201.47,Mid Cap,False,Poor CF: 5.0/10.0 yrs
+GRPLTD,Capital Goods,985.55,Small Cap,False,D/E 1.13 > 1.0 (Small Cap)
+GRSE,Capital Goods,26131.3,Large Cap,False,TTM Profit negative or zero
+GRWRHITECH,Capital Goods,8488.64,Mini Large,True,
+GSFC,Chemicals,6134.56,Mini Large,False,ROE 4.7% < 7% (Mini Large)
+GSLSU,Consumer Durables,244.33,Small Cap,False,TTM Profit negative or zero
+GSPL,"Oil, Gas & Consumable Fuels",14377.98,Mini Large,True,
+GTL,Telecommunication,100.04,Small Cap,False,ROE nan% < 10% (Small Cap)
+GTPL,"Media, Entertainment & Publication",663.87,Small Cap,False,ROE 4.3% < 10% (Small Cap)
+GUFICBIO,Healthcare,2958.4,Mid Cap,False,Poor CF: 1.0/2.0 yrs
+GUJALKALI,Chemicals,3955.09,Mid Cap,False,TTM Profit negative or zero
+GUJAPOLLO,Capital Goods,582.2,Small Cap,False,ROE 0.3% < 10% (Small Cap)
+GUJGASLTD,"Oil, Gas & Consumable Fuels",24410.31,Large Cap,True,
+GUJTHEM,Healthcare,2985.6,Mid Cap,False,TTM Profit negative or zero
+GULFOILLUB,"Oil, Gas & Consumable Fuels",4541.35,Mid Cap,True,
+GULFPETRO,"Oil, Gas & Consumable Fuels",146.27,Small Cap,False,TTM Profit negative or zero
+GULPOLY,Fast Moving Consumer Goods,971.75,Small Cap,False,ROE 3.9% < 10% (Small Cap)
+GVT&D,Capital Goods,94196.96,Large Cap,True,
+HAL,Capital Goods,252957.45,Large Cap,True,
+HAPPSTMNDS,Information Technology,6172.25,Mini Large,True,
+HAPPYFORGE,Capital Goods,11939.11,Mini Large,True,
+HARIOMPIPE,Capital Goods,946.96,Small Cap,True,
+HARRMALAYA,Capital Goods,322.12,Small Cap,False,ROE 9.1% < 10% (Small Cap)
+HARSHA,Capital Goods,3104.48,Mid Cap,False,ROE 6.8% < 8% (Mid Cap)
+HATHWAY,"Media, Entertainment & Publication",1741.78,Mid Cap,False,ROE 2.1% < 8% (Mid Cap)
+HATSUN,Fast Moving Consumer Goods,21311.44,Large Cap,True,
+HAVELLS,Consumer Durables,80368.87,Large Cap,True,
+HBLENGINE,Capital Goods,18281.01,Mini Large,True,
+HCC,Construction,4044.46,Mid Cap,False,Promoter 16.81% < 25% (Mid Cap)
+HCG,Healthcare,7721.77,Mini Large,False,ROE 5.3% < 7% (Mini Large)
+HCL-INSYS,Information Technology,386.16,Small Cap,False,TTM Profit negative or zero
+HCLTECH,Information Technology,360852.85,Large Cap,True,
+HDFCAMC,Financial Services,102212.0,Large Cap,True,
+HDFCBANK,Financial Services,1201261.87,Large Cap,True,
+HDFCLIFE,Financial Services,134526.05,Large Cap,True,
+HECPROJECT,Construction,116.46,Small Cap,False,TTM Profit negative or zero
+HEG,Capital Goods,9613.18,Mini Large,False,ROE 2.5% < 7% (Mini Large)
+HEIDELBERG,Construction Materials,3394.11,Mid Cap,False,TTM Profit negative or zero
+HEMIPROP,Services,3911.91,Mid Cap,False,TTM Profit negative or zero
+HERANBA,Chemicals,717.8,Small Cap,False,ROE 0.2% < 10% (Small Cap)
+HERITGFOOD,Fast Moving Consumer Goods,2876.56,Mid Cap,True,
+HEROMOTOCO,Automobile and Auto Components,105557.36,Large Cap,True,
+HESTERBIO,Healthcare,1186.71,Mid Cap,True,
+HEXT,Information Technology,26777.71,Large Cap,False,Promoter selling: -16.86% in 4Q
+HFCL,Telecommunication,10888.81,Mini Large,False,ROE 4.2% < 7% (Mini Large)
+HGINFRA,Construction,3195.49,Mid Cap,False,D/E 1.84 > 1.5 (Mid Cap)
+HGS,Services,1685.58,Mid Cap,False,ROE 1.3% < 8% (Mid Cap)
+HIKAL,Healthcare,2077.78,Mid Cap,False,ROE 7.6% < 8% (Mid Cap)
+HILTON,Capital Goods,57.05,Small Cap,False,TTM Profit negative or zero
+HIMATSEIDE,Textiles,997.39,Small Cap,False,ROE 3.6% < 10% (Small Cap)
+HINDALCO,Metals & Mining,195471.41,Large Cap,True,
+HINDCOMPOS,Automobile and Auto Components,582.78,Small Cap,False,ROE 3.1% < 10% (Small Cap)
+HINDCOPPER,Metals & Mining,47349.26,Large Cap,True,
+HINDOILEXP,"Oil, Gas & Consumable Fuels",1698.4,Mid Cap,False,Promoter nan% < 25% (Mid Cap)
+HINDPETRO,"Oil, Gas & Consumable Fuels",71558.67,Large Cap,True,
+HINDUNILVR,Fast Moving Consumer Goods,489420.44,Large Cap,True,
+HINDWAREAP,Consumer Durables,1650.08,Mid Cap,False,TTM Profit negative or zero
+HINDZINC,Metals & Mining,217498.3,Large Cap,True,
+HIRECT,Capital Goods,2557.98,Mid Cap,True,
+HITECH,Capital Goods,1531.95,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+HITECHCORP,Capital Goods,242.45,Small Cap,False,ROE 3.2% < 10% (Small Cap)
+HLEGLAS,Capital Goods,1988.49,Mid Cap,True,
+HLVLTD,Consumer Services,456.21,Small Cap,False,Inconsistent profits: 3.0/8.0 quarters
+HMAAGRO,Fast Moving Consumer Goods,1200.26,Mid Cap,True,
+HMVL,"Media, Entertainment & Publication",464.39,Small Cap,False,ROE 5.0% < 10% (Small Cap)
+HNDFDS,Fast Moving Consumer Goods,5763.59,Mini Large,True,
+HOMEFIRST,Financial Services,9768.57,Mini Large,False,TTM Profit negative or zero
+HONASA,Fast Moving Consumer Goods,9412.98,Mini Large,False,ROE 5.7% < 7% (Mini Large)
+HONAUT,Capital Goods,25064.57,Large Cap,False,TTM Profit negative or zero
+HONDAPOWER,Capital Goods,2050.83,Mid Cap,False,TTM Profit negative or zero
+HPAL,Chemicals,284.03,Small Cap,False,ROE 9.6% < 10% (Small Cap)
+HPL,Capital Goods,1823.24,Mid Cap,True,
+HSCL,Chemicals,22934.33,Large Cap,True,
+HTMEDIA,"Media, Entertainment & Publication",473.33,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+HUBTOWN,Realty,2818.14,Mid Cap,False,ROE 1.8% < 8% (Mid Cap)
+HUDCO,Financial Services,34528.77,Large Cap,True,
+HUHTAMAKI,Capital Goods,1230.48,Mid Cap,True,
+HYUNDAI,Automobile and Auto Components,158526.77,Large Cap,True,
+ICEMAKE,Capital Goods,1205.57,Mid Cap,True,
+ICICIBANK,Financial Services,891531.34,Large Cap,False,Promoter nan% < 15% (Large Cap)
+ICICIGI,Financial Services,88628.64,Large Cap,False,TTM Profit negative or zero
+ICICIPRULI,Financial Services,79979.46,Large Cap,True,
+ICIL,Textiles,4623.58,Mid Cap,True,
+ICRA,Financial Services,5007.6,Mini Large,True,
+IDBI,Financial Services,78575.43,Large Cap,True,
+IDEA,Telecommunication,101192.4,Large Cap,False,TTM Profit negative or zero
+IDEAFORGE,Capital Goods,1808.72,Mid Cap,False,TTM Profit negative or zero
+IDFCFIRSTB,Financial Services,54144.61,Large Cap,False,ROE 4.0% < 6% (Large Cap)
+IEX,Financial Services,10718.74,Mini Large,False,Promoter nan% < 20% (Mini Large)
+IFBAGRO,Fast Moving Consumer Goods,714.94,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+IFBIND,Consumer Durables,3970.46,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+IFCI,Financial Services,14568.6,Mini Large,False,ROE 3.0% < 7% (Mini Large)
+IFGLEXPOR,Capital Goods,1042.62,Mid Cap,False,ROE 3.8% < 8% (Mid Cap)
+IGARASHI,Automobile and Auto Components,991.15,Small Cap,False,ROE 1.4% < 10% (Small Cap)
+IGIL,Services,14626.45,Mini Large,True,
+IGPL,Chemicals,1186.63,Mid Cap,False,Inconsistent profits: 9.0/13.0 quarters
+IIFL,Financial Services,20113.28,Large Cap,False,ROE 5.0% < 6% (Large Cap)
+IIFLCAPS,Financial Services,8406.31,Mini Large,True,
+IITL,Financial Services,300.04,Small Cap,False,ROE 1.0% < 10% (Small Cap)
+IKIO,Consumer Durables,905.57,Small Cap,False,ROE 5.6% < 10% (Small Cap)
+IKS,Information Technology,22325.99,Large Cap,True,
+IMAGICAA,Consumer Services,2262.31,Mid Cap,False,ROE 6.1% < 8% (Mid Cap)
+IMFA,Metals & Mining,6667.41,Mini Large,True,
+IMPAL,Automobile and Auto Components,1242.51,Mid Cap,False,ROE 2.9% < 8% (Mid Cap)
+INDBANK,Financial Services,139.34,Small Cap,False,TTM Profit negative or zero
+INDHOTEL,Consumer Services,87619.37,Large Cap,True,
+INDIACEM,Construction Materials,16727.46,Mini Large,False,TTM Profit negative or zero
+INDIAGLYCO,Fast Moving Consumer Goods,5890.19,Mini Large,True,
+INDIAMART,Consumer Services,11983.43,Mini Large,True,
+INDIANB,Financial Services,118393.4,Large Cap,True,
+INDIANHUME,Capital Goods,1708.08,Mid Cap,False,TTM Profit negative or zero
+INDIASHLTR,Financial Services,7475.45,Mini Large,True,
+INDIGO,Services,160409.6,Large Cap,False,D/E 8.67 > 2.5 (Large Cap)
+INDIGOPNTS,Consumer Durables,3545.88,Mid Cap,True,
+INDNIPPON,Automobile and Auto Components,1663.13,Mid Cap,True,
+INDOAMIN,Chemicals,641.42,Small Cap,True,
+INDOBORAX,Chemicals,786.93,Small Cap,True,
+INDOCO,Healthcare,1774.07,Mid Cap,False,TTM Profit negative or zero
+INDOFARM,Capital Goods,605.4,Small Cap,False,ROE 4.4% < 10% (Small Cap)
+INDORAMA,Textiles,818.59,Small Cap,False,ROE 0.2% < 10% (Small Cap)
+INDOSTAR,Financial Services,3216.21,Mid Cap,False,ROE 3.0% < 8% (Mid Cap)
+INDOTECH,Capital Goods,1379.38,Mid Cap,False,TTM Profit negative or zero
+INDOTHAI,Financial Services,3227.98,Mid Cap,False,ROE 3.7% < 8% (Mid Cap)
+INDOUS,Fast Moving Consumer Goods,210.02,Small Cap,True,
+INDOWIND,Power,142.16,Small Cap,False,ROE 0.4% < 10% (Small Cap)
+INDRAMEDCO,Healthcare,3632.54,Mid Cap,False,TTM Profit negative or zero
+INDSWFTLAB,Healthcare,1227.06,Mid Cap,True,
+INDUSINDBK,Financial Services,63777.62,Large Cap,False,ROE 4.0% < 6% (Large Cap)
+INDUSTOWER,Telecommunication,114597.5,Large Cap,True,
+INFOBEAN,Information Technology,1354.81,Mid Cap,True,
+INFY,Information Technology,508188.23,Large Cap,True,
+INGERRAND,Capital Goods,11569.25,Mini Large,False,TTM Profit negative or zero
+INNOVACAP,Healthcare,3889.01,Mid Cap,True,
+INNOVANA,Information Technology,729.92,Small Cap,True,
+INOXGREEN,Power,6041.64,Mini Large,False,ROE 1.1% < 7% (Mini Large)
+INOXINDIA,Capital Goods,10716.45,Mini Large,True,
+INOXWIND,Capital Goods,14151.91,Mini Large,False,ROE 6.6% < 7% (Mini Large)
+INSECTICID,Chemicals,1672.69,Mid Cap,True,
+INTELLECT,Information Technology,9025.39,Mini Large,True,
+INTENTECH,Information Technology,196.88,Small Cap,False,Promoter 13.07% < 30% (Small Cap)
+INTERARCH,Construction,2922.33,Mid Cap,False,TTM Profit negative or zero
+INTLCONV,Capital Goods,444.81,Small Cap,True,
+IOB,Financial Services,64969.17,Large Cap,True,
+IOC,"Oil, Gas & Consumable Fuels",204193.12,Large Cap,True,
+IOLCP,Healthcare,2183.9,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+IONEXCHANG,Utilities,4160.03,Mid Cap,True,
+IPCALAB,Healthcare,39337.03,Large Cap,True,
+IPL,Chemicals,1579.08,Mid Cap,True,
+IRB,Construction,25067.89,Large Cap,True,
+IRCON,Construction,11632.3,Mini Large,False,Poor CF: 5.0/12.0 yrs
+IRCTC,Consumer Services,41828.0,Large Cap,True,
+IREDA,Financial Services,32691.03,Large Cap,True,
+IRFC,Financial Services,123769.66,Large Cap,False,TTM Profit negative or zero
+IRIS,Information Technology,466.01,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+IRISDOREME,Textiles,503.5,Small Cap,False,TTM Profit negative or zero
+IRMENERGY,"Oil, Gas & Consumable Fuels",817.87,Small Cap,False,ROE 4.6% < 10% (Small Cap)
+ISFT,Consumer Services,107.15,Small Cap,False,ROE 5.3% < 10% (Small Cap)
+ISGEC,Construction,6548.08,Mini Large,True,
+ITC,Fast Moving Consumer Goods,375814.25,Large Cap,False,Promoter nan% < 15% (Large Cap)
+ITCHOTELS,Consumer Services,31053.64,Large Cap,False,ROE 5.8% < 6% (Large Cap)
+ITDC,Consumer Services,3659.78,Mid Cap,False,Poor CF: 6.0/12.0 yrs
+ITI,Telecommunication,26096.82,Large Cap,False,TTM Profit negative or zero
+IVC,Financial Services,217.8,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+IVP,Chemicals,135.6,Small Cap,False,TTM Profit negative or zero
+IXIGO,Consumer Services,7604.24,Mini Large,False,Promoter nan% < 20% (Mini Large)
+J&KBANK,Financial Services,13084.25,Mini Large,True,
+JAGRAN,"Media, Entertainment & Publication",1331.08,Mid Cap,False,ROE 4.8% < 8% (Mid Cap)
+JAGSNPHARM,Healthcare,1226.99,Mid Cap,False,TTM Profit negative or zero
+JAIBALAJI,Metals & Mining,5900.44,Mini Large,True,
+JAICORPLTD,Capital Goods,1793.62,Mid Cap,False,ROE 4.5% < 8% (Mid Cap)
+JAMNAAUTO,Automobile and Auto Components,4783.74,Mid Cap,True,
+JASH,Capital Goods,2328.69,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+JAYAGROGN,Chemicals,502.77,Small Cap,False,ROE 9.2% < 10% (Small Cap)
+JAYBARMARU,Automobile and Auto Components,929.65,Small Cap,False,ROE 5.5% < 10% (Small Cap)
+JAYNECOIND,Capital Goods,7209.48,Mini Large,False,TTM Profit negative or zero
+JAYSREETEA,Fast Moving Consumer Goods,232.78,Small Cap,False,Inconsistent profits: 7.0/13.0 quarters
+JBCHEPHARM,Healthcare,34337.09,Large Cap,True,
+JBMA,Automobile and Auto Components,13420.48,Mini Large,False,D/E 2.24 > 2.0 (Mini Large)
+JETFREIGHT,Services,82.97,Small Cap,False,ROE 6.0% < 10% (Small Cap)
+JGCHEM,Chemicals,1300.98,Mid Cap,True,
+JHS,Fast Moving Consumer Goods,69.31,Small Cap,False,TTM Profit negative or zero
+JINDALPHOT,Financial Services,1175.35,Mid Cap,False,Revenue 2.0Cr < 50Cr (Mid Cap)
+JINDALPOLY,Capital Goods,4191.45,Mid Cap,False,ROE 2.7% < 8% (Mid Cap)
+JINDALSAW,Capital Goods,12373.72,Mini Large,True,
+JINDALSTEL,Metals & Mining,120724.96,Large Cap,False,ROE 5.7% < 6% (Large Cap)
+JINDRILL,"Oil, Gas & Consumable Fuels",1377.57,Mid Cap,True,
+JINDWORLD,Textiles,2139.01,Mid Cap,True,
+JIOFIN,Financial Services,152030.68,Large Cap,False,ROE 1.2% < 6% (Large Cap)
+JISLJALEQS,Capital Goods,2212.97,Mid Cap,False,ROE 0.5% < 8% (Mid Cap)
+JKCEMENT,Construction Materials,38634.13,Large Cap,True,
+JKIL,Construction,3702.04,Mid Cap,True,
+JKLAKSHMI,Construction Materials,7359.9,Mini Large,True,
+JKPAPER,Forest Materials,5707.16,Mini Large,True,
+JKTYRE,Automobile and Auto Components,12038.45,Mini Large,True,
+JLHL,Healthcare,8319.67,Mini Large,True,
+JMA,Automobile and Auto Components,184.03,Small Cap,True,
+JMFINANCIL,Financial Services,11778.58,Mini Large,True,
+JNKINDIA,Capital Goods,1329.07,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+JPOLYINVST,Financial Services,1225.38,Mid Cap,False,Revenue 32.0Cr < 50Cr (Mid Cap)
+JPPOWER,Power,11218.79,Mini Large,False,ROE 6.4% < 7% (Mini Large)
+JSFB,Financial Services,3678.46,Mid Cap,False,TTM Profit negative or zero
+JSL,Metals & Mining,59527.03,Large Cap,True,
+JSLL,Healthcare,7598.5,Mini Large,True,
+JSWENERGY,Power,89044.4,Large Cap,True,
+JSWHL,Financial Services,16830.63,Mini Large,False,ROE 0.6% < 7% (Mini Large)
+JSWINFRA,Services,52347.43,Large Cap,True,
+JSWSTEEL,Metals & Mining,285717.12,Large Cap,False,ROE 4.2% < 6% (Large Cap)
+JTEKTINDIA,Automobile and Auto Components,3530.43,Mid Cap,True,
+JTLIND,Capital Goods,2048.35,Mid Cap,False,ROE 7.9% < 8% (Mid Cap)
+JUBLCPL,Chemicals,2511.53,Mid Cap,True,
+JUBLFOOD,Consumer Services,29697.54,Large Cap,True,
+JUBLINGREA,Chemicals,9221.76,Mini Large,False,Promoter selling: -6.25% in 4Q
+JUBLPHARMA,Healthcare,13175.86,Mini Large,False,Inconsistent profits: 10.0/13.0 quarters
+JUNIPER,Consumer Services,4553.07,Mid Cap,False,ROE 2.6% < 8% (Mid Cap)
+JUSTDIAL,Consumer Services,4426.64,Mid Cap,True,
+JWL,Capital Goods,11222.75,Mini Large,True,
+JYOTHYLAB,Fast Moving Consumer Goods,7658.26,Mini Large,True,
+JYOTICNC,Capital Goods,16828.17,Mini Large,True,
+JYOTISTRUC,Capital Goods,1248.57,Mid Cap,False,ROE 7.1% < 8% (Mid Cap)
+KABRAEXTRU,Capital Goods,730.76,Small Cap,False,ROE 7.2% < 10% (Small Cap)
+KAJARIACER,Consumer Durables,15152.37,Mini Large,True,
+KALAMANDIR,Consumer Services,1488.47,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+KALYANKJIL,Consumer Durables,39540.36,Large Cap,True,
+KAMATHOTEL,Consumer Services,538.19,Small Cap,True,
+KAMDHENU,Capital Goods,595.81,Small Cap,True,
+KANORICHEM,Capital Goods,275.18,Small Cap,False,TTM Profit negative or zero
+KANPRPLA,Capital Goods,428.79,Small Cap,False,ROE 4.8% < 10% (Small Cap)
+KANSAINER,Consumer Durables,13485.99,Mini Large,True,
+KARURVYSYA,Financial Services,25509.07,Large Cap,False,TTM Profit negative or zero
+KAYA,Consumer Services,429.73,Small Cap,False,ROE nan% < 10% (Small Cap)
+KAYNES,Capital Goods,24289.01,Large Cap,False,Poor CF: 4.0/7.0 yrs
+KCP,Construction Materials,1772.86,Mid Cap,True,
+KCPSUGIND,Fast Moving Consumer Goods,270.08,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+KDDL,Consumer Durables,2700.18,Mid Cap,True,
+KEC,Construction,14537.18,Mini Large,True,
+KECL,Capital Goods,556.33,Small Cap,False,ROE 3.2% < 10% (Small Cap)
+KEI,Capital Goods,40037.53,Large Cap,True,
+KELLTONTEC,Information Technology,849.24,Small Cap,True,
+KERNEX,Services,1616.39,Mid Cap,False,Poor CF: 3.0/12.0 yrs
+KEYFINSERV,Financial Services,145.03,Small Cap,False,ROE 9.8% < 10% (Small Cap)
+KFINTECH,Financial Services,15778.19,Mini Large,False,Promoter selling: -10.09% in 4Q
+KHADIM,Consumer Durables,162.49,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+KHAICHEM,Chemicals,476.02,Small Cap,False,TTM Profit negative or zero
+KICL,Financial Services,1937.13,Mid Cap,False,ROE 0.8% < 8% (Mid Cap)
+KILITCH,Healthcare,553.59,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+KIMS,Healthcare,25812.96,Large Cap,True,
+KINGFA,Capital Goods,5525.66,Mini Large,False,TTM Profit negative or zero
+KIOCL,Metals & Mining,21377.64,Large Cap,False,TTM Profit negative or zero
+KIRIINDUS,Chemicals,2251.81,Mid Cap,False,Inconsistent profits: 9.0/13.0 quarters
+KIRLOSBROS,Capital Goods,12401.22,Mini Large,True,
+KIRLOSENG,Capital Goods,20011.67,Large Cap,False,Poor CF: 4.0/10.0 yrs
+KIRLOSIND,Capital Goods,2878.96,Mid Cap,False,ROE 4.5% < 8% (Mid Cap)
+KIRLPNU,Capital Goods,6824.52,Mini Large,True,
+KITEX,Textiles,3181.96,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+KKCL,Textiles,2630.47,Mid Cap,True,
+KMEW,Services,3788.61,Mid Cap,False,Promoter selling: -7.06% in 4Q
+KMSUGAR,Fast Moving Consumer Goods,236.81,Small Cap,False,ROE 9.9% < 10% (Small Cap)
+KNAGRI,Fast Moving Consumer Goods,427.71,Small Cap,False,Poor CF: 4.0/7.0 yrs
+KNRCON,Construction,3319.26,Mid Cap,True,
+KOHINOOR,Fast Moving Consumer Goods,84.22,Small Cap,False,ROE nan% < 10% (Small Cap)
+KOKUYOCMLN,Fast Moving Consumer Goods,771.74,Small Cap,False,ROE 6.0% < 10% (Small Cap)
+KOLTEPATIL,Realty,2879.0,Mid Cap,False,Inconsistent profits: 7.0/13.0 quarters
+KOPRAN,Healthcare,570.83,Small Cap,False,ROE 7.8% < 10% (Small Cap)
+KOTAKBANK,Financial Services,364750.95,Large Cap,True,
+KOTHARIPET,Chemicals,652.49,Small Cap,True,
+KOTHARIPRO,Services,384.14,Small Cap,False,TTM Profit negative or zero
+KOTYARK,"Oil, Gas & Consumable Fuels",381.36,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+KPEL,Power,1891.01,Mid Cap,True,
+KPIGREEN,Power,7467.79,Mini Large,False,Poor CF: 4.0/7.0 yrs
+KPIL,Construction,18289.74,Mini Large,True,
+KPITTECH,Information Technology,18017.66,Mini Large,True,
+KPRMILL,Textiles,28193.03,Large Cap,True,
+KRBL,Fast Moving Consumer Goods,6577.15,Mini Large,True,
+KRISHANA,Chemicals,3012.24,Mid Cap,False,TTM Profit negative or zero
+KRISHIVAL,Fast Moving Consumer Goods,820.36,Small Cap,False,ROE 9.7% < 10% (Small Cap)
+KRISHNADEF,Capital Goods,1263.06,Mid Cap,False,Poor CF: 0/3.0 yrs
+KRITI,Capital Goods,361.65,Small Cap,False,TTM Profit negative or zero
+KRITIKA,Capital Goods,155.51,Small Cap,False,TTM Profit negative or zero
+KRITINUT,Fast Moving Consumer Goods,318.81,Small Cap,True,
+KRN,Capital Goods,5574.51,Mini Large,True,
+KRONOX,Chemicals,410.56,Small Cap,False,TTM Profit negative or zero
+KROSS,Automobile and Auto Components,1107.56,Mid Cap,False,TTM Profit negative or zero
+KRSNAA,Healthcare,1906.26,Mid Cap,True,
+KRYSTAL,Services,772.86,Small Cap,True,
+KSB,Capital Goods,13615.09,Mini Large,True,
+KSCL,Fast Moving Consumer Goods,4130.58,Mid Cap,False,Inconsistent profits: 8.0/13.0 quarters
+KSL,Capital Goods,2849.08,Mid Cap,True,
+KSOLVES,Information Technology,653.15,Small Cap,True,
+KTKBANK,Financial Services,8656.77,Mini Large,False,Promoter nan% < 20% (Mini Large)
+KUANTUM,Forest Materials,677.43,Small Cap,False,TTM Profit negative or zero
+LALPATHLAB,Healthcare,21843.47,Large Cap,True,
+LAMBODHARA,Textiles,98.48,Small Cap,False,TTM Profit negative or zero
+LANDMARK,Automobile and Auto Components,1496.46,Mid Cap,False,ROE 3.0% < 8% (Mid Cap)
+LAOPALA,Consumer Durables,2042.96,Mid Cap,False,TTM Profit negative or zero
+LATENTVIEW,Information Technology,5532.14,Mini Large,True,
+LATTEYS,Capital Goods,112.12,Small Cap,False,ROE 9.1% < 10% (Small Cap)
+LAURUSLABS,Healthcare,53307.49,Large Cap,True,
+LAXMIDENTL,Healthcare,954.75,Small Cap,True,
+LEMERITE,Textiles,1086.7,Mid Cap,False,ROE 5.5% < 8% (Mid Cap)
+LEMONTREE,Consumer Services,8366.66,Mini Large,True,
+LGBBROSLTD,Automobile and Auto Components,5454.37,Mini Large,True,
+LGHL,Consumer Durables,1319.19,Mid Cap,False,D/E 1.57 > 1.5 (Mid Cap)
+LIBERTSHOE,Consumer Durables,425.73,Small Cap,False,ROE 3.7% < 10% (Small Cap)
+LICHSGFIN,Financial Services,26741.31,Large Cap,True,
+LICI,Financial Services,491294.2,Large Cap,True,
+LIKHITHA,Construction,561.68,Small Cap,True,
+LINC,Fast Moving Consumer Goods,612.37,Small Cap,True,
+LINCOLN,Healthcare,1202.58,Mid Cap,True,
+LINDEINDIA,Chemicals,59822.62,Large Cap,True,
+LLOYDSENGG,Capital Goods,6087.62,Mini Large,False,Promoter selling: -7.16% in 4Q
+LLOYDSENT,Metals & Mining,6930.55,Mini Large,False,ROE 3.7% < 7% (Mini Large)
+LLOYDSME,Metals & Mining,70094.32,Large Cap,True,
+LMW,Capital Goods,14637.85,Mini Large,False,ROE 3.6% < 7% (Mini Large)
+LODHA,Realty,79590.16,Large Cap,True,
+LOKESHMACH,Capital Goods,396.72,Small Cap,False,TTM Profit negative or zero
+LORDSCHLO,Chemicals,341.35,Small Cap,False,TTM Profit negative or zero
+LOTUSEYE,Healthcare,231.88,Small Cap,False,TTM Profit negative or zero
+LT,Construction,472495.05,Large Cap,False,Promoter nan% < 15% (Large Cap)
+LTF,Financial Services,65414.57,Large Cap,True,
+LTFOODS,Fast Moving Consumer Goods,13148.54,Mini Large,True,
+LTTS,Information Technology,34227.86,Large Cap,True,
+LUMAXIND,Automobile and Auto Components,4729.5,Mid Cap,True,
+LUMAXTECH,Automobile and Auto Components,10687.13,Mini Large,True,
+LUPIN,Healthcare,106148.29,Large Cap,True,
+LUXIND,Textiles,2830.05,Mid Cap,True,
+LXCHEM,Chemicals,3330.21,Mid Cap,False,ROE 5.9% < 8% (Mid Cap)
+LYKALABS,Healthcare,196.4,Small Cap,False,ROE 7.9% < 10% (Small Cap)
+M&M,Automobile and Auto Components,368076.97,Large Cap,False,Poor CF: 7.0/12.0 yrs
+M&MFIN,Financial Services,42844.56,Large Cap,True,
+MACPOWER,Capital Goods,850.15,Small Cap,False,TTM Profit negative or zero
+MADRASFERT,Chemicals,977.24,Small Cap,False,TTM Profit negative or zero
+MAGADSUGAR,Fast Moving Consumer Goods,647.44,Small Cap,False,TTM Profit negative or zero
+MAGNUM,Forest Materials,123.82,Small Cap,False,ROE nan% < 10% (Small Cap)
+MAHABANK,Financial Services,50371.99,Large Cap,False,Promoter selling: -6.0% in 4Q
+MAHAPEXLTD,Financial Services,79.64,Small Cap,False,Revenue 8.0Cr < 20Cr (Small Cap)
+MAHEPC,Capital Goods,324.09,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+MAHESHWARI,Diversified,130.61,Small Cap,False,ROE 8.7% < 10% (Small Cap)
+MAHLIFE,Realty,7282.55,Mini Large,False,ROE 1.8% < 7% (Mini Large)
+MAHLOG,Services,3628.57,Mid Cap,False,TTM Profit negative or zero
+MAHSCOOTER,Financial Services,14234.48,Mini Large,False,TTM Profit negative or zero
+MAHSEAMLES,Capital Goods,7567.61,Mini Large,True,
+MAITHANALL,Metals & Mining,2722.8,Mid Cap,True,
+MALLCOM,Capital Goods,644.72,Small Cap,True,
+MAMATA,Capital Goods,920.33,Small Cap,True,
+MANAKCOAT,Capital Goods,1125.24,Mid Cap,False,ROE 4.5% < 8% (Mid Cap)
+MANAKSIA,Capital Goods,328.59,Small Cap,False,ROE 9.2% < 10% (Small Cap)
+MANAKSTEEL,Metals & Mining,342.94,Small Cap,False,ROE 3.3% < 10% (Small Cap)
+MANALIPETC,Chemicals,785.63,Small Cap,False,ROE 2.5% < 10% (Small Cap)
+MANAPPURAM,Financial Services,21943.82,Large Cap,True,
+MANBA,Financial Services,574.09,Small Cap,False,TTM Profit negative or zero
+MANCREDIT,Financial Services,360.64,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+MANGLMCEM,Construction Materials,2296.87,Mid Cap,False,TTM Profit negative or zero
+MANINDS,Capital Goods,2785.86,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+MANINFRA,Construction,3677.0,Mid Cap,True,
+MANKIND,Healthcare,82565.67,Large Cap,True,
+MANOMAY,Textiles,367.24,Small Cap,False,TTM Profit negative or zero
+MANORAMA,Fast Moving Consumer Goods,7594.33,Mini Large,False,Poor CF: 0/1.0 yrs
+MANORG,Chemicals,344.05,Small Cap,False,ROE 4.2% < 10% (Small Cap)
+MANYAVAR,Consumer Services,8629.19,Mini Large,True,
+MAPMYINDIA,Information Technology,5010.86,Mini Large,True,
+MARATHON,Realty,2824.58,Mid Cap,False,Promoter selling: -17.7% in 4Q
+MARICO,Fast Moving Consumer Goods,96428.48,Large Cap,True,
+MARINE,Capital Goods,2264.99,Mid Cap,True,
+MARKSANS,Healthcare,7706.05,Mini Large,True,
+MARUTI,Automobile and Auto Components,396178.68,Large Cap,True,
+MASFIN,Financial Services,5489.87,Mini Large,True,
+MASTEK,Information Technology,4493.06,Mid Cap,True,
+MASTERTR,Financial Services,845.98,Small Cap,True,
+MATRIMONY,Consumer Services,875.28,Small Cap,True,
+MAWANASUG,Fast Moving Consumer Goods,325.58,Small Cap,False,Poor CF: 7.0/12.0 yrs
+MAXESTATES,Realty,6029.5,Mini Large,False,ROE 1.1% < 7% (Mini Large)
+MAXHEALTH,Healthcare,93888.07,Large Cap,True,
+MAXIND,Financial Services,762.42,Small Cap,False,TTM Profit negative or zero
+MAYURUNIQ,Consumer Durables,2216.97,Mid Cap,True,
+MAZDA,Capital Goods,343.31,Small Cap,False,TTM Profit negative or zero
+MAZDOCK,Capital Goods,93749.55,Large Cap,True,
+MBAPL,Chemicals,3969.94,Mid Cap,False,TTM Profit negative or zero
+MBLINFRA,Construction,337.64,Small Cap,False,Inconsistent profits: 3.0/13.0 quarters
+MCLEODRUSS,Fast Moving Consumer Goods,363.08,Small Cap,False,TTM Profit negative or zero
+MCLOUD,Information Technology,1283.68,Mid Cap,True,
+MCX,Financial Services,61452.43,Large Cap,False,Promoter nan% < 15% (Large Cap)
+MEDANTA,Healthcare,27022.84,Large Cap,True,
+MEDIASSIST,Financial Services,2425.93,Mid Cap,True,
+MEDICAMEQ,Healthcare,343.95,Small Cap,False,ROE 2.5% < 10% (Small Cap)
+MEDICO,Healthcare,316.58,Small Cap,False,TTM Profit negative or zero
+MEDPLUS,Consumer Services,9871.5,Mini Large,True,
+MEGASTAR,Fast Moving Consumer Goods,283.29,Small Cap,False,ROE 4.1% < 10% (Small Cap)
+MENONBE,Automobile and Auto Components,661.89,Small Cap,True,
+METROBRAND,Consumer Durables,25418.82,Large Cap,True,
+METROPOLIS,Healthcare,9145.23,Mini Large,True,
+MFSL,Financial Services,56610.2,Large Cap,True,
+MGEL,Fast Moving Consumer Goods,345.7,Small Cap,False,D/E 1.04 > 1.0 (Small Cap)
+MGL,"Oil, Gas & Consumable Fuels",9552.8,Mini Large,True,
+MHLXMIRU,Textiles,177.4,Small Cap,False,ROE 8.7% < 10% (Small Cap)
+MHRIL,Consumer Services,5190.0,Mini Large,False,D/E 4.76 > 2.0 (Mini Large)
+MICEL,Capital Goods,790.76,Small Cap,False,ROE 4.4% < 10% (Small Cap)
+MIDHANI,Capital Goods,5918.87,Mini Large,True,
+MINDACORP,Automobile and Auto Components,11826.89,Mini Large,True,
+MINDTECK,Information Technology,545.14,Small Cap,True,
+MIRCELECTR,Consumer Durables,941.91,Small Cap,False,TTM Profit negative or zero
+MIRZAINT,Consumer Durables,405.62,Small Cap,False,TTM Profit negative or zero
+MMFL,Automobile and Auto Components,2067.66,Mid Cap,True,
+MMP,Metals & Mining,552.94,Small Cap,True,
+MMTC,Services,9014.04,Mini Large,False,ROE 4.5% < 7% (Mini Large)
+MOBIKWIK,Financial Services,1430.17,Mid Cap,False,TTM Profit negative or zero
+MODIRUBBER,Automobile and Auto Components,277.17,Small Cap,False,ROE 2.9% < 10% (Small Cap)
+MODISONLTD,Capital Goods,408.74,Small Cap,True,
+MOIL,Metals & Mining,5933.63,Mini Large,True,
+MOKSH,Consumer Durables,86.93,Small Cap,False,TTM Profit negative or zero
+MOL,Chemicals,1084.22,Mid Cap,False,TTM Profit negative or zero
+MOLDTECH,Construction,354.94,Small Cap,False,ROE 9.2% < 10% (Small Cap)
+MOLDTKPAC,Capital Goods,1701.82,Mid Cap,True,
+MONARCH,Financial Services,2124.39,Mid Cap,True,
+MONTECARLO,Textiles,1089.16,Mid Cap,False,Inconsistent profits: 8.0/13.0 quarters
+MOREPENLAB,Healthcare,2026.88,Mid Cap,True,
+MOSCHIP,Information Technology,3197.81,Mid Cap,False,Poor CF: 5.0/12.0 yrs
+MOTHERSON,Automobile and Auto Components,117777.02,Large Cap,False,Promoter selling: -9.52% in 4Q
+MOTILALOFS,Financial Services,39926.87,Large Cap,True,
+MOTISONS,Consumer Durables,1308.12,Mid Cap,False,TTM Profit negative or zero
+MPHASIS,Information Technology,39870.18,Large Cap,False,Promoter selling: -9.64% in 4Q
+MPSLTD,Consumer Services,2555.07,Mid Cap,True,
+MRF,Automobile and Auto Components,54089.42,Large Cap,True,
+MRPL,"Oil, Gas & Consumable Fuels",33545.41,Large Cap,False,ROE 0.4% < 6% (Large Cap)
+MSPL,Capital Goods,1702.66,Mid Cap,False,TTM Profit negative or zero
+MSTCLTD,Services,2927.85,Mid Cap,True,
+MSUMI,Automobile and Auto Components,24523.89,Large Cap,False,TTM Profit negative or zero
+MTARTECH,Capital Goods,10850.75,Mini Large,True,
+MTNL,Telecommunication,1559.25,Mid Cap,False,TTM Profit negative or zero
+MUFIN,Financial Services,2056.66,Mid Cap,False,Promoter selling: -7.01% in 4Q
+MUFTI,Consumer Services,487.73,Small Cap,True,
+MUKANDLTD,Metals & Mining,1832.19,Mid Cap,False,ROE 7.9% < 8% (Mid Cap)
+MUKKA,Fast Moving Consumer Goods,633.9,Small Cap,False,D/E 1.37 > 1.0 (Small Cap)
+MUNJALAU,Automobile and Auto Components,741.49,Small Cap,False,ROE 9.0% < 10% (Small Cap)
+MUNJALSHOW,Automobile and Auto Components,481.78,Small Cap,False,TTM Profit negative or zero
+MUTHOOTCAP,Financial Services,323.24,Small Cap,False,TTM Profit negative or zero
+MUTHOOTFIN,Financial Services,133198.02,Large Cap,True,
+MUTHOOTMF,Financial Services,2528.34,Mid Cap,False,TTM Profit negative or zero
+MVGJL,Consumer Durables,699.4,Small Cap,False,TTM Profit negative or zero
+MWL,Metals & Mining,789.0,Small Cap,False,Poor CF: 2.0/5.0 yrs
+NACLIND,Chemicals,3229.15,Mid Cap,False,TTM Profit negative or zero
+NAHARCAP,Financial Services,378.21,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+NAHARINDUS,Textiles,389.6,Small Cap,False,ROE 1.8% < 10% (Small Cap)
+NAHARPOLY,Capital Goods,588.05,Small Cap,False,ROE 5.5% < 10% (Small Cap)
+NAHARSPING,Textiles,759.32,Small Cap,False,TTM Profit negative or zero
+NAM-INDIA,Financial Services,53467.74,Large Cap,True,
+NARMADA,Fast Moving Consumer Goods,124.5,Small Cap,False,TTM Profit negative or zero
+NATCAPSUQ,Healthcare,152.87,Small Cap,False,ROE 0.4% < 10% (Small Cap)
+NATCOPHARM,Healthcare,17184.35,Mini Large,True,
+NATHBIOGEN,Fast Moving Consumer Goods,265.95,Small Cap,False,ROE 5.7% < 10% (Small Cap)
+NATIONALUM,Metals & Mining,67755.25,Large Cap,True,
+NAUKRI,Consumer Services,63338.49,Large Cap,False,ROE 2.7% < 6% (Large Cap)
+NAVA,Power,15664.12,Mini Large,True,
+NAVINFLUOR,Chemicals,31433.16,Large Cap,True,
+NAVKARCORP,Services,1245.85,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+NAVNETEDUL,"Media, Entertainment & Publication",2816.63,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+NAZARA,"Media, Entertainment & Publication",8718.89,Mini Large,False,ROE 1.5% < 7% (Mini Large)
+NBCC,Construction,22655.7,Large Cap,True,
+NCC,Construction,8826.89,Mini Large,True,
+NCLIND,Construction Materials,768.05,Small Cap,False,ROE 2.8% < 10% (Small Cap)
+NDLVENTURE,Financial Services,384.02,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+NDRAUTO,Automobile and Auto Components,1625.85,Mid Cap,True,
+NDTV,"Media, Entertainment & Publication",789.21,Small Cap,False,TTM Profit negative or zero
+NECLIFE,Healthcare,212.91,Small Cap,False,TTM Profit negative or zero
+NELCAST,Capital Goods,1045.44,Mid Cap,False,ROE 6.5% < 8% (Mid Cap)
+NELCO,Information Technology,1341.8,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+NEOGEN,Chemicals,3525.65,Mid Cap,False,ROE 4.4% < 8% (Mid Cap)
+NESCO,Services,7445.45,Mini Large,True,
+NESTLEIND,Fast Moving Consumer Goods,230163.59,Large Cap,True,
+NETWEB,Information Technology,18718.25,Mini Large,False,TTM Profit negative or zero
+NETWORK18,"Media, Entertainment & Publication",4774.01,Mid Cap,False,TTM Profit negative or zero
+NEULANDLAB,Healthcare,15404.92,Mini Large,True,
+NEWGEN,Information Technology,6203.13,Mini Large,True,
+NFL,Chemicals,3409.33,Mid Cap,False,ROE 7.2% < 8% (Mid Cap)
+NGLFINE,Healthcare,1361.78,Mid Cap,False,ROE 7.0% < 8% (Mid Cap)
+NH,Healthcare,33556.15,Large Cap,True,
+NHPC,Power,77145.87,Large Cap,True,
+NIACL,Financial Services,21855.87,Large Cap,False,ROE 3.6% < 6% (Large Cap)
+NIBE,Capital Goods,1429.43,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+NIBL,Capital Goods,71.39,Small Cap,False,ROE nan% < 10% (Small Cap)
+NIITLTD,Consumer Services,814.35,Small Cap,False,ROE 4.5% < 10% (Small Cap)
+NIITMTS,Consumer Services,4100.62,Mid Cap,True,
+NILAINFRA,Realty,278.87,Small Cap,True,
+NILASPACES,Realty,491.97,Small Cap,False,ROE 9.8% < 10% (Small Cap)
+NILKAMAL,Consumer Durables,1822.58,Mid Cap,False,ROE 7.1% < 8% (Mid Cap)
+NINSYS,Information Technology,539.08,Small Cap,True,
+NIPPOBATRY,Fast Moving Consumer Goods,223.08,Small Cap,False,Inconsistent profits: 8.0/13.0 quarters
+NIRAJ,Construction,151.8,Small Cap,False,ROE 5.9% < 10% (Small Cap)
+NITCO,Consumer Durables,1864.55,Mid Cap,False,TTM Profit negative or zero
+NITINSPIN,Textiles,2071.71,Mid Cap,False,TTM Profit negative or zero
+NITIRAJ,Consumer Durables,223.43,Small Cap,False,TTM Profit negative or zero
+NIVABUPA,Financial Services,12930.39,Mini Large,False,TTM Profit negative or zero
+NLCINDIA,Power,36933.07,Large Cap,True,
+NMDC,Metals & Mining,70141.12,Large Cap,True,
+NOCIL,Chemicals,2404.49,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+NORTHARC,Financial Services,3784.5,Mid Cap,False,Promoter nan% < 25% (Mid Cap)
+NOVAAGRI,Chemicals,204.53,Small Cap,True,
+NPST,Information Technology,2305.87,Mid Cap,False,Promoter selling: -7.28% in 4Q
+NRAIL,Forest Materials,714.8,Small Cap,False,TTM Profit negative or zero
+NRBBEARING,Automobile and Auto Components,2351.75,Mid Cap,True,
+NRL,Metals & Mining,345.62,Small Cap,False,Poor CF: 0/3.0 yrs
+NSIL,Financial Services,2756.84,Mid Cap,False,ROE 0.3% < 8% (Mid Cap)
+NSLNISP,Metals & Mining,10757.75,Mini Large,False,TTM Profit negative or zero
+NTPC,Power,369394.51,Large Cap,True,
+NTPCGREEN,Power,85190.19,Large Cap,False,ROE 2.5% < 6% (Large Cap)
+NUCLEUS,Information Technology,2136.56,Mid Cap,True,
+NURECA,Healthcare,237.71,Small Cap,False,ROE 0.5% < 10% (Small Cap)
+NUVAMA,Financial Services,20898.28,Large Cap,True,
+NUVOCO,Construction Materials,10229.21,Mini Large,False,ROE 0.2% < 7% (Mini Large)
+NYKAA,Consumer Services,68917.96,Large Cap,False,ROE 5.2% < 6% (Large Cap)
+OAL,Chemicals,850.39,Small Cap,False,ROE 5.1% < 10% (Small Cap)
+OBCL,Services,118.06,Small Cap,False,ROE 2.2% < 10% (Small Cap)
+OBEROIRLTY,Realty,52577.48,Large Cap,False,Poor CF: 7.0/12.0 yrs
+OCCLLTD,Chemicals,438.57,Small Cap,False,TTM Profit negative or zero
+OFSS,Information Technology,57265.22,Large Cap,True,
+OIL,"Oil, Gas & Consumable Fuels",77372.54,Large Cap,True,
+OILCOUNTUB,"Oil, Gas & Consumable Fuels",215.24,Small Cap,False,TTM Profit negative or zero
+OLAELEC,Automobile and Auto Components,10352.25,Mini Large,False,TTM Profit negative or zero
+OLECTRA,Automobile and Auto Components,9007.54,Mini Large,False,Poor CF: 5.0/12.0 yrs
+OMAXAUTO,Automobile and Auto Components,210.55,Small Cap,False,TTM Profit negative or zero
+OMAXE,Realty,1317.95,Mid Cap,False,TTM Profit negative or zero
+OMINFRAL,Construction,803.67,Small Cap,False,ROE 4.8% < 10% (Small Cap)
+ONEPOINT,Services,1168.64,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+ONESOURCE,Healthcare,16760.14,Mini Large,False,TTM Profit negative or zero
+ONGC,"Oil, Gas & Consumable Fuels",333880.6,Large Cap,True,
+ONMOBILE,"Media, Entertainment & Publication",524.23,Small Cap,False,TTM Profit negative or zero
+ONWARDTEC,Information Technology,544.62,Small Cap,True,
+OPTIEMUS,Telecommunication,2963.98,Mid Cap,True,
+ORBTEXP,Textiles,394.51,Small Cap,True,
+ORCHPHARMA,Healthcare,2701.76,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+ORICONENT,Capital Goods,1066.43,Mid Cap,True,
+ORIENTBELL,Consumer Durables,407.39,Small Cap,False,ROE 0.9% < 10% (Small Cap)
+ORIENTCEM,Construction Materials,2720.95,Mid Cap,False,TTM Profit negative or zero
+ORIENTCER,Capital Goods,462.41,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+ORIENTELEC,Consumer Durables,3548.68,Mid Cap,False,TTM Profit negative or zero
+ORIENTHOT,Consumer Services,1639.54,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+ORIENTPPR,Forest Materials,332.49,Small Cap,True,
+ORIENTTECH,Information Technology,1204.47,Mid Cap,False,TTM Profit negative or zero
+ORISSAMINE,Metals & Mining,2162.4,Mid Cap,False,TTM Profit negative or zero
+OSWALAGRO,Services,564.86,Small Cap,False,Poor CF: 5.0/12.0 yrs
+OSWALGREEN,Financial Services,639.45,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+OSWALSEEDS,Fast Moving Consumer Goods,104.55,Small Cap,False,ROE 8.3% < 10% (Small Cap)
+PAGEIND,Textiles,35719.62,Large Cap,False,TTM Profit negative or zero
+PAISALO,Financial Services,3189.69,Mid Cap,False,Promoter selling: -10.87% in 4Q
+PAKKA,Forest Materials,383.28,Small Cap,False,ROE 8.4% < 10% (Small Cap)
+PANACEABIO,Healthcare,2019.13,Mid Cap,False,TTM Profit negative or zero
+PANAMAPET,"Oil, Gas & Consumable Fuels",1588.56,Mid Cap,True,
+PAR,Healthcare,106.76,Small Cap,False,TTM Profit negative or zero
+PARACABLES,Capital Goods,1066.19,Mid Cap,True,
+PARADEEP,Chemicals,11499.82,Mini Large,False,Poor CF: 4.0/7.0 yrs
+PARAGMILK,Fast Moving Consumer Goods,2371.22,Mid Cap,True,
+PARAS,Capital Goods,5054.44,Mini Large,True,
+PARKHOTELS,Consumer Services,2314.47,Mid Cap,False,ROE 6.4% < 8% (Mid Cap)
+PARSVNATH,Realty,285.88,Small Cap,False,TTM Profit negative or zero
+PASHUPATI,Textiles,1548.57,Mid Cap,True,
+PASUPTAC,Chemicals,397.36,Small Cap,False,TTM Profit negative or zero
+PATANJALI,Fast Moving Consumer Goods,51705.61,Large Cap,False,Inconsistent profits: 8.0/13.0 quarters
+PATELENG,Construction,2382.46,Mid Cap,False,ROE 6.3% < 8% (Mid Cap)
+PAVNAIND,Automobile and Auto Components,252.69,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+PAYTM,Financial Services,67480.02,Large Cap,False,TTM Profit negative or zero
+PCBL,Chemicals,9759.84,Mini Large,True,
+PCJEWELLER,Consumer Durables,6653.9,Mini Large,False,Inconsistent profits: 7.0/13.0 quarters
+PDMJEPAPER,Forest Materials,676.52,Small Cap,False,TTM Profit negative or zero
+PDSL,Textiles,3695.31,Mid Cap,True,
+PENIND,Capital Goods,1927.98,Mid Cap,True,
+PENINLAND,Realty,517.5,Small Cap,False,TTM Profit negative or zero
+PERSISTENT,Information Technology,73753.12,Large Cap,True,
+PETRONET,"Oil, Gas & Consumable Fuels",38647.5,Large Cap,True,
+PFC,Financial Services,136244.7,Large Cap,True,
+PFIZER,Healthcare,21837.68,Large Cap,True,
+PFOCUS,"Media, Entertainment & Publication",21467.78,Large Cap,False,TTM Profit negative or zero
+PFS,Financial Services,1755.12,Mid Cap,True,
+PGEL,Consumer Durables,14591.5,Mini Large,False,Promoter selling: -5.96% in 4Q
+PGHH,Fast Moving Consumer Goods,31509.64,Large Cap,False,TTM Profit negative or zero
+PGHL,Healthcare,8068.3,Mini Large,False,TTM Profit negative or zero
+PGIL,Textiles,6873.45,Mini Large,True,
+PHOENIXLTD,Realty,55186.6,Large Cap,True,
+PIDILITIND,Chemicals,136513.0,Large Cap,True,
+PIGL,Capital Goods,195.64,Small Cap,False,ROE 8.4% < 10% (Small Cap)
+PIIND,Chemicals,44138.05,Large Cap,True,
+PILANIINVS,Financial Services,5246.7,Mini Large,False,ROE 0.6% < 7% (Mini Large)
+PILITA,Consumer Durables,174.84,Small Cap,False,TTM Profit negative or zero
+PITTIENG,Capital Goods,2917.08,Mid Cap,True,
+PIXTRANS,Capital Goods,1983.24,Mid Cap,True,
+PLASTIBLEN,Chemicals,347.79,Small Cap,False,TTM Profit negative or zero
+PLATIND,Chemicals,1154.94,Mid Cap,True,
+PLAZACABLE,Capital Goods,145.21,Small Cap,False,TTM Profit negative or zero
+PNB,Financial Services,128201.54,Large Cap,True,
+PNBGILTS,Financial Services,1233.97,Mid Cap,False,TTM Profit negative or zero
+PNBHOUSING,Financial Services,20629.67,Large Cap,True,
+PNCINFRA,Construction,4777.02,Mid Cap,True,
+PNGJL,Consumer Durables,7738.73,Mini Large,True,
+POCL,Metals & Mining,3207.69,Mid Cap,False,Poor CF: 7.0/12.0 yrs
+POKARNA,Consumer Durables,2570.38,Mid Cap,True,
+POLICYBZR,Financial Services,69344.99,Large Cap,False,ROE 5.2% < 6% (Large Cap)
+POLYCAB,Capital Goods,108072.99,Large Cap,True,
+POLYMED,Healthcare,12592.59,Mini Large,True,
+POLYPLEX,Capital Goods,2676.36,Mid Cap,False,Inconsistent profits: 10.0/13.0 quarters
+PONNIERODE,Fast Moving Consumer Goods,236.46,Small Cap,False,TTM Profit negative or zero
+POONAWALLA,Financial Services,31804.5,Large Cap,False,TTM Profit negative or zero
+POWERGRID,Power,276785.98,Large Cap,True,
+POWERINDIA,Capital Goods,111624.89,Large Cap,False,TTM Profit negative or zero
+POWERMECH,Construction,6304.29,Mini Large,True,
+PPAP,Automobile and Auto Components,284.1,Small Cap,False,ROE 2.5% < 10% (Small Cap)
+PPL,Capital Goods,453.24,Small Cap,False,TTM Profit negative or zero
+PPLPHARMA,Healthcare,18318.36,Mini Large,False,ROE 1.1% < 7% (Mini Large)
+PRABHA,"Oil, Gas & Consumable Fuels",2217.65,Mid Cap,False,TTM Profit negative or zero
+PRAJIND,Capital Goods,5792.87,Mini Large,True,
+PRAKASH,Metals & Mining,2173.39,Mid Cap,True,
+PRAXIS,Consumer Services,122.04,Small Cap,False,TTM Profit negative or zero
+PRECAM,Automobile and Auto Components,1115.61,Mid Cap,False,ROE 6.6% < 8% (Mid Cap)
+PRECWIRE,Capital Goods,5529.53,Mini Large,True,
+PREMEXPLN,Chemicals,2355.75,Mid Cap,True,
+PREMIERENE,Capital Goods,38837.0,Large Cap,True,
+PREMIERPOL,Capital Goods,628.04,Small Cap,False,TTM Profit negative or zero
+PRESTIGE,Realty,53763.75,Large Cap,False,ROE 3.9% < 6% (Large Cap)
+PRICOLLTD,Automobile and Auto Components,6502.99,Mini Large,True,
+PRIMESECU,Financial Services,954.46,Small Cap,False,Promoter nan% < 30% (Small Cap)
+PRINCEPIPE,Capital Goods,2641.26,Mid Cap,False,TTM Profit negative or zero
+PRITIKAUTO,Automobile and Auto Components,201.15,Small Cap,False,ROE 9.7% < 10% (Small Cap)
+PRIVISCL,Chemicals,11434.83,Mini Large,False,Promoter selling: -13.45% in 4Q
+PROTEAN,Information Technology,2121.01,Mid Cap,False,Promoter nan% < 25% (Mid Cap)
+PROZONER,Realty,683.66,Small Cap,False,TTM Profit negative or zero
+PRSMJOHNSN,Construction Materials,6293.47,Mini Large,False,ROE 3.1% < 7% (Mini Large)
+PRUDENT,Financial Services,9262.63,Mini Large,True,
+PSB,Financial Services,16315.0,Mini Large,False,TTM Profit negative or zero
+PSPPROJECT,Construction,2582.51,Mid Cap,False,ROE 4.6% < 8% (Mid Cap)
+PTC,Power,4889.47,Mid Cap,False,Promoter 16.22% < 25% (Mid Cap)
+PTCIL,Capital Goods,26114.02,Large Cap,False,ROE 4.3% < 6% (Large Cap)
+PTL,Services,498.93,Small Cap,False,ROE 5.9% < 10% (Small Cap)
+PUNJABCHEM,Chemicals,1262.05,Mid Cap,True,
+PURVA,Realty,4269.64,Mid Cap,False,TTM Profit negative or zero
+PVP,Realty,655.97,Small Cap,False,TTM Profit negative or zero
+PVRINOX,"Media, Entertainment & Publication",9682.52,Mini Large,False,TTM Profit negative or zero
+PVSL,Automobile and Auto Components,608.53,Small Cap,False,TTM Profit negative or zero
+PYRAMID,Capital Goods,542.87,Small Cap,False,TTM Profit negative or zero
+QPOWER,Capital Goods,6463.1,Mini Large,True,
+QUADFUTURE,Capital Goods,1200.2,Mid Cap,False,TTM Profit negative or zero
+QUESS,Services,2652.04,Mid Cap,False,ROE 4.1% < 8% (Mid Cap)
+QUICKHEAL,Information Technology,785.08,Small Cap,False,ROE 1.1% < 10% (Small Cap)
+RACE,Utilities,177.9,Small Cap,False,ROE 5.5% < 10% (Small Cap)
+RACLGEAR,Automobile and Auto Components,1476.35,Mid Cap,False,ROE 7.4% < 8% (Mid Cap)
+RADHIKAJWE,Consumer Durables,682.18,Small Cap,False,TTM Profit negative or zero
+RADIANTCMS,Services,381.59,Small Cap,True,
+RADICO,Fast Moving Consumer Goods,35647.55,Large Cap,True,
+RAILTEL,Telecommunication,8713.48,Mini Large,True,
+RAIN,Chemicals,3663.14,Mid Cap,False,ROE 1.8% < 8% (Mid Cap)
+RAINBOW,Healthcare,11312.39,Mini Large,True,
+RAJRATAN,Automobile and Auto Components,1883.23,Mid Cap,True,
+RAJSREESUG,Fast Moving Consumer Goods,93.81,Small Cap,False,D/E 3.5 > 1.0 (Small Cap)
+RALLIS,Chemicals,4641.0,Mid Cap,True,
+RAMANEWS,Forest Materials,496.34,Small Cap,False,TTM Profit negative or zero
+RAMAPHO,Chemicals,416.45,Small Cap,False,TTM Profit negative or zero
+RAMASTEEL,Capital Goods,885.1,Small Cap,False,ROE 4.9% < 10% (Small Cap)
+RAMCOCEM,Construction Materials,21861.77,Large Cap,False,ROE 3.6% < 6% (Large Cap)
+RAMCOIND,Construction Materials,2251.37,Mid Cap,False,ROE 4.2% < 8% (Mid Cap)
+RAMCOSYS,Information Technology,1479.32,Mid Cap,False,TTM Profit negative or zero
+RAMKY,Construction,3207.66,Mid Cap,True,
+RAMRAT,Capital Goods,2870.95,Mid Cap,True,
+RANASUG,Fast Moving Consumer Goods,178.45,Small Cap,False,TTM Profit negative or zero
+RANEHOLDIN,Financial Services,1522.01,Mid Cap,True,
+RATEGAIN,Information Technology,5685.6,Mini Large,True,
+RATNAMANI,Capital Goods,16198.9,Mini Large,True,
+RATNAVEER,Capital Goods,948.57,Small Cap,False,TTM Profit negative or zero
+RAYMOND,Realty,2482.04,Mid Cap,True,
+RAYMONDLSL,Textiles,5307.64,Mini Large,False,ROE 0.4% < 7% (Mini Large)
+RBA,Consumer Services,3562.76,Mid Cap,False,TTM Profit negative or zero
+RBLBANK,Financial Services,18373.36,Mini Large,False,ROE 5.0% < 7% (Mini Large)
+RBZJEWEL,Consumer Durables,455.4,Small Cap,False,TTM Profit negative or zero
+RCF,Chemicals,6433.23,Mini Large,False,ROE 4.9% < 7% (Mini Large)
+RECLTD,Financial Services,87040.25,Large Cap,True,
+REDINGTON,Services,16991.87,Mini Large,False,Promoter nan% < 20% (Mini Large)
+REDTAPE,Consumer Durables,6478.9,Mini Large,True,
+REFEX,Chemicals,2751.26,Mid Cap,True,
+RELAXO,Consumer Durables,6819.67,Mini Large,False,TTM Profit negative or zero
+RELIABLE,Financial Services,125.66,Small Cap,True,
+RELIANCE,"Oil, Gas & Consumable Fuels",1914032.96,Large Cap,True,
+RELIGARE,Financial Services,7188.44,Mini Large,False,ROE 6.3% < 7% (Mini Large)
+RELTD,Capital Goods,2373.74,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+REMSONSIND,Automobile and Auto Components,302.67,Small Cap,True,
+RENUKA,Fast Moving Consumer Goods,5301.66,Mini Large,False,TTM Profit negative or zero
+REPCOHOME,Financial Services,2196.84,Mid Cap,True,
+REPL,Construction,127.65,Small Cap,False,ROE 8.8% < 10% (Small Cap)
+REPRO,"Media, Entertainment & Publication",525.18,Small Cap,False,TTM Profit negative or zero
+RESPONIND,Consumer Durables,4055.65,Mid Cap,True,
+RGL,Consumer Durables,1003.39,Mid Cap,False,ROE 5.1% < 8% (Mid Cap)
+RHIM,Capital Goods,7647.78,Mini Large,False,ROE 5.0% < 7% (Mini Large)
+RHL,Consumer Services,302.01,Small Cap,False,TTM Profit negative or zero
+RICOAUTO,Automobile and Auto Components,1477.58,Mid Cap,False,ROE 2.8% < 8% (Mid Cap)
+RIIL,Services,1079.65,Mid Cap,False,ROE 2.5% < 8% (Mid Cap)
+RISHABH,Capital Goods,1493.08,Mid Cap,False,ROE 3.0% < 8% (Mid Cap)
+RITCO,Services,559.19,Small Cap,False,D/E 1.07 > 1.0 (Small Cap)
+RITES,Construction,9206.45,Mini Large,True,
+RKEC,Construction,82.14,Small Cap,False,ROE 9.6% < 10% (Small Cap)
+RKFORGE,Automobile and Auto Components,9047.04,Mini Large,True,
+RKSWAMY,"Media, Entertainment & Publication",434.96,Small Cap,False,ROE 7.8% < 10% (Small Cap)
+RMDRIP,Capital Goods,1070.39,Mid Cap,False,Promoter 21.06% < 25% (Mid Cap)
+RML,Automobile and Auto Components,2000.51,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+ROHLTD,Consumer Services,861.33,Small Cap,False,D/E 2.82 > 1.0 (Small Cap)
+ROLEXRINGS,Automobile and Auto Components,3244.58,Mid Cap,False,TTM Profit negative or zero
+ROSSARI,Chemicals,2278.19,Mid Cap,True,
+ROSSELLIND,Fast Moving Consumer Goods,177.25,Small Cap,False,ROE 4.4% < 10% (Small Cap)
+ROSSTECH,Capital Goods,2724.88,Mid Cap,False,ROE 5.6% < 8% (Mid Cap)
+ROTO,Capital Goods,1070.56,Mid Cap,True,
+ROUTE,Telecommunication,2948.29,Mid Cap,True,
+RPEL,Capital Goods,2950.3,Mid Cap,True,
+RPGLIFE,Healthcare,3108.84,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+RPOWER,Power,9355.11,Mini Large,False,Inconsistent profits: 7.0/13.0 quarters
+RPPINFRA,Construction,335.79,Small Cap,False,Promoter selling: -11.7% in 4Q
+RPPL,Capital Goods,112.95,Small Cap,False,ROE 4.7% < 10% (Small Cap)
+RPSGVENT,Services,1998.42,Mid Cap,False,ROE 6.2% < 8% (Mid Cap)
+RPTECH,Information Technology,2256.08,Mid Cap,False,Poor CF: 1.0/7.0 yrs
+RRKABEL,Capital Goods,15736.88,Mini Large,True,
+RSSOFTWARE,Information Technology,70.75,Small Cap,False,Poor CF: 6.0/12.0 yrs
+RSWM,Textiles,623.44,Small Cap,False,TTM Profit negative or zero
+RSYSTEMS,Information Technology,3132.59,Mid Cap,True,
+RTNINDIA,Consumer Services,3688.35,Mid Cap,False,ROE 7.8% < 8% (Mid Cap)
+RTNPOWER,Power,4462.56,Mid Cap,False,ROE 4.9% < 8% (Mid Cap)
+RUBFILA,Capital Goods,331.41,Small Cap,False,ROE 9.7% < 10% (Small Cap)
+RUBYMILLS,Textiles,672.31,Small Cap,False,TTM Profit negative or zero
+RUCHIRA,Forest Materials,307.19,Small Cap,False,TTM Profit negative or zero
+RUPA,Textiles,985.79,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+RUSHIL,Consumer Durables,455.97,Small Cap,False,ROE 7.6% < 10% (Small Cap)
+RUSTOMJEE,Realty,4734.38,Mid Cap,False,ROE 6.7% < 8% (Mid Cap)
+RVNL,Construction,55174.64,Large Cap,True,
+RVTH,Capital Goods,173.68,Small Cap,True,
+SAFARI,Consumer Durables,7449.28,Mini Large,True,
+SAGCEM,Construction Materials,2191.7,Mid Cap,False,TTM Profit negative or zero
+SAGILITY,Information Technology,18285.27,Mini Large,False,ROE 6.1% < 7% (Mini Large)
+SAHYADRI,Construction Materials,263.2,Small Cap,False,TTM Profit negative or zero
+SAIL,Metals & Mining,64237.93,Large Cap,False,ROE 4.1% < 6% (Large Cap)
+SAILIFE,Healthcare,21177.87,Large Cap,True,
+SAKAR,Healthcare,1165.54,Mid Cap,False,ROE 5.9% < 8% (Mid Cap)
+SAKHTISUG,Fast Moving Consumer Goods,175.43,Small Cap,False,TTM Profit negative or zero
+SAKSOFT,Information Technology,1528.57,Mid Cap,True,
+SALASAR,Capital Goods,1214.45,Mid Cap,False,ROE 2.3% < 8% (Mid Cap)
+SALZERELEC,Capital Goods,974.78,Small Cap,False,ROE 9.1% < 10% (Small Cap)
+SAMHI,Consumer Services,3192.45,Mid Cap,False,ROE 4.8% < 8% (Mid Cap)
+SAMMAANCAP,Financial Services,11255.78,Mini Large,False,TTM Profit negative or zero
+SAMPANN,Capital Goods,138.67,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+SANATHAN,Textiles,3193.43,Mid Cap,True,
+SANDESH,"Media, Entertainment & Publication",709.1,Small Cap,False,ROE 5.5% < 10% (Small Cap)
+SANDHAR,Automobile and Auto Components,2878.65,Mid Cap,True,
+SANDUMA,"Oil, Gas & Consumable Fuels",9009.26,Mini Large,True,
+SANGAMIND,Textiles,2151.39,Mid Cap,False,ROE 3.1% < 8% (Mid Cap)
+SANGHIIND,Construction Materials,1303.0,Mid Cap,False,TTM Profit negative or zero
+SANGHVIMOV,Services,2090.5,Mid Cap,True,
+SANOFI,Healthcare,7806.99,Mini Large,True,
+SANOFICONR,Healthcare,9806.6,Mini Large,False,TTM Profit negative or zero
+SANSERA,Automobile and Auto Components,13554.65,Mini Large,True,
+SANSTAR,Fast Moving Consumer Goods,1501.69,Mid Cap,True,
+SAPPHIRE,Consumer Services,5152.31,Mini Large,False,ROE 1.2% < 7% (Mini Large)
+SARDAEN,Metals & Mining,17927.4,Mini Large,True,
+SAREGAMA,"Media, Entertainment & Publication",6610.44,Mini Large,True,
+SARLAPOLY,Textiles,693.16,Small Cap,True,
+SASKEN,Information Technology,1783.5,Mid Cap,False,ROE 6.4% < 8% (Mid Cap)
+SASTASUNDR,Healthcare,917.81,Small Cap,False,TTM Profit negative or zero
+SATIA,Forest Materials,597.8,Small Cap,False,TTM Profit negative or zero
+SATIN,Financial Services,1596.59,Mid Cap,True,
+SAURASHCEM,Construction Materials,660.94,Small Cap,False,ROE 0.7% < 10% (Small Cap)
+SBC,Textiles,1505.24,Mid Cap,False,D/E 2.8 > 1.5 (Mid Cap)
+SBCL,Capital Goods,2336.14,Mid Cap,True,
+SBFC,Financial Services,9594.2,Mini Large,True,
+SBGLP,Realty,442.89,Small Cap,False,Poor CF: 0/4.0 yrs
+SBICARD,Financial Services,65544.7,Large Cap,False,TTM Profit negative or zero
+SBILIFE,Financial Services,190262.26,Large Cap,False,TTM Profit negative or zero
+SBIN,Financial Services,976599.34,Large Cap,True,
+SCHAEFFLER,Automobile and Auto Components,65436.53,Large Cap,True,
+SCHAND,"Media, Entertainment & Publication",516.24,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+SEJALLTD,Capital Goods,487.14,Small Cap,False,D/E 4.13 > 1.0 (Small Cap)
+SENCO,Consumer Durables,4848.29,Mid Cap,False,ROE 7.5% < 8% (Mid Cap)
+SENORES,Healthcare,3461.39,Mid Cap,False,ROE 7.1% < 8% (Mid Cap)
+SEPC,Construction,1002.75,Mid Cap,False,ROE 1.3% < 8% (Mid Cap)
+SERVOTECH,Capital Goods,1551.78,Mid Cap,True,
+SESHAPAPER,Forest Materials,1633.46,Mid Cap,False,ROE 5.4% < 8% (Mid Cap)
+SETCO,Automobile and Auto Components,211.05,Small Cap,False,TTM Profit negative or zero
+SFL,Consumer Durables,5609.48,Mini Large,False,ROE 3.1% < 7% (Mini Large)
+SGIL,Capital Goods,782.65,Small Cap,False,TTM Profit negative or zero
+SHAILY,Capital Goods,11033.45,Mini Large,True,
+SHAKTIPUMP,Capital Goods,6126.09,Mini Large,True,
+SHALBY,Healthcare,1503.01,Mid Cap,False,ROE 0.2% < 8% (Mid Cap)
+SHALPAINTS,Consumer Durables,374.27,Small Cap,False,TTM Profit negative or zero
+SHANKARA,Consumer Services,263.44,Small Cap,False,Promoter selling: -9.08% in 4Q
+SHANTIGEAR,Capital Goods,3379.64,Mid Cap,False,TTM Profit negative or zero
+SHARDACROP,Chemicals,8841.11,Mini Large,True,
+SHARDAMOTR,Automobile and Auto Components,4514.25,Mid Cap,True,
+SHAREINDIA,Financial Services,2736.19,Mid Cap,True,
+SHEMAROO,"Media, Entertainment & Publication",262.33,Small Cap,False,TTM Profit negative or zero
+SHILPAMED,Healthcare,6323.17,Mini Large,False,ROE 3.2% < 7% (Mini Large)
+SHIVALIK,Chemicals,368.21,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+SHIVAMAUTO,Automobile and Auto Components,211.5,Small Cap,False,TTM Profit negative or zero
+SHK,Chemicals,1728.05,Mid Cap,False,ROE 5.5% < 8% (Mid Cap)
+SHOPERSTOP,Consumer Services,3176.88,Mid Cap,False,ROE 3.8% < 8% (Mid Cap)
+SHREDIGCEM,Construction Materials,889.29,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+SHREECEM,Construction Materials,84916.04,Large Cap,False,ROE 5.0% < 6% (Large Cap)
+SHREEPUSHK,Chemicals,966.69,Small Cap,True,
+SHREERAMA,Capital Goods,594.72,Small Cap,False,TTM Profit negative or zero
+SHREYANIND,Forest Materials,207.67,Small Cap,False,TTM Profit negative or zero
+SHRIPISTON,Automobile and Auto Components,13765.57,Mini Large,True,
+SHRIRAMFIN,Financial Services,176600.23,Large Cap,True,
+SHRIRAMPPS,Realty,1167.35,Mid Cap,False,ROE 5.5% < 8% (Mid Cap)
+SHYAMMETL,Capital Goods,22127.51,Large Cap,True,
+SIEMENS,Capital Goods,111451.48,Large Cap,True,
+SIGACHI,Healthcare,725.96,Small Cap,False,Promoter selling: -5.01% in 4Q
+SIGMA,Information Technology,408.07,Small Cap,True,
+SIGNATURE,Realty,10730.1,Mini Large,False,D/E 3.56 > 2.0 (Mini Large)
+SIGNPOST,"Media, Entertainment & Publication",1256.34,Mid Cap,False,Promoter selling: -6.51% in 4Q
+SILGO,Consumer Durables,187.64,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+SILINV,Financial Services,426.38,Small Cap,False,ROE 1.1% < 10% (Small Cap)
+SILVERTUC,Information Technology,1559.76,Mid Cap,True,
+SIMPLEXINF,Construction,1306.97,Mid Cap,False,ROE 1.3% < 8% (Mid Cap)
+SINCLAIR,Consumer Services,379.02,Small Cap,False,ROE 3.1% < 10% (Small Cap)
+SINDHUTRAD,Services,3598.71,Mid Cap,False,ROE 7.5% < 8% (Mid Cap)
+SINTERCOM,Automobile and Auto Components,214.66,Small Cap,False,TTM Profit negative or zero
+SIRCA,Consumer Durables,2443.84,Mid Cap,True,
+SIS,Consumer Services,3865.84,Mid Cap,False,ROE 0.5% < 8% (Mid Cap)
+SIYSIL,Textiles,2161.61,Mid Cap,True,
+SJS,Automobile and Auto Components,5064.4,Mini Large,True,
+SJVN,Power,27540.01,Large Cap,False,ROE 5.6% < 6% (Large Cap)
+SKFINDIA,Capital Goods,7600.59,Mini Large,True,
+SKIPPER,Capital Goods,3954.5,Mid Cap,True,
+SKMEGGPROD,Fast Moving Consumer Goods,816.51,Small Cap,True,
+SKYGOLD,Consumer Durables,5368.7,Mini Large,False,Promoter selling: -6.5% in 4Q
+SMCGLOBAL,Financial Services,1356.91,Mid Cap,True,
+SMLT,Capital Goods,90.92,Small Cap,False,TTM Profit negative or zero
+SMSPHARMA,Healthcare,3606.07,Mid Cap,True,
+SNOWMAN,Services,571.53,Small Cap,False,TTM Profit negative or zero
+SOBHA,Realty,13547.83,Mini Large,False,ROE 2.1% < 7% (Mini Large)
+SOLARA,Healthcare,2168.68,Mid Cap,False,ROE 0.1% < 8% (Mid Cap)
+SOLARINDS,Chemicals,117039.84,Large Cap,True,
+SOLEX,Capital Goods,1090.78,Mid Cap,False,D/E 1.57 > 1.5 (Mid Cap)
+SOMANYCERA,Consumer Durables,1557.94,Mid Cap,False,ROE 7.4% < 8% (Mid Cap)
+SOMICONVEY,Capital Goods,118.61,Small Cap,False,TTM Profit negative or zero
+SONACOMS,Automobile and Auto Components,31481.0,Large Cap,True,
+SONAMLTD,Consumer Durables,215.09,Small Cap,False,TTM Profit negative or zero
+SONATSOFTW,Information Technology,6569.42,Mini Large,True,
+SOTL,"Oil, Gas & Consumable Fuels",2350.59,Mid Cap,False,ROE 6.5% < 8% (Mid Cap)
+SOUTHBANK,Financial Services,9427.86,Mini Large,False,Promoter nan% < 20% (Mini Large)
+SOUTHWEST,Services,614.87,Small Cap,False,ROE 8.8% < 10% (Small Cap)
+SPAL,Textiles,1794.75,Mid Cap,True,
+SPANDANA,Financial Services,1843.74,Mid Cap,False,TTM Profit negative or zero
+SPARC,Healthcare,3745.63,Mid Cap,False,TTM Profit negative or zero
+SPECIALITY,Consumer Services,465.76,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+SPECTRUM,Capital Goods,2263.74,Mid Cap,False,Poor CF: 4.0/7.0 yrs
+SPENCERS,Consumer Services,266.32,Small Cap,False,TTM Profit negative or zero
+SPIC,Chemicals,1250.96,Mid Cap,False,Poor CF: 7.0/12.0 yrs
+SPLPETRO,Chemicals,12296.96,Mini Large,False,ROE 2.7% < 7% (Mini Large)
+SPMLINFRA,Construction,1317.22,Mid Cap,False,ROE 6.0% < 8% (Mid Cap)
+SPORTKING,Textiles,1492.5,Mid Cap,False,TTM Profit negative or zero
+SRD,Chemicals,284.14,Small Cap,False,TTM Profit negative or zero
+SREEL,Consumer Durables,431.5,Small Cap,False,TTM Profit negative or zero
+SRF,Chemicals,72757.47,Large Cap,True,
+SRHHYPOLTD,Chemicals,739.03,Small Cap,False,ROE 8.7% < 10% (Small Cap)
+SRM,Construction,927.46,Small Cap,True,
+SSDL,Textiles,222.67,Small Cap,False,Poor CF: 1.0/2.0 yrs
+SSWL,Automobile and Auto Components,2917.33,Mid Cap,True,
+STALLION,Chemicals,1331.39,Mid Cap,False,TTM Profit negative or zero
+STANLEY,Consumer Durables,827.52,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+STAR,Healthcare,8329.19,Mini Large,False,Inconsistent profits: 9.0/13.0 quarters
+STARCEMENT,Construction Materials,8746.06,Mini Large,False,ROE 5.6% < 7% (Mini Large)
+STARHEALTH,Financial Services,26598.58,Large Cap,False,TTM Profit negative or zero
+STARPAPER,Forest Materials,205.7,Small Cap,True,
+STARTECK,Financial Services,258.12,Small Cap,False,ROE 5.0% < 10% (Small Cap)
+STCINDIA,Services,644.52,Small Cap,False,ROE nan% < 10% (Small Cap)
+STEELCAS,Capital Goods,2321.38,Mid Cap,False,TTM Profit negative or zero
+STEELXIND,Capital Goods,922.94,Small Cap,False,D/E 2.32 > 1.0 (Small Cap)
+STEL,Financial Services,828.37,Small Cap,False,ROE 0.9% < 10% (Small Cap)
+STERTOOLS,Automobile and Auto Components,645.3,Small Cap,True,
+STLTECH,Telecommunication,9204.23,Mini Large,False,TTM Profit negative or zero
+STOVEKRAFT,Consumer Durables,1651.23,Mid Cap,False,Inconsistent profits: 3.0/4.0 quarters
+STYLAMIND,Consumer Durables,3738.23,Mid Cap,True,
+STYLEBAAZA,Consumer Services,1812.08,Mid Cap,False,ROE 3.3% < 8% (Mid Cap)
+STYRENIX,Chemicals,3465.94,Mid Cap,True,
+SUBEXLTD,Information Technology,451.1,Small Cap,False,TTM Profit negative or zero
+SUBROS,Capital Goods,4413.52,Mid Cap,True,
+SUDARSCHEM,Chemicals,6387.61,Mini Large,False,ROE 1.7% < 7% (Mini Large)
+SUKHJITS,Fast Moving Consumer Goods,507.96,Small Cap,False,ROE 7.3% < 10% (Small Cap)
+SULA,Fast Moving Consumer Goods,1289.31,Mid Cap,False,Promoter 24.35% < 25% (Mid Cap)
+SUMEETINDS,Textiles,1546.87,Mid Cap,False,Inconsistent profits: 7.0/13.0 quarters
+SUMICHEM,Chemicals,19316.94,Mini Large,True,
+SUMIT,Realty,201.58,Small Cap,False,ROE 6.7% < 10% (Small Cap)
+SUMMITSEC,Financial Services,1630.91,Mid Cap,False,ROE 0.6% < 8% (Mid Cap)
+SUNCLAY,Automobile and Auto Components,2851.33,Mid Cap,False,TTM Profit negative or zero
+SUNDARMFIN,Financial Services,51557.66,Large Cap,True,
+SUNDRMFAST,Automobile and Auto Components,17083.44,Mini Large,True,
+SUNDROP,Fast Moving Consumer Goods,2343.42,Mid Cap,False,TTM Profit negative or zero
+SUNFLAG,Capital Goods,3922.3,Mid Cap,False,ROE 1.9% < 8% (Mid Cap)
+SUNPHARMA,Healthcare,426385.81,Large Cap,True,
+SUNTECK,Realty,4518.33,Mid Cap,False,ROE 4.5% < 8% (Mid Cap)
+SUNTV,"Media, Entertainment & Publication",23367.25,Large Cap,True,
+SUPERHOUSE,Consumer Durables,154.25,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+SUPRAJIT,Automobile and Auto Components,5521.82,Mini Large,True,
+SUPREME,Realty,199.56,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+SUPREMEIND,Capital Goods,48728.24,Large Cap,True,
+SUPRIYA,Healthcare,4701.81,Mid Cap,False,TTM Profit negative or zero
+SURAJEST,Realty,965.58,Small Cap,False,Poor CF: 3.0/7.0 yrs
+SURAJLTD,Capital Goods,423.18,Small Cap,False,ROE 9.6% < 10% (Small Cap)
+SURAKSHA,Healthcare,1355.66,Mid Cap,True,
+SURANASOL,Capital Goods,109.24,Small Cap,False,TTM Profit negative or zero
+SURANAT&P,Power,234.05,Small Cap,False,Revenue 16.0Cr < 20Cr (Small Cap)
+SURYAROSNI,Capital Goods,4549.65,Mid Cap,True,
+SURYODAY,Financial Services,1313.1,Mid Cap,False,TTM Profit negative or zero
+SUTLEJTEX,Textiles,484.94,Small Cap,False,TTM Profit negative or zero
+SUVEN,Healthcare,3534.65,Mid Cap,False,TTM Profit negative or zero
+SUYOG,Telecommunication,796.65,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+SUZLON,Capital Goods,57533.71,Large Cap,False,Promoter 11.73% < 15% (Large Cap)
+SWANCORP,Chemicals,10028.15,Mini Large,False,Poor CF: 7.0/12.0 yrs
+SWARAJENG,Capital Goods,4336.89,Mid Cap,False,TTM Profit negative or zero
+SWELECTES,Capital Goods,860.47,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+SWIGGY,Consumer Services,73428.61,Large Cap,False,TTM Profit negative or zero
+SWSOLAR,Construction,4010.82,Mid Cap,False,D/E 2.61 > 1.5 (Mid Cap)
+SYMPHONY,Consumer Durables,5297.66,Mini Large,True,
+SYNCOMF,Healthcare,1108.1,Mid Cap,True,
+SYNGENE,Healthcare,16670.33,Mini Large,True,
+SYRMA,Capital Goods,15105.92,Mini Large,False,ROE 6.5% < 7% (Mini Large)
+TAINWALCHM,Capital Goods,169.86,Small Cap,False,TTM Profit negative or zero
+TAJGVK,Consumer Services,1892.64,Mid Cap,True,
+TALBROAUTO,Automobile and Auto Components,1460.18,Mid Cap,True,
+TANLA,Information Technology,5591.6,Mini Large,True,
+TARACHAND,Services,446.31,Small Cap,False,TTM Profit negative or zero
+TARC,Realty,3632.34,Mid Cap,False,TTM Profit negative or zero
+TARIL,Capital Goods,8559.23,Mini Large,True,
+TARSONS,Healthcare,981.71,Small Cap,False,ROE 4.8% < 10% (Small Cap)
+TASTYBITE,Fast Moving Consumer Goods,1726.79,Mid Cap,False,TTM Profit negative or zero
+TATACHEM,Chemicals,16133.71,Mini Large,False,ROE 1.7% < 7% (Mini Large)
+TATACOMM,Telecommunication,40378.8,Large Cap,False,D/E 4.68 > 2.5 (Large Cap)
+TATACONSUM,Fast Moving Consumer Goods,103938.16,Large Cap,True,
+TATAELXSI,Information Technology,26399.47,Large Cap,True,
+TATAINVEST,Financial Services,30488.72,Large Cap,False,ROE 1.0% < 6% (Large Cap)
+TATAPOWER,Power,128580.46,Large Cap,True,
+TATASTEEL,Metals & Mining,245408.55,Large Cap,False,ROE 3.3% < 6% (Large Cap)
+TATATECH,Information Technology,21908.68,Large Cap,True,
+TATVA,Chemicals,2639.91,Mid Cap,False,ROE 0.8% < 8% (Mid Cap)
+TBOTEK,Consumer Services,11379.23,Mini Large,True,
+TBZ,Consumer Durables,862.31,Small Cap,False,ROE 9.8% < 10% (Small Cap)
+TCI,Services,7249.22,Mini Large,True,
+TCIEXP,Services,1913.84,Mid Cap,True,
+TCPLPACK,Capital Goods,2119.9,Mid Cap,True,
+TCS,Information Technology,864940.04,Large Cap,True,
+TDPOWERSYS,Capital Goods,13485.25,Mini Large,False,Poor CF: 7.0/12.0 yrs
+TEAMLEASE,Services,1992.41,Mid Cap,True,
+TECHM,Information Technology,122702.65,Large Cap,True,
+TECHNOE,Construction,12672.0,Mini Large,True,
+TEGA,Capital Goods,12959.53,Mini Large,False,Promoter selling: -7.53% in 4Q
+TEJASNET,Telecommunication,7732.34,Mini Large,False,Poor CF: 7.0/12.0 yrs
+TEMBO,Capital Goods,775.52,Small Cap,False,D/E 1.06 > 1.0 (Small Cap)
+TERASOFT,Information Technology,415.27,Small Cap,False,ROE 6.7% < 10% (Small Cap)
+TEXINFRA,Services,1136.02,Mid Cap,False,TTM Profit negative or zero
+TEXMOPIPES,Capital Goods,118.15,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+TEXRAIL,Capital Goods,3647.52,Mid Cap,False,Poor CF: 5.0/10.0 yrs
+TFCILTD,Financial Services,3030.19,Mid Cap,False,Promoter 3.85% < 25% (Mid Cap)
+THANGAMAYL,Consumer Durables,10346.58,Mini Large,False,TTM Profit negative or zero
+THEINVEST,Financial Services,532.25,Small Cap,False,ROE 6.3% < 10% (Small Cap)
+THEJO,Capital Goods,1687.3,Mid Cap,True,
+THEMISMED,Healthcare,693.77,Small Cap,False,ROE 7.9% < 10% (Small Cap)
+THERMAX,Capital Goods,36356.16,Large Cap,True,
+THOMASCOOK,Consumer Services,4814.13,Mid Cap,True,
+THOMASCOTT,Textiles,402.08,Small Cap,False,TTM Profit negative or zero
+THYROCARE,Healthcare,5592.15,Mini Large,False,Promoter selling: -10.13% in 4Q
+TI,Fast Moving Consumer Goods,10737.1,Mini Large,False,Promoter selling: -8.29% in 4Q
+TICL,Construction,398.95,Small Cap,False,D/E 1.14 > 1.0 (Small Cap)
+TIIL,Capital Goods,4964.89,Mid Cap,True,
+TIINDIA,Automobile and Auto Components,49108.16,Large Cap,True,
+TIL,Capital Goods,1252.34,Mid Cap,False,ROE 3.6% < 8% (Mid Cap)
+TIMETECHNO,Capital Goods,8007.75,Mini Large,True,
+TIMKEN,Capital Goods,23839.1,Large Cap,False,ROE nan% < 6% (Large Cap)
+TIPSFILMS,"Media, Entertainment & Publication",135.18,Small Cap,False,TTM Profit negative or zero
+TIPSMUSIC,"Media, Entertainment & Publication",6590.36,Mini Large,False,TTM Profit negative or zero
+TIRUMALCHM,Chemicals,2102.08,Mid Cap,False,TTM Profit negative or zero
+TIRUPATIFL,Capital Goods,555.64,Small Cap,False,TTM Profit negative or zero
+TITAGARH,Capital Goods,8435.29,Mini Large,False,Poor CF: 7.0/12.0 yrs
+TITAN,Consumer Durables,364274.02,Large Cap,True,
+TMB,Financial Services,9485.25,Mini Large,False,TTM Profit negative or zero
+TNPETRO,Chemicals,739.64,Small Cap,False,ROE 5.9% < 10% (Small Cap)
+TNPL,Forest Materials,901.74,Small Cap,False,TTM Profit negative or zero
+TOLINS,Automobile and Auto Components,389.68,Small Cap,False,Poor CF: 0/2.0 yrs
+TORNTPHARM,Healthcare,144522.98,Large Cap,True,
+TORNTPOWER,Power,73101.28,Large Cap,True,
+TPLPLASTEH,Capital Goods,475.09,Small Cap,True,
+TRACXN,Services,342.94,Small Cap,False,TTM Profit negative or zero
+TRANSRAILL,Capital Goods,6718.17,Mini Large,True,
+TRANSWORLD,Services,298.19,Small Cap,False,ROE 4.4% < 10% (Small Cap)
+TREJHARA,Information Technology,402.58,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+TREL,Services,619.4,Small Cap,False,ROE 4.2% < 10% (Small Cap)
+TRENT,Consumer Services,126539.32,Large Cap,True,
+TRF,Capital Goods,253.6,Small Cap,False,D/E 1.44 > 1.0 (Small Cap)
+TRIDENT,Textiles,12370.17,Mini Large,True,
+TRIGYN,Information Technology,146.88,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+TRITURBINE,Capital Goods,14500.64,Mini Large,True,
+TRIVENI,Fast Moving Consumer Goods,7879.98,Mini Large,False,Poor CF: 7.0/12.0 yrs
+TTKHLTCARE,Diversified,1146.61,Mid Cap,False,TTM Profit negative or zero
+TTKPRESTIG,Consumer Durables,6387.39,Mini Large,False,ROE 5.7% < 7% (Mini Large)
+TTML,Telecommunication,7073.83,Mini Large,False,ROE nan% < 7% (Mini Large)
+TVSELECT,Information Technology,759.92,Small Cap,True,
+TVSHLTD,Financial Services,28042.44,Large Cap,True,
+TVSMOTOR,Automobile and Auto Components,164440.68,Large Cap,False,D/E 3.89 > 2.5 (Large Cap)
+TVSSRICHAK,Automobile and Auto Components,2747.17,Mid Cap,False,ROE 1.8% < 8% (Mid Cap)
+TVTODAY,"Media, Entertainment & Publication",601.22,Small Cap,False,ROE 8.5% < 10% (Small Cap)
+UBL,Fast Moving Consumer Goods,41482.52,Large Cap,True,
+UCAL,Automobile and Auto Components,216.49,Small Cap,False,TTM Profit negative or zero
+UCOBANK,Financial Services,31194.51,Large Cap,True,
+UDS,Services,932.94,Small Cap,True,
+UEL,Power,2020.71,Mid Cap,False,ROE 7.9% < 8% (Mid Cap)
+UFLEX,Capital Goods,3148.59,Mid Cap,False,ROE 1.8% < 8% (Mid Cap)
+UFO,"Media, Entertainment & Publication",246.78,Small Cap,False,ROE 3.2% < 10% (Small Cap)
+UGARSUGAR,Fast Moving Consumer Goods,431.44,Small Cap,False,D/E 1.31 > 1.0 (Small Cap)
+UGROCAP,Financial Services,1446.36,Mid Cap,False,TTM Profit negative or zero
+UJJIVANSFB,Financial Services,10366.32,Mini Large,False,TTM Profit negative or zero
+ULTRACEMCO,Construction Materials,321649.72,Large Cap,True,
+UMAEXPORTS,Services,70.97,Small Cap,False,ROE 2.1% < 10% (Small Cap)
+UNICHEMLAB,Healthcare,2206.16,Mid Cap,False,ROE 5.7% < 8% (Mid Cap)
+UNIDT,Capital Goods,320.32,Small Cap,False,ROE 5.6% < 10% (Small Cap)
+UNIECOM,Information Technology,1029.94,Mid Cap,True,
+UNIENTER,Chemicals,671.16,Small Cap,False,TTM Profit negative or zero
+UNIMECH,Capital Goods,4047.44,Mid Cap,True,
+UNIONBANK,Financial Services,135631.01,Large Cap,True,
+UNIPARTS,Automobile and Auto Components,2056.02,Mid Cap,True,
+UNITDSPR,Fast Moving Consumer Goods,94569.43,Large Cap,True,
+UNITEDPOLY,Textiles,643.56,Small Cap,True,
+UNITEDTEA,Fast Moving Consumer Goods,255.32,Small Cap,True,
+UNIVASTU,Construction,226.43,Small Cap,False,Poor CF: 5.0/10.0 yrs
+UNIVCABLES,Capital Goods,2349.55,Mid Cap,False,ROE 4.8% < 8% (Mid Cap)
+UNOMINDA,Automobile and Auto Components,61610.33,Large Cap,True,
+UPL,Chemicals,52876.75,Large Cap,False,ROE 2.6% < 6% (Large Cap)
+URAVIDEF,Automobile and Auto Components,145.15,Small Cap,False,ROE 5.1% < 10% (Small Cap)
+URJA,Capital Goods,503.71,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+USHAMART,Capital Goods,12216.68,Mini Large,True,
+UTIAMC,Financial Services,12089.65,Mini Large,False,Promoter nan% < 20% (Mini Large)
+UTKARSHBNK,Financial Services,2114.07,Mid Cap,False,TTM Profit negative or zero
+UTTAMSUGAR,Fast Moving Consumer Goods,881.39,Small Cap,True,
+UYFINCORP,Financial Services,244.84,Small Cap,False,ROE 2.4% < 10% (Small Cap)
+V2RETAIL,Consumer Services,6972.6,Mini Large,False,D/E 3.39 > 2.0 (Mini Large)
+VADILALIND,Fast Moving Consumer Goods,3257.38,Mid Cap,True,
+VAIBHAVGBL,Consumer Durables,3418.63,Mid Cap,True,
+VAISHALI,Healthcare,78.02,Small Cap,False,TTM Profit negative or zero
+VAKRANGEE,Information Technology,617.42,Small Cap,False,ROE 2.9% < 10% (Small Cap)
+VALIANTLAB,Healthcare,331.85,Small Cap,False,TTM Profit negative or zero
+VALIANTORG,Chemicals,756.64,Small Cap,False,TTM Profit negative or zero
+VARDHACRLC,Textiles,260.62,Small Cap,False,TTM Profit negative or zero
+VARROC,Automobile and Auto Components,7612.46,Mini Large,False,ROE 4.2% < 7% (Mini Large)
+VASCONEQ,Realty,724.62,Small Cap,True,
+VASWANI,Metals & Mining,172.15,Small Cap,False,ROE nan% < 10% (Small Cap)
+VBL,Fast Moving Consumer Goods,135774.18,Large Cap,True,
+VEDL,Metals & Mining,262707.24,Large Cap,True,
+VEEDOL,"Oil, Gas & Consumable Fuels",2262.53,Mid Cap,True,
+VENKEYS,Fast Moving Consumer Goods,1838.68,Mid Cap,False,TTM Profit negative or zero
+VENTIVE,Consumer Services,14979.36,Mini Large,False,ROE 3.3% < 7% (Mini Large)
+VENUSPIPES,Capital Goods,1975.47,Mid Cap,False,TTM Profit negative or zero
+VENUSREM,Healthcare,1161.95,Mid Cap,False,ROE 7.6% < 8% (Mid Cap)
+VERANDA,Consumer Services,1345.88,Mid Cap,False,TTM Profit negative or zero
+VERTOZ,"Media, Entertainment & Publication",320.64,Small Cap,True,
+VESUVIUS,Capital Goods,9716.71,Mini Large,False,TTM Profit negative or zero
+VETO,Consumer Durables,178.27,Small Cap,False,ROE 8.0% < 10% (Small Cap)
+VGL,Textiles,295.67,Small Cap,False,TTM Profit negative or zero
+VGUARD,Consumer Durables,14174.66,Mini Large,True,
+VHL,Financial Services,1015.2,Mid Cap,False,ROE 6.9% < 8% (Mid Cap)
+VIDHIING,Chemicals,1402.63,Mid Cap,True,
+VIJAYA,Healthcare,9308.04,Mini Large,True,
+VIMTALABS,Healthcare,1913.12,Mid Cap,True,
+VINATIORGA,Chemicals,14380.53,Mini Large,True,
+VINCOFE,Services,1922.88,Mid Cap,False,ROE 7.6% < 8% (Mid Cap)
+VINDHYATEL,Telecommunication,1254.53,Mid Cap,False,ROE 4.8% < 8% (Mid Cap)
+VINEETLAB,Healthcare,57.14,Small Cap,False,TTM Profit negative or zero
+VINYLINDIA,Chemicals,355.29,Small Cap,False,TTM Profit negative or zero
+VIPCLOTHNG,Textiles,156.07,Small Cap,False,TTM Profit negative or zero
+VIPIND,Consumer Durables,4789.74,Mid Cap,False,TTM Profit negative or zero
+VIRINCHI,Information Technology,182.75,Small Cap,False,TTM Profit negative or zero
+VISAKAIND,Construction Materials,492.94,Small Cap,False,TTM Profit negative or zero
+VISHNU,Chemicals,3455.29,Mid Cap,True,
+VIVIMEDLAB,Healthcare,52.07,Small Cap,False,TTM Profit negative or zero
+VLEGOV,Information Technology,119.93,Small Cap,False,TTM Profit negative or zero
+VLSFINANCE,Financial Services,702.41,Small Cap,False,ROE 1.7% < 10% (Small Cap)
+VMART,Consumer Services,4076.06,Mid Cap,False,TTM Profit negative or zero
+VMM,Consumer Services,47804.82,Large Cap,False,Promoter selling: -21.93% in 4Q
+VOLTAMP,Capital Goods,8705.28,Mini Large,False,TTM Profit negative or zero
+VOLTAS,Consumer Durables,43825.68,Large Cap,True,
+VPRPL,Construction,462.4,Small Cap,False,TTM Profit negative or zero
+VRAJ,Metals & Mining,362.41,Small Cap,True,
+VRLLOG,Services,4223.85,Mid Cap,False,TTM Profit negative or zero
+VSSL,Capital Goods,2249.36,Mid Cap,False,Promoter selling: -9.39% in 4Q
+VSTIND,Fast Moving Consumer Goods,3626.2,Mid Cap,True,
+VSTL,Capital Goods,214.5,Small Cap,False,TTM Profit negative or zero
+VSTTILLERS,Capital Goods,4528.26,Mid Cap,True,
+VTL,Textiles,15413.46,Mini Large,True,
+WAAREEENER,Capital Goods,91064.23,Large Cap,True,
+WABAG,Utilities,7706.07,Mini Large,False,Promoter 19.1% < 20% (Mini Large)
+WALCHANNAG,Capital Goods,1005.01,Mid Cap,False,TTM Profit negative or zero
+WCIL,Services,942.27,Small Cap,False,ROE 7.7% < 10% (Small Cap)
+WEALTH,Financial Services,952.34,Small Cap,True,
+WEBELSOLAR,Capital Goods,3159.15,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+WEL,Consumer Durables,1795.71,Mid Cap,True,
+WELCORP,Capital Goods,21197.84,Large Cap,True,
+WELENT,Construction,6325.59,Mini Large,False,Poor CF: 3.0/12.0 yrs
+WELINV,Financial Services,467.15,Small Cap,False,TTM Profit negative or zero
+WELSPUNLIV,Textiles,10959.81,Mini Large,True,
+WENDT,Capital Goods,1346.4,Mid Cap,False,Promoter selling: -37.5% in 4Q
+WESTLIFE,Consumer Services,6791.47,Mini Large,False,ROE 1.9% < 7% (Mini Large)
+WHEELS,Automobile and Auto Components,2509.76,Mid Cap,True,
+WHIRLPOOL,Consumer Durables,10614.98,Mini Large,False,Promoter selling: -11.24% in 4Q
+WINDLAS,Healthcare,1533.46,Mid Cap,True,
+WINDMACHIN,Capital Goods,2020.35,Mid Cap,False,TTM Profit negative or zero
+WIPRO,Information Technology,199998.85,Large Cap,True,
+WOCKPHARMA,Healthcare,19112.33,Mini Large,False,TTM Profit negative or zero
+WONDERLA,Consumer Services,3299.24,Mid Cap,False,TTM Profit negative or zero
+WORTHPERI,Capital Goods,198.68,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+WSI,Construction,528.24,Small Cap,False,TTM Profit negative or zero
+WSTCSTPAPR,Forest Materials,2870.82,Mid Cap,True,
+XCHANGING,Information Technology,631.66,Small Cap,True,
+XELPMOC,Information Technology,133.29,Small Cap,False,TTM Profit negative or zero
+XPROINDIA,Capital Goods,2362.63,Mid Cap,False,ROE 5.5% < 8% (Mid Cap)
+XTGLOBAL,Information Technology,402.1,Small Cap,False,ROE 5.2% < 10% (Small Cap)
+YASHO,Chemicals,1706.27,Mid Cap,False,ROE 1.4% < 8% (Mid Cap)
+YATHARTH,Healthcare,6169.09,Mini Large,False,Promoter selling: -5.64% in 4Q
+YATRA,Consumer Services,1682.14,Mid Cap,False,ROE 4.5% < 8% (Mid Cap)
+YESBANK,Financial Services,58332.33,Large Cap,False,ROE 5.0% < 6% (Large Cap)
+YUKEN,Capital Goods,907.82,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+ZAGGLE,Information Technology,2799.56,Mid Cap,False,ROE 6.7% < 8% (Mid Cap)
+ZEEL,"Media, Entertainment & Publication",6990.66,Mini Large,False,ROE 5.9% < 7% (Mini Large)
+ZEELEARN,Consumer Services,167.16,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+ZENITHSTL,Capital Goods,72.02,Small Cap,False,ROE nan% < 10% (Small Cap)
+ZENSARTECH,Information Technology,12809.38,Mini Large,True,
+ZENTEC,Capital Goods,12720.08,Mini Large,False,Poor CF: 6.0/12.0 yrs
+ZFCVINDIA,Automobile and Auto Components,26177.16,Large Cap,True,
+ZIMLAB,Healthcare,329.84,Small Cap,False,ROE 4.8% < 10% (Small Cap)
+ZODIAC,Construction,,Small Cap,False,D/E 1.78 > 1.0 (Small Cap)
+ZOTA,Healthcare,3328.71,Mid Cap,False,TTM Profit negative or zero
+ZUARI,Chemicals,830.43,Small Cap,False,ROE 9.1% < 10% (Small Cap)
+ZUARIIND,Fast Moving Consumer Goods,686.31,Small Cap,False,TTM Profit negative or zero
+ZYDUSLIFE,Healthcare,89634.54,Large Cap,True,
+ZYDUSWELL,Fast Moving Consumer Goods,13565.68,Mini Large,False,ROE 6.1% < 7% (Mini Large)
+ANDHRAPET,Chemicals,310.32,Small Cap,False,TTM Profit negative or zero
+GOODYEAR,Automobile and Auto Components,1718.8,Mid Cap,False,TTM Profit negative or zero
+KINETICENG,Automobile and Auto Components,536.46,Small Cap,False,ROE 5.5% < 10% (Small Cap)
+KIRLFER,Metals & Mining,5935.53,Mini Large,True,
+NIRLON,Services,4432.01,Mid Cap,False,TTM Profit negative or zero
+SILVERLINE,Information Technology,172.77,Small Cap,False,TTM Profit negative or zero
+RELINFRA,Power,3160.14,Mid Cap,False,Promoter 19.05% < 25% (Mid Cap)
+TRANSCHEM,Healthcare,189.54,Small Cap,False,TTM Profit negative or zero
+HOCL,Chemicals,182.24,Small Cap,False,Poor CF: 4.0/12.0 yrs
+HINDMOTORS,Automobile and Auto Components,272.51,Small Cap,False,TTM Profit negative or zero
+NOVARTIND,Healthcare,2306.61,Mid Cap,False,TTM Profit negative or zero
+GLOBOFFS,Services,143.3,Small Cap,False,ROE 2.8% < 10% (Small Cap)
+KESORAMIND,Construction Materials,250.08,Small Cap,False,Inconsistent profits: 2.0/13.0 quarters
+ELPROINTL,Realty,1491.92,Mid Cap,False,ROE 3.3% < 8% (Mid Cap)
+ZFSTEERING,Automobile and Auto Components,603.92,Small Cap,False,ROE 2.7% < 10% (Small Cap)
+GRAUWEIL,Chemicals,2593.06,Mid Cap,True,
+HERCULES,Capital Goods,322.24,Small Cap,False,ROE 3.8% < 10% (Small Cap)
+KENNAMET,Capital Goods,4879.72,Mid Cap,True,
+TRANSPEK,Chemicals,553.81,Small Cap,False,ROE 6.4% < 10% (Small Cap)
+TANFACIND,Chemicals,3871.9,Mid Cap,False,TTM Profit negative or zero
+JAGAJITIND,Fast Moving Consumer Goods,617.53,Small Cap,False,TTM Profit negative or zero
+HAWKINCOOK,Consumer Durables,3978.05,Mid Cap,False,TTM Profit negative or zero
+PANCARBON,Capital Goods,213.1,Small Cap,False,TTM Profit negative or zero
+SIMPLEXCAS,Capital Goods,377.16,Small Cap,False,ROE 2.3% < 10% (Small Cap)
+KSE,Fast Moving Consumer Goods,613.44,Small Cap,False,TTM Profit negative or zero
+SICALLOG,Services,430.58,Small Cap,False,TTM Profit negative or zero
+BATLIBOI,Capital Goods,361.84,Small Cap,False,ROE 5.8% < 10% (Small Cap)
+KOVAI,Healthcare,5765.37,Mini Large,True,
+WATERBASE,Fast Moving Consumer Goods,170.8,Small Cap,False,TTM Profit negative or zero
+VHLTD,Consumer Services,959.62,Small Cap,False,Poor CF: 7.0/12.0 yrs
+WANBURY,Healthcare,863.88,Small Cap,False,D/E 3.03 > 1.0 (Small Cap)
+ANDREWYU,Fast Moving Consumer Goods,918.25,Small Cap,False,TTM Profit negative or zero
+WIMPLAST,Consumer Durables,426.42,Small Cap,True,
+SHAWGELTIN,Chemicals,211.37,Small Cap,True,
+FAZE3Q,Textiles,1004.94,Mid Cap,True,
+ARIHANT,Realty,986.6,Small Cap,False,Poor CF: 4.0/12.0 yrs
+RAJESHEXPO,Consumer Durables,2788.73,Mid Cap,False,ROE 0.6% < 8% (Mid Cap)
+GVPIL,Capital Goods,2869.94,Mid Cap,False,Inconsistent profits: 6.0/13.0 quarters
+IZMO,Information Technology,1052.02,Mid Cap,True,
+BCG,Information Technology,1772.26,Mid Cap,False,ROE 7.5% < 8% (Mid Cap)
+BFUTILITIE,Services,1576.2,Mid Cap,False,D/E 4.61 > 1.5 (Mid Cap)
+RAJPALAYAM,Textiles,685.25,Small Cap,False,ROE 0.7% < 10% (Small Cap)
+SALSTEEL,Metals & Mining,529.41,Small Cap,False,TTM Profit negative or zero
+ZEEMEDIA,"Media, Entertainment & Publication",460.94,Small Cap,False,TTM Profit negative or zero
+EMBDL,Realty,6684.67,Mini Large,False,ROE 1.9% < 7% (Mini Large)
+TAKE,Healthcare,546.44,Small Cap,False,Promoter 0.0% < 30% (Small Cap)
+VTMLTD,Textiles,826.07,Small Cap,False,TTM Profit negative or zero
+BGRENERGY,Construction,2101.71,Mid Cap,False,TTM Profit negative or zero
+SWANDEF,Capital Goods,10839.62,Mini Large,False,TTM Profit negative or zero
+TRUEGREEN,Textiles,503.29,Small Cap,False,TTM Profit negative or zero
+SCHNEIDER,Capital Goods,21282.65,Large Cap,False,TTM Profit negative or zero
+CPSEETF,,,Small Cap,False,TTM Profit negative or zero
+RNBDENIMS,Textiles,752.63,Small Cap,True,
+VISHAL,Textiles,434.06,Small Cap,False,ROE 4.8% < 10% (Small Cap)
+MANAKALUCO,Metals & Mining,164.42,Small Cap,False,TTM Profit negative or zero
+BESTAGRO,Chemicals,512.15,Small Cap,False,ROE 8.6% < 10% (Small Cap)
+ZEAL,Services,157.58,Small Cap,True,
+JITFINFRA,Utilities,813.39,Small Cap,False,ROE nan% < 10% (Small Cap)
+SCPL,Fast Moving Consumer Goods,317.1,Small Cap,False,TTM Profit negative or zero
+HARDWYN,Consumer Durables,915.33,Small Cap,False,ROE 2.7% < 10% (Small Cap)
+AXITA,Textiles,338.56,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+NSL,,183.55,Small Cap,False,TTM Profit negative or zero
+DJML,Services,281.73,Small Cap,False,ROE 9.9% < 10% (Small Cap)
+BONLON,Metals & Mining,54.78,Small Cap,False,ROE 3.6% < 10% (Small Cap)
+GCSL,Financial Services,843.26,Small Cap,False,ROE 1.4% < 10% (Small Cap)
+BRIGHT,Capital Goods,851.1,Small Cap,False,TTM Profit negative or zero
+TVSSCS,Services,4429.45,Mid Cap,False,TTM Profit negative or zero
+KALYANI,Capital Goods,374.53,Small Cap,False,D/E 1.77 > 1.0 (Small Cap)
+AFIL,Financial Services,360.18,Small Cap,False,TTM Profit negative or zero
+OILIETF,,,Small Cap,False,TTM Profit negative or zero
+METALIETF,,,Small Cap,False,TTM Profit negative or zero
+KAVDEFENCE,Telecommunication,361.65,Small Cap,False,ROE 7.2% < 10% (Small Cap)
+NIFTYBEES,,,Small Cap,False,TTM Profit negative or zero
+JUNIORBEES,,,Small Cap,False,TTM Profit negative or zero
+BANKBEES,,,Small Cap,False,TTM Profit negative or zero
+PSUBNKBEES,,,Small Cap,False,TTM Profit negative or zero
+IGL,"Oil, Gas & Consumable Fuels",21948.51,Large Cap,True,
+INDGN,Healthcare,10589.57,Mini Large,False,Promoter nan% < 20% (Mini Large)
+AMBALALSA,Healthcare,221.78,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+DISAQ,Capital Goods,1674.24,Mid Cap,True,
+ELANTAS,Chemicals,6001.73,Mini Large,False,TTM Profit negative or zero
+PHCAP,Financial Services,177.52,Small Cap,False,TTM Profit negative or zero
+COCKERILL,Capital Goods,2312.11,Mid Cap,False,TTM Profit negative or zero
+ITHL,Consumer Services,236.68,Small Cap,False,TTM Profit negative or zero
+MAFATIND,Textiles,872.46,Small Cap,True,
+MAJESAUT,Services,309.74,Small Cap,False,ROE 1.3% < 10% (Small Cap)
+NAPEROL,Financial Services,314.36,Small Cap,False,ROE 4.7% < 10% (Small Cap)
+RAPICUT,Capital Goods,76.81,Small Cap,False,TTM Profit negative or zero
+WELSPLSOL,Capital Goods,2282.7,Mid Cap,False,TTM Profit negative or zero
+TIMEX,Consumer Durables,2828.11,Mid Cap,False,TTM Profit negative or zero
+INDPRUD,Financial Services,888.2,Small Cap,False,ROE 7.2% < 10% (Small Cap)
+TECHNVISN,Information Technology,3767.67,Mid Cap,False,TTM Profit negative or zero
+FORBESCO,Consumer Durables,423.98,Small Cap,True,
+ELCIDIN,Financial Services,1918.89,Mid Cap,False,ROE 1.6% < 8% (Mid Cap)
+JYOTI,Capital Goods,142.23,Small Cap,False,ROE nan% < 10% (Small Cap)
+KAYCEEI,Capital Goods,255.67,Small Cap,True,
+INDOKEM,Chemicals,1543.89,Mid Cap,False,ROE 4.8% < 8% (Mid Cap)
+PERMAGN,Capital Goods,580.87,Small Cap,True,
+HIGHENE,Fast Moving Consumer Goods,466.43,Small Cap,False,TTM Profit negative or zero
+DLTNCBL,Capital Goods,364.05,Small Cap,False,TTM Profit negative or zero
+UNIABEXAL,Capital Goods,556.93,Small Cap,False,TTM Profit negative or zero
+INLCM,Capital Goods,367.6,Small Cap,False,TTM Profit negative or zero
+INVPRECQ,Capital Goods,437.34,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+RATHIST,Capital Goods,141.29,Small Cap,False,TTM Profit negative or zero
+ACGL,Automobile and Auto Components,962.52,Small Cap,False,TTM Profit negative or zero
+KPT,Capital Goods,136.07,Small Cap,False,D/E 1.21 > 1.0 (Small Cap)
+INTEGRAEN,Capital Goods,463.36,Small Cap,True,
+GHVINFRA,Construction,2076.48,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+LATIMMETAL,Metals & Mining,129.06,Small Cap,False,TTM Profit negative or zero
+HIMTEK,Automobile and Auto Components,182.32,Small Cap,False,ROE nan% < 10% (Small Cap)
+INTLCOMBQ,Capital Goods,97.36,Small Cap,False,TTM Profit negative or zero
+JOSTS,Capital Goods,261.13,Small Cap,True,
+WPIL,Capital Goods,3752.02,Mid Cap,True,
+TRITONV,Automobile and Auto Components,433.12,Small Cap,False,ROE 4.1% < 10% (Small Cap)
+APIS,Fast Moving Consumer Goods,786.01,Small Cap,True,
+FERMENTA,Healthcare,1016.7,Mid Cap,False,Inconsistent profits: 8.0/13.0 quarters
+KELENRG,Chemicals,309.52,Small Cap,False,TTM Profit negative or zero
+NITTAGELA,Chemicals,736.14,Small Cap,True,
+AMAL,Chemicals,588.34,Small Cap,False,Inconsistent profits: 10.0/13.0 quarters
+ULTRAMAR,Chemicals,1174.72,Mid Cap,False,ROE 7.1% < 8% (Mid Cap)
+SWADEIN,Capital Goods,101.69,Small Cap,False,ROE nan% < 10% (Small Cap)
+TGVSL,Chemicals,886.06,Small Cap,False,TTM Profit negative or zero
+LKPFIN,Financial Services,260.99,Small Cap,False,ROE 0.5% < 10% (Small Cap)
+BAJAJST,Capital Goods,785.51,Small Cap,True,
+SIMMOND,Automobile and Auto Components,153.78,Small Cap,False,D/E 1.53 > 1.0 (Small Cap)
+BENARAS,Consumer Services,1235.74,Mid Cap,False,TTM Profit negative or zero
+KOTIC,Chemicals,1850.95,Mid Cap,False,TTM Profit negative or zero
+ZMILGFIN,Services,116.34,Small Cap,False,TTM Profit negative or zero
+FEDDERSHOL,Financial Services,759.74,Small Cap,False,ROE 7.0% < 10% (Small Cap)
+OMEGAIN,Information Technology,147.16,Small Cap,False,TTM Profit negative or zero
+YOGI,Financial Services,690.34,Small Cap,False,ROE 2.0% < 10% (Small Cap)
+NIMBSPROJ,Realty,372.95,Small Cap,False,Inconsistent profits: 6.0/13.0 quarters
+SAHLIBHFI,Financial Services,271.79,Small Cap,False,TTM Profit negative or zero
+AASTAFIN,Financial Services,56.25,Small Cap,False,TTM Profit negative or zero
+ZSARACOM,Financial Services,1035.66,Mid Cap,False,ROE 6.0% < 8% (Mid Cap)
+BANGANGA,Services,1760.47,Mid Cap,False,Poor CF: 0/2.0 yrs
+DECNGOLD,Metals & Mining,1903.0,Mid Cap,False,TTM Profit negative or zero
+ABANSENT,Metals & Mining,151.7,Small Cap,False,ROE 8.8% < 10% (Small Cap)
+VERITAS,Services,399.74,Small Cap,False,ROE 4.1% < 10% (Small Cap)
+CUPIDALBV,Fast Moving Consumer Goods,218.13,Small Cap,False,TTM Profit negative or zero
+SERA,Financial Services,227.0,Small Cap,False,ROE 1.0% < 10% (Small Cap)
+GARNETINT,Financial Services,107.66,Small Cap,False,ROE 3.7% < 10% (Small Cap)
+MANBRO,Consumer Durables,536.6,Small Cap,False,TTM Profit negative or zero
+SYNTHFO,Capital Goods,2674.39,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+INDIAHOMES,Capital Goods,586.77,Small Cap,False,TTM Profit negative or zero
+BAROEXT,Capital Goods,158.23,Small Cap,False,TTM Profit negative or zero
+GLITTEKG,Construction Materials,100.44,Small Cap,False,TTM Profit negative or zero
+PRADPME,Automobile and Auto Components,642.88,Small Cap,True,
+GNRL,"Oil, Gas & Consumable Fuels",1434.31,Mid Cap,False,TTM Profit negative or zero
+RUDRAECO,Textiles,222.67,Small Cap,False,TTM Profit negative or zero
+MKVENTURES,Financial Services,322.41,Small Cap,False,ROE 8.6% < 10% (Small Cap)
+ONEGLOBAL,Healthcare,400.46,Small Cap,False,TTM Profit negative or zero
+KRRAIL,Construction,94.9,Small Cap,False,ROE 5.8% < 10% (Small Cap)
+BPAGRI,Chemicals,1819.73,Mid Cap,False,TTM Profit negative or zero
+JYOTIRES,Chemicals,907.56,Small Cap,False,ROE 0.1% < 10% (Small Cap)
+WINSOMTX,Textiles,136.56,Small Cap,False,D/E 3.34 > 1.0 (Small Cap)
+MODINSU,Capital Goods,1048.72,Mid Cap,False,ROE 7.9% < 8% (Mid Cap)
+SEKURITIND,Automobile and Auto Components,847.92,Small Cap,False,TTM Profit negative or zero
+HALDYNGL,Capital Goods,430.82,Small Cap,False,ROE 8.6% < 10% (Small Cap)
+STHINPA,Forest Materials,168.75,Small Cap,False,TTM Profit negative or zero
+RIR,Capital Goods,1174.89,Mid Cap,False,ROE 5.8% < 8% (Mid Cap)
+SPELS,Capital Goods,629.04,Small Cap,False,TTM Profit negative or zero
+BCCFUBA,Information Technology,199.38,Small Cap,False,TTM Profit negative or zero
+GUJINTRX,Capital Goods,154.9,Small Cap,False,TTM Profit negative or zero
+PATELSAI,Capital Goods,121.17,Small Cap,True,
+NARMP,Capital Goods,59.27,Small Cap,False,TTM Profit negative or zero
+MAGNAELQ,Capital Goods,380.97,Small Cap,False,TTM Profit negative or zero
+DHINDIA,Capital Goods,227.73,Small Cap,False,D/E 1.34 > 1.0 (Small Cap)
+SURAJ,Capital Goods,247.32,Small Cap,False,TTM Profit negative or zero
+VADILENT,Fast Moving Consumer Goods,851.88,Small Cap,False,TTM Profit negative or zero
+AJANTSOY,Fast Moving Consumer Goods,166.36,Small Cap,False,TTM Profit negative or zero
+SHINDL,Fast Moving Consumer Goods,579.21,Small Cap,False,ROE 6.6% < 10% (Small Cap)
+IBINFO,Fast Moving Consumer Goods,87.62,Small Cap,False,TTM Profit negative or zero
+CIANAGRO,Fast Moving Consumer Goods,2714.35,Mid Cap,False,ROE 2.0% < 8% (Mid Cap)
+SUDTIND-B,Textiles,338.56,Small Cap,False,ROE 9.4% < 10% (Small Cap)
+BGDL,Information Technology,926.53,Small Cap,False,TTM Profit negative or zero
+FLUIDOM,Capital Goods,289.95,Small Cap,True,
+UVDRHOR,Capital Goods,228.29,Small Cap,False,TTM Profit negative or zero
+KLBRENG-B,Capital Goods,2616.32,Mid Cap,False,Poor CF: 1.0/2.0 yrs
+BIRLAPREC,Capital Goods,203.93,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+ARTSON,Capital Goods,551.22,Small Cap,False,TTM Profit negative or zero
+FRONTSP,Automobile and Auto Components,1623.57,Mid Cap,False,TTM Profit negative or zero
+TANAA,Capital Goods,628.21,Small Cap,True,
+CENLUB,Capital Goods,84.61,Small Cap,False,ROE 9.8% < 10% (Small Cap)
+CANDOUR,Capital Goods,355.06,Small Cap,False,ROE 1.6% < 10% (Small Cap)
+COSMOFE,Capital Goods,126.25,Small Cap,False,TTM Profit negative or zero
+CROPSTER,Capital Goods,566.16,Small Cap,False,TTM Profit negative or zero
+MORGANITE,Capital Goods,714.5,Small Cap,True,
+SHRIGANG,Fast Moving Consumer Goods,177.49,Small Cap,False,TTM Profit negative or zero
+MINID,Consumer Durables,208.82,Small Cap,False,ROE 4.6% < 10% (Small Cap)
+ADCINDIA,Telecommunication,568.01,Small Cap,False,TTM Profit negative or zero
+LOTUSCHO,Fast Moving Consumer Goods,852.32,Small Cap,False,ROE 5.1% < 10% (Small Cap)
+SWISSMLTRY,Consumer Durables,382.31,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+SIKA,Capital Goods,1940.41,Mid Cap,True,
+YASHINNO,Services,72.94,Small Cap,False,TTM Profit negative or zero
+GOLKUNDIA,Consumer Durables,200.11,Small Cap,False,TTM Profit negative or zero
+AXTEL,Capital Goods,612.99,Small Cap,False,TTM Profit negative or zero
+KESARPE,Chemicals,228.34,Small Cap,False,TTM Profit negative or zero
+GUJINJEC,Healthcare,102.98,Small Cap,False,TTM Profit negative or zero
+KABRADG,Healthcare,64.11,Small Cap,False,TTM Profit negative or zero
+KMCSHIL,Healthcare,1321.64,Mid Cap,False,TTM Profit negative or zero
+ISTRNETWK,Information Technology,273.06,Small Cap,False,TTM Profit negative or zero
+SHUKRAPHAR,Healthcare,1642.05,Mid Cap,False,ROE nan% < 8% (Mid Cap)
+ALUFLUOR,Chemicals,329.28,Small Cap,True,
+TITANBIO,Chemicals,1638.49,Mid Cap,True,
+EVERESTO,Healthcare,276.75,Small Cap,False,TTM Profit negative or zero
+BDH,Healthcare,230.29,Small Cap,False,TTM Profit negative or zero
+STELLANT,Financial Services,242.75,Small Cap,False,TTM Profit negative or zero
+NIKHILAD,Chemicals,324.82,Small Cap,False,TTM Profit negative or zero
+MULTIBASE,Chemicals,210.38,Small Cap,False,TTM Profit negative or zero
+ASMTEC,Information Technology,3240.1,Mid Cap,False,Poor CF: 6.0/12.0 yrs
+AEIM,Information Technology,320.69,Small Cap,False,ROE nan% < 10% (Small Cap)
+IIRM,Services,586.04,Small Cap,False,Poor CF: 1.0/2.0 yrs
+MIDWEST,Construction Materials,5316.46,Mini Large,False,TTM Profit negative or zero
+TEXELIN,Capital Goods,99.86,Small Cap,False,Promoter 25.5% < 30% (Small Cap)
+NICCOPAR,Consumer Services,295.4,Small Cap,True,
+NTCIND,Fast Moving Consumer Goods,229.47,Small Cap,False,ROE 5.0% < 10% (Small Cap)
+GARNET,Realty,122.33,Small Cap,False,ROE 1.4% < 10% (Small Cap)
+PGFOILQ,Metals & Mining,262.08,Small Cap,False,TTM Profit negative or zero
+VALIANT,Telecommunication,1236.84,Mid Cap,True,
+DRAGARWQ,Healthcare,2303.83,Mid Cap,False,TTM Profit negative or zero
+DAICHI,Chemicals,177.97,Small Cap,False,ROE 4.9% < 10% (Small Cap)
+SPICEISLIN,Consumer Durables,147.98,Small Cap,False,Revenue 19.0Cr < 20Cr (Small Cap)
+RAJSEC,"Oil, Gas & Consumable Fuels",269.83,Small Cap,False,TTM Profit negative or zero
+KALIND,Services,1014.25,Mid Cap,False,TTM Profit negative or zero
+PURETROP,Fast Moving Consumer Goods,141.31,Small Cap,False,TTM Profit negative or zero
+NILE,Metals & Mining,450.62,Small Cap,True,
+KISAN,Capital Goods,273.33,Small Cap,False,ROE 1.5% < 10% (Small Cap)
+KERALAYUR,Healthcare,222.75,Small Cap,False,TTM Profit negative or zero
+FUNDVISER,Financial Services,202.88,Small Cap,False,Inconsistent profits: 3.0/7.0 quarters
+KINGSINFR,Fast Moving Consumer Goods,262.94,Small Cap,False,Poor CF: 0/3.0 yrs
+AUROLAB,Healthcare,173.89,Small Cap,False,ROE 4.2% < 10% (Small Cap)
+ARYAMAN,Financial Services,733.53,Small Cap,True,
+BRIDGESE,Financial Services,53.69,Small Cap,False,TTM Profit negative or zero
+RAJTUBE,Capital Goods,64.01,Small Cap,False,TTM Profit negative or zero
+HINDTIN,Capital Goods,102.75,Small Cap,False,TTM Profit negative or zero
+GTTDATA,Information Technology,227.86,Small Cap,False,TTM Profit negative or zero
+VIKRAMTH,Chemicals,449.04,Small Cap,False,TTM Profit negative or zero
+AKCAPIT,Financial Services,1012.64,Mid Cap,True,
+TELECANOR,Information Technology,60.4,Small Cap,False,TTM Profit negative or zero
+SAMPRE,Fast Moving Consumer Goods,190.85,Small Cap,False,TTM Profit negative or zero
+VIPULORG,Chemicals,333.65,Small Cap,False,ROE 4.7% < 10% (Small Cap)
+ECORECO,Utilities,574.37,Small Cap,True,
+LYKISLTD,Services,85.39,Small Cap,False,ROE 8.1% < 10% (Small Cap)
+OVOBELE,Fast Moving Consumer Goods,112.16,Small Cap,False,TTM Profit negative or zero
+SUNSHIEL,Chemicals,698.35,Small Cap,False,TTM Profit negative or zero
+ABVL,Financial Services,130.65,Small Cap,False,TTM Profit negative or zero
+SKCIL,Construction Materials,252.62,Small Cap,False,TTM Profit negative or zero
+EBIX,Automobile and Auto Components,427.03,Small Cap,False,TTM Profit negative or zero
+VIJSOLX,Fast Moving Consumer Goods,154.77,Small Cap,False,ROE 5.1% < 10% (Small Cap)
+SYSCHEM,Healthcare,193.33,Small Cap,False,TTM Profit negative or zero
+COMFINTE,Fast Moving Consumer Goods,231.0,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+DHRUVCA,Financial Services,168.76,Small Cap,False,TTM Profit negative or zero
+OPTIFIN,Financial Services,96.39,Small Cap,True,
+TRISHAKT,Services,212.71,Small Cap,False,ROE 9.9% < 10% (Small Cap)
+AVAILFC,Financial Services,134.59,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+MERCURYEV,Automobile and Auto Components,572.01,Small Cap,False,ROE 2.9% < 10% (Small Cap)
+SRAMSET,Financial Services,511.75,Small Cap,False,TTM Profit negative or zero
+GGAUTO,Automobile and Auto Components,150.7,Small Cap,False,TTM Profit negative or zero
+ORIENTTR,"Media, Entertainment & Publication",73.0,Small Cap,False,TTM Profit negative or zero
+ACESOFT,Information Technology,358.45,Small Cap,False,ROE 6.1% < 10% (Small Cap)
+MIZVEN,Services,362.48,Small Cap,False,ROE 0.9% < 10% (Small Cap)
+JHACC,Financial Services,209.69,Small Cap,False,TTM Profit negative or zero
+SANJIVIN,Healthcare,191.27,Small Cap,False,Poor CF: 1.0/2.0 yrs
+PRAVEG,Consumer Services,586.6,Small Cap,False,ROE 3.6% < 10% (Small Cap)
+EMROCK,Fast Moving Consumer Goods,422.55,Small Cap,False,TTM Profit negative or zero
+MENNPIS,Automobile and Auto Components,262.24,Small Cap,True,
+GENNEX,Healthcare,228.37,Small Cap,False,ROE 8.4% < 10% (Small Cap)
+SHRADDHA,Realty,656.52,Small Cap,False,D/E 2.31 > 1.0 (Small Cap)
+LAHOTIOV,Services,117.15,Small Cap,False,ROE 6.2% < 10% (Small Cap)
+ORIRAIL,Capital Goods,801.69,Small Cap,False,ROE 7.3% < 10% (Small Cap)
+NWIL,Financial Services,901.32,Small Cap,True,
+MADHUVEER,"Media, Entertainment & Publication",507.07,Small Cap,False,TTM Profit negative or zero
+CHLOGIST,Services,77.56,Small Cap,False,ROE 1.9% < 10% (Small Cap)
+HINDALUMI,Metals & Mining,54.18,Small Cap,False,ROE 8.3% < 10% (Small Cap)
+IKOMA,Capital Goods,57.77,Small Cap,False,TTM Profit negative or zero
+3BBLACKBIO,Healthcare,1112.27,Mid Cap,True,
+SUMUKA,Fast Moving Consumer Goods,140.44,Small Cap,False,TTM Profit negative or zero
+ATVOENT,Textiles,203.27,Small Cap,False,TTM Profit negative or zero
+SHIVACEM,Construction Materials,459.91,Small Cap,False,TTM Profit negative or zero
+DANLAW,Capital Goods,248.43,Small Cap,False,D/E 1.28 > 1.0 (Small Cap)
+NAGPI,Metals & Mining,188.31,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+BABA,"Media, Entertainment & Publication",75.65,Small Cap,True,
+HAZOOR,Realty,794.2,Small Cap,False,ROE 8.3% < 10% (Small Cap)
+KAMAHOLD,Financial Services,7940.33,Mini Large,True,
+BLIL,Financial Services,1533.39,Mid Cap,True,
+LEHAR,Consumer Durables,350.04,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+BENGALASM,Financial Services,6667.69,Mini Large,True,
+RDBIPL,Realty,817.57,Small Cap,False,ROE 9.1% < 10% (Small Cap)
+ENKEIWHEL,Automobile and Auto Components,733.02,Small Cap,False,TTM Profit negative or zero
+RDBRL,Capital Goods,297.61,Small Cap,False,TTM Profit negative or zero
+JUPITERIN,Consumer Services,50.05,Small Cap,False,Revenue 2.0Cr < 20Cr (Small Cap)
+AERPACE,Capital Goods,350.64,Small Cap,False,TTM Profit negative or zero
+SBISENSEX,,,Small Cap,False,TTM Profit negative or zero
+BRAHMINFRA,Construction,418.01,Small Cap,False,ROE 9.5% < 10% (Small Cap)
+ALSL,Financial Services,280.15,Small Cap,False,TTM Profit negative or zero
+CPL,Capital Goods,389.24,Small Cap,False,Poor CF: 6.0/11.0 yrs
+CHEMTECH,Capital Goods,108.14,Small Cap,False,TTM Profit negative or zero
+BRPL,Capital Goods,144.69,Small Cap,False,TTM Profit negative or zero
+ARMAN,Financial Services,55.02,Small Cap,False,TTM Profit negative or zero
+VISTARAMAR,Fast Moving Consumer Goods,109.93,Small Cap,False,TTM Profit negative or zero
+MIIL,Realty,1259.33,Mid Cap,False,Revenue 40.0Cr < 50Cr (Mid Cap)
+SENSEXBEES,,,Small Cap,False,TTM Profit negative or zero
+ULTRACAB,Capital Goods,80.29,Small Cap,False,TTM Profit negative or zero
+ATISHAY,Information Technology,230.5,Small Cap,False,TTM Profit negative or zero
+DHABRIYA,Capital Goods,363.91,Small Cap,True,
+NIYOGIN,Financial Services,410.39,Small Cap,False,TTM Profit negative or zero
+JSTL,Healthcare,131.76,Small Cap,False,ROE 0.1% < 10% (Small Cap)
+SELLWIN,Services,121.89,Small Cap,False,ROE 3.9% < 10% (Small Cap)
+EMERALD,Financial Services,184.86,Small Cap,True,
+MKEXIM,Consumer Services,210.64,Small Cap,True,
+SOFCOM,Information Technology,60.15,Small Cap,False,ROE 0.8% < 10% (Small Cap)
+WARDINMOBI,Automobile and Auto Components,184.1,Small Cap,False,ROE 5.7% < 10% (Small Cap)
+TALBROSENG,Automobile and Auto Components,319.79,Small Cap,False,TTM Profit negative or zero
+BEEKAY,Capital Goods,700.99,Small Cap,False,ROE 8.4% < 10% (Small Cap)
+GANVERSE,Services,55.66,Small Cap,False,TTM Profit negative or zero
+WARDWIZFBL,Fast Moving Consumer Goods,222.43,Small Cap,False,TTM Profit negative or zero
+POEL,Chemicals,519.95,Small Cap,False,ROE nan% < 10% (Small Cap)
+LOYAL,Capital Goods,184.94,Small Cap,False,TTM Profit negative or zero
+STARDELTA,Capital Goods,134.89,Small Cap,False,TTM Profit negative or zero
+SUNRAKSHAK,Textiles,726.49,Small Cap,False,ROE 6.8% < 10% (Small Cap)
+WAAREE,Power,181.12,Small Cap,False,TTM Profit negative or zero
+PANORAMA,"Media, Entertainment & Publication",1003.58,Mid Cap,False,Poor CF: 3.0/7.0 yrs
+GTV,Capital Goods,305.89,Small Cap,False,TTM Profit negative or zero
+AAYUSH,Fast Moving Consumer Goods,162.32,Small Cap,False,Promoter 0.0% < 30% (Small Cap)
+ELITECON,Fast Moving Consumer Goods,8217.89,Mini Large,False,Poor CF: 0/3.0 yrs
+AGRIBIO,Fast Moving Consumer Goods,286.58,Small Cap,False,ROE 5.6% < 10% (Small Cap)
+FMEC,Financial Services,69.28,Small Cap,False,ROE 9.6% < 10% (Small Cap)
+CGFL,Financial Services,232.75,Small Cap,False,TTM Profit negative or zero
+BLUECLOUDS,Information Technology,1436.88,Mid Cap,False,Poor CF: 0/2.0 yrs
+HYPERSOFT,Information Technology,1075.41,Mid Cap,False,TTM Profit negative or zero
+FREDUN,Healthcare,885.85,Small Cap,False,D/E 1.08 > 1.0 (Small Cap)
+LELAVOIR,Services,72.88,Small Cap,False,Promoter 3.76% < 30% (Small Cap)
+BALGOPAL,Services,298.46,Small Cap,False,Revenue 1.0Cr < 20Cr (Small Cap)
+MADHAVIPL,Construction,213.51,Small Cap,True,
+SPICELOUNG,Consumer Services,1938.0,Mid Cap,False,ROE 5.4% < 8% (Mid Cap)
+SEIL,Consumer Services,2630.74,Mid Cap,False,Poor CF: 1.0/3.0 yrs
+TAALTECH,Services,870.86,Small Cap,True,
+HUIL,Capital Goods,369.63,Small Cap,False,TTM Profit negative or zero
+KPL,Healthcare,1574.9,Mid Cap,True,
+RSTL,Capital Goods,282.28,Small Cap,False,TTM Profit negative or zero
+GAMCO,Financial Services,215.91,Small Cap,False,ROE 5.7% < 10% (Small Cap)
+SUPRAPFSL,Financial Services,83.26,Small Cap,False,TTM Profit negative or zero
+REGENCY,Financial Services,205.0,Small Cap,False,TTM Profit negative or zero
+OSIAJEE,Textiles,236.9,Small Cap,False,Promoter 2.78% < 30% (Small Cap)
+VSL,Consumer Durables,122.08,Small Cap,False,TTM Profit negative or zero
+RMC,Capital Goods,453.01,Small Cap,True,
+PRIMEFRESH,Fast Moving Consumer Goods,307.97,Small Cap,False,Poor CF: 2.0/9.0 yrs
+STARLENT,Metals & Mining,423.78,Small Cap,False,Inconsistent profits: 6.0/8.0 quarters
+MEERA,Capital Goods,84.28,Small Cap,True,
+GKL,Consumer Durables,57.92,Small Cap,False,TTM Profit negative or zero
+SHISHIND,Capital Goods,507.23,Small Cap,False,ROE 5.7% < 10% (Small Cap)
+AAYUSHBULL,Textiles,1698.81,Mid Cap,False,TTM Profit negative or zero
+TTFL,Textiles,67.12,Small Cap,False,TTM Profit negative or zero
+SGRL,Healthcare,621.4,Small Cap,True,
+MRCAGRO,Services,86.83,Small Cap,False,ROE 3.6% < 10% (Small Cap)
+CHANDRIMA,Services,180.91,Small Cap,False,TTM Profit negative or zero
+BHATIA,Consumer Services,275.27,Small Cap,False,TTM Profit negative or zero
+INFLAME,Consumer Durables,205.97,Small Cap,False,TTM Profit negative or zero
+BPLPHARMA,Healthcare,694.54,Small Cap,False,TTM Profit negative or zero
+ACTIVE,Textiles,161.56,Small Cap,False,TTM Profit negative or zero
+TRL,Capital Goods,124.16,Small Cap,False,Poor CF: 0/1.0 yrs
+INNOVATORS,Capital Goods,226.04,Small Cap,True,
+UCIL,Financial Services,420.5,Small Cap,False,TTM Profit negative or zero
+WAA,Power,65.02,Small Cap,False,ROE 3.8% < 10% (Small Cap)
+FRATELLI,Fast Moving Consumer Goods,318.0,Small Cap,False,TTM Profit negative or zero
+A1L,Chemicals,853.76,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+SHUBHAM,Textiles,64.86,Small Cap,False,TTM Profit negative or zero
+VIVIDM,Realty,79.9,Small Cap,False,TTM Profit negative or zero
+BCPL,Construction,98.44,Small Cap,False,ROE 5.2% < 10% (Small Cap)
+BMW,Capital Goods,711.27,Small Cap,False,ROE 9.9% < 10% (Small Cap)
+ARL,Textiles,143.34,Small Cap,False,TTM Profit negative or zero
+CPML,Consumer Services,3081.05,Mid Cap,False,ROE 1.4% < 8% (Mid Cap)
+VEL,Services,73.04,Small Cap,False,ROE 3.0% < 10% (Small Cap)
+SHAHLON,Textiles,182.8,Small Cap,False,TTM Profit negative or zero
+MRP,Consumer Services,97.78,Small Cap,False,TTM Profit negative or zero
+EKI,Services,217.56,Small Cap,False,TTM Profit negative or zero
+PREVEST,Healthcare,454.91,Small Cap,True,
+SVRL,Fast Moving Consumer Goods,598.44,Small Cap,False,TTM Profit negative or zero
+CWD,Consumer Durables,609.31,Small Cap,False,ROE 2.4% < 10% (Small Cap)
+SPITZE,Consumer Durables,389.96,Small Cap,True,
+BCCL,Chemicals,230.4,Small Cap,False,TTM Profit negative or zero
+ACHYUT,Healthcare,136.15,Small Cap,False,TTM Profit negative or zero
+SEML,Services,135.54,Small Cap,False,TTM Profit negative or zero
+KESAR,Realty,3302.92,Mid Cap,False,Poor CF: 1.0/3.0 yrs
+BRRL,Realty,966.07,Small Cap,False,ROE 2.8% < 10% (Small Cap)
+VOEPL,Consumer Durables,995.74,Small Cap,False,ROE 4.0% < 10% (Small Cap)
+SRSOLTD,Services,91.7,Small Cap,False,TTM Profit negative or zero
+TLL,Healthcare,292.66,Small Cap,False,Poor CF: 1.0/4.0 yrs
+CARGOTRANS,Services,90.01,Small Cap,False,Promoter selling: -19.82% in 4Q
+CNCRD,Capital Goods,2182.33,Mid Cap,False,Poor CF: 3.0/6.0 yrs
+GARGI,Consumer Durables,907.46,Small Cap,False,TTM Profit negative or zero
+DRONACHRYA,Services,78.75,Small Cap,False,TTM Profit negative or zero
+LOGICA,Consumer Services,336.02,Small Cap,False,TTM Profit negative or zero
+ASHIKA,Financial Services,1568.06,Mid Cap,False,TTM Profit negative or zero
+SEALMATIC,Capital Goods,376.03,Small Cap,True,
+ROBU,Consumer Services,862.86,Small Cap,False,Poor CF: 1.0/2.0 yrs
+SVJ,Forest Materials,263.51,Small Cap,False,ROE 8.5% < 10% (Small Cap)
+RESGEN,"Oil, Gas & Consumable Fuels",117.46,Small Cap,False,TTM Profit negative or zero
+ITCONS,Services,238.59,Small Cap,False,TTM Profit negative or zero
+SUDARSHAN,Chemicals,555.68,Small Cap,False,D/E 1.56 > 1.0 (Small Cap)
+MAIDEN,Capital Goods,108.04,Small Cap,False,TTM Profit negative or zero
+EXHICON,Consumer Services,597.47,Small Cap,False,Promoter selling: -6.92% in 4Q
+SANCODE,Information Technology,108.35,Small Cap,False,Revenue 14.0Cr < 20Cr (Small Cap)
+RETINA,Consumer Durables,82.07,Small Cap,False,ROE 3.4% < 10% (Small Cap)
+HSIL,Healthcare,354.32,Small Cap,False,ROE 6.5% < 10% (Small Cap)
+CFF,Capital Goods,1188.39,Mid Cap,False,TTM Profit negative or zero
+BIZOTIC,Textiles,754.55,Small Cap,False,TTM Profit negative or zero
+COSMICCRF,Capital Goods,622.28,Small Cap,False,ROE 7.4% < 10% (Small Cap)
+VEEFIN,Information Technology,603.77,Small Cap,False,ROE 3.1% < 10% (Small Cap)
+ACCELERATE,Information Technology,57.26,Small Cap,False,TTM Profit negative or zero
+KAKA,Capital Goods,233.59,Small Cap,False,D/E 2.0 > 1.0 (Small Cap)
+ASARFI,Healthcare,316.71,Small Cap,False,Poor CF: 1.0/2.0 yrs
+KHAZANCHI,Consumer Durables,1744.53,Mid Cap,False,TTM Profit negative or zero
+SHELTER,Healthcare,52.41,Small Cap,False,TTM Profit negative or zero
+BONDADA,Telecommunication,3122.39,Mid Cap,False,Poor CF: 4.0/7.0 yrs
+QUESTFLOW,Capital Goods,144.89,Small Cap,False,ROE 8.1% < 10% (Small Cap)
+ORGANICREC,Utilities,202.19,Small Cap,False,Promoter 18.1% < 30% (Small Cap)
+SUNITATOOL,Capital Goods,598.68,Small Cap,False,Poor CF: 0/2.0 yrs
+AMIC,Capital Goods,1426.91,Mid Cap,True,
+SIYARAM,Capital Goods,82.6,Small Cap,False,TTM Profit negative or zero
+QLL,Services,360.26,Small Cap,False,ROE 5.4% < 10% (Small Cap)
+GPSL,Capital Goods,129.52,Small Cap,False,TTM Profit negative or zero
+JGTL,Capital Goods,219.73,Small Cap,False,TTM Profit negative or zero
+PESB,Financial Services,357.54,Small Cap,True,
+KPGEL,Capital Goods,1761.5,Mid Cap,True,
+CHATHA,Fast Moving Consumer Goods,166.19,Small Cap,False,ROE 7.1% < 10% (Small Cap)
+EMMFORCE,Automobile and Auto Components,265.88,Small Cap,False,ROE 9.3% < 10% (Small Cap)
+TOTEM,Capital Goods,604.95,Small Cap,False,TTM Profit negative or zero
+SATTRIX,Information Technology,457.91,Small Cap,True,
+PURPLEFIN,Financial Services,322.67,Small Cap,False,TTM Profit negative or zero
+NPL,Chemicals,228.87,Small Cap,False,TTM Profit negative or zero
+ACLD,Fast Moving Consumer Goods,247.48,Small Cap,False,ROE 0.9% < 10% (Small Cap)
+VVIPIL,Utilities,252.69,Small Cap,True,
+AFCOM,Services,1922.91,Mid Cap,False,TTM Profit negative or zero
+RAPID,Services,54.5,Small Cap,False,TTM Profit negative or zero
+MCEL,Consumer Services,239.3,Small Cap,False,Poor CF: 1.0/2.0 yrs
+SUBAM,Capital Goods,378.89,Small Cap,False,ROE 8.1% < 10% (Small Cap)
+SHIVTEXCHEM,Chemicals,252.69,Small Cap,False,TTM Profit negative or zero
+RAJESH,Utilities,1568.44,Mid Cap,False,Poor CF: 0/1.0 yrs
+NISUS,Financial Services,378.35,Small Cap,True,
+HILLTONE,Chemicals,66.72,Small Cap,False,TTM Profit negative or zero
+YASHHV,Capital Goods,1336.2,Mid Cap,False,TTM Profit negative or zero
+VANDU,Fast Moving Consumer Goods,85.88,Small Cap,False,TTM Profit negative or zero
+PARMESHWAR,Capital Goods,187.5,Small Cap,False,TTM Profit negative or zero
+FABCLEAN,Capital Goods,299.15,Small Cap,True,
+BRGIL,Construction,235.08,Small Cap,True,
+RIKHAV,Financial Services,147.19,Small Cap,False,ROE 9.8% < 10% (Small Cap)
+CNINFOTECH,Information Technology,205.41,Small Cap,True,
+SOLARIUM,Construction,323.49,Small Cap,False,Poor CF: 0/2.0 yrs
+COVANCE,Information Technology,379.35,Small Cap,False,ROE 8.2% < 10% (Small Cap)
+BEEZAASAN,Chemicals,296.67,Small Cap,True,
