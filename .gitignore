@@ -1,2 +1,4 @@
 ".ipynb_checkpoints/" 
 "data/sector_index_data.pkl" 
+data/*.pkl 
+data/raw_stock_data_full.pkl 
