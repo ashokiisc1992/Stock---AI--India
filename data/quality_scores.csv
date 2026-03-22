@@ -1,9 +1,12 @@
 Symbol,Sector,Quality Score,Promoter Holding Score,Promoter Trend Score,Institutional Score,Profit Consistency Score,CF Quality Score,Promoter Holding %,Promoter Change 4Q,FII + DII %
 TCS,Information Technology,15,3,2,2,4,4,71.77,0.0,23.18
+INFY,Information Technology,12,0,3,1,4,4,14.52,0.09,71.35
+HDFCBANK,Financial Services,8,0,2,1,4,1,0.0,0.0,84.67
 RELIANCE,"Oil, Gas & Consumable Fuels",13,2,2,1,4,4,50.0,-0.13,39.19
 WIPRO,Information Technology,16,3,2,3,4,4,72.64,-0.11,16.6
 PERSISTENT,Information Technology,11,0,2,1,4,4,30.29,-0.37,52.59
 LTTS,Information Technology,16,3,2,3,4,4,73.58,-0.08,18.79
+COFORGE,Information Technology,11,0,2,1,4,4,0.0,0.0,88.2
 HAPPSTMNDS,Information Technology,14,1,2,3,4,4,44.21,-0.02,15.51
 CHOLAFIN,Financial Services,9,1,2,1,4,1,49.72,-0.21,44.1
 MUTHOOTFIN,Financial Services,12,3,2,2,4,1,73.35,0.0,22.88
@@ -19,7 +22,6 @@ PARAS,Capital Goods,12,2,0,4,4,2,53.2,-3.85,6.2
 VINATIORGA,Chemicals,16,3,2,3,4,4,74.29,0.0,13.61
 FINEORG,Chemicals,16,3,2,3,4,4,75.0,0.0,16.23
 GALAXYSURF,Chemicals,16,3,2,3,4,4,70.91,0.0,17.13
-AAVAS,Financial Services,11,1,4,1,4,1,48.95,22.48,39.02
 SUNPHARMA,Healthcare,13,2,2,1,4,4,54.48,0.0,36.84
 DIVISLAB,Healthcare,12,2,2,1,4,3,51.88,-0.01,39.26
 APLLTD,Healthcare,15,3,3,2,4,3,69.74,0.13,20.4

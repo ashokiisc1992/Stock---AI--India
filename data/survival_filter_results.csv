@@ -1,47 +1,46 @@
-Symbol,Sector,Industry,Passed Survival,Reason
-TCS,Information Technology,Computers - Software & Consulting,True,All checks passed
-INFY,Information Technology,Computers - Software & Consulting,False,Low promoter holding: 14.52%
-HDFCBANK,Financial Services,Private Sector Bank,False,Low promoter holding: 0.0%
-RELIANCE,"Oil, Gas & Consumable Fuels",Refineries & Marketing,True,All checks passed
-WIPRO,Information Technology,Computers - Software & Consulting,True,All checks passed
-PERSISTENT,Information Technology,Computers - Software & Consulting,True,All checks passed
-MPHASIS,Information Technology,Computers - Software & Consulting,False,Promoter selling heavily: -9.64% in 4Q
-LTTS,Information Technology,IT Enabled Services,True,All checks passed
-COFORGE,Information Technology,Computers - Software & Consulting,False,Low promoter holding: 0.0%
-HAPPSTMNDS,Information Technology,Computers - Software & Consulting,True,All checks passed
-CHOLAFIN,Financial Services,Non Banking Financial Company (NBFC),True,All checks passed
-MUTHOOTFIN,Financial Services,Non Banking Financial Company (NBFC),True,All checks passed
-MANAPPURAM,Financial Services,Non Banking Financial Company (NBFC),True,All checks passed
-IIFL,Financial Services,Non Banking Financial Company (NBFC),False,Low promoter holding: 24.85%
-CREDITACC,Financial Services,Microfinance Institutions,True,All checks passed
-GARFIBRES,Textiles,Other Textile Products,True,All checks passed
-SUPRAJIT,Automobile and Auto Components,Auto Components & Equipments,True,All checks passed
-HIMATSEIDE,Textiles,Other Textile Products,True,All checks passed
-IGPL,Chemicals,Commodity Chemicals,False,Negative TTM profit: -7.0 | Inconsistent profits: 9/13 quarters
-HAL,Capital Goods,Aerospace & Defense,True,All checks passed
-BEL,Capital Goods,Aerospace & Defense,True,All checks passed
-BHEL,Capital Goods,Heavy Electrical Equipment,False,Inconsistent profits: 9/13 quarters
-MIDHANI,Capital Goods,Aerospace & Defense,True,All checks passed
-PARAS,Capital Goods,Aerospace & Defense,True,All checks passed
-VINATIORGA,Chemicals,Specialty Chemicals,True,All checks passed
-CLEAN,Chemicals,Specialty Chemicals,False,Promoter selling heavily: -24.01% in 4Q
-FINEORG,Chemicals,Specialty Chemicals,True,All checks passed
-GALAXYSURF,Chemicals,Specialty Chemicals,True,All checks passed
-AAVAS,Financial Services,Housing Finance Company,True,All checks passed
-SUNPHARMA,Healthcare,Pharmaceuticals,True,All checks passed
-DIVISLAB,Healthcare,Pharmaceuticals,True,All checks passed
-APLLTD,Healthcare,Pharmaceuticals,True,All checks passed
-GRANULES,Healthcare,Pharmaceuticals,True,All checks passed
-IPCALAB,Healthcare,Pharmaceuticals,True,All checks passed
-TITAN,Consumer Durables,"Gems, Jewellery And Watches",True,All checks passed
-HAVELLS,Consumer Durables,Consumer Electronics,True,All checks passed
-VGUARD,Consumer Durables,Household Appliances,True,All checks passed
-SYMPHONY,Consumer Durables,Household Appliances,True,All checks passed
-WONDERLA,Consumer Services,Amusement Parks/ Other Recreation,True,All checks passed
-PIIND,Chemicals,Pesticides & Agrochemicals,True,All checks passed
-RALLIS,Chemicals,Pesticides & Agrochemicals,True,All checks passed
-DHANUKA,Chemicals,Pesticides & Agrochemicals,True,All checks passed
-DYNPRO,Chemicals,Specialty Chemicals,False,Low promoter holding: 29.42%
-GULFPETRO,"Oil, Gas & Consumable Fuels",Lubricants,False,Poor CF consistency: 6/12 years (threshold: 70%) | Promoter selling heavily: -6.87% in 4Q
-SUVIDHAA,Financial Services,Financial Technology (Fintech),False,Negative TTM profit: -13.79 | Inconsistent profits: 1/13 quarters
-ABSLAMC,Financial Services,Asset Management Company,True,All checks passed
+Symbol,Sector,Is Financial,Is MNC,Is Institutional,Is Lumpy CF,Tags,Passed Survival,Reason
+TCS,Information Technology,False,False,False,False,,True,All checks passed
+INFY,Information Technology,False,False,True,False,INST,True,All checks passed
+HDFCBANK,Financial Services,True,True,True,False,"MNC, INST, FIN",True,All checks passed
+RELIANCE,"Oil, Gas & Consumable Fuels",False,False,False,False,,True,All checks passed
+WIPRO,Information Technology,False,False,False,False,,True,All checks passed
+PERSISTENT,Information Technology,False,False,False,False,,True,All checks passed
+MPHASIS,Information Technology,False,False,False,False,,False,Promoter selling: -9.64% in 4Q
+LTTS,Information Technology,False,False,False,False,,True,All checks passed
+COFORGE,Information Technology,False,True,True,False,"MNC, INST",True,All checks passed
+HAPPSTMNDS,Information Technology,False,False,False,False,,True,All checks passed
+CHOLAFIN,Financial Services,True,False,False,False,FIN,True,All checks passed
+MUTHOOTFIN,Financial Services,True,False,False,False,FIN,True,All checks passed
+MANAPPURAM,Financial Services,True,False,False,False,FIN,True,All checks passed
+IIFL,Financial Services,True,False,False,False,FIN,False,Low promoter: 24.85%
+CREDITACC,Financial Services,True,False,False,False,FIN,True,All checks passed
+GARFIBRES,Textiles,False,False,False,False,,True,All checks passed
+SUPRAJIT,Automobile and Auto Components,False,False,False,False,,True,All checks passed
+HIMATSEIDE,Textiles,False,False,False,False,,True,All checks passed
+IGPL,Chemicals,False,False,False,False,,False,Negative TTM profit | Inconsistent profits: 9/13 quarters
+HAL,Capital Goods,False,False,False,True,LUMPY_CF,True,All checks passed
+BEL,Capital Goods,False,False,False,True,LUMPY_CF,True,All checks passed
+BHEL,Capital Goods,False,False,False,True,LUMPY_CF,False,Inconsistent profits: 9/13 quarters
+MIDHANI,Capital Goods,False,False,False,True,LUMPY_CF,True,All checks passed
+PARAS,Capital Goods,False,False,False,True,LUMPY_CF,True,All checks passed
+VINATIORGA,Chemicals,False,False,False,False,,True,All checks passed
+CLEAN,Chemicals,False,False,False,False,,False,Promoter selling: -24.01% in 4Q
+FINEORG,Chemicals,False,False,False,False,,True,All checks passed
+GALAXYSURF,Chemicals,False,False,False,False,,True,All checks passed
+SUNPHARMA,Healthcare,False,False,False,False,,True,All checks passed
+DIVISLAB,Healthcare,False,False,False,False,,True,All checks passed
+APLLTD,Healthcare,False,False,False,False,,True,All checks passed
+GRANULES,Healthcare,False,False,False,False,,True,All checks passed
+IPCALAB,Healthcare,False,False,False,False,,True,All checks passed
+TITAN,Consumer Durables,False,False,False,True,LUMPY_CF,True,All checks passed
+HAVELLS,Consumer Durables,False,False,False,True,LUMPY_CF,True,All checks passed
+VGUARD,Consumer Durables,False,False,False,True,LUMPY_CF,True,All checks passed
+SYMPHONY,Consumer Durables,False,False,False,True,LUMPY_CF,True,All checks passed
+WONDERLA,Consumer Services,False,False,False,True,LUMPY_CF,True,All checks passed
+PIIND,Chemicals,False,False,False,False,,True,All checks passed
+RALLIS,Chemicals,False,False,False,False,,True,All checks passed
+DHANUKA,Chemicals,False,False,False,False,,True,All checks passed
+DYNPRO,Chemicals,False,False,False,False,,False,Low promoter: 29.42%
+GULFPETRO,"Oil, Gas & Consumable Fuels",False,False,False,False,,False,Poor CF: 6/12 years (need 70%) | Promoter selling: -6.87% in 4Q
+SUVIDHAA,Financial Services,True,False,False,False,FIN,False,Negative TTM profit | Inconsistent profits: 1/13 quarters
+ABSLAMC,Financial Services,True,False,False,False,FIN,True,All checks passed
