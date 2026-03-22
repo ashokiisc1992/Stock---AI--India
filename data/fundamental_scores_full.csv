@@ -1,0 +1,753 @@
+Symbol,Sector,Historical Score,Peer Score,Quality Score,Promoter Holding %,FII + DII %,Final Score
+SOLARINDS,Chemicals,39.0,34.0,16,73.15,19.65,89.0
+BLS,Consumer Services,38.0,33.0,18,70.39,9.29,89.0
+ALKYLAMINE,Chemicals,36.0,33.0,18,72.03,6.46,87.0
+KPEL,Power,38.0,35.0,14,44.88,1.54,87.0
+3BBLACKBIO,Healthcare,38.0,34.7,14,41.27,4.44,86.7
+SIGMA,Information Technology,32.0,38.0,16,73.22,0.03,86.0
+NAM-INDIA,Financial Services,38.0,33.0,15,72.05,21.73,86.0
+INDIAMART,Consumer Services,37.0,36.6,12,49.12,34.69,85.6
+CDSL,Financial Services,40.0,33.0,12,15.0,27.52,85.0
+CAPLIPOINT,Healthcare,35.0,32.0,18,70.57,8.63,85.0
+NATCOPHARM,Healthcare,36.0,35.0,13,49.48,20.55,84.0
+LLOYDSME,Metals & Mining,37.0,33.0,14,61.65,3.97,84.0
+SANDUMA,"Oil, Gas & Consumable Fuels",38.0,29.7,16,74.22,1.87,83.7
+SHARDAMOTR,Automobile and Auto Components,37.0,31.0,15,64.31,13.93,83.0
+FCL,Chemicals,36.0,30.9,16,62.3,4.22,82.9
+SIKA,Capital Goods,33.0,33.1,16,71.72,3.18,82.1
+BANCOINDIA,Automobile and Auto Components,34.0,31.0,17,67.88,4.22,82.0
+KSOLVES,Information Technology,32.0,34.0,16,58.94,0.13,82.0
+ADANIPORTS,Services,38.0,27.0,17,68.02,26.99,82.0
+POLYCAB,Capital Goods,35.0,33.0,14,61.5,25.95,82.0
+KKCL,Textiles,27.0,38.0,16,74.28,11.16,81.0
+EICHERMOT,Automobile and Auto Components,35.0,34.0,12,49.06,41.65,81.0
+ACE,Capital Goods,36.0,28.0,17,65.42,12.16,81.0
+AGIIL,Realty,38.0,29.0,14,71.29,4.81,81.0
+VBL,Fast Moving Consumer Goods,37.0,29.7,14,59.44,33.87,80.7
+IKS,Information Technology,31.2,33.0,16,63.72,13.62,80.2
+LUMAXTECH,Automobile and Auto Components,36.0,30.0,14,55.98,24.52,80.0
+TVSHLTD,Financial Services,38.0,28.0,14,74.45,12.99,80.0
+ECLERX,Services,36.0,30.0,14,54.53,35.97,80.0
+PRUDENT,Financial Services,32.0,35.0,13,55.31,38.45,80.0
+FORCEMOT,Automobile and Auto Components,35.0,29.7,15,61.63,12.26,79.7
+MENONBE,Automobile and Auto Components,29.6,34.0,16,68.44,0.38,79.6
+DSSL,Information Technology,36.0,28.6,15,60.95,0.6,79.6
+GOKULAGRO,Fast Moving Consumer Goods,34.0,28.0,17,74.24,1.59,79.0
+KPL,Healthcare,36.0,30.0,13,54.82,0.83,79.0
+SBCL,Capital Goods,37.0,30.0,12,33.18,22.3,79.0
+ASHOKA,Construction,34.0,32.0,13,54.47,21.91,79.0
+LATENTVIEW,Information Technology,34.0,28.0,17,65.1,7.92,79.0
+PIXTRANS,Capital Goods,32.0,30.0,17,62.06,2.53,79.0
+MONARCH,Financial Services,33.0,30.9,15,53.41,1.59,78.9
+GLOBAL,Consumer Services,28.8,33.1,17,72.5,0.51,78.9
+ECORECO,Utilities,39.0,25.1,14,73.35,0.85,78.1
+WEALTH,Financial Services,40.0,24.0,14,74.04,0.1,78.0
+POKARNA,Consumer Durables,36.0,28.0,14,56.66,20.96,78.0
+WAAREEENER,Capital Goods,28.0,33.0,17,64.22,9.77,78.0
+ANANDRATHI,Financial Services,32.0,35.0,11,43.11,16.11,78.0
+TRITURBINE,Capital Goods,36.0,30.0,12,55.84,36.98,78.0
+NATIONALUM,Metals & Mining,34.0,29.0,14,51.28,32.02,77.0
+INDUSTOWER,Telecommunication,40.0,23.0,14,51.03,44.87,77.0
+MOTILALOFS,Financial Services,37.0,29.0,11,67.62,13.35,77.0
+CHOLAFIN,Financial Services,40.0,28.0,9,49.72,44.1,77.0
+UNOMINDA,Automobile and Auto Components,35.0,27.0,15,68.41,25.8,77.0
+PANAMAPET,"Oil, Gas & Consumable Fuels",34.0,27.0,16,63.16,11.96,77.0
+DOLATALGO,Financial Services,32.0,29.0,16,74.49,0.74,77.0
+CNINFOTECH,Information Technology,30.4,32.0,14,74.67,5.33,76.4
+BAJFINANCE,Financial Services,37.0,29.3,10,54.7,36.35,76.3
+BEL,Capital Goods,32.0,33.0,11,51.14,38.98,76.0
+FINEORG,Chemicals,31.0,30.0,15,75.0,16.23,76.0
+PERSISTENT,Information Technology,36.0,29.0,11,30.29,52.59,76.0
+TITANBIO,Chemicals,30.0,31.0,15,55.78,0.03,76.0
+JSWINFRA,Services,37.0,23.0,16,83.61,9.3,76.0
+GARFIBRES,Textiles,24.0,36.0,16,53.36,19.51,76.0
+RAINBOW,Healthcare,35.0,29.0,12,49.84,38.73,76.0
+CARYSIL,Consumer Durables,35.0,28.0,13,41.34,12.9,76.0
+CRISIL,Financial Services,34.0,26.0,16,66.64,19.76,76.0
+CONTROLPR,Information Technology,35.0,25.0,16,52.99,3.55,76.0
+TORNTPOWER,Power,34.0,28.0,14,51.09,31.06,76.0
+TAALTECH,Services,29.0,30.9,16,50.8,2.65,75.9
+MUTHOOTFIN,Financial Services,34.0,29.3,12,73.35,22.88,75.3
+TARIL,Capital Goods,35.0,26.0,14,64.36,11.19,75.0
+ROTO,Capital Goods,33.0,24.0,18,66.8,1.15,75.0
+ROUTE,Telecommunication,34.0,26.0,15,74.85,8.71,75.0
+TECHNOE,Construction,32.0,30.0,13,56.93,31.58,75.0
+SAKSOFT,Information Technology,33.0,24.0,18,66.68,2.37,75.0
+EXPLEOSOL,Information Technology,35.0,23.0,17,71.05,0.39,75.0
+SHRIPISTON,Automobile and Auto Components,33.0,28.0,14,43.75,19.76,75.0
+MAZDOCK,Capital Goods,34.0,28.0,13,81.22,7.17,75.0
+INTEGRAEN,Capital Goods,36.0,24.0,15,54.39,0.81,75.0
+AEROFLEX,Capital Goods,28.0,31.0,16,65.47,4.02,75.0
+VADILALIND,Fast Moving Consumer Goods,33.0,27.0,15,64.72,0.98,75.0
+IREDA,Financial Services,29.6,33.3,12,71.76,4.58,74.9
+PREMIERENE,Capital Goods,29.6,30.0,15,63.94,17.2,74.6
+KOVAI,Healthcare,32.0,29.3,13,56.53,6.04,74.3
+MAMATA,Capital Goods,27.2,30.0,17,62.45,0.37,74.2
+NEWGEN,Information Technology,34.0,26.0,14,53.52,27.02,74.0
+GODFRYPHLP,Fast Moving Consumer Goods,31.0,28.0,15,72.58,12.36,74.0
+GOLDIAM,Consumer Durables,32.0,30.0,12,58.51,1.84,74.0
+NAVA,Power,28.0,29.0,17,50.1,10.74,74.0
+DOMS,Fast Moving Consumer Goods,28.0,31.0,15,70.38,26.66,74.0
+ZYDUSLIFE,Healthcare,31.0,26.0,17,75.0,18.14,74.0
+KIMS,Healthcare,38.0,27.0,9,34.11,47.05,74.0
+POLYMED,Healthcare,34.0,25.0,15,62.42,23.25,74.0
+BAJAJFINSV,Financial Services,38.0,25.0,11,58.81,18.8,74.0
+REFEX,Chemicals,33.0,26.0,15,55.8,2.19,74.0
+BETA,Healthcare,29.6,29.3,15,64.9,3.04,73.9
+HSCL,Chemicals,34.0,22.9,17,52.49,8.84,73.9
+AFFLE,Information Technology,28.8,31.0,14,54.95,34.15,73.8
+EMUDHRA,Information Technology,29.6,30.0,14,54.4,20.91,73.6
+EMERALD,Financial Services,28.0,33.6,12,59.5,1.74,73.6
+STYLAMIND,Consumer Durables,26.4,32.0,15,52.19,15.28,73.4
+TRENT,Consumer Services,37.0,26.3,10,37.01,36.99,73.3
+MCLOUD,Information Technology,36.0,25.0,12,54.04,0.26,73.0
+MASTERTR,Financial Services,33.0,26.0,14,71.93,0.07,73.0
+GRWRHITECH,Capital Goods,32.0,24.0,17,60.73,9.31,73.0
+JBCHEPHARM,Healthcare,31.0,29.0,13,48.78,37.26,73.0
+TRANSRAILL,Capital Goods,28.0,28.0,17,71.12,9.35,73.0
+SYNCOMF,Healthcare,34.0,25.0,14,50.57,0.26,73.0
+PIIND,Chemicals,34.0,28.0,11,46.09,46.91,73.0
+KPRMILL,Textiles,28.0,32.0,13,67.52,25.67,73.0
+TITAN,Consumer Durables,34.0,28.0,11,52.9,30.38,73.0
+ELECON,Capital Goods,34.0,24.0,15,59.28,12.57,73.0
+DIXON,Consumer Durables,35.0,29.0,9,28.83,47.74,73.0
+HBLENGINE,Capital Goods,28.0,28.0,17,59.11,6.69,73.0
+MPSLTD,Consumer Services,34.0,23.0,16,68.34,2.79,73.0
+ABSLAMC,Financial Services,29.0,29.0,15,74.82,16.84,73.0
+FILATEX,Textiles,24.8,30.0,18,65.38,6.89,72.8
+NDRAUTO,Automobile and Auto Components,27.2,28.0,17,73.13,0.05,72.2
+INDOAMIN,Chemicals,31.0,23.0,18,58.42,0.0,72.0
+KSB,Capital Goods,32.0,25.0,15,69.8,16.47,72.0
+CUMMINSIND,Capital Goods,32.0,27.0,13,51.0,40.02,72.0
+GPIL,Capital Goods,32.0,24.0,16,63.5,8.43,72.0
+METROBRAND,Consumer Durables,29.0,27.0,16,71.83,11.32,72.0
+SAREGAMA,"Media, Entertainment & Publication",34.0,23.0,15,60.39,19.22,72.0
+MARUTI,Automobile and Auto Components,31.0,28.0,13,58.28,38.6,72.0
+NH,Healthcare,30.0,27.0,15,63.27,19.01,72.0
+HAL,Capital Goods,29.0,30.0,13,71.64,20.54,72.0
+DHANUKA,Chemicals,28.0,29.0,15,69.72,20.92,72.0
+INTLCONV,Capital Goods,26.0,28.0,18,69.65,0.89,72.0
+DHABRIYA,Capital Goods,32.0,23.0,17,67.75,1.88,72.0
+ARYAMAN,Financial Services,33.0,24.0,15,63.92,0.01,72.0
+SHAREINDIA,Financial Services,28.0,29.0,15,48.62,1.86,72.0
+APARINDS,Capital Goods,34.0,25.0,13,57.77,32.55,72.0
+AJANTPHARM,Healthcare,27.0,30.0,15,66.25,26.55,72.0
+JSL,Metals & Mining,34.0,21.7,16,61.22,28.76,71.7
+MAPMYINDIA,Information Technology,30.4,26.0,15,51.36,17.85,71.4
+CONCORDBIO,Healthcare,26.4,32.0,13,44.08,17.16,71.4
+ECOSMOBLTY,Services,22.4,32.0,17,67.79,15.19,71.4
+CHOLAHLDNG,Financial Services,37.0,25.3,9,46.38,40.02,71.3
+MAXHEALTH,Healthcare,36.0,24.0,11,23.72,71.75,71.0
+PGIL,Textiles,34.0,24.0,13,61.24,23.04,71.0
+EMAMILTD,Fast Moving Consumer Goods,30.0,28.0,13,54.84,35.75,71.0
+NUVAMA,Financial Services,32.0,28.0,11,54.2,24.76,71.0
+NMDC,Metals & Mining,30.0,26.0,15,60.79,27.54,71.0
+FIEMIND,Automobile and Auto Components,29.0,29.0,13,54.51,17.8,71.0
+GALLANTT,Capital Goods,34.0,19.0,18,69.83,0.2,71.0
+LALPATHLAB,Healthcare,30.0,28.0,13,53.21,39.49,71.0
+KNRCON,Construction,33.0,27.0,11,48.81,27.4,71.0
+ICEMAKE,Capital Goods,34.0,23.0,14,74.26,2.1,71.0
+JAMNAAUTO,Automobile and Auto Components,29.0,29.0,13,49.93,13.27,71.0
+PIDILITIND,Chemicals,26.0,30.0,15,69.32,21.22,71.0
+LICI,Financial Services,26.4,29.0,15,96.5,1.53,70.4
+AVANTEL,Capital Goods,30.4,29.0,11,37.08,0.6,70.4
+MAHSEAMLES,Capital Goods,29.0,24.0,17,69.81,12.42,70.0
+IZMO,Information Technology,33.0,24.0,13,34.81,3.77,70.0
+VISHNU,Chemicals,32.0,21.0,17,69.21,7.91,70.0
+AURIONPRO,Information Technology,36.0,21.0,13,26.88,17.66,70.0
+OFSS,Information Technology,24.0,30.0,16,72.46,17.18,70.0
+INFOBEAN,Information Technology,29.0,26.0,15,72.85,0.68,70.0
+BCLIND,Fast Moving Consumer Goods,33.0,20.0,17,58.03,0.39,70.0
+RAMRAT,Capital Goods,32.0,24.0,14,68.54,0.51,70.0
+MANYAVAR,Consumer Services,24.8,30.0,15,74.94,21.29,69.8
+DISAQ,Capital Goods,24.0,29.7,16,74.82,8.29,69.7
+VERTOZ,"Media, Entertainment & Publication",35.0,20.6,14,64.74,2.43,69.6
+ATGL,"Oil, Gas & Consumable Fuels",21.6,32.0,16,74.8,19.06,69.6
+INOXINDIA,Capital Goods,25.6,29.0,15,75.0,14.41,69.6
+NITTAGELA,Chemicals,26.0,27.4,16,74.49,0.75,69.4
+SAFARI,Consumer Durables,34.0,26.3,9,44.7,38.88,69.3
+LTFOODS,Fast Moving Consumer Goods,31.0,23.0,15,51.0,18.55,69.0
+ARROWGREEN,Capital Goods,23.0,29.0,17,64.81,0.93,69.0
+AGARIND,Chemicals,34.0,20.0,15,57.2,5.06,69.0
+MARKSANS,Healthcare,33.0,23.0,13,43.87,14.04,69.0
+MKEXIM,Consumer Services,31.0,25.0,13,42.97,0.05,69.0
+JKCEMENT,Construction Materials,26.0,31.0,12,45.66,40.38,69.0
+SARDAEN,Metals & Mining,34.0,18.0,17,73.16,6.47,69.0
+APLAPOLLO,Capital Goods,34.0,24.0,11,28.27,53.03,69.0
+INNOVANA,Information Technology,25.0,29.0,15,72.65,2.2,69.0
+POWERMECH,Construction,31.0,24.0,14,58.33,27.09,69.0
+DLINKINDIA,Information Technology,29.0,24.0,16,51.02,1.14,69.0
+CCL,Fast Moving Consumer Goods,30.0,25.0,14,46.11,32.54,69.0
+LGBBROSLTD,Automobile and Auto Components,30.0,26.0,13,34.82,19.87,69.0
+KAYCEEI,Capital Goods,24.8,29.0,15,71.7,0.02,68.8
+PNGJL,Consumer Durables,25.6,27.0,16,83.11,5.55,68.6
+AADHARHFC,Financial Services,24.8,30.7,13,75.19,14.64,68.5
+CAMS,Financial Services,30.4,27.0,11,0.0,66.65,68.4
+PFC,Financial Services,36.0,21.3,11,55.99,33.81,68.3
+MAYURUNIQ,Consumer Durables,24.0,28.0,16,58.59,6.55,68.0
+RKFORGE,Automobile and Auto Components,35.0,22.0,11,43.12,25.08,68.0
+CHOICEIN,Financial Services,28.0,30.0,10,53.66,12.46,68.0
+CYBERTECH,Information Technology,33.0,20.0,15,36.51,0.04,68.0
+ASTRAL,Capital Goods,29.0,24.0,15,54.22,34.4,68.0
+GRAUWEIL,Chemicals,27.0,24.0,17,69.03,0.61,68.0
+GLAXO,Healthcare,25.0,27.0,16,75.0,12.33,68.0
+GRAVITA,Metals & Mining,33.0,24.0,11,55.88,20.46,68.0
+MMP,Metals & Mining,30.0,22.0,16,74.48,0.01,68.0
+GPTINFRA,Construction,28.0,23.0,17,69.37,9.68,68.0
+SPAL,Textiles,26.0,28.0,14,61.93,20.55,68.0
+CAMPUS,Consumer Durables,18.4,35.4,14,72.11,17.86,67.8
+TIINDIA,Automobile and Auto Components,34.0,22.7,11,44.06,42.83,67.7
+BASF,Chemicals,26.4,26.0,15,73.33,10.55,67.4
+ZEAL,Services,27.2,28.0,12,73.4,2.19,67.2
+KPITTECH,Information Technology,30.4,26.7,10,39.41,38.92,67.1
+AHLUCONT,Construction,30.0,24.0,13,55.32,36.9,67.0
+TALBROAUTO,Automobile and Auto Components,31.0,20.0,16,58.43,0.7,67.0
+DMART,Consumer Services,27.0,24.0,16,74.65,17.54,67.0
+ALLDIGI,Services,27.0,24.0,16,73.39,2.94,67.0
+SHARDACROP,Chemicals,26.0,27.0,14,74.82,14.15,67.0
+AIRAN,Information Technology,29.0,25.0,13,72.21,0.13,67.0
+PHOENIXLTD,Realty,31.0,24.0,12,47.25,49.11,67.0
+SIYSIL,Textiles,24.0,27.0,16,67.44,5.16,67.0
+IIFLCAPS,Financial Services,32.0,25.0,10,30.93,21.9,67.0
+ASALCBR,Fast Moving Consumer Goods,26.4,23.0,17,62.35,0.37,66.4
+RRKABEL,Capital Goods,26.4,26.0,14,61.65,22.34,66.4
+EMSLIMITED,Utilities,30.4,20.0,16,69.7,0.25,66.4
+INDIANB,Financial Services,33.0,21.3,12,73.84,23.46,66.3
+INNOVACAP,Healthcare,27.2,26.0,13,50.9,20.34,66.2
+SIRCA,Consumer Durables,23.2,29.0,14,65.19,7.24,66.2
+RELIABLE,Financial Services,33.0,21.0,12,67.79,0.32,66.0
+IGL,"Oil, Gas & Consumable Fuels",23.0,32.0,11,45.0,41.17,66.0
+TCI,Services,29.0,22.0,15,68.73,15.91,66.0
+FAZE3Q,Textiles,27.0,26.0,13,57.95,0.78,66.0
+PDSL,Textiles,26.0,24.0,16,61.4,9.0,66.0
+MALLCOM,Capital Goods,29.0,20.0,17,73.68,0.0,66.0
+BLUESTARCO,Consumer Durables,31.0,23.0,12,36.48,41.42,66.0
+MASTEK,Information Technology,35.0,19.0,12,35.78,22.92,66.0
+CIGNITITEC,Information Technology,26.0,28.0,12,54.0,20.9,66.0
+GENUSPOWER,Capital Goods,32.0,25.0,9,39.34,21.95,66.0
+JLHL,Healthcare,28.8,25.0,12,40.91,25.92,65.8
+SONACOMS,Automobile and Auto Components,24.8,30.0,11,28.02,64.63,65.8
+RECLTD,Financial Services,36.0,18.7,11,52.63,32.67,65.7
+TANLA,Information Technology,19.0,29.7,17,46.17,8.64,65.7
+EASEMYTRIP,Consumer Services,29.6,25.0,11,47.72,2.93,65.6
+BEPL,Chemicals,22.0,28.6,15,57.48,1.13,65.6
+KIRLPNU,Capital Goods,25.6,28.0,12,38.82,34.97,65.6
+NCC,Construction,33.0,20.6,12,22.25,26.79,65.6
+SKIPPER,Capital Goods,26.4,23.0,16,66.48,7.17,65.4
+HINDCOPPER,Metals & Mining,18.4,32.0,15,66.14,12.13,65.4
+UNITDSPR,Fast Moving Consumer Goods,26.0,26.3,13,56.68,29.49,65.3
+VIJAYA,Healthcare,23.2,30.0,12,52.6,43.7,65.2
+COALINDIA,"Oil, Gas & Consumable Fuels",27.0,24.0,14,63.13,30.75,65.0
+PRADPME,Automobile and Auto Components,26.0,23.0,16,73.48,0.0,65.0
+RSYSTEMS,Information Technology,30.0,20.0,15,51.88,12.96,65.0
+GRINDWELL,Capital Goods,27.0,24.0,14,58.04,24.74,65.0
+JGCHEM,Chemicals,24.0,26.0,15,70.99,6.69,65.0
+HAVELLS,Consumer Durables,26.0,25.0,14,59.38,34.49,65.0
+MEDANTA,Healthcare,33.0,21.0,11,33.01,24.53,65.0
+ASKAUTOLTD,Automobile and Auto Components,24.0,27.0,14,74.95,18.85,65.0
+MMFL,Automobile and Auto Components,29.0,21.0,15,56.33,10.29,65.0
+TORNTPHARM,Healthcare,23.0,27.0,15,68.31,25.18,65.0
+FMGOETZE,Automobile and Auto Components,28.0,20.0,17,74.98,0.98,65.0
+THEJO,Capital Goods,24.0,25.0,16,53.61,3.93,65.0
+RESPONIND,Consumer Durables,35.0,16.0,14,59.14,34.51,65.0
+TATAELXSI,Information Technology,25.6,26.3,13,43.9,20.84,64.9
+DREAMFOLKS,Services,24.8,25.0,15,65.72,0.01,64.8
+BIKAJI,Fast Moving Consumer Goods,24.8,26.0,14,73.92,21.54,64.8
+PITTIENG,Capital Goods,27.2,23.0,14,54.17,21.16,64.2
+BAJAJST,Capital Goods,27.0,20.0,17,56.62,0.05,64.0
+BOSCHLTD,Automobile and Auto Components,28.0,21.0,15,70.54,22.24,64.0
+ELGIEQUIP,Capital Goods,29.0,23.0,12,31.19,31.19,64.0
+NEULANDLAB,Healthcare,31.0,22.0,11,32.63,35.62,64.0
+NESCO,Services,21.0,26.0,17,68.54,8.43,64.0
+HAPPSTMNDS,Information Technology,28.8,21.0,14,44.21,15.51,63.8
+INDOBORAX,Chemicals,27.0,21.7,15,50.79,0.25,63.7
+PARAS,Capital Goods,25.6,26.0,12,53.2,6.2,63.6
+OPTIFIN,Financial Services,28.0,22.4,13,53.89,0.0,63.4
+ADANIPOWER,Power,21.0,26.3,16,74.96,15.05,63.3
+AMRUTANJAN,Healthcare,27.0,25.3,11,46.52,15.27,63.3
+TBOTEK,Consumer Services,27.2,25.0,11,44.4,49.86,63.2
+NBCC,Construction,24.0,25.1,14,61.75,17.45,63.1
+KEI,Capital Goods,28.0,26.0,9,35.0,52.76,63.0
+KCP,Construction Materials,29.0,19.0,15,44.25,3.3,63.0
+COFORGE,Information Technology,29.0,23.0,11,0.0,88.2,63.0
+JYOTHYLAB,Fast Moving Consumer Goods,27.0,22.0,14,62.89,27.91,63.0
+GOODLUCK,Capital Goods,30.0,16.0,17,56.44,5.9,63.0
+BERGEPAINT,Consumer Durables,24.0,23.0,16,74.98,16.33,63.0
+SUNPHARMA,Healthcare,27.0,23.0,13,54.48,36.84,63.0
+TANAA,Capital Goods,27.0,20.0,16,52.03,0.09,63.0
+SKMEGGPROD,Fast Moving Consumer Goods,25.0,21.0,17,57.43,1.07,63.0
+LUMAXIND,Automobile and Auto Components,25.0,21.0,17,75.0,7.09,63.0
+GNA,Automobile and Auto Components,25.0,22.0,16,68.58,11.77,63.0
+GMDCLTD,Metals & Mining,30.0,16.0,17,74.0,3.16,63.0
+MARINE,Capital Goods,31.0,17.0,15,68.2,0.62,63.0
+ARIHANTCAP,Financial Services,28.0,22.0,13,67.67,0.04,63.0
+HCLTECH,Information Technology,22.0,26.0,15,60.82,34.58,63.0
+PARACABLES,Capital Goods,33.0,14.9,15,49.12,0.36,62.9
+EMCURE,Healthcare,20.8,25.0,17,77.87,9.69,62.8
+MOLDTKPAC,Capital Goods,25.6,25.0,12,33.07,30.48,62.6
+NICCOPAR,Consumer Services,27.0,19.4,16,69.44,0.0,62.4
+HNDFDS,Fast Moving Consumer Goods,26.4,22.0,14,61.31,20.34,62.4
+RNBDENIMS,Textiles,19.2,28.0,15,57.38,0.63,62.2
+RAJRATAN,Automobile and Auto Components,21.0,25.1,16,65.13,8.77,62.1
+SILVERTUC,Information Technology,24.0,23.0,15,74.61,1.36,62.0
+ADOR,Capital Goods,27.0,21.0,14,53.74,12.7,62.0
+HINDUNILVR,Fast Moving Consumer Goods,18.0,29.0,15,61.9,26.39,62.0
+SMSPHARMA,Healthcare,24.0,19.0,19,68.07,3.25,62.0
+INFY,Information Technology,24.0,26.0,12,14.52,71.35,62.0
+TATAPOWER,Power,32.0,17.0,13,46.86,27.2,62.0
+MADHAVIPL,Construction,34.0,12.0,16,68.81,0.0,62.0
+ALEMBICLTD,Realty,22.0,24.0,16,70.88,1.34,62.0
+BALKRISIND,Automobile and Auto Components,28.0,21.0,13,58.3,35.42,62.0
+BRIGADE,Realty,31.0,19.0,12,41.12,41.69,62.0
+ICIL,Textiles,28.0,20.0,14,58.74,15.89,62.0
+STERTOOLS,Automobile and Auto Components,28.0,17.0,17,65.15,0.24,62.0
+KALYANKJIL,Consumer Durables,24.0,23.0,15,62.75,29.34,62.0
+CAPACITE,Construction,22.0,29.0,11,31.69,22.63,62.0
+ADANIENT,Metals & Mining,30.0,17.0,15,73.97,18.35,62.0
+LTTS,Information Technology,21.0,25.0,16,73.58,18.79,62.0
+TCS,Information Technology,24.0,23.0,15,71.77,23.18,62.0
+EMKAY,Financial Services,27.0,22.9,12,71.91,0.85,61.9
+FLAIR,Fast Moving Consumer Goods,20.8,26.0,15,78.59,10.42,61.8
+WINDLAS,Healthcare,24.8,21.0,16,61.98,12.37,61.8
+MANKIND,Healthcare,22.4,24.0,15,72.66,24.6,61.4
+SHYAMMETL,Capital Goods,26.4,20.0,15,74.59,12.08,61.4
+20MICRONS,Metals & Mining,28.0,19.4,14,45.04,0.33,61.4
+DODLA,Fast Moving Consumer Goods,22.4,26.0,13,58.92,31.12,61.4
+PNB,Financial Services,31.0,17.3,13,70.08,22.02,61.3
+CERA,Consumer Durables,23.0,25.0,13,54.41,28.62,61.0
+ESCORTS,Capital Goods,28.0,18.0,15,68.04,17.45,61.0
+PRAJIND,Capital Goods,34.0,17.0,10,32.81,30.96,61.0
+SUPREMEIND,Capital Goods,27.0,21.0,13,48.96,36.35,61.0
+KIRLOSBROS,Capital Goods,25.0,20.0,16,65.95,16.37,61.0
+ADFFOODS,Fast Moving Consumer Goods,22.0,28.0,11,36.14,34.42,61.0
+RADICO,Fast Moving Consumer Goods,21.0,28.0,12,40.21,43.85,61.0
+DEEPAKFERT,Chemicals,32.0,18.0,11,45.63,23.48,61.0
+TAJGVK,Consumer Services,27.0,19.0,15,71.0,4.95,61.0
+BAJAJ-AUTO,Automobile and Auto Components,21.0,27.0,13,54.99,22.91,61.0
+SIEMENS,Capital Goods,29.0,17.0,15,75.0,15.2,61.0
+APOLLOHOSP,Healthcare,29.0,22.0,10,28.02,65.04,61.0
+ORBTEXP,Textiles,16.0,29.0,16,66.05,0.0,61.0
+ABCAPITAL,Financial Services,22.0,26.0,13,68.57,19.82,61.0
+COROMANDEL,Chemicals,23.0,24.0,14,56.86,30.48,61.0
+AWHCL,Utilities,30.0,17.0,14,46.08,15.5,61.0
+TIIL,Capital Goods,26.0,18.0,17,74.74,7.44,61.0
+SHRIRAMFIN,Financial Services,33.0,20.0,8,25.38,68.5,61.0
+GESHIP,Services,28.0,23.0,10,30.08,41.9,61.0
+ROSSARI,Chemicals,24.8,22.0,14,68.15,20.57,60.8
+BECTORFOOD,Fast Moving Consumer Goods,24.8,24.0,12,49.04,36.36,60.8
+TCPLPACK,Capital Goods,24.8,21.0,15,55.74,13.62,60.8
+INTELLECT,Information Technology,30.0,21.7,9,29.81,33.71,60.7
+MSTCLTD,Services,24.0,21.7,15,64.75,5.02,60.7
+MASFIN,Financial Services,22.0,26.7,12,66.63,23.36,60.7
+NISUS,Financial Services,14.4,32.0,14,73.66,2.42,60.4
+INDHOTEL,Consumer Services,30.0,19.4,11,38.12,45.75,60.4
+KOTAKBANK,Financial Services,29.0,21.3,10,25.87,62.24,60.3
+ONWARDTEC,Information Technology,27.0,18.3,15,39.09,12.29,60.3
+AAVAS,Financial Services,22.4,26.7,11,48.95,39.02,60.1
+SURYAROSNI,Capital Goods,23.0,19.0,18,62.89,6.79,60.0
+ASIANPAINT,Consumer Durables,20.0,26.0,14,52.63,33.86,60.0
+WPIL,Capital Goods,24.0,22.0,14,70.79,8.18,60.0
+NUCLEUS,Information Technology,21.0,22.0,17,73.59,6.29,60.0
+HINDALCO,Metals & Mining,31.0,18.0,11,34.65,51.33,60.0
+WELCORP,Capital Goods,25.0,22.0,13,49.73,32.0,60.0
+SHAKTIPUMP,Capital Goods,22.0,25.0,13,50.34,11.64,60.0
+VEEDOL,"Oil, Gas & Consumable Fuels",15.0,28.0,17,64.58,2.34,60.0
+BBTC,Fast Moving Consumer Goods,21.0,25.0,14,74.04,10.84,60.0
+SARLAPOLY,Textiles,22.0,22.0,16,57.07,1.62,60.0
+VEDL,Metals & Mining,19.0,28.0,13,56.38,27.46,60.0
+MEDIASSIST,Financial Services,24.8,26.0,9,4.62,75.18,59.8
+ELECTCAST,Capital Goods,34.0,13.7,12,46.22,19.62,59.7
+MORGANITE,Capital Goods,12.0,33.6,14,75.0,1.35,59.6
+NILE,Metals & Mining,18.4,26.0,15,50.39,0.43,59.4
+MOREPENLAB,Healthcare,28.0,18.3,13,35.66,2.87,59.3
+MARICO,Fast Moving Consumer Goods,18.0,29.0,12,58.93,36.25,59.0
+DALMIASUG,Fast Moving Consumer Goods,22.0,23.0,14,74.92,0.79,59.0
+CIPLA,Healthcare,27.0,20.0,12,29.22,54.38,59.0
+MEDPLUS,Consumer Services,28.0,21.0,10,40.29,43.41,59.0
+KDDL,Consumer Durables,20.0,25.0,14,50.44,10.21,59.0
+MANINFRA,Construction,21.0,25.0,13,62.43,5.95,59.0
+SHREEPUSHK,Chemicals,25.0,18.0,16,69.36,0.97,59.0
+KAMAHOLD,Financial Services,21.0,22.0,16,75.0,0.32,59.0
+TATATECH,Information Technology,24.0,20.0,15,55.21,8.43,59.0
+AGI,Capital Goods,25.0,17.0,17,60.23,9.48,59.0
+UDS,Services,24.0,20.0,15,59.09,16.38,59.0
+AXISCADES,Capital Goods,24.0,21.0,14,58.05,2.39,59.0
+EIDPARRY,Fast Moving Consumer Goods,23.0,23.0,13,41.45,28.89,59.0
+DRREDDY,Healthcare,31.0,18.0,10,26.64,52.78,59.0
+MAITHANALL,Metals & Mining,21.0,25.0,13,74.96,1.3,59.0
+PUNJABCHEM,Chemicals,26.0,20.0,13,39.22,3.57,59.0
+GREENPANEL,Consumer Durables,28.8,16.0,14,53.13,29.55,58.8
+AKUMS,Healthcare,21.6,23.0,14,75.26,15.55,58.6
+NOVAAGRI,Chemicals,25.6,18.0,15,59.39,1.25,58.6
+TVSELECT,Information Technology,32.0,14.4,12,59.78,0.24,58.4
+SUMICHEM,Chemicals,18.4,24.0,16,75.0,12.02,58.4
+BANKBARODA,Financial Services,29.0,17.3,12,63.97,28.56,58.3
+MTARTECH,Capital Goods,23.2,25.0,10,30.59,42.2,58.2
+FOCUS,Consumer Durables,28.0,17.1,13,55.31,0.01,58.1
+CANBK,Financial Services,25.0,20.0,13,62.93,25.08,58.0
+LODHA,Realty,22.0,22.0,14,71.85,26.66,58.0
+DEVIT,Information Technology,30.0,14.0,14,66.63,0.33,58.0
+NTPC,Power,28.0,17.0,13,51.1,45.43,58.0
+SANDHAR,Automobile and Auto Components,27.0,16.0,15,70.38,17.04,58.0
+AMNPLST,Chemicals,22.0,19.0,17,73.17,0.0,58.0
+ERIS,Healthcare,22.0,22.0,14,54.85,27.16,58.0
+NWIL,Financial Services,10.0,36.0,12,53.81,0.39,58.0
+HPL,Capital Goods,26.0,15.0,17,72.66,0.38,58.0
+MODISONLTD,Capital Goods,24.0,20.0,14,52.11,0.48,58.0
+VGUARD,Consumer Durables,24.0,23.0,11,53.28,35.44,58.0
+WHEELS,Automobile and Auto Components,24.0,19.0,15,58.31,10.99,58.0
+ICRA,Financial Services,22.0,22.0,14,51.86,32.8,58.0
+BPCL,"Oil, Gas & Consumable Fuels",23.0,22.0,13,52.98,38.02,58.0
+IOB,Financial Services,19.2,26.7,12,92.44,4.61,57.9
+JINDALSAW,Capital Goods,28.0,13.7,16,63.25,17.59,57.7
+SBIN,Financial Services,29.0,17.3,11,55.5,37.38,57.3
+HDFCAMC,Financial Services,10.0,34.3,13,52.38,38.89,57.3
+DIVISLAB,Healthcare,21.0,24.0,12,51.88,39.26,57.0
+FINPIPE,Capital Goods,22.0,20.0,15,52.47,18.06,57.0
+THERMAX,Capital Goods,27.0,15.0,15,61.99,27.2,57.0
+TEAMLEASE,Services,29.0,19.0,9,31.11,56.19,57.0
+ONGC,"Oil, Gas & Consumable Fuels",25.0,18.0,14,58.89,27.12,57.0
+ENDURANCE,Automobile and Auto Components,18.0,24.0,15,75.0,22.92,57.0
+BHARATFORG,Automobile and Auto Components,27.0,18.0,12,44.07,46.48,57.0
+RATNAMANI,Capital Goods,23.0,21.0,13,59.77,30.03,57.0
+DATAMATICS,Information Technology,24.0,16.0,17,66.33,0.66,57.0
+RELIANCE,"Oil, Gas & Consumable Fuels",24.0,20.0,13,50.0,39.19,57.0
+SANSERA,Automobile and Auto Components,24.0,22.0,11,30.17,55.66,57.0
+BRITANNIA,Fast Moving Consumer Goods,18.0,26.0,13,50.55,34.43,57.0
+CHAMBLFERT,Chemicals,15.0,28.0,14,60.85,20.32,57.0
+EIHOTEL,Consumer Services,28.0,18.0,11,32.85,20.29,57.0
+SONATSOFTW,Information Technology,25.0,22.0,10,28.17,35.09,57.0
+KANSAINER,Consumer Durables,22.0,19.0,16,74.98,15.58,57.0
+LINDEINDIA,Chemicals,12.0,29.0,16,75.0,8.98,57.0
+IGIL,Services,5.0,36.0,16,76.55,15.05,57.0
+HINDPETRO,"Oil, Gas & Consumable Fuels",26.0,18.0,13,54.9,36.99,57.0
+INDNIPPON,Automobile and Auto Components,17.0,24.0,16,70.37,0.48,57.0
+MEERA,Capital Goods,28.0,15.0,14,61.69,0.0,57.0
+VASCONEQ,Realty,30.0,13.7,13,30.78,0.48,56.7
+SURAKSHA,Healthcare,19.2,24.0,13,49.0,36.03,56.2
+PRICOLLTD,Automobile and Auto Components,16.0,28.0,12,38.51,29.21,56.0
+UNIONBANK,Financial Services,23.0,20.0,13,74.76,20.05,56.0
+IRB,Construction,25.0,20.0,11,30.42,53.29,56.0
+ACCELYA,Information Technology,20.0,20.0,16,74.66,0.35,56.0
+BIRLAMONEY,Financial Services,26.0,18.0,12,73.53,0.0,56.0
+RANEHOLDIN,Financial Services,25.0,18.0,13,46.55,4.91,56.0
+SMCGLOBAL,Financial Services,22.0,20.0,14,66.77,2.98,56.0
+PCBL,Chemicals,25.0,13.7,17,53.38,15.88,55.7
+LINCOLN,Healthcare,19.0,21.7,15,49.78,4.71,55.7
+BRGIL,Construction,24.0,18.7,13,73.13,8.0,55.7
+NINSYS,Information Technology,4.5,36.0,15,47.42,0.01,55.5
+FLUIDOM,Capital Goods,3.0,35.4,17,53.45,0.58,55.4
+BOROLTD,Consumer Durables,18.4,21.0,16,64.61,6.44,55.4
+CIEINDIA,Automobile and Auto Components,24.0,18.3,13,65.7,25.96,55.3
+VINATIORGA,Chemicals,15.2,25.1,15,74.29,13.61,55.3
+JKTYRE,Automobile and Auto Components,26.0,14.0,15,51.72,24.42,55.0
+TATACONSUM,Fast Moving Consumer Goods,26.0,18.0,11,33.84,44.64,55.0
+RPEL,Capital Goods,4.0,34.0,17,62.91,0.11,55.0
+QPOWER,Capital Goods,3.0,35.0,17,73.91,8.0,55.0
+OIL,"Oil, Gas & Consumable Fuels",21.0,21.0,13,56.66,26.98,55.0
+RAILTEL,Telecommunication,16.0,23.0,16,72.84,4.52,55.0
+NLCINDIA,Power,21.0,19.0,15,72.2,16.93,55.0
+JSLL,Healthcare,4.0,36.0,15,63.62,6.42,55.0
+AVANTIFEED,Fast Moving Consumer Goods,14.0,27.0,14,43.23,12.14,55.0
+JSWENERGY,Power,19.0,21.0,15,69.26,23.89,55.0
+FINCABLES,Capital Goods,22.0,22.0,11,35.86,25.19,55.0
+AEGISLOG,"Oil, Gas & Consumable Fuels",19.0,22.0,14,58.1,23.28,55.0
+JAIBALAJI,Metals & Mining,18.0,22.9,14,64.84,3.82,54.9
+SUNDARMFIN,Financial Services,27.0,18.7,9,37.21,26.56,54.7
+HDFCBANK,Financial Services,28.0,18.7,8,0.0,84.67,54.7
+FABCLEAN,Capital Goods,21.6,20.0,13,68.49,8.97,54.6
+PATELSAI,Capital Goods,21.6,19.0,14,46.45,0.07,54.6
+TPLPLASTEH,Capital Goods,17.6,21.0,16,74.86,0.53,54.6
+APIS,Fast Moving Consumer Goods,21.6,18.0,15,74.72,0.0,54.6
+SRM,Construction,2.5,36.0,16,72.59,1.31,54.5
+KAMATHOTEL,Consumer Services,22.0,19.4,13,57.78,3.94,54.4
+GATEWAY,Services,22.4,21.0,11,33.03,42.16,54.4
+AXISBANK,Financial Services,29.0,17.3,8,8.15,85.23,54.3
+VALIANT,Telecommunication,18.0,25.3,11,40.62,2.43,54.3
+SYMPHONY,Consumer Durables,13.0,26.3,15,73.42,14.04,54.3
+RATEGAIN,Information Technology,15.2,25.0,14,48.54,25.59,54.2
+AMBUJACEM,Construction Materials,17.0,21.0,16,67.68,25.44,54.0
+ENGINERSIN,Construction,11.0,29.0,14,51.32,21.12,54.0
+IMFA,Metals & Mining,12.0,26.0,16,58.69,3.99,54.0
+ALKEM,Healthcare,20.0,22.0,12,51.2,31.51,54.0
+JYOTICNC,Capital Goods,16.0,27.0,11,62.55,23.09,54.0
+JINDRILL,"Oil, Gas & Consumable Fuels",21.0,19.0,14,66.44,0.85,54.0
+BALAMINES,Chemicals,18.0,20.0,16,54.59,4.83,54.0
+CEATLTD,Automobile and Auto Components,25.0,18.0,11,47.21,37.4,54.0
+IONEXCHANG,Utilities,26.0,16.0,12,25.58,18.9,54.0
+GRANULES,Healthcare,20.0,22.0,12,38.02,32.3,54.0
+RAYMOND,Realty,21.0,20.0,13,48.87,14.44,54.0
+SEALMATIC,Capital Goods,5.0,34.7,14,72.44,0.0,53.7
+HLEGLAS,Capital Goods,17.6,20.0,16,65.64,6.62,53.6
+SAILIFE,Healthcare,21.6,23.0,9,34.7,52.82,53.6
+HMAAGRO,Fast Moving Consumer Goods,18.4,21.0,14,81.63,6.27,53.4
+FLUOROCHEM,Chemicals,23.2,16.0,14,61.39,17.12,53.2
+ASHAPURMIN,Metals & Mining,21.0,19.0,13,47.88,19.63,53.0
+GALAXYSURF,Chemicals,18.0,20.0,15,70.91,17.13,53.0
+AIAENG,Capital Goods,20.0,20.0,13,58.5,38.83,53.0
+NRBBEARING,Automobile and Auto Components,20.0,19.0,14,51.2,24.43,53.0
+POWERGRID,Power,13.0,27.0,12,51.34,44.92,52.0
+ULTRACEMCO,Construction Materials,13.0,25.0,14,59.28,31.89,52.0
+DEEPAKNTR,Chemicals,14.0,25.0,13,49.33,29.26,52.0
+BSOFT,Information Technology,25.0,16.0,11,40.51,35.02,52.0
+WIPRO,Information Technology,17.0,19.0,16,72.64,16.6,52.0
+SCHAEFFLER,Automobile and Auto Components,3.0,34.0,15,74.13,20.56,52.0
+FSL,Services,23.0,16.0,13,53.66,34.39,52.0
+HUDCO,Financial Services,19.0,20.0,13,75.0,13.43,52.0
+KSL,Capital Goods,19.0,17.0,16,64.7,12.88,52.0
+SUBROS,Capital Goods,21.0,20.0,11,36.79,43.83,52.0
+CONCOR,Services,26.0,14.0,12,54.8,37.73,52.0
+PETRONET,"Oil, Gas & Consumable Fuels",15.0,24.0,13,50.0,39.75,52.0
+TIMETECHNO,Capital Goods,21.0,20.0,11,47.51,28.36,52.0
+ASAHIINDIA,Automobile and Auto Components,24.0,13.7,14,51.58,10.13,51.7
+3MINDIA,Diversified,13.6,22.0,16,75.0,11.89,51.6
+ESABINDIA,Capital Goods,4.5,33.6,13,73.72,14.44,51.1
+MAFATIND,Textiles,17.0,19.0,15,69.32,0.75,51.0
+HINDZINC,Metals & Mining,5.0,31.0,15,61.84,6.22,51.0
+IRCTC,Consumer Services,5.0,31.0,15,62.4,21.21,51.0
+BHARTIARTL,Telecommunication,19.0,22.0,10,48.87,48.29,51.0
+SUNDRMFAST,Automobile and Auto Components,19.0,20.0,12,46.94,33.85,51.0
+ZENSARTECH,Information Technology,18.0,21.0,12,49.01,34.92,51.0
+COLPAL,Fast Moving Consumer Goods,4.0,36.0,11,51.0,28.68,51.0
+SJS,Automobile and Auto Components,4.0,36.0,11,21.18,46.02,51.0
+JOSTS,Capital Goods,12.0,24.0,15,48.06,0.05,51.0
+SUNTV,"Media, Entertainment & Publication",7.0,29.0,15,75.0,17.11,51.0
+DAMCAPITAL,Financial Services,10.0,29.7,11,40.0,11.6,50.7
+DOLLAR,Textiles,17.6,20.0,13,72.21,5.57,50.6
+GLAND,Healthcare,13.6,24.0,13,51.83,40.57,50.6
+CYIENT,Information Technology,23.0,15.0,12,23.28,54.79,50.0
+BAJAJHLDNG,Financial Services,14.0,22.0,14,51.46,17.57,50.0
+MUFTI,Consumer Services,4.0,29.0,17,55.01,2.79,50.0
+NAVINFLUOR,Chemicals,16.0,24.0,10,27.11,51.83,50.0
+ACC,Construction Materials,18.0,18.0,14,56.69,27.36,50.0
+GPPL,Services,13.0,25.0,12,44.01,35.97,50.0
+DBCORP,"Media, Entertainment & Publication",12.0,20.0,18,74.25,16.44,50.0
+REDTAPE,Consumer Durables,3.0,32.0,15,71.79,14.76,50.0
+GAIL,"Oil, Gas & Consumable Fuels",18.0,18.0,14,51.88,33.83,50.0
+INDIASHLTR,Financial Services,6.5,33.3,10,47.6,28.2,49.8
+LEMONTREE,Consumer Services,17.0,21.7,11,22.28,40.95,49.7
+LIKHITHA,Construction,3.5,29.0,17,70.25,0.22,49.5
+FORTIS,Healthcare,27.0,11.4,11,31.17,57.17,49.4
+RITES,Construction,8.0,25.0,16,72.2,12.09,49.0
+JINDWORLD,Textiles,16.0,15.0,18,61.77,0.23,49.0
+CHEMBOND,Chemicals,18.0,15.0,16,67.72,1.35,49.0
+CENTURYPLY,Consumer Durables,16.0,19.0,14,72.64,22.46,49.0
+INSECTICID,Chemicals,17.0,19.0,13,72.3,13.86,49.0
+DLF,Realty,12.0,22.0,15,74.08,20.6,49.0
+LAURUSLABS,Healthcare,18.0,21.0,10,27.49,38.94,49.0
+JUSTDIAL,Consumer Services,12.0,23.0,14,74.15,14.92,49.0
+HEROMOTOCO,Automobile and Auto Components,11.0,27.0,11,34.73,55.71,49.0
+ASTERDM,Healthcare,23.0,18.0,8,40.39,44.58,49.0
+HDFCLIFE,Financial Services,17.0,19.0,13,50.21,39.5,49.0
+USHAMART,Capital Goods,14.0,23.0,12,40.52,28.73,49.0
+BALUFORGE,Capital Goods,3.0,34.0,12,53.99,8.3,49.0
+JUBLCPL,Chemicals,2.5,31.0,15,74.37,0.39,48.5
+CELLO,Consumer Durables,3.5,29.0,16,75.0,18.78,48.5
+KRN,Capital Goods,2.5,31.0,15,70.79,11.66,48.5
+SANSTAR,Fast Moving Consumer Goods,3.0,29.3,16,70.38,0.02,48.3
+CGPOWER,Capital Goods,13.0,24.0,11,56.36,29.54,48.0
+ABB,Capital Goods,3.0,31.0,14,75.0,16.79,48.0
+MINDACORP,Automobile and Auto Components,13.0,20.0,15,64.84,27.52,48.0
+SRF,Chemicals,16.0,20.0,12,50.26,37.66,48.0
+BLUEDART,Services,15.0,17.0,16,75.0,17.76,48.0
+RVNL,Construction,17.0,18.0,13,72.84,11.34,48.0
+BAJAJCON,Fast Moving Consumer Goods,6.0,28.0,14,42.97,25.45,48.0
+GODREJAGRO,Fast Moving Consumer Goods,15.0,17.0,16,67.65,11.67,48.0
+LICHSGFIN,Financial Services,24.0,14.7,9,45.24,42.17,47.7
+ALUFLUOR,Chemicals,3.0,29.7,15,59.93,1.33,47.7
+VIMTALABS,Healthcare,3.5,30.0,14,35.89,4.7,47.5
+DENTA,Utilities,3.5,30.0,14,71.91,0.63,47.5
+NESTLEIND,Fast Moving Consumer Goods,4.5,29.0,14,62.76,21.91,47.5
+GPTHEALTH,Healthcare,4.0,29.3,14,65.57,8.93,47.3
+AMIC,Capital Goods,3.0,33.3,11,57.96,0.63,47.3
+EMIL,Consumer Services,19.2,14.0,14,65.17,25.08,47.2
+SHAWGELTIN,Chemicals,4.0,27.2,16,75.0,0.01,47.2
+GULFOILLUB,"Oil, Gas & Consumable Fuels",3.0,30.0,14,67.11,17.35,47.0
+GREENPLY,Consumer Durables,21.0,12.0,14,51.8,36.47,47.0
+JUBLFOOD,Consumer Services,18.0,18.0,11,40.27,53.38,47.0
+METROPOLIS,Healthcare,12.0,23.0,12,48.87,46.41,47.0
+GSPL,"Oil, Gas & Consumable Fuels",11.0,26.0,10,37.63,40.57,47.0
+IPCALAB,Healthcare,20.0,15.0,12,44.72,47.61,47.0
+COCHINSHIP,Capital Goods,12.0,21.0,14,67.91,9.21,47.0
+ARVIND,Textiles,17.0,19.0,11,39.53,35.81,47.0
+EPIGRAL,Chemicals,4.0,27.0,16,68.83,7.49,47.0
+ORICONENT,Capital Goods,17.0,16.0,14,65.7,0.42,47.0
+RMC,Capital Goods,3.5,33.3,10,52.09,3.09,46.8
+RAMKY,Construction,10.0,21.7,15,69.81,2.03,46.7
+360ONE,Financial Services,17.6,23.0,6,6.25,76.33,46.6
+HAPPYFORGE,Capital Goods,3.5,27.0,16,78.5,18.57,46.5
+HYUNDAI,Automobile and Auto Components,3.5,28.0,15,82.5,15.02,46.5
+CUPID,Fast Moving Consumer Goods,3.5,28.0,15,45.95,0.99,46.5
+HIRECT,Capital Goods,2.5,30.0,14,43.93,6.34,46.5
+UNIPARTS,Automobile and Auto Components,6.4,23.0,17,65.89,7.34,46.4
+KRSNAA,Healthcare,16.0,18.3,12,27.11,18.02,46.3
+PREVEST,Healthcare,4.0,26.3,16,73.6,1.42,46.3
+VTL,Textiles,12.0,19.0,15,64.44,22.06,46.0
+APOLLOTYRE,Automobile and Auto Components,19.0,17.0,10,36.93,40.15,46.0
+GAEL,Fast Moving Consumer Goods,11.0,19.0,16,63.84,2.17,46.0
+HESTERBIO,Healthcare,13.0,17.0,16,53.73,0.53,46.0
+PREMEXPLN,Chemicals,19.0,16.0,11,41.33,10.14,46.0
+SBFC,Financial Services,4.0,32.0,10,52.82,26.41,46.0
+MRF,Automobile and Auto Components,16.0,19.0,11,27.73,30.68,46.0
+PENIND,Capital Goods,20.0,14.0,12,39.67,7.2,46.0
+DABUR,Fast Moving Consumer Goods,11.0,20.0,15,66.23,28.34,46.0
+JMA,Automobile and Auto Components,17.0,14.9,14,51.0,0.06,45.9
+BLIL,Financial Services,16.0,14.7,15,59.67,1.09,45.7
+KPGEL,Capital Goods,3.0,30.7,12,66.61,0.44,45.7
+LUXIND,Textiles,5.6,26.0,14,74.19,5.77,45.6
+UNIMECH,Capital Goods,3.5,25.0,17,79.82,6.86,45.5
+AKSHARCHEM,Chemicals,3.5,26.0,16,62.7,0.06,45.5
+DPABHUSHAN,Consumer Durables,2.5,26.0,17,74.88,0.22,45.5
+VIDHIING,Chemicals,11.2,19.0,15,64.28,0.1,45.2
+WELSPUNLIV,Textiles,9.0,21.0,15,66.24,15.46,45.0
+BLSE,Information Technology,2.0,27.0,16,68.89,1.1,45.0
+AUBANK,Financial Services,10.0,30.0,5,22.79,67.72,45.0
+GUJGASLTD,"Oil, Gas & Consumable Fuels",9.0,21.0,15,60.89,18.88,45.0
+ISGEC,Construction,10.0,21.0,14,62.43,14.07,45.0
+VAIBHAVGBL,Consumer Durables,13.0,17.0,15,57.11,19.73,45.0
+KAJARIACER,Consumer Durables,14.0,18.0,13,47.69,37.96,45.0
+VOLTAS,Consumer Durables,20.0,17.0,8,30.3,56.15,45.0
+BAJAJINDEF,Capital Goods,5.0,24.0,16,69.61,1.56,45.0
+MGL,"Oil, Gas & Consumable Fuels",3.5,30.0,11,32.5,45.72,44.5
+SGRL,Healthcare,3.5,25.0,16,72.8,0.0,44.5
+SPITZE,Consumer Durables,2.5,28.0,14,74.99,0.0,44.5
+ARE&M,Automobile and Auto Components,14.4,18.0,12,32.86,34.49,44.4
+AKCAPIT,Financial Services,9.0,20.0,15,72.09,0.0,44.0
+HERITGFOOD,Fast Moving Consumer Goods,9.0,20.0,15,41.3,8.83,44.0
+LUPIN,Healthcare,10.0,22.0,12,46.89,47.08,44.0
+ADVENZYMES,Healthcare,10.0,20.0,14,43.04,31.36,44.0
+KPIL,Construction,15.0,17.0,12,33.57,55.63,44.0
+STYRENIX,Chemicals,2.0,29.0,13,46.24,16.97,44.0
+GODREJCP,Fast Moving Consumer Goods,12.0,18.0,14,53.06,31.9,44.0
+CARRARO,Automobile and Auto Components,2.0,27.0,15,68.77,19.83,44.0
+GRAPHITE,Capital Goods,15.0,16.0,13,65.34,16.45,44.0
+JKPAPER,Forest Materials,16.0,14.9,13,49.63,17.93,43.9
+INDIAGLYCO,Fast Moving Consumer Goods,16.0,13.7,14,59.63,7.64,43.7
+COMSYN,Capital Goods,13.6,16.0,14,58.79,0.0,43.6
+PLATIND,Chemicals,2.5,27.0,14,70.03,3.57,43.5
+ANUP,Capital Goods,3.5,28.0,12,40.92,20.14,43.5
+5PAISA,Financial Services,14.0,18.3,11,32.78,12.37,43.3
+PNCINFRA,Construction,11.0,20.0,12,56.07,33.17,43.0
+DELTACORP,Consumer Services,12.0,16.0,15,34.46,1.88,43.0
+ICICIPRULI,Financial Services,10.0,20.0,13,72.88,21.89,43.0
+GABRIEL,Automobile and Auto Components,2.0,28.0,13,55.0,22.69,43.0
+VSTIND,Fast Moving Consumer Goods,4.0,28.8,10,32.16,7.53,42.8
+SYNGENE,Healthcare,12.8,17.0,13,52.68,40.79,42.8
+PFIZER,Healthcare,2.5,27.2,13,63.92,19.76,42.7
+J&KBANK,Financial Services,16.0,14.7,12,59.4,13.98,42.7
+FIVESTAR,Financial Services,6.5,32.0,4,18.56,67.69,42.5
+JKIL,Construction,2.5,27.0,13,46.64,27.99,42.5
+SKFINDIA,Capital Goods,3.5,26.0,13,52.58,33.75,42.5
+WSTCSTPAPR,Forest Materials,10.4,17.0,15,56.55,15.91,42.4
+FDC,Healthcare,10.0,15.0,17,69.66,8.59,42.0
+GENESYS,Information Technology,20.0,13.0,9,31.52,7.3,42.0
+MATRIMONY,Consumer Services,11.0,16.0,15,56.96,27.27,42.0
+ZFCVINDIA,Automobile and Auto Components,2.0,28.0,12,60.0,32.05,42.0
+AFSL,Financial Services,8.0,20.0,14,71.36,17.03,42.0
+TRIDENT,Textiles,8.0,17.0,17,73.68,3.35,42.0
+KRITINUT,Fast Moving Consumer Goods,2.0,24.0,16,66.69,0.0,42.0
+PRAKASH,Metals & Mining,6.0,24.0,12,44.38,4.05,42.0
+CARBORUNIV,Capital Goods,12.0,20.0,10,38.9,40.99,42.0
+GANECOS,Textiles,12.8,16.0,13,39.33,29.08,41.8
+GIPCL,Power,8.0,18.7,15,56.57,7.59,41.7
+BBOX,Information Technology,5.0,20.6,16,70.11,5.89,41.6
+UNIECOM,Information Technology,2.5,28.0,11,36.01,5.49,41.5
+SANOFI,Healthcare,4.5,23.0,14,60.4,26.85,41.5
+MENNPIS,Automobile and Auto Components,2.5,23.0,16,74.37,0.0,41.5
+SHAILY,Capital Goods,2.5,26.0,13,43.39,25.65,41.5
+VRAJ,Metals & Mining,2.0,23.0,16,74.96,3.88,41.0
+MIDHANI,Capital Goods,8.0,17.0,16,74.0,9.17,41.0
+ATUL,Chemicals,8.0,20.0,13,45.22,32.86,41.0
+CESC,Power,11.0,17.0,13,52.11,37.49,41.0
+SATIN,Financial Services,6.0,24.0,11,36.17,8.73,41.0
+OPTIEMUS,Telecommunication,15.0,12.0,14,72.17,4.45,41.0
+NILAINFRA,Realty,3.0,24.0,14,61.9,0.28,41.0
+JTEKTINDIA,Automobile and Auto Components,13.0,13.0,15,74.98,11.58,41.0
+KRYSTAL,Services,1.5,23.0,16,69.96,6.02,40.5
+INDIGOPNTS,Consumer Durables,2.5,24.0,14,53.88,32.34,40.5
+SANGHVIMOV,Services,3.5,21.7,15,47.25,2.86,40.2
+IPL,Chemicals,2.0,21.0,17,63.65,1.91,40.0
+APLLTD,Healthcare,10.0,15.0,15,69.74,20.4,40.0
+JWL,Capital Goods,2.0,21.0,17,68.31,5.23,40.0
+AARTIDRUGS,Healthcare,9.0,16.0,15,55.03,12.27,40.0
+EDELWEISS,Financial Services,8.0,23.0,9,32.69,24.16,40.0
+HATSUN,Fast Moving Consumer Goods,2.0,24.0,14,73.17,13.48,40.0
+SUPRAJIT,Automobile and Auto Components,14.0,14.0,12,45.14,23.89,40.0
+KELLTONTEC,Information Technology,9.0,21.0,10,37.67,1.21,40.0
+TECHM,Information Technology,10.0,19.0,11,34.97,55.73,40.0
+IDBI,Financial Services,11.0,14.7,14,94.72,0.64,39.7
+PNBHOUSING,Financial Services,14.4,17.3,8,28.04,60.24,39.7
+UNITEDTEA,Fast Moving Consumer Goods,3.0,25.6,11,49.79,3.92,39.6
+LINC,Fast Moving Consumer Goods,2.5,19.0,18,61.02,0.92,39.5
+UNITEDPOLY,Textiles,1.5,24.0,14,51.51,8.23,39.5
+NIITMTS,Consumer Services,3.5,25.0,11,34.19,41.4,39.5
+BANKINDIA,Financial Services,14.0,13.3,12,73.38,21.0,39.3
+M&MFIN,Financial Services,15.0,13.3,11,52.49,41.45,39.3
+KENNAMET,Capital Goods,2.5,21.7,15,75.0,14.57,39.2
+CREDITACC,Financial Services,10.4,17.6,11,66.28,24.91,39.0
+KEC,Construction,12.0,16.0,11,50.1,37.22,39.0
+BENGALASM,Financial Services,3.0,20.0,16,72.88,4.44,39.0
+BATAINDIA,Consumer Durables,7.0,19.0,13,50.16,35.49,39.0
+BALRAMCHIN,Fast Moving Consumer Goods,4.0,24.0,11,42.86,38.05,39.0
+UBL,Fast Moving Consumer Goods,8.0,17.0,14,70.84,22.95,39.0
+BEEZAASAN,Chemicals,1.5,25.3,12,70.68,6.79,38.8
+REMSONSIND,Automobile and Auto Components,1.5,20.0,17,66.24,4.52,38.5
+RVTH,Capital Goods,2.5,21.0,15,63.9,0.0,38.5
+AUROPHARMA,Healthcare,8.0,17.0,13,51.82,41.61,38.0
+INDOUS,Fast Moving Consumer Goods,2.0,24.0,12,70.18,0.0,38.0
+ORIENTPPR,Forest Materials,4.0,24.0,10,38.73,0.79,38.0
+MFSL,Financial Services,13.0,17.0,8,1.25,92.48,38.0
+LTF,Financial Services,7.0,18.7,12,66.03,21.99,37.7
+VVIPIL,Utilities,2.5,24.0,11,68.49,5.83,37.5
+RADIANTCMS,Services,3.5,19.0,15,56.92,1.12,37.5
+PESB,Financial Services,2.0,25.3,10,51.11,0.51,37.3
+XCHANGING,Information Technology,7.0,15.0,15,75.0,0.3,37.0
+INDSWFTLAB,Healthcare,5.0,20.0,12,43.05,13.96,37.0
+FORBESCO,Consumer Durables,5.0,18.0,14,73.85,8.43,37.0
+HUHTAMAKI,Capital Goods,2.0,18.0,17,67.73,2.24,37.0
+AFCONS,Construction,8.8,15.0,13,50.17,32.41,36.8
+UCOBANK,Financial Services,0.0,22.7,14,90.95,4.55,36.7
+KRBL,Fast Moving Consumer Goods,3.0,18.0,15,60.17,8.23,36.0
+BHARATRAS,Chemicals,4.0,17.0,15,74.99,2.95,36.0
+PASHUPATI,Textiles,0.0,22.0,14,65.99,13.6,36.0
+JMFINANCIL,Financial Services,3.0,22.0,11,56.9,23.47,36.0
+VSTTILLERS,Capital Goods,1.0,21.0,14,55.61,22.2,36.0
+COSMOFIRST,Capital Goods,7.0,14.9,14,40.86,3.51,35.9
+SERVOTECH,Capital Goods,1.5,22.0,12,58.61,0.73,35.5
+KOTHARIPET,Chemicals,1.5,20.0,14,72.22,0.09,35.5
+EVEREADY,Fast Moving Consumer Goods,5.0,16.0,14,43.21,7.81,35.0
+MINDTECK,Information Technology,8.0,11.0,16,64.2,0.07,35.0
+REPCOHOME,Financial Services,11.0,16.0,8,37.13,36.42,35.0
+SATTRIX,Information Technology,2.0,20.0,13,74.96,0.02,35.0
+CENTRALBK,Financial Services,7.0,16.0,12,89.27,5.67,35.0
+SSWL,Automobile and Auto Components,2.0,16.0,17,61.15,13.04,35.0
+BABA,"Media, Entertainment & Publication",2.0,18.7,14,74.68,0.0,34.7
+LAXMIDENTL,Healthcare,6.4,17.1,11,41.7,43.27,34.5
+PERMAGN,Capital Goods,2.5,17.0,15,58.01,0.01,34.5
+INNOVATORS,Capital Goods,9.0,13.3,12,63.71,0.49,34.3
+RALLIS,Chemicals,7.0,15.0,12,55.08,23.38,34.0
+NHPC,Power,5.0,14.0,15,67.4,20.7,34.0
+HARIOMPIPE,Capital Goods,2.0,17.0,15,57.27,9.28,34.0
+IOC,"Oil, Gas & Consumable Fuels",6.0,14.0,14,51.5,18.57,34.0
+MOIL,Metals & Mining,4.0,14.9,15,64.68,11.64,33.9
+STARPAPER,Forest Materials,2.0,20.8,11,44.93,1.69,33.8
+WIMPLAST,Consumer Durables,5.0,13.7,15,55.99,3.81,33.7
+KAMDHENU,Capital Goods,1.5,19.0,13,49.03,2.53,33.5
+KIRLFER,Metals & Mining,1.0,18.0,14,50.82,13.71,33.0
+TCIEXP,Services,2.0,16.0,15,69.46,10.21,33.0
+ACI,Chemicals,2.5,18.3,12,53.43,36.34,32.8
+GICRE,Financial Services,4.0,13.7,15,82.4,15.44,32.7
+GVT&D,Capital Goods,5.0,18.7,9,51.0,41.73,32.7
+PARAGMILK,Fast Moving Consumer Goods,5.0,16.0,11,40.65,15.42,32.0
+DCMSHRIRAM,Diversified,7.0,10.0,15,66.53,12.29,32.0
+UTTAMSUGAR,Fast Moving Consumer Goods,2.0,15.0,15,74.39,0.04,32.0
+THOMASCOOK,Consumer Services,2.0,17.0,13,63.83,14.11,32.0
+PRECWIRE,Capital Goods,0.5,17.3,14,56.61,1.38,31.8
+PFS,Financial Services,6.0,10.7,15,64.99,7.23,31.7
+MANAPPURAM,Financial Services,10.0,14.7,7,35.25,39.93,31.7
+JKLAKSHMI,Construction Materials,8.0,13.0,10,45.12,35.52,31.0
+WEL,Consumer Durables,3.0,12.8,14,71.79,9.52,29.8
+DCMSRIND,Fast Moving Consumer Goods,3.0,12.0,13,50.11,14.21,28.0
+SANATHAN,Textiles,1.0,13.0,14,78.58,13.5,28.0
+AARTIPHARM,Healthcare,2.5,14.7,10,43.1,15.35,27.2
+DICIND,Chemicals,1.5,13.3,11,71.75,0.0,25.8

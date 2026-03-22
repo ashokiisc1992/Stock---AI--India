@@ -1,0 +1,648 @@
+==============================================================================
+  AI STOCK SCREENER — WEEKLY REPORT (SHORT)
+  23 March 2026  |  Universe: 752 stocks
+==============================================================================
+  SecRank  = rank vs same sector  |  CapRank = rank vs same sector + cap
+  Week Vol = this week avg vs prior 15-day avg
+  Break Vol= this week avg vs consolidation period avg
+  ↑ = jumped 10%+ in rank vs last week
+
+──────────────────────────────────────────────────────────────────────────────
+  TIER 1 — MOMENTUM  (24 stocks)
+  Fund ≥60 + Tech ≥65 + Momentum setup confirmed
+──────────────────────────────────────────────────────────────────────────────
+
+  [L] Large Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #1  ABSLAMC  (Financial Services)  MCap Rs27,282Cr  Rs944.65
+    Setup   : Momentum    Tech  65/100
+    Scores  : Fund 73.0/100  Sector Rank 8.5/10  Cap Rank 8.5/10
+    Tech    : RSI 52  ADX 22  MACD -2.47  → Momentum building, above EMA200, RSI 52
+    Volume  : Week Vol:0.72x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Strong Downtrend ↓↓ | RSI 39.2 | ADX 28.2 | MACD ▼ | EMA mixed | Below EMA200
+
+  #2  JBCHEPHARM  (Healthcare)  MCap Rs34,337Cr  Rs2138.60
+    Setup   : Momentum    Tech  80/100
+    Scores  : Fund 73.0/100  Sector Rank 8.4/10  Cap Rank 9.9/10
+    Base    : 525d (525d (1.5-2 years)) | +8.7% to breakout
+    Break   : Week Vol:1.20x | Break Vol:1.93x ⚡  → Volume building toward breakout
+    Tech    : RSI 64  ADX 32  MACD -4.08  → Strong uptrend, EMA aligned, RSI 64
+    Volume  : Week Vol:1.20x (Normal) → Average volume → monitor for increase
+    Sector  : Sideways → | RSI 45.0 | ADX 27.7 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #3  NMDC  (Metals & Mining)  MCap Rs70,141Cr  Rs79.78
+    Setup   : Momentum    Tech  60/100
+    Scores  : Fund 71.0/100  Sector Rank 8.5/10  Cap Rank 8.5/10
+    Base    : 549d (549d (1.5-2 years)) | -3.3% to breakout
+    Break   : Week Vol:0.98x | Break Vol:0.73x    → Quiet, below consolidation avg
+    Tech    : RSI 53  ADX 19  MACD -0.09  → Momentum building, above EMA200, RSI 53
+    Volume  : Week Vol:0.98x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Downtrend ↓ | RSI 40.8 | ADX 28.0 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #4  COALINDIA  (Oil, Gas & Consumable Fuels)  MCap Rs2.9L Cr  Rs468.15
+    Setup   : Momentum    Tech 100/100
+    Scores  : Fund 65.0/100  Sector Rank 7.8/10  Cap Rank 9.3/10
+    Base    : 527d (527d (1.5-2 years)) | +1.2% to breakout
+    Break   : Week Vol:0.97x | Break Vol:1.50x ⚡  → Volume building toward breakout
+    Tech    : RSI 67  ADX 35  MACD +1.34  → Strong uptrend, EMA aligned, RSI 67
+    Volume  : Week Vol:0.97x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Weak Uptrend →↑ | RSI 46.6 | ADX 16.4 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #5  ADANIPOWER  (Power)  MCap Rs2.9L Cr  Rs151.54
+    Setup   : Momentum    Tech  90/100
+    Scores  : Fund 63.3/100  Sector Rank 7.3/10  Cap Rank 8.3/10
+    Tech    : RSI 62  ADX 34  MACD +1.33  → Strong uptrend, EMA aligned, RSI 62
+    Volume  : Week Vol:2.20x (Very High) → Strong participation → trend likely to continue
+    Sector  : Weak Uptrend →↑ | RSI 46.6 | ADX 16.4 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #6  SUNPHARMA  (Healthcare)  MCap Rs4.3L Cr  Rs1770.60
+    Setup   : Momentum    Tech  57/100
+    Scores  : Fund 63.0/100  Sector Rank 7.3/10  Cap Rank 8.5/10
+    Base    : 527d (527d (1.5-2 years)) | -4.4% to breakout
+    Break   : Week Vol:0.89x | Break Vol:1.09x ~  → Normal volume, no breakout pressure
+    Tech    : RSI 47  ADX 30  MACD -6.38  → Consolidating above EMA200, RSI 47
+    Volume  : Week Vol:0.89x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Sideways → | RSI 45.0 | ADX 27.7 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #7  TATAPOWER  (Power)  MCap Rs1.3L Cr  Rs402.60
+    Setup   : Momentum    Tech  75/100
+    Scores  : Fund 62.0/100  Sector Rank 7.1/10  Cap Rank 8.2/10
+    Base    : 566d (566d (1.5-2 years)) | -11.1% to breakout
+    Break   : Week Vol:1.89x | Break Vol:1.15x ~  → Normal volume, no breakout pressure
+    Tech    : RSI 68  ADX 26  MACD +2.04  → Momentum building, above EMA200, RSI 68
+    Volume  : Week Vol:1.89x (High) → Good volume support → momentum confirmed
+    Sector  : Weak Uptrend →↑ | RSI 46.6 | ADX 16.4 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #8  GESHIP  (Services)  MCap Rs20,411Cr  Rs1429.70
+    Setup   : Momentum    Tech  75/100
+    Scores  : Fund 61.0/100  Sector Rank 7.4/10  Cap Rank 7.4/10
+    Tech    : RSI 56  ADX 24  MACD -1.88  → Strong uptrend, EMA aligned, RSI 56
+    Volume  : Week Vol:1.15x (Normal) → Average volume → monitor for increase
+    Sector  : Strong Downtrend ↓↓ | RSI 26.6 | ADX 57.3 | MACD ▼ | EMA ↓↓↓ | Below EMA200
+
+  [ML] Mini Large Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #9  LUMAXTECH  (Automobile and Auto Components)  MCap Rs10,687Cr  Rs1568.00
+    Setup   : Momentum    Tech  95/100
+    Scores  : Fund 80.0/100  Sector Rank 9.6/10  Cap Rank 9.8/10
+    Tech    : RSI 53  ADX 29  MACD +2.04  → Momentum building, above EMA200, RSI 53
+    Volume  : Week Vol:0.98x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Strong Downtrend ↓↓ | RSI 37.2 | ADX 40.3 | MACD ▼ | EMA mixed | Below EMA200
+
+  #10  GOKULAGRO  (Fast Moving Consumer Goods)  MCap Rs5,357Cr  Rs181.54
+    Setup   : Momentum    Tech  90/100
+    Scores  : Fund 79.0/100  Sector Rank 9.8/10  Cap Rank 10.0/10
+    Tech    : RSI 64  ADX 37  MACD +2.55  → Strong uptrend, EMA aligned, RSI 64
+    Volume  : Week Vol:58.20x (Extremely High) → Strong participation → trend likely to continue
+    Sector  : Strong Downtrend ↓↓ | RSI 22.4 | ADX 61.1 | MACD ▼ | EMA ↓↓↓ | Below EMA200
+
+  #11  SHRIPISTON  (Automobile and Auto Components)  MCap Rs13,766Cr  Rs3213.00
+    Setup   : Momentum    Tech  80/100
+    Scores  : Fund 75.0/100  Sector Rank 9.0/10  Cap Rank 9.1/10
+    Tech    : RSI 65  ADX 19  MACD +11.06  → Strong uptrend, EMA aligned, RSI 65
+    Volume  : Week Vol:3.03x (Extremely High) → Strong participation → trend likely to continue
+    Sector  : Strong Downtrend ↓↓ | RSI 37.2 | ADX 40.3 | MACD ▼ | EMA mixed | Below EMA200
+
+  #12  GPIL  (Capital Goods)  MCap Rs17,037Cr  Rs262.65
+    Setup   : Momentum    Tech  70/100
+    Scores  : Fund 72.0/100  Sector Rank 8.8/10  Cap Rank 8.9/10
+    Tech    : RSI 57  ADX 20  MACD +0.26  → Strong uptrend, EMA aligned, RSI 57
+    Volume  : Week Vol:1.00x (Normal) → Average volume → monitor for increase
+    Sector  : Strong Downtrend ↓↓ | RSI 36.0 | ADX 40.7 | MACD ▼ | EMA mixed | Below EMA200
+
+  #13  KSB  (Capital Goods)  MCap Rs13,615Cr  Rs782.30
+    Setup   : Momentum    Tech  70/100
+    Scores  : Fund 72.0/100  Sector Rank 8.8/10  Cap Rank 8.9/10
+    Base    : 581d (581d (1.5-2 years)) | -18.9% to breakout
+    Break   : Week Vol:0.27x | Break Vol:1.68x ⚡  → Volume building toward breakout
+    Tech    : RSI 58  ADX 30  MACD +3.72  → Momentum building, above EMA200, RSI 58
+    Volume  : Week Vol:0.27x (Very Low) → Very low volume → no conviction, caution
+    Sector  : Strong Downtrend ↓↓ | RSI 36.0 | ADX 40.7 | MACD ▼ | EMA mixed | Below EMA200
+
+  #14  GALLANTT  (Capital Goods)  MCap Rs13,414Cr  Rs555.95
+    Setup   : Momentum    Tech  70/100
+    Scores  : Fund 71.0/100  Sector Rank 8.6/10  Cap Rank 8.8/10
+    Tech    : RSI 55  ADX 23  MACD +1.16  → Momentum building, above EMA200, RSI 55
+    Volume  : Week Vol:0.69x (Very Low) → Very low volume → no conviction, caution
+    Sector  : Strong Downtrend ↓↓ | RSI 36.0 | ADX 40.7 | MACD ▼ | EMA mixed | Below EMA200
+
+  #15  INOXINDIA  (Capital Goods)  MCap Rs10,716Cr  Rs1180.70
+    Setup   : Momentum    Tech  85/100
+    Scores  : Fund 69.6/100  Sector Rank 8.5/10  Cap Rank 8.6/10
+    Base    : 475d (475d (1-1.5 years)) | -13.1% to breakout
+    Break   : Week Vol:2.16x | Break Vol:0.63x    → Very quiet, no breakout interest
+    Tech    : RSI 56  ADX 23  MACD +0.78  → Strong uptrend, EMA aligned, RSI 56
+    Volume  : Week Vol:2.16x (Very High) → Strong participation → trend likely to continue
+    Sector  : Strong Downtrend ↓↓ | RSI 36.0 | ADX 40.7 | MACD ▼ | EMA mixed | Below EMA200
+
+  #16  CCL  (Fast Moving Consumer Goods)  MCap Rs14,487Cr  Rs1087.60
+    Setup   : Momentum    Tech  85/100
+    Scores  : Fund 69.0/100  Sector Rank 8.6/10  Cap Rank 8.7/10
+    Tech    : RSI 68  ADX 16  MACD +1.52  → Strong uptrend, EMA aligned, RSI 68
+    Volume  : Week Vol:0.78x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Strong Downtrend ↓↓ | RSI 22.4 | ADX 61.1 | MACD ▼ | EMA ↓↓↓ | Below EMA200
+
+  [M] Mid Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #17  AGIIL  (Realty)  MCap Rs3,892Cr  Rs311.70
+    Setup   : Momentum    Tech  65/100
+    Scores  : Fund 81.0/100  Sector Rank 10.0/10  Cap Rank 10.0/10
+    Tech    : RSI 67  ADX 24  MACD -1.01  → Strong uptrend, EMA aligned, RSI 67
+    Volume  : Week Vol:1.37x (Normal) → Average volume → monitor for increase
+    Sector  : Strong Downtrend ↓↓ | RSI 30.9 | ADX 45.0 | MACD ▼ | EMA ↓↓↓ | Below EMA200
+
+  #18  KPL  (Healthcare)  MCap Rs1,575Cr  Rs1520.00
+    Setup   : Momentum    Tech  72/100
+    Scores  : Fund 79.0/100  Sector Rank 9.1/10  Cap Rank 9.1/10
+    Tech    : RSI 47  ADX 31  MACD -14.36  → Consolidating above EMA200, RSI 47
+    Volume  : Week Vol:0.56x (Very Low) → Very low volume → no conviction, caution
+    Sector  : Sideways → | RSI 45.0 | ADX 27.7 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #19  TITANBIO  (Chemicals)  MCap Rs1,638Cr  Rs396.55
+    Setup   : Momentum    Tech  88/100
+    Scores  : Fund 76.0/100  Sector Rank 8.5/10  Cap Rank 9.2/10
+    Tech    : RSI 75  ADX 43  MACD +7.78  → Strong uptrend, EMA aligned, RSI 75
+    Volume  : Week Vol:0.62x (Very Low) → Very low volume → no conviction, caution
+    Sector  : Strong Downtrend ↓↓ | RSI 33.9 | ADX 42.3 | MACD ▼ | EMA mixed | Below EMA200
+
+  #20  AEROFLEX  (Capital Goods)  MCap Rs3,096Cr  Rs233.75
+    Setup   : Momentum    Tech  80/100
+    Scores  : Fund 75.0/100  Sector Rank 9.1/10  Cap Rank 9.1/10
+    Base    : 384d (384d (1-1.5 years)) | -2.6% to breakout
+    Break   : Week Vol:1.39x | Break Vol:1.42x ~  → Normal volume, no breakout pressure
+    Tech    : RSI 51  ADX 36  MACD -0.52  → Momentum building, above EMA200, RSI 51
+    Volume  : Week Vol:1.39x (Normal) → Average volume → monitor for increase
+    Sector  : Strong Downtrend ↓↓ | RSI 36.0 | ADX 40.7 | MACD ▼ | EMA mixed | Below EMA200
+
+  #21  VISHNU  (Chemicals)  MCap Rs3,455Cr  Rs513.00
+    Setup   : Momentum    Tech  75/100
+    Scores  : Fund 70.0/100  Sector Rank 7.9/10  Cap Rank 8.4/10
+    Tech    : RSI 59  ADX 32  MACD +2.80  → Momentum building, above EMA200, RSI 59
+    Volume  : Week Vol:0.84x (Low) → Weak volume → momentum may fade, wait
+    Sector  : Strong Downtrend ↓↓ | RSI 33.9 | ADX 42.3 | MACD ▼ | EMA mixed | Below EMA200
+
+  #22  SMSPHARMA  (Healthcare)  MCap Rs3,606Cr  Rs386.90
+    Setup   : Momentum    Tech  80/100
+    Scores  : Fund 62.0/100  Sector Rank 7.2/10  Cap Rank 7.2/10
+    Tech    : RSI 54  ADX 27  MACD -3.49  → Momentum building, above EMA200, RSI 54
+    Volume  : Week Vol:0.56x (Very Low) → Very low volume → no conviction, caution
+    Sector  : Sideways → | RSI 45.0 | ADX 27.7 | MACD ▼ | EMA ↑↑↑ | Above EMA200
+
+  #23  FLAIR  (Fast Moving Consumer Goods)  MCap Rs3,240Cr  Rs307.40
+    Setup   : Momentum    Tech  65/100
+    Scores  : Fund 61.8/100  Sector Rank 7.7/10  Cap Rank 8.2/10
+    Base    : 539d (539d (1.5-2 years)) | -8.1% to breakout
+    Break   : Week Vol:1.23x | Break Vol:0.65x    → Very quiet, no breakout interest
+    Tech    : RSI 50  ADX 35  MACD +0.23  → Momentum building, above EMA200, RSI 50
+    Volume  : Week Vol:1.23x (Normal) → Average volume → monitor for increase
+    Sector  : Strong Downtrend ↓↓ | RSI 22.4 | ADX 61.1 | MACD ▼ | EMA ↓↓↓ | Below EMA200
+
+  [S] Small Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #24  PRADPME  (Automobile and Auto Components)  MCap Rs643Cr  Rs372.00
+    Setup   : Momentum    Tech  88/100
+    Scores  : Fund 65.0/100  Sector Rank 7.8/10  Cap Rank 8.2/10
+    Tech    : RSI 77  ADX 33  MACD +2.86  → Strong uptrend, EMA aligned, RSI 77
+    Volume  : Week Vol:1.69x (High) → Good volume support → momentum confirmed
+    Sector  : Strong Downtrend ↓↓ | RSI 37.2 | ADX 40.3 | MACD ▼ | EMA mixed | Below EMA200
+
+──────────────────────────────────────────────────────────────────────────────
+  TIER 2A — WATCHLIST  (Top 25 | Cap/Sec Rank ≥7 or ↑)
+  Setup forming — wait for confirmation before entering
+──────────────────────────────────────────────────────────────────────────────
+
+  #25  KPEL  Rs279.20  MCap Rs1,891Cr  Fund:87.0  Sec:10.0  Cap:10.0
+      Technical : [Momentum|50]  RSI: 51  ADX: 28  MACD:+2  → Weak momentum, below EMA200, RSI 51
+      Volume    : Week Vol:0.64x (Very Low) → Very low volume → no conviction, caution
+
+  #26  3BBLACKBIO  Rs1284.90  MCap Rs1,112Cr  Fund:86.7  Sec:10.0  Cap:10.0
+      Technical : [Reversal|50]  RSI: 47  ADX: 25  MACD:+6  → RSI 47, MACD turning up
+      Volume    : Week Vol:0.65x (Very Low) → Low volume on down move → selling pressure easing
+
+  #27  CAPLIPOINT  Rs1604.10  MCap Rs12,214Cr  Fund:85.0  Sec: 9.8  Cap:10.0
+      Technical : [Reversal|50]  RSI: 24  ADX: 34  MACD:-3  → Deeply oversold RSI 24, reversal imminent
+      Volume    : Week Vol:1.15x (Normal) → Elevated volume on reversal → watch direction
+
+  #28  NATCOPHARM  Rs959.20  MCap Rs17,184Cr  Fund:84.0  Sec: 9.7  Cap: 9.9
+      Technical : [Momentum|62]  RSI: 49  ADX: 25  MACD:-9  → Consolidating above EMA200, RSI 49
+      Volume    : Week Vol:0.30x (Very Low) → Very low volume → no conviction, caution
+
+  #29  SHARDAMOTR  Rs787.55  MCap Rs4,514Cr  Fund:83.0  Sec:10.0  Cap:10.0
+      Technical : [Reversal|55]  RSI: 38  ADX: 35  MACD:-6  → Divergence forming, RSI 38
+      Volume    : Week Vol:1.23x (Normal) → Elevated volume on reversal → watch direction
+
+  #30  ADANIPORTS  Rs1365.40  MCap Rs3.1L Cr  Fund:82.0  Sec:10.0  Cap:10.0  [530d base]
+      Technical : [Reversal|55]  RSI: 36  ADX: 24  MACD:-10  → Divergence forming, RSI 36
+      Volume    : Week Vol:1.09x (Normal) → Elevated volume on reversal → watch direction
+
+  #31  POLYCAB  Rs7150.00  MCap Rs1.1L Cr  Fund:82.0  Sec:10.0  Cap:10.0
+      Technical : [Reversal|58]  RSI: 31  ADX: 43  MACD:-125  → Oversold RSI 31, watch for turn
+      Volume    : Week Vol:0.80x (Low) → Neutral volume → wait for low-volume base to form
+
+  #32  PRUDENT  Rs2242.20  MCap Rs9,263Cr  Fund:80.0  Sec: 9.3  Cap:10.0
+      Technical : [Reversal|60]  RSI: 42  ADX: 30  MACD:+3  → RSI 42, MACD turning up
+      Volume    : Week Vol:0.88x (Low) → Neutral volume → wait for low-volume base to form
+
+  #33  MONARCH  Rs268.00  MCap Rs2,124Cr  Fund:78.9  Sec: 9.2  Cap:10.0
+      Technical : [Momentum|50]  RSI: 54  ADX: 32  MACD:+2  → Weak momentum, below EMA200, RSI 54
+      Volume    : Week Vol:0.61x (Very Low) → Very low volume → no conviction, caution
+
+  #34  GLOBAL  Rs99.23  MCap Rs505Cr  Fund:78.9  Sec: 8.9  Cap:10.0
+      Technical : [Momentum|57]  RSI: 47  ADX: 21  MACD:-1  → Consolidating above EMA200, RSI 47
+      Volume    : Week Vol:0.51x (Very Low) → Very low volume → no conviction, caution
+
+  #35  WAAREEENER  Rs3145.00  MCap Rs91,064Cr  Fund:78.0  Sec: 9.5  Cap: 9.5
+      Technical : [Momentum|58]  RSI: 77  ADX: 38  MACD:+59  → Momentum building, above EMA200, RSI 77
+      Volume    : Week Vol:1.61x (High) → Good volume support → momentum confirmed
+
+  #36  CHOLAFIN  Rs1440.50  MCap Rs1.2L Cr  Fund:77.0  Sec: 9.0  Cap: 9.0
+      Technical : [Reversal|50]  RSI: 18  ADX: 59  MACD:-18  → Deeply oversold RSI 18, reversal imminent
+      Volume    : Week Vol:1.06x (Normal) → Elevated volume on reversal → watch direction
+
+  #37  DOLATALGO  Rs71.32  MCap Rs1,256Cr  Fund:77.0  Sec: 9.0  Cap: 9.8
+      Technical : [Reversal|58]  RSI: 28  ADX: 37  MACD:+0  → Deeply oversold RSI 28, reversal imminent
+      Volume    : Week Vol:1.05x (Normal) → Elevated volume on reversal → watch direction
+
+  #38  CONTROLPR  Rs622.55  MCap Rs997Cr  Fund:76.0  Sec: 8.8  Cap: 8.8  [418d base]
+      Technical : [Reversal|63]  RSI: 43  ADX: 15  MACD:-1  → Divergence forming, RSI 43
+      Volume    : Week Vol:0.69x (Very Low) → Low volume on down move → selling pressure easing
+
+  #39  PERSISTENT  Rs4739.00  MCap Rs73,753Cr  Fund:76.0  Sec: 8.8  Cap: 9.5  [390d base]
+      Technical : [Reversal|53]  RSI: 49  ADX: 36  MACD:+42  → RSI 49, MACD turning up
+      Volume    : Week Vol:0.56x (Very Low) → Low volume on down move → selling pressure easing
+
+  #40  MUTHOOTFIN  Rs3315.90  MCap Rs1.3L Cr  Fund:75.3  Sec: 8.8  Cap: 8.8
+      Technical : [Momentum|52]  RSI: 45  ADX: 28  MACD:+20  → Consolidating above EMA200, RSI 45
+      Volume    : Week Vol:1.24x (Normal) → Average volume → monitor for increase
+
+  #41  VADILALIND  Rs4530.00  MCap Rs3,257Cr  Fund:75.0  Sec: 9.3  Cap:10.0
+      Technical : [Reversal|50]  RSI: 28  ADX: 32  MACD:-59  → Deeply oversold RSI 28, reversal imminent
+      Volume    : Week Vol:0.82x (Low) → Neutral volume → wait for low-volume base to form
+
+  #42  MAMATA  Rs374.00  MCap Rs920Cr  Fund:74.2  Sec: 9.0  Cap: 9.9
+      Technical : [Reversal|58]  RSI: 29  ADX: 40  MACD:-3  → Deeply oversold RSI 29, reversal imminent
+      Volume    : Week Vol:0.54x (Very Low) → Low volume on down move → selling pressure easing
+
+  #43  DOMS  Rs2278.80  MCap Rs13,833Cr  Fund:74.0  Sec: 9.2  Cap: 9.4
+      Technical : [Momentum|55]  RSI: 61  ADX: 38  MACD:+18  → Short bounce, below EMA200, RSI 61
+      Volume    : Week Vol:0.33x (Very Low) → Very low volume → no conviction, caution
+
+  #44  GOLDIAM  Rs296.10  MCap Rs3,344Cr  Fund:74.0  Sec: 9.5  Cap: 9.5
+      Technical : [Reversal|58]  RSI: 34  ADX: 47  MACD:-3  → Oversold RSI 34, watch for turn
+      Volume    : Week Vol:0.91x (Low) → Neutral volume → wait for low-volume base to form
+
+  #45  POLYMED  Rs1243.20  MCap Rs12,593Cr  Fund:74.0  Sec: 8.5  Cap: 8.7
+      Technical : [Reversal|63]  RSI: 39  ADX: 24  MACD:+4  → RSI 39, MACD turning up
+      Volume    : Week Vol:0.42x (Very Low) → Sellers exhausted → reversal likely
+
+  #46  EMERALD  Rs53.98  MCap Rs185Cr  Fund:73.6  Sec: 8.6  Cap: 9.4
+      Technical : [Momentum|50]  RSI: 55  ADX: 56  MACD:+0  → Weak momentum, below EMA200, RSI 55
+      Volume    : Week Vol:1.05x (Normal) → Average volume → monitor for increase
+
+  #47  STYLAMIND  Rs2206.40  MCap Rs3,738Cr  Fund:73.4  Sec: 9.4  Cap: 9.4
+      Technical : [Reversal|63]  RSI: 39  ADX: 18  MACD:-2  → Divergence forming, RSI 39
+      Volume    : Week Vol:0.86x (Low) → Neutral volume → wait for low-volume base to form
+
+  #48  TRENT  Rs3572.00  MCap Rs1.3L Cr  Fund:73.3  Sec: 8.2  Cap:10.0
+      Technical : [Reversal|55]  RSI: 40  ADX: 54  MACD:-13  → Divergence forming, RSI 40
+      Volume    : Week Vol:1.11x (Normal) → Elevated volume on reversal → watch direction
+
+  #49  MPSLTD  Rs1506.00  MCap Rs2,555Cr  Fund:73.0  Sec: 8.2  Cap:10.0
+      Technical : [Momentum|50]  RSI: 52  ADX: 26  MACD:+21  → Weak momentum, below EMA200, RSI 52
+      Volume    : Week Vol:0.96x (Low) → Weak volume → momentum may fade, wait
+
+──────────────────────────────────────────────────────────────────────────────
+  TIER 2B — BASE BUILDING  (Top 25 | Cap/Sec Rank ≥7 or ↑)
+  Long consolidation base — watch for volume breakout
+──────────────────────────────────────────────────────────────────────────────
+
+  #50  LLOYDSME  Rs1245.80  MCap Rs70,094Cr  Fund:84.0  Sec:10.0  Cap:10.0  326d  ToBreak:-19.1%
+      Technical : RSI: 59  ADX: 16  MACD:+6  → RSI 59, setup not confirmed
+      Volume    : Week Vol:1.62x | Break Vol:1.81x ⚡  → Volume building toward breakout
+
+  #51  MENONBE  Rs118.11  MCap Rs662Cr  Fund:79.6  Sec: 9.6  Cap:10.0  551d  ToBreak:-15.1%
+      Technical : RSI: 43  ADX: 18  MACD:+0  → RSI 43, setup not confirmed
+      Volume    : Week Vol:1.38x | Break Vol:0.72x    → Quiet, below consolidation avg
+
+  #52  GARFIBRES  Rs611.70  MCap Rs6,072Cr  Fund:76.0  Sec: 9.4  Cap:10.0  544d  ToBreak:-34.3%
+      Technical : RSI: 39  ADX: 26  MACD:+0  → Downtrend ADX 26, no setup yet
+      Volume    : Week Vol:0.66x | Break Vol:0.48x    → Very quiet, no breakout interest
+
+  #53  TORNTPOWER  Rs1451.30  MCap Rs73,101Cr  Fund:76.0  Sec: 8.7  Cap:10.0  331d  ToBreak:-9.2%
+      Technical : RSI: 45  ADX: 26  MACD:-11  → Downtrend ADX 26, no setup yet
+      Volume    : Week Vol:0.68x | Break Vol:0.83x    → Quiet, below consolidation avg
+
+  #54  RAINBOW  Rs1110.30  MCap Rs11,312Cr  Fund:76.0  Sec: 8.8  Cap: 8.9  542d  ToBreak:-31.2%
+      Technical : RSI: 29  ADX: 29  MACD:-8  → Downtrend ADX 29, no setup yet
+      Volume    : Week Vol:1.56x | Break Vol:0.76x    → Quiet, below consolidation avg
+
+  #55  JSWINFRA  Rs251.15  MCap Rs52,347Cr  Fund:76.0  Sec: 9.3  Cap: 9.3  527d  ToBreak:-26.5%
+      Technical : RSI: 41  ADX: 13  MACD:+0  → RSI 41, setup not confirmed
+      Volume    : Week Vol:0.76x | Break Vol:0.44x    → Very quiet, no breakout interest
+
+  #56  KOVAI  Rs5299.00  MCap Rs5,765Cr  Fund:74.3  Sec: 8.6  Cap: 8.7  390d  ToBreak:-18.4%
+      Technical : RSI: 56  ADX: 21  MACD:+16  → RSI 56, setup not confirmed
+      Volume    : Week Vol:1.34x | Break Vol:1.23x ~  → Normal volume, no breakout pressure
+
+  #57  ZYDUSLIFE  Rs890.15  MCap Rs89,635Cr  Fund:74.0  Sec: 8.5  Cap:10.0  393d  ToBreak:-17.5%
+      Technical : RSI: 43  ADX: 26  MACD:-4  → Downtrend ADX 26, no setup yet
+      Volume    : Week Vol:0.81x | Break Vol:0.44x    → Very quiet, no breakout interest
+
+  #58  HSCL  Rs451.40  MCap Rs22,934Cr  Fund:73.9  Sec: 8.3  Cap: 8.3  320d  ToBreak:-20.7%
+      Technical : RSI: 48  ADX: 35  MACD:+0  → Downtrend ADX 35, no setup yet
+      Volume    : Week Vol:1.31x | Break Vol:1.40x ~  → Normal volume, no breakout pressure
+
+  #59  PIIND  Rs2921.00  MCap Rs44,138Cr  Fund:73.0  Sec: 8.2  Cap: 8.2  626d  ToBreak:-36.3%
+      Technical : RSI: 39  ADX: 26  MACD:-10  → Downtrend ADX 26, no setup yet
+      Volume    : Week Vol:1.02x | Break Vol:0.74x    → Quiet, below consolidation avg
+
+  #60  AJANTPHARM  Rs2904.70  MCap Rs36,308Cr  Fund:72.0  Sec: 8.3  Cap: 9.7  468d  ToBreak:-9.8%
+      Technical : RSI: 40  ADX: 20  MACD:-15  → Oversold RSI 40, watch for turn
+      Volume    : Week Vol:1.16x | Break Vol:1.04x ~  → Normal volume, no breakout pressure
+
+  #61  INTLCONV  Rs69.74  MCap Rs445Cr  Fund:72.0  Sec: 8.8  Cap: 9.6  655d  ToBreak:-31.5%
+      Technical : RSI: 29  ADX: 30  MACD:+0  → Downtrend ADX 30, no setup yet
+      Volume    : Week Vol:1.85x | Break Vol:0.22x    → Very quiet, no breakout interest
+
+  #62  CHOLAHLDNG  Rs1407.60  MCap Rs26,467Cr  Fund:71.3  Sec: 8.3  Cap: 8.3  393d  ToBreak:-32.8%
+      Technical : RSI: 24  ADX: 55  MACD:-14  → Strong downtrend ADX 55, wait
+      Volume    : Week Vol:1.93x | Break Vol:1.40x ~  → Normal volume, no breakout pressure
+
+  #63  PIDILITIND  Rs1348.90  MCap Rs1.4L Cr  Fund:71.0  Sec: 8.0  Cap: 8.0  494d  ToBreak:-16.1%
+      Technical : RSI: 41  ADX: 36  MACD:-9  → Downtrend ADX 36, no setup yet
+      Volume    : Week Vol:0.76x | Break Vol:0.80x    → Quiet, below consolidation avg
+
+  #64  MAXHEALTH  Rs964.80  MCap Rs93,888Cr  Fund:71.0  Sec: 8.2  Cap: 9.6  373d  ToBreak:-24.4%
+      Technical : RSI: 27  ADX: 62  MACD:-11  → Strong downtrend ADX 62, wait
+      Volume    : Week Vol:0.97x | Break Vol:1.16x ~  → Normal volume, no breakout pressure
+
+  #65  ICEMAKE  Rs764.00  MCap Rs1,206Cr  Fund:71.0  Sec: 8.6  Cap: 8.6  452d  ToBreak:-17.6%
+      Technical : RSI: 30  ADX: 30  MACD:-8  → Downtrend ADX 30, no setup yet
+      Volume    : Week Vol:0.94x | Break Vol:0.80x    → Quiet, below consolidation avg
+
+  #66  PNGJL  Rs570.85  MCap Rs7,739Cr  Fund:68.6  Sec: 8.8  Cap: 9.9  311d  ToBreak:-17.2%
+      Technical : RSI: 62  ADX: 13  MACD:+4  → RSI 62, setup not confirmed
+      Volume    : Week Vol:1.19x | Break Vol:0.68x    → Very quiet, no breakout interest
+
+  #67  MAYURUNIQ  Rs509.35  MCap Rs2,217Cr  Fund:68.0  Sec: 8.7  Cap: 8.7  638d  ToBreak:-21.1%
+      Technical : RSI: 45  ADX: 35  MACD:-2  → Downtrend ADX 35, no setup yet
+      Volume    : Week Vol:0.91x | Break Vol:0.69x    → Very quiet, no breakout interest
+
+  #68  DMART  Rs3770.80  MCap Rs2.5L Cr  Fund:67.0  Sec: 7.5  Cap: 9.1  683d  ToBreak:-25.9%
+      Technical : RSI: 37  ADX: 15  MACD:-14  → Oversold RSI 37, watch for turn
+      Volume    : Week Vol:0.78x | Break Vol:0.68x    → Very quiet, no breakout interest
+
+  #69  BLUESTARCO  Rs1708.60  MCap Rs35,127Cr  Fund:66.0  Sec: 8.5  Cap: 9.0  424d  ToBreak:-20.8%
+      Technical : RSI: 24  ADX: 31  MACD:-26  → Downtrend ADX 31, no setup yet
+      Volume    : Week Vol:0.85x | Break Vol:0.76x    → Quiet, below consolidation avg
+
+  #70  VIJAYA  Rs891.60  MCap Rs9,308Cr  Fund:65.2  Sec: 7.5  Cap: 7.7  370d  ToBreak:-23.4%
+      Technical : RSI: 22  ADX: 45  MACD:-5  → Strong downtrend ADX 45, wait
+      Volume    : Week Vol:1.43x | Break Vol:0.28x    → Very quiet, no breakout interest
+
+  #71  MEDANTA  Rs1005.70  MCap Rs27,023Cr  Fund:65.0  Sec: 7.5  Cap: 8.8  580d  ToBreak:-29.6%
+      Technical : RSI: 18  ADX: 31  MACD:-11  → Downtrend ADX 31, no setup yet
+      Volume    : Week Vol:1.43x | Break Vol:0.50x    → Very quiet, no breakout interest
+
+  #72  ASKAUTOLTD  Rs409.20  MCap Rs8,067Cr  Fund:65.0  Sec: 7.8  Cap: 7.9  387d  ToBreak:-23.8%
+      Technical : RSI: 50  ADX: 29  MACD:+3  → Downtrend ADX 29, no setup yet
+      Volume    : Week Vol:0.96x | Break Vol:0.50x    → Very quiet, no breakout interest
+
+  #73  BIKAJI  Rs629.70  MCap Rs15,795Cr  Fund:64.8  Sec: 8.0  Cap: 8.2  336d  ToBreak:-22.3%
+      Technical : RSI: 57  ADX: 22  MACD:+2  → RSI 57, setup not confirmed
+      Volume    : Week Vol:0.96x | Break Vol:0.45x    → Very quiet, no breakout interest
+
+  #74  GNA  Rs375.35  MCap Rs1,611Cr  Fund:63.0  Sec: 7.6  Cap: 7.6  355d  ToBreak:-13.5%
+      Technical : RSI: 27  ADX: 33  MACD:-7  → Downtrend ADX 33, no setup yet
+      Volume    : Week Vol:0.48x | Break Vol:0.61x    → Very quiet, no breakout interest
+
+──────────────────────────────────────────────────────────────────────────────
+  🚀 BREAKOUT CONFIRMED  (3 stocks)
+  Stocks that broke above consolidation range
+  Shown for 3 weeks from breakout date
+──────────────────────────────────────────────────────────────────────────────
+  Symbol           Price         MCap  Above%  Weeks   WkVol   RSI  Breakout Date
+  ─────────────────────────────────────────────────────────────────────────────────────
+
+  [L] Large Cap
+  JBCHEPHARM   Rs 2138.60   Rs34,337Cr   +8.7%  Wk2/3  1.20x   RSI 64  [2026-03-23]
+  COALINDIA    Rs  468.15    Rs2.9L Cr   +1.2%  Wk2/3  0.97x   RSI 67  [2026-03-23]
+  LUPIN        Rs 2322.50    Rs1.1L Cr   +0.5%  Wk2/3  0.80x   RSI 56  [2026-03-23]
+
+──────────────────────────────────────────────────────────────────────────────
+  NEAR BREAKOUT BASE WATCH  (22 stocks within 10% of breakout)
+  Break Vol > 1.5x = volume building — high priority watch
+──────────────────────────────────────────────────────────────────────────────
+  Symbol           Price         MCap  Days  ToBreak   WkVol  BrkVol  Status
+  ─────────────────────────────────────────────────────────────────────────────────────
+  VTL          Rs  536.90   Rs15,413Cr   525d    -1.6%  1.44x  1.42x~  [NEAR BREAKOUT ⚡]
+  AEROFLEX     Rs  233.75    Rs3,096Cr   384d    -2.6%  1.39x  1.42x~  [NEAR BREAKOUT ⚡]
+  NMDC         Rs   79.78   Rs70,141Cr   549d    -3.3%  0.98x  0.73x   [NEAR BREAKOUT ⚡]
+  IPCALAB      Rs 1544.90   Rs39,337Cr   486d    -4.3%  1.38x  0.75x   [NEAR BREAKOUT ⚡]
+  SUNPHARMA    Rs 1770.60    Rs4.3L Cr   527d    -4.4%  0.89x  1.09x~  [NEAR BREAKOUT ⚡]
+  NLCINDIA     Rs  266.35   Rs36,933Cr   555d    -4.6%  1.09x  0.69x   [NEAR BREAKOUT ⚡]
+  UNITEDTEA    Rs  510.00      Rs255Cr   409d    -5.2%  1.10x  1.32x~  [Approaching]
+  DRREDDY      Rs 1298.90    Rs1.1L Cr   642d    -5.3%  0.82x  0.75x   [Approaching]
+  NTPC         Rs  380.95    Rs3.7L Cr   532d    -5.7%  0.90x  0.98x~  [Approaching]
+  GAEL         Rs  134.51    Rs6,170Cr   432d    -6.3%  0.97x  0.67x   [Approaching]
+  PFC          Rs  411.75    Rs1.4L Cr   323d    -6.5%  1.18x  1.37x~  [Approaching]
+  KRN          Rs  896.85    Rs5,575Cr   334d    -6.7%  0.19x  0.80x~  [Approaching]
+  J&KBANK      Rs  118.82   Rs13,084Cr   495d    -7.5%  0.58x  1.98x⚡  [Approaching]
+  POWERGRID    Rs  298.60    Rs2.8L Cr   529d    -7.8%  0.98x  1.13x~  [Approaching]
+  SCHAEFFLER   Rs 4175.00   Rs65,437Cr   472d    -7.8%  0.57x  1.16x~  [Approaching]
+  CIEINDIA     Rs  461.15   Rs17,521Cr   357d    -7.9%  0.38x  1.30x~  [Approaching]
+  FLAIR        Rs  307.40    Rs3,240Cr   539d    -8.1%  1.23x  0.65x   [Approaching]
+  NESTLEIND    Rs 1193.60    Rs2.3L Cr   726d    -8.9%  1.07x  0.77x   [Approaching]
+  TORNTPOWER   Rs 1451.30   Rs73,101Cr   331d    -9.2%  0.68x  0.83x~  [Approaching]
+  RELIANCE     Rs 1413.60   Rs19.1L Cr   612d    -9.4%  1.00x  1.48x~  [Approaching]
+  AJANTPHARM   Rs 2904.70   Rs36,308Cr   468d    -9.8%  1.16x  1.04x~  [Approaching]
+  MASFIN       Rs  302.55    Rs5,490Cr   687d    -9.9%  1.17x  0.66x   [Approaching]
+
+──────────────────────────────────────────────────────────────────────────────
+  BULLISH REVERSAL CANDIDATES  (Top 10 per cap category)
+  Oversold + divergence forming — wait for confirmation
+──────────────────────────────────────────────────────────────────────────────
+
+  [L] Large Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #75  NUVAMA  Rs1150.70  MCap Rs20,898Cr  [T1-Rev]  Fund:71.0  Rev:95  Sec: 8.3  Cap: 8.3
+      Tech    : RSI: 31  ADX: 38  MACD:-2  → Oversold RSI 31, watch for turn
+      Volume  : Week Vol:1.10x (Normal) → Elevated volume on reversal → watch direction
+
+  #76  ASAHIINDIA  Rs810.45  MCap Rs20,661Cr  [T3]  Fund:51.7  Rev:95  Sec: 6.2  Cap: 6.4
+      Tech    : RSI: 32  ADX: 39  MACD:-1  → Oversold RSI 32, watch for turn
+      Volume  : Week Vol:27.09x (Extremely High) → High volume → could be capitulation or distribution
+
+  #77  ASIANPAINT  Rs2195.40  MCap Rs2.1L Cr  [T1-Rev]  Fund:60.0  Rev:93  Sec: 7.7  Cap: 8.2
+      Tech    : RSI: 35  ADX: 39  MACD:+2  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:0.77x (Low) → Neutral volume → wait for low-volume base to form
+
+  #78  MANAPPURAM  Rs259.25  MCap Rs21,944Cr  [T3]  Fund:31.7  Rev:90  Sec: 3.7  Cap: 3.7
+      Tech    : RSI: 40  ADX: 31  MACD:+0  → RSI 40, MACD turning up
+      Volume  : Week Vol:1.15x (Normal) → Elevated volume on reversal → watch direction
+
+  #79  HDFCAMC  Rs2385.90  MCap Rs1.0L Cr  [T3]  Fund:57.3  Rev:88  Sec: 6.7  Cap: 6.7
+      Tech    : RSI: 35  ADX: 33  MACD:-16  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:1.44x (Normal) → Elevated volume on reversal → watch direction
+
+  #80  360ONE  Rs1040.60  MCap Rs42,240Cr  [T3]  Fund:46.6  Rev:85  Sec: 5.4  Cap: 5.4
+      Tech    : RSI: 42  ADX: 30  MACD:+0  → Divergence forming, RSI 42
+      Volume  : Week Vol:0.58x (Very Low) → Low volume on down move → selling pressure easing
+
+  #81  HUDCO  Rs172.48  MCap Rs34,529Cr  [T3]  Fund:52.0  Rev:83  Sec: 6.0  Cap: 6.0
+      Tech    : RSI: 39  ADX: 24  MACD:+0  → RSI 39, MACD turning up
+      Volume  : Week Vol:0.87x (Low) → Neutral volume → wait for low-volume base to form
+
+  #82  AMBUJACEM  Rs420.55  MCap Rs1.0L Cr  [T3]  Fund:54.0  Rev:80  Sec: 7.8  Cap: 7.8
+      Tech    : RSI: 25  ADX: 60  MACD:-3  → Deeply oversold RSI 25, reversal imminent
+      Volume  : Week Vol:1.38x (Normal) → Elevated volume on reversal → watch direction
+
+  #83  PHOENIXLTD  Rs1539.00  MCap Rs55,187Cr  [T1-Rev]  Fund:67.0  Rev:80  Sec: 8.3  Cap:10.0
+      Tech    : RSI: 34  ADX: 38  MACD:-1  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:1.50x (High) → Elevated volume on reversal → watch direction
+
+  #84  RVNL  Rs264.20  MCap Rs55,175Cr  [T3]  Fund:48.0  Rev:80  Sec: 6.1  Cap: 7.6
+      Tech    : RSI: 32  ADX: 34  MACD:-1  → Oversold RSI 32, watch for turn
+      Volume  : Week Vol:0.70x (Low) → Low volume on down move → selling pressure easing
+
+  [ML] Mini Large Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #85  BRIGADE  Rs643.90  MCap Rs15,749Cr  [T1-Rev]  Fund:62.0  Rev:93  Sec: 7.7  Cap:10.0
+      Tech    : RSI: 35  ADX: 37  MACD:+2  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:0.83x (Low) → Neutral volume → wait for low-volume base to form
+
+  #86  BLS  Rs240.60  MCap Rs9,905Cr  [T1-Rev]  Fund:89.0  Rev:88  Sec:10.0  Cap:10.0
+      Tech    : RSI: 32  ADX: 19  MACD:-1  → Oversold RSI 32, watch for turn
+      Volume  : Week Vol:0.32x (Very Low) → Sellers exhausted → reversal likely
+
+  #87  EDELWEISS  Rs104.70  MCap Rs9,914Cr  [T3]  Fund:40.0  Rev:81  Sec: 4.7  Cap: 5.0
+      Tech    : RSI: 34  ADX: 19  MACD:-1  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:0.82x (Low) → Neutral volume → wait for low-volume base to form
+
+  #88  METROPOLIS  Rs441.10  MCap Rs9,145Cr  [T3]  Fund:47.0  Rev:80  Sec: 5.4  Cap: 5.5
+      Tech    : RSI: 31  ADX: 23  MACD:+0  → Oversold RSI 31, watch for turn
+      Volume  : Week Vol:1.78x (High) → High volume → could be capitulation or distribution
+
+  #89  TBOTEK  Rs1067.00  MCap Rs11,379Cr  [T1-Rev]  Fund:63.2  Rev:80  Sec: 7.1  Cap: 7.1
+      Tech    : RSI: 18  ADX: 55  MACD:-2  → Deeply oversold RSI 18, reversal imminent
+      Volume  : Week Vol:0.59x (Very Low) → Low volume on down move → selling pressure easing
+
+  #90  RITES  Rs191.00  MCap Rs9,206Cr  [T3]  Fund:49.0  Rev:80  Sec: 6.2  Cap: 6.5
+      Tech    : RSI: 33  ADX: 38  MACD:-1  → Oversold RSI 33, watch for turn
+      Volume  : Week Vol:0.81x (Low) → Neutral volume → wait for low-volume base to form
+
+  #91  EIDPARRY  Rs789.05  MCap Rs14,045Cr  [T3]  Fund:59.0  Rev:80  Sec: 7.3  Cap: 7.5
+      Tech    : RSI: 35  ADX: 34  MACD:-1  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:0.66x (Very Low) → Low volume on down move → selling pressure easing
+
+  #92  NEWGEN  Rs440.60  MCap Rs6,203Cr  [T1-Rev]  Fund:74.0  Rev:80  Sec: 8.6  Cap: 9.4
+      Tech    : RSI: 35  ADX: 21  MACD:+4  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:0.41x (Very Low) → Sellers exhausted → reversal likely
+
+  #93  TCI  Rs953.00  MCap Rs7,249Cr  [T1-Rev]  Fund:66.0  Rev:78  Sec: 8.0  Cap: 8.2
+      Tech    : RSI: 41  ADX: 30  MACD:-4  → Divergence forming, RSI 41
+      Volume  : Week Vol:1.37x (Normal) → Elevated volume on reversal → watch direction
+
+  #94  KPITTECH  Rs660.95  MCap Rs18,018Cr  [T1-Rev]  Fund:67.1  Rev:75  Sec: 7.8  Cap: 8.5
+      Tech    : RSI: 35  ADX: 56  MACD:+7  → RSI 35, MACD turning up
+      Volume  : Week Vol:1.29x (Normal) → Elevated volume on reversal → watch direction
+
+  [M] Mid Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #95  ICIL  Rs233.45  MCap Rs4,624Cr  [T1-Rev]  Fund:62.0  Rev:95  Sec: 7.7  Cap: 7.7
+      Tech    : RSI: 34  ADX: 38  MACD:-3  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:0.75x (Low) → Neutral volume → wait for low-volume base to form
+
+  #96  REPCOHOME  Rs351.80  MCap Rs2,197Cr  [T3]  Fund:35.0  Rev:95  Sec: 4.1  Cap: 4.4
+      Tech    : RSI: 33  ADX: 37  MACD:+0  → Oversold RSI 33, watch for turn
+      Volume  : Week Vol:0.54x (Very Low) → Low volume on down move → selling pressure easing
+
+  #97  MCLOUD  Rs21.75  MCap Rs1,284Cr  [T1-Rev]  Fund:73.0  Rev:95  Sec: 8.5  Cap: 9.2
+      Tech    : RSI: 33  ADX: 30  MACD:+0  → Oversold RSI 33, watch for turn
+      Volume  : Week Vol:0.64x (Very Low) → Low volume on down move → selling pressure easing
+
+  #98  EXPLEOSOL  Rs720.30  MCap Rs1,118Cr  [T1-Rev]  Fund:75.0  Rev:90  Sec: 8.7  Cap: 9.4
+      Tech    : RSI: 38  ADX: 35  MACD:+2  → RSI 38, MACD turning up
+      Volume  : Week Vol:1.99x (High) → High volume → could be capitulation or distribution
+
+  #99  JUSTDIAL  Rs520.40  MCap Rs4,427Cr  [T3]  Fund:49.0  Rev:90  Sec: 5.5  Cap: 6.7
+      Tech    : RSI: 36  ADX: 52  MACD:+3  → RSI 36, MACD turning up
+      Volume  : Week Vol:0.62x (Very Low) → Low volume on down move → selling pressure easing
+
+  #100  PFS  Rs27.21  MCap Rs1,755Cr  [T3]  Fund:31.7  Rev:88  Sec: 3.7  Cap: 4.0
+      Tech    : RSI: 34  ADX: 56  MACD:+0  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:0.91x (Low) → Neutral volume → wait for low-volume base to form
+
+  #101  BHARATRAS  Rs1275.80  MCap Rs2,121Cr  [T3]  Fund:36.0  Rev:85  Sec: 4.0  Cap: 4.3
+      Tech    : RSI: 27  ADX: 57  MACD:+5  → Deeply oversold RSI 27, reversal imminent
+      Volume  : Week Vol:0.95x (Low) → Neutral volume → wait for low-volume base to form
+
+  #102  UNIECOM  Rs90.65  MCap Rs1,030Cr  [T3]  Fund:41.5  Rev:81  Sec: 4.8  Cap: 5.2
+      Tech    : RSI: 28  ADX: 19  MACD:-1  → Deeply oversold RSI 28, reversal imminent
+      Volume  : Week Vol:0.64x (Very Low) → Low volume on down move → selling pressure easing
+
+  #103  DELTACORP  Rs53.89  MCap Rs1,443Cr  [T3]  Fund:43.0  Rev:80  Sec: 4.8  Cap: 5.9
+      Tech    : RSI: 34  ADX: 46  MACD:+0  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:1.37x (Normal) → Elevated volume on reversal → watch direction
+
+  #104  KNRCON  Rs118.01  MCap Rs3,319Cr  [T1-Rev]  Fund:71.0  Rev:80  Sec: 9.0  Cap: 9.0
+      Tech    : RSI: 32  ADX: 33  MACD:+0  → Oversold RSI 32, watch for turn
+      Volume  : Week Vol:0.79x (Low) → Neutral volume → wait for low-volume base to form
+
+  [S] Small Cap
+  ────────────────────────────────────────────────────────────────────
+
+  #105  KELLTONTEC  Rs16.09  MCap Rs849Cr  [T3]  Fund:40.0  Rev:95  Sec: 4.7  Cap: 4.7
+      Tech    : RSI: 31  ADX: 22  MACD:+0  → Oversold RSI 31, watch for turn
+      Volume  : Week Vol:0.63x (Very Low) → Low volume on down move → selling pressure easing
+
+  #106  NINSYS  Rs290.20  MCap Rs539Cr  [T3]  Fund:55.5  Rev:93  Sec: 6.5  Cap: 6.5
+      Tech    : RSI: 35  ADX: 13  MACD:+0  → Oversold RSI 35, watch for turn
+      Volume  : Week Vol:0.29x (Very Low) → Sellers exhausted → reversal likely
+
+  #107  SHREEPUSHK  Rs299.70  MCap Rs967Cr  [T3]  Fund:59.0  Rev:90  Sec: 6.6  Cap: 8.2
+      Tech    : RSI: 38  ADX: 25  MACD:+0  → RSI 38, MACD turning up
+      Volume  : Week Vol:0.64x (Very Low) → Low volume on down move → selling pressure easing
+
+  #108  VASCONEQ  Rs31.79  MCap Rs725Cr  [T3]  Fund:56.7  Rev:88  Sec: 7.0  Cap:10.0
+      Tech    : RSI: 34  ADX: 30  MACD:+0  → Oversold RSI 34, watch for turn
+      Volume  : Week Vol:1.23x (Normal) → Elevated volume on reversal → watch direction
+
+  #109  DREAMFOLKS  Rs70.61  MCap Rs376Cr  [T1-Rev]  Fund:64.8  Rev:85  Sec: 7.9  Cap: 8.5
+      Tech    : RSI: 32  ADX: 47  MACD:+0  → Oversold RSI 32, watch for turn
+      Volume  : Week Vol:1.44x (Normal) → Elevated volume on reversal → watch direction
+
+  #110  LIKHITHA  Rs141.74  MCap Rs562Cr  [T3]  Fund:49.5  Rev:83  Sec: 6.3  Cap: 8.0
+      Tech    : RSI: 39  ADX: 22  MACD:+0  → RSI 39, MACD turning up
+      Volume  : Week Vol:1.05x (Normal) → Elevated volume on reversal → watch direction
+
+  #111  AGARIND  Rs412.45  MCap Rs617Cr  [T1-Rev]  Fund:69.0  Rev:80  Sec: 7.8  Cap: 9.6
+      Tech    : RSI: 13  ADX: 61  MACD:-1  → Deeply oversold RSI 13, reversal imminent
+      Volume  : Week Vol:2.05x (Very High) → High volume → could be capitulation or distribution
+
+  #112  NICCOPAR  Rs63.02  MCap Rs295Cr  [T1-Rev]  Fund:62.4  Rev:80  Sec: 7.0  Cap: 7.9
+      Tech    : RSI: 29  ADX: 35  MACD:+0  → Deeply oversold RSI 29, reversal imminent
+      Volume  : Week Vol:1.06x (Normal) → Elevated volume on reversal → watch direction
+
+  #113  KOTHARIPET  Rs110.88  MCap Rs652Cr  [T3]  Fund:35.5  Rev:80  Sec: 4.0  Cap: 4.9
+      Tech    : RSI: 52  ADX: 21  MACD:+0  → RSI 52, MACD turning up
+      Volume  : Week Vol:0.39x (Very Low) → Sellers exhausted → reversal likely
+
+  #114  INNOVATORS  Rs118.00  MCap Rs226Cr  [T3]  Fund:34.3  Rev:80  Sec: 4.2  Cap: 4.6
+      Tech    : RSI: 28  ADX: 59  MACD:+0  → Deeply oversold RSI 28, reversal imminent
+      Volume  : Week Vol:1.63x (High) → High volume → could be capitulation or distribution
+
+──────────────────────────────────────────────────────────────────────────────
+  L=Large Cap  ML=Mini Large Cap  M=Mid Cap  S=Small Cap
+  SecRank  = rank vs same sector | CapRank = rank vs same sector + cap
+  Week Vol = this week avg vs prior 15-day avg
+  Break Vol= this week avg vs consolidation period avg
+  ↑ = jumped 10%+ in Cap or Sector rank vs last week
+──────────────────────────────────────────────────────────────────────────────
