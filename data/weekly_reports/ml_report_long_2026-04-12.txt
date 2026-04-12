@@ -1,0 +1,1988 @@
+══════════════════════════════════════════════════════════════════════════════════
+  ML SIGNALS — WEEKLY REPORT (LONG)
+  12 April 2026  |  Universe: 752 stocks
+══════════════════════════════════════════════════════════════════════════════════
+
+  MODEL NOTE:
+  Confidence = ML model probability for that specific label.
+  Bullish Continual ≥40% | Bullish ≥50% | Reversal ≥50%
+  SecRank = rank vs same sector | CapRank = rank vs sector+cap
+  Trend: Str-Up=Strong Uptrend | Up=Uptrend | Side=Sideways
+         Down=Downtrend | Str-Dn=Strong Downtrend
+  Trend uses EMA alignment + ADX + RSI + MACD + Volume
+  Forecast accuracy: 25d ~52% | 45d ~54% | use as hint only
+
+──────────────────────────────────────────────────────────────────────────────────
+  SUMMARY
+──────────────────────────────────────────────────────────────────────────────────
+  Bullish Continual      :  50 stocks | Avg confidence: 76.9%
+  Bullish                : 164 stocks | Avg confidence: 79.6%
+  Reversal               : 241 stocks | Avg confidence: 78.6%
+
+──────────────────────────────────────────────────────────────────────────────────
+  BULLISH CONTINUAL  (50 stocks)
+  Already in uptrend — ML confirms continuation
+──────────────────────────────────────────────────────────────────────────────────
+  #    Symbol         Cap               SecRnk  CapRnk   Conf   25d%   45d%  Trend     Tier
+  ──────────────────────────────────────────────────────────────────────────────
+  1    SATTRIX        Small Cap           4.1     4.1   85.7% +10.8% +17.9%  Up        T3-WAIT
+       Information Technology  |  MCap Rs458Cr
+       Price: Rs400.00 → 25d: Rs443 | 45d: Rs472
+       180d: +49.2% → Rs597
+
+  2    ORICONENT      Mid Cap             5.7     5.7   81.8%  +4.9%  +8.2%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs1,066Cr
+       Price: Rs67.50 → 25d: Rs71 | 45d: Rs73
+       180d: +30.9% → Rs88
+
+  3    AGIIL          Mid Cap            10.0    10.0   81.7%  +4.7%  +8.3%  Up        T1-MOM
+       Realty  |  MCap Rs3,892Cr
+       Price: Rs311.70 → 25d: Rs326 | 45d: Rs338
+       180d: +17.4% → Rs366
+
+  4    GLOBAL         Small Cap           8.9    10.0   81.5%  +4.1%  +8.8%  Up        T2-WATCH
+       Consumer Services  |  MCap Rs505Cr
+       Price: Rs99.23 → 25d: Rs103 | 45d: Rs108
+       180d: +30.4% → Rs129
+
+  5    BAJAJCON       Mid Cap             5.9     6.4   80.8%  +5.2%  +4.3%  Up        T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs4,785Cr
+       Price: Rs366.30 → 25d: Rs385 | 45d: Rs382
+       180d: +23.8% → Rs453
+
+  6    SMSPHARMA      Mid Cap             7.2     7.2   80.7%  +5.5% +10.7%  Up        T1-MOM
+       Healthcare  |  MCap Rs3,606Cr
+       Price: Rs386.90 → 25d: Rs408 | 45d: Rs428
+       180d: +40.6% → Rs544
+
+  7    LINCOLN        Mid Cap             6.4     6.4   80.1%  +4.5%  +7.1%  Up        T3-WAIT
+       Healthcare  |  MCap Rs1,203Cr
+       Price: Rs600.40 → 25d: Rs627 | 45d: Rs643
+       180d: +22.2% → Rs734
+
+  8    KPL            Mid Cap             9.1     9.1   79.8%  +4.0%  +2.1%  Up        T1-MOM
+       Healthcare  |  MCap Rs1,575Cr
+       Price: Rs1520.00 → 25d: Rs1580 | 45d: Rs1551
+       180d: +32.7% → Rs2017
+
+  9    VALIANT        Mid Cap             7.1     7.2   79.8%  +3.5%  +6.5%  Up        T3-WAIT
+       Telecommunication  |  MCap Rs1,237Cr
+       Price: Rs1037.90 → 25d: Rs1075 | 45d: Rs1105
+       180d: +20.6% → Rs1251
+
+  10   GESHIP         Large Cap           7.4     7.4   79.7%  +3.3%  +5.9%  Up        T1-MOM
+       Services  |  MCap Rs20,411Cr
+       Price: Rs1429.70 → 25d: Rs1477 | 45d: Rs1514
+       180d: +21.0% → Rs1730
+
+  11   INDSWFTLAB     Mid Cap             4.3     4.3   79.6%  +4.6% +11.7%  Up        T3-WAIT
+       Healthcare  |  MCap Rs1,227Cr
+       Price: Rs141.51 → 25d: Rs148 | 45d: Rs158
+       180d: +33.2% → Rs188
+
+  12   WHEELS         Mid Cap             7.0     7.0   79.4%  +2.9%  +4.9%  Str-Up    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs2,510Cr
+       Price: Rs1031.00 → 25d: Rs1061 | 45d: Rs1082
+       180d: +19.9% → Rs1237
+
+  13   SAILIFE        Large Cap           6.2     7.2   79.1% +12.9% +23.3%  Up        T3-WAIT
+       Healthcare  |  MCap Rs21,178Cr
+       Price: Rs998.70 → 25d: Rs1128 | 45d: Rs1231
+       180d: +27.0% → Rs1268
+
+  14   JBCHEPHARM     Large Cap           8.4     9.9   79.1%  +2.6%  +4.8%  Up        T1-MOM
+       Healthcare  |  MCap Rs34,337Cr
+       Price: Rs2138.60 → 25d: Rs2195 | 45d: Rs2242
+       Base: 525d | +8.7% to breakout
+       180d: +20.3% → Rs2572
+
+  15   SANSERA        Mini Large Cap      6.9     7.0   79.0%  +4.0%  +5.6%  Up        T3-WAIT
+       Automobile and Auto Components  |  MCap Rs13,555Cr
+       Price: Rs2177.00 → 25d: Rs2265 | 45d: Rs2298
+       180d: +24.4% → Rs2708
+
+  16   HAPPYFORGE     Mini Large Cap      5.7     5.7   78.9%  +2.7%  +4.1%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs11,939Cr
+       Price: Rs1265.40 → 25d: Rs1299 | 45d: Rs1317
+       180d: +13.1% → Rs1432
+
+  17   PRADPME        Small Cap           7.8     8.2   78.9%  +3.2%  +4.5%  Str-Up    T1-MOM
+       Automobile and Auto Components  |  MCap Rs643Cr
+       Price: Rs372.00 → 25d: Rs384 | 45d: Rs389
+       180d: +28.6% → Rs478
+
+  18   PRECWIRE       Mini Large Cap      3.9     3.9   78.8%  +4.1%  +6.8%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs5,530Cr
+       Price: Rs302.30 → 25d: Rs315 | 45d: Rs323
+       180d: +23.7% → Rs374
+
+  19   QPOWER         Mini Large Cap      6.7     6.8   78.8%  +3.7%  +4.7%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs6,463Cr
+       Price: Rs834.00 → 25d: Rs865 | 45d: Rs873
+       180d: +15.7% → Rs965
+
+  20   J&KBANK        Mini Large Cap      5.0     5.3   78.8%  +2.5%  +4.1%  Side      T3-WAIT
+       Financial Services  |  MCap Rs13,084Cr
+       Price: Rs118.82 → 25d: Rs122 | 45d: Rs124
+       Base: 495d | -7.5% to breakout
+       180d: +20.3% → Rs143
+
+  21   MTARTECH       Mini Large Cap      7.1     7.2   78.5%  +4.2%  +4.8%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs10,851Cr
+       Price: Rs3525.30 → 25d: Rs3673 | 45d: Rs3696
+       180d: +23.3% → Rs4347
+
+  22   ABSLAMC        Large Cap           8.5     8.5   77.9%  +2.6%  +4.6%  Up        T1-MOM
+       Financial Services  |  MCap Rs27,282Cr
+       Price: Rs944.65 → 25d: Rs969 | 45d: Rs988
+       180d: +20.3% → Rs1136
+
+  23   AEROFLEX       Mid Cap             9.1     9.1   77.9%  +2.5%  +5.1%  Up        T1-MOM
+       Capital Goods  |  MCap Rs3,096Cr
+       Price: Rs233.75 → 25d: Rs240 | 45d: Rs246
+       Base: 384d | -2.6% to breakout
+       180d: +18.9% → Rs278
+
+  24   VTL            Mini Large Cap      5.7     6.1   77.9%  +2.3%  +4.0%  Up        T3-WAIT
+       Textiles  |  MCap Rs15,413Cr
+       Price: Rs536.90 → 25d: Rs549 | 45d: Rs559
+       Base: 525d | -1.6% to breakout
+       180d: +21.7% → Rs653
+
+  25   OIL            Large Cap           6.6     7.9   77.8%  +2.4%  +4.4%  Up        T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs77,373Cr
+       Price: Rs475.00 → 25d: Rs486 | 45d: Rs496
+       Base: 376d | -12.2% to breakout
+       180d: +18.4% → Rs562
+
+  26   LINDEINDIA     Large Cap           6.4     6.4   77.7%  +1.9%  +3.2%  Up        T3-WAIT
+       Chemicals  |  MCap Rs59,823Cr
+       Price: Rs7014.50 → 25d: Rs7151 | 45d: Rs7238
+       180d: +12.1% → Rs7866
+
+  27   COALINDIA      Large Cap           7.8     9.3   77.3%  +1.4%  +2.9%  Str-Up    T1-MOM
+       Oil, Gas & Consumable Fuels  |  MCap Rs2.9L Cr
+       Price: Rs468.15 → 25d: Rs475 | 45d: Rs482
+       Base: 527d | +1.2% to breakout
+       180d: +16.8% → Rs547
+
+  28   PASHUPATI      Mid Cap             4.4     4.4   76.9%  +2.1%  +3.5%  Up        T3-WAIT
+       Textiles  |  MCap Rs1,549Cr
+       Price: Rs982.00 → 25d: Rs1002 | 45d: Rs1017
+       180d: +19.2% → Rs1170
+
+  29   LUPIN          Large Cap           5.1     5.9   76.8%  +2.1%  +3.3%  Up        T3-WAIT
+       Healthcare  |  MCap Rs1.1L Cr
+       Price: Rs2322.50 → 25d: Rs2370 | 45d: Rs2399
+       Base: 409d | +0.5% to breakout
+       180d: +12.7% → Rs2617
+
+  30   CCL            Mini Large Cap      8.6     8.7   76.8%  +2.1%  +4.3%  Up        T1-MOM
+       Fast Moving Consumer Goods  |  MCap Rs14,487Cr
+       Price: Rs1087.60 → 25d: Rs1111 | 45d: Rs1134
+       180d: +15.1% → Rs1252
+
+  31   ONGC           Large Cap           6.8     8.2   76.6%  +1.3%  +2.7%  Up        T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs3.3L Cr
+       Price: Rs265.55 → 25d: Rs269 | 45d: Rs273
+       Base: 536d | -10.1% to breakout
+       180d: +14.5% → Rs304
+
+  32   AUROPHARMA     Large Cap           4.4     5.1   76.5%  +1.5%  +2.9%  Up        T3-WAIT
+       Healthcare  |  MCap Rs75,005Cr
+       Price: Rs1291.40 → 25d: Rs1311 | 45d: Rs1329
+       Base: 560d | -15.1% to breakout
+       180d: +10.0% → Rs1420
+
+  33   MEERA          Small Cap           6.9     7.6   76.4%  +0.4%  +3.4%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs84Cr
+       Price: Rs39.00 → 25d: Rs39 | 45d: Rs40
+       180d: +18.3% → Rs46
+
+  34   AXISCADES      Mini Large Cap      7.2     7.3   76.4%  +2.8%  +4.8%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs6,063Cr
+       Price: Rs1426.00 → 25d: Rs1466 | 45d: Rs1494
+       180d: +24.9% → Rs1782
+
+  35   IPCALAB        Large Cap           5.4     6.4   75.9%  +2.1%  +4.2%  Up        T3-WAIT
+       Healthcare  |  MCap Rs39,337Cr
+       Price: Rs1544.90 → 25d: Rs1577 | 45d: Rs1609
+       Base: 486d | -4.3% to breakout
+       180d: +20.4% → Rs1860
+
+  36   ABB            Large Cap           5.8     5.9   75.7%  +1.9%  +3.4%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs1.3L Cr
+       Price: Rs6297.00 → 25d: Rs6415 | 45d: Rs6511
+       180d: +16.2% → Rs7315
+
+  37   KRN            Mini Large Cap      5.9     6.0   75.4%  +1.9%  +3.8%  Up        T3-WAIT
+       Capital Goods  |  MCap Rs5,575Cr
+       Price: Rs896.85 → 25d: Rs914 | 45d: Rs931
+       Base: 334d | -6.7% to breakout
+       180d: +25.3% → Rs1124
+
+  38   NLCINDIA       Large Cap           6.3     7.2   75.3%  +1.6%  +2.8%  Str-Up    T3-WAIT
+       Power  |  MCap Rs36,933Cr
+       Price: Rs266.35 → 25d: Rs271 | 45d: Rs274
+       Base: 555d | -4.6% to breakout
+       180d: +12.5% → Rs300
+
+  39   UNITEDTEA      Small Cap           4.9     5.7   74.9%  +2.4%  +4.5%  Up        T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs255Cr
+       Price: Rs510.00 → 25d: Rs522 | 45d: Rs533
+       Base: 409d | -5.2% to breakout
+       180d: +45.9% → Rs744
+
+  40   CIEINDIA       Mini Large Cap      6.7     6.7   74.2%  +1.0%  +3.1%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs17,521Cr
+       Price: Rs461.15 → 25d: Rs466 | 45d: Rs475
+       Base: 357d | -7.9% to breakout
+       180d: +16.0% → Rs535
+
+  41   ARVIND         Mini Large Cap      5.8     6.2   74.1%  +1.7%  +2.6%  Up        T3-WAIT
+       Textiles  |  MCap Rs9,416Cr
+       Price: Rs359.25 → 25d: Rs365 | 45d: Rs369
+       Base: 541d | -11.4% to breakout
+       180d: +14.7% → Rs412
+
+  42   POWERGRID      Large Cap           6.0     6.8   74.0%  +1.9%  +2.9%  Up        T3-WAIT
+       Power  |  MCap Rs2.8L Cr
+       Price: Rs298.60 → 25d: Rs304 | 45d: Rs307
+       Base: 529d | -7.8% to breakout
+       180d: +24.7% → Rs372
+
+  43   NTPC           Large Cap           6.7     7.6   73.7%  +0.9%  +2.2%  Up        T3-WAIT
+       Power  |  MCap Rs3.7L Cr
+       Price: Rs380.95 → 25d: Rs384 | 45d: Rs389
+       Base: 532d | -5.7% to breakout
+       180d: +12.3% → Rs428
+
+  44   EMCURE         Large Cap           7.2     8.5   73.5%  +2.8%  +5.0%  Up        T2-WATCH
+       Healthcare  |  MCap Rs28,025Cr
+       Price: Rs1478.20 → 25d: Rs1520 | 45d: Rs1553
+       180d: +10.4% → Rs1631
+
+  45   PFC            Large Cap           7.9     7.9   73.5%  +2.5%  +4.1%  Side      T2-WATCH
+       Financial Services  |  MCap Rs1.4L Cr
+       Price: Rs411.75 → 25d: Rs422 | 45d: Rs429
+       Base: 323d | -6.5% to breakout
+       180d: +20.3% → Rs495
+
+  46   SUNTV          Large Cap           7.1    10.0   73.3%  +0.7%  +2.5%  Up        T3-WAIT
+       Media, Entertainment & Publica  |  MCap Rs23,367Cr
+       Price: Rs593.90 → 25d: Rs598 | 45d: Rs609
+       180d: +12.4% → Rs668
+
+  47   SCHAEFFLER     Large Cap           6.3     6.4   72.8%  +1.5%  +3.6%  Up        T3-WAIT
+       Automobile and Auto Components  |  MCap Rs65,437Cr
+       Price: Rs4175.00 → 25d: Rs4238 | 45d: Rs4325
+       Base: 472d | -7.8% to breakout
+       180d: +18.4% → Rs4942
+
+  48   GAEL           Mini Large Cap      5.7     5.8   71.2%  +1.4%  +3.0%  Up        T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs6,170Cr
+       Price: Rs134.51 → 25d: Rs136 | 45d: Rs138
+       Base: 432d | -6.3% to breakout
+       180d: +13.5% → Rs153
+
+  49   TITANBIO       Mid Cap             8.5     9.2   70.5%  +3.2%  +7.3%  Up        T1-MOM
+       Chemicals  |  MCap Rs1,638Cr
+       Price: Rs396.55 → 25d: Rs409 | 45d: Rs425
+       180d: +71.4% → Rs680
+
+  50   ADANIPOWER     Large Cap           7.3     8.3   52.9%  +2.8%  +4.7%  Str-Up    T1-MOM
+       Power  |  MCap Rs2.9L Cr
+       Price: Rs151.54 → 25d: Rs156 | 45d: Rs159
+       180d: +21.7% → Rs184
+
+
+──────────────────────────────────────────────────────────────────────────────────
+  BULLISH  (164 stocks)
+  No clear setup yet — ML sees upside potential
+──────────────────────────────────────────────────────────────────────────────────
+  #    Symbol         Cap               SecRnk  CapRnk   Conf   25d%   45d%  Trend     Tier
+  ──────────────────────────────────────────────────────────────────────────────
+  1    STERTOOLS      Small Cap           7.5     7.8   91.0%  +6.3%  +9.3%  Str-Dn    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs645Cr
+       Price: Rs179.00 → 25d: Rs190 | 45d: Rs196
+
+  2    NOVAAGRI       Small Cap           6.6     8.1   91.0%  +9.2% +13.6%  Str-Dn    T3-WAIT
+       Chemicals  |  MCap Rs205Cr
+       Price: Rs22.72 → 25d: Rs25 | 45d: Rs26
+
+  3    HLEGLAS        Mid Cap             6.5     6.5   90.6%  +6.1%  +6.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,988Cr
+       Price: Rs286.30 → 25d: Rs304 | 45d: Rs306
+
+  4    FSL            Mini Large Cap      6.3     6.5   89.8%  +6.2% +11.1%  Down      T3-WAIT
+       Services  |  MCap Rs14,997Cr
+       Price: Rs216.97 → 25d: Rs231 | 45d: Rs241
+
+  5    AGI            Mid Cap             7.2     7.2   89.3%  +4.4%  +8.9%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs3,229Cr
+       Price: Rs499.10 → 25d: Rs521 | 45d: Rs543
+
+  6    SKMEGGPROD     Small Cap           7.8     9.0   88.3%  +5.8%  +5.5%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs817Cr
+       Price: Rs156.00 → 25d: Rs165 | 45d: Rs165
+
+  7    PENIND         Mid Cap             5.6     5.6   88.3%  +3.9%  +5.2%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,928Cr
+       Price: Rs141.12 → 25d: Rs147 | 45d: Rs148
+
+  8    FABCLEAN       Small Cap           6.7     7.3   88.3%  +3.1%  +5.6%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs299Cr
+       Price: Rs240.00 → 25d: Rs247 | 45d: Rs254
+
+  9    INFOBEAN       Mid Cap             8.1     8.8   88.1%  +2.6%  +6.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs1,355Cr
+       Price: Rs139.73 → 25d: Rs143 | 45d: Rs149
+
+  10   NWIL           Small Cap           6.7     7.4   88.1%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs901Cr
+       Price: Rs38.71 → 25d: Rs40 | 45d: Rs40
+
+  11   BAJAJINDEF     Small Cap           5.5     6.0   88.1%  +2.2%  +1.0%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs745Cr
+       Price: Rs232.85 → 25d: Rs238 | 45d: Rs235
+
+  12   HINDPETRO      Large Cap           6.8     8.2   87.7%  +3.3%  +4.4%  Str-Dn    T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs71,559Cr
+       Price: Rs336.30 → 25d: Rs347 | 45d: Rs351
+
+  13   SHAKTIPUMP     Mini Large Cap      7.3     7.4   87.5%  +4.0%  +7.0%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs6,126Cr
+       Price: Rs499.00 → 25d: Rs519 | 45d: Rs534
+
+  14   DENTA          Small Cap           6.1     6.1   87.2%  +3.0%  +4.0%  Down      T3-WAIT
+       Utilities  |  MCap Rs645Cr
+       Price: Rs241.60 → 25d: Rs249 | 45d: Rs251
+
+  15   NILAINFRA      Small Cap           5.1     7.2   87.1%  +4.4%  +6.7%  Down      T3-WAIT
+       Realty  |  MCap Rs279Cr
+       Price: Rs7.08 → 25d: Rs7 | 45d: Rs8
+
+  16   HBLENGINE      Mini Large Cap      8.9     9.0   87.0%  +2.9%  +5.3%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs18,281Cr
+       Price: Rs659.50 → 25d: Rs678 | 45d: Rs695
+
+  17   DPABHUSHAN     Mid Cap             5.8     5.8   86.9%  +3.9%  +6.5%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,341Cr
+       Price: Rs1025.50 → 25d: Rs1066 | 45d: Rs1092
+
+  18   MADHAVIPL      Small Cap           7.8    10.0   86.9%  +4.2%  +6.2%  Down      T3-WAIT
+       Construction  |  MCap Rs214Cr
+       Price: Rs7.91 → 25d: Rs8 | 45d: Rs8
+
+  19   BALUFORGE      Mini Large Cap      6.0     6.0   86.5%  +2.2%  +3.5%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs5,316Cr
+       Price: Rs437.75 → 25d: Rs448 | 45d: Rs453
+
+  20   LAXMIDENTL     Small Cap           4.0     7.3   86.5%  +3.4%  -3.7%  Side      T3-WAIT
+       Healthcare  |  MCap Rs955Cr
+       Price: Rs173.71 → 25d: Rs180 | 45d: Rs167
+
+  21   REMSONSIND     Small Cap           4.6     4.8   86.5%  +2.1%  +4.6%  Str-Dn    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs303Cr
+       Price: Rs86.02 → 25d: Rs88 | 45d: Rs90
+
+  22   JUBLCPL        Mid Cap             5.4     5.9   86.3%  +2.4%  +3.4%  Down      T3-WAIT
+       Chemicals  |  MCap Rs2,512Cr
+       Price: Rs1657.50 → 25d: Rs1697 | 45d: Rs1713
+
+  23   ZEAL           Small Cap           8.2     8.9   86.2%  +2.9%  +7.2%  Up        T3-WAIT
+       Services  |  MCap Rs158Cr
+       Price: Rs12.50 → 25d: Rs13 | 45d: Rs13
+
+  24   ARROWGREEN     Small Cap           8.4     9.2   86.1%  +3.0%  +6.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs571Cr
+       Price: Rs378.45 → 25d: Rs390 | 45d: Rs402
+
+  25   INDIGOPNTS     Mid Cap             5.2     5.2   86.0%  +6.1%  +5.2%  Str-Dn    T3-WAIT
+       Consumer Durables  |  MCap Rs3,546Cr
+       Price: Rs743.75 → 25d: Rs789 | 45d: Rs782
+
+  26   IZMO           Mid Cap             8.1     8.8   86.0%  +2.2%  +8.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs1,052Cr
+       Price: Rs701.00 → 25d: Rs717 | 45d: Rs761
+
+  27   KALYANKJIL     Large Cap           7.9     8.5   85.9%  +0.9%  +1.6%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs39,540Cr
+       Price: Rs382.70 → 25d: Rs386 | 45d: Rs389
+
+  28   ADVENZYMES     Mid Cap             5.1     5.1   85.9%  +2.8%  +6.2%  Down      T3-WAIT
+       Healthcare  |  MCap Rs3,051Cr
+       Price: Rs272.60 → 25d: Rs280 | 45d: Rs289
+
+  29   UDS            Small Cap           7.2     7.8   85.7%  +0.8%  +1.3%  Down      T3-WAIT
+       Services  |  MCap Rs933Cr
+       Price: Rs137.00 → 25d: Rs138 | 45d: Rs139
+
+  30   HERITGFOOD     Mid Cap             5.5     5.9   85.6%  +3.6%  +3.5%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs2,877Cr
+       Price: Rs309.45 → 25d: Rs321 | 45d: Rs320
+
+  31   AMRUTANJAN     Mid Cap             7.3     7.3   85.5%  +3.5%  +4.1%  Str-Dn    T3-WAIT
+       Healthcare  |  MCap Rs1,490Cr
+       Price: Rs515.55 → 25d: Rs534 | 45d: Rs537
+
+  32   AFCONS         Mini Large Cap      4.7     4.9   85.4%  +3.5%  +4.7%  Down      T3-WAIT
+       Construction  |  MCap Rs10,252Cr
+       Price: Rs278.75 → 25d: Rs289 | 45d: Rs292
+
+  33   CARRARO        Mid Cap             5.3     5.3   84.9%  +3.1%  +5.0%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs2,513Cr
+       Price: Rs441.95 → 25d: Rs455 | 45d: Rs464
+
+  34   FDC            Mini Large Cap      4.8     4.9   84.7%  +2.4%  +3.1%  Str-Dn    T3-WAIT
+       Healthcare  |  MCap Rs5,419Cr
+       Price: Rs332.85 → 25d: Rs341 | 45d: Rs343
+
+  35   HINDCOPPER     Large Cap           7.8     7.8   84.7%  +4.5%  +5.9%  Side      T3-WAIT
+       Metals & Mining  |  MCap Rs47,349Cr
+       Price: Rs489.45 → 25d: Rs512 | 45d: Rs518
+
+  36   INTEGRAEN      Small Cap           9.1    10.0   84.6%  +1.6%  +4.0%  Str-Dn    T3-WAIT
+       Capital Goods  |  MCap Rs463Cr
+       Price: Rs135.25 → 25d: Rs137 | 45d: Rs141
+
+  37   BIRLAMONEY     Small Cap           6.5     7.2   84.6%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs633Cr
+       Price: Rs111.95 → 25d: Rs115 | 45d: Rs117
+
+  38   AVANTIFEED     Mini Large Cap      6.8     7.0   84.5% +10.0%  +8.9%  Side      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs16,431Cr
+       Price: Rs1206.00 → 25d: Rs1326 | 45d: Rs1313
+
+  39   EMKAY          Small Cap           7.2     7.9   84.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs583Cr
+       Price: Rs222.67 → 25d: Rs228 | 45d: Rs232
+
+  40   BANCOINDIA     Mini Large Cap      9.9    10.0   84.1%  +2.8%  +3.7%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs7,920Cr
+       Price: Rs553.70 → 25d: Rs569 | 45d: Rs574
+
+  41   SIKA           Mid Cap            10.0    10.0   83.8%  +2.0%  +4.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,940Cr
+       Price: Rs911.00 → 25d: Rs930 | 45d: Rs950
+
+  42   EMIL           Mid Cap             5.3     6.5   83.8%  +0.6%  +2.2%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs3,540Cr
+       Price: Rs92.01 → 25d: Rs93 | 45d: Rs94
+
+  43   GABRIEL        Mini Large Cap      5.2     5.2   83.7%  +2.1%  +3.3%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs12,396Cr
+       Price: Rs862.95 → 25d: Rs881 | 45d: Rs891
+
+  44   APIS           Small Cap           6.8     7.8   83.6%  +4.4% +18.1%  Side      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs786Cr
+       Price: Rs57.79 → 25d: Rs60 | 45d: Rs68
+
+  45   20MICRONS      Small Cap           7.3     9.0   83.5%  +1.3%  +3.0%  Str-Dn    T3-WAIT
+       Metals & Mining  |  MCap Rs535Cr
+       Price: Rs151.02 → 25d: Rs153 | 45d: Rs156
+
+  46   AAVAS          Mini Large Cap      7.0     7.5   83.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs8,696Cr
+       Price: Rs1098.10 → 25d: Rs1125 | 45d: Rs1144
+
+  47   KANSAINER      Mini Large Cap      7.3     8.2   83.3%  +2.1%  +3.6%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs13,486Cr
+       Price: Rs166.77 → 25d: Rs170 | 45d: Rs173
+
+  48   KEC            Mini Large Cap      4.9     5.2   83.3%  +2.6%  +4.5%  Down      T3-WAIT
+       Construction  |  MCap Rs14,537Cr
+       Price: Rs546.10 → 25d: Rs560 | 45d: Rs571
+
+  49   MATRIMONY      Small Cap           4.7     5.3   83.2%  +1.2%  +4.5%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs875Cr
+       Price: Rs423.45 → 25d: Rs429 | 45d: Rs442
+
+  50   KCP            Mid Cap             9.1    10.0   83.2%  +1.0%  +2.8%  Str-Dn    T3-WAIT
+       Construction Materials  |  MCap Rs1,773Cr
+       Price: Rs137.50 → 25d: Rs139 | 45d: Rs141
+
+  51   SANDUMA        Mini Large Cap     10.0    10.0   83.2%  +1.6%  +4.7%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs9,009Cr
+       Price: Rs185.23 → 25d: Rs188 | 45d: Rs194
+
+  52   RVTH           Small Cap           4.7     5.1   83.1%  +2.2%  +5.0%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs174Cr
+       Price: Rs551.00 → 25d: Rs563 | 45d: Rs578
+
+  53   TARIL          Mini Large Cap      9.1     9.3   83.1%  +0.5%  +1.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs8,559Cr
+       Price: Rs286.00 → 25d: Rs287 | 45d: Rs290
+
+  54   SIRCA          Mid Cap             8.5     8.5   83.1%  +3.1%  +5.1%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,444Cr
+       Price: Rs429.55 → 25d: Rs443 | 45d: Rs451
+
+  55   AVANTEL        Mid Cap             8.6     8.6   82.8%  +1.6%  +4.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs3,385Cr
+       Price: Rs127.38 → 25d: Rs129 | 45d: Rs133
+
+  56   CARYSIL        Mid Cap             9.7     9.7   82.6%  +1.7%  +1.5%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,224Cr
+       Price: Rs781.65 → 25d: Rs795 | 45d: Rs793
+
+  57   MAPMYINDIA     Mini Large Cap      8.3     9.0   82.5%  +6.9% +12.6%  Down      T3-WAIT
+       Information Technology  |  MCap Rs5,011Cr
+       Price: Rs915.70 → 25d: Rs979 | 45d: Rs1031
+
+  58   PESB           Small Cap           4.3     4.8   82.5%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs358Cr
+       Price: Rs227.00 → 25d: Rs233 | 45d: Rs237
+
+  59   BAJAJST        Small Cap           7.8     8.5   82.4%  +0.9%  +0.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs786Cr
+       Price: Rs380.00 → 25d: Rs383 | 45d: Rs383
+
+  60   KPGEL          Mid Cap             5.6     5.6   82.2%  +1.1%  +2.6%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,762Cr
+       Price: Rs354.00 → 25d: Rs358 | 45d: Rs363
+
+  61   RATEGAIN       Mini Large Cap      6.3     6.9   82.2%  +1.9%  +1.8%  Down      T3-WAIT
+       Information Technology  |  MCap Rs5,686Cr
+       Price: Rs483.00 → 25d: Rs492 | 45d: Rs492
+
+  62   ROSSARI        Mid Cap             6.8     7.3   82.0%  +4.7%  +7.6%  Str-Dn    T3-WAIT
+       Chemicals  |  MCap Rs2,278Cr
+       Price: Rs412.30 → 25d: Rs432 | 45d: Rs444
+
+  63   SIYSIL         Mid Cap             8.3     8.3   81.9%  +1.8%  +2.0%  Down      T3-WAIT
+       Textiles  |  MCap Rs2,162Cr
+       Price: Rs479.00 → 25d: Rs487 | 45d: Rs489
+
+  64   M&MFIN         Large Cap           4.6     4.6   81.8%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs42,845Cr
+       Price: Rs308.35 → 25d: Rs316 | 45d: Rs321
+
+  65   SYNGENE        Mini Large Cap      4.9     5.0   81.7%  +4.6%  +5.1%  Down      T3-WAIT
+       Healthcare  |  MCap Rs16,670Cr
+       Price: Rs415.00 → 25d: Rs434 | 45d: Rs436
+
+  66   DIXON          Large Cap           9.4    10.0   81.6%  +0.5%  +3.8%  Side      T3-WAIT
+       Consumer Durables  |  MCap Rs62,787Cr
+       Price: Rs10342.00 → 25d: Rs10392 | 45d: Rs10735
+
+  67   JYOTHYLAB      Mini Large Cap      7.8     8.0   81.6%  +0.8%  +2.3%  Str-Dn    T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs7,658Cr
+       Price: Rs208.55 → 25d: Rs210 | 45d: Rs213
+
+  68   VIMTALABS      Mid Cap             5.5     5.5   81.6%  +2.8%  +2.7%  Side      T3-WAIT
+       Healthcare  |  MCap Rs1,913Cr
+       Price: Rs428.40 → 25d: Rs440 | 45d: Rs440
+
+  69   KAYCEEI        Small Cap           8.4     9.2   81.4%  +1.0%  +2.2%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs256Cr
+       Price: Rs812.00 → 25d: Rs820 | 45d: Rs830
+
+  70   VIJAYA         Mini Large Cap      7.5     7.7   81.1%  +1.6%  +2.8%  Down      T2-BASE
+       Healthcare  |  MCap Rs9,308Cr
+       Price: Rs891.60 → 25d: Rs906 | 45d: Rs917
+       Base: 370d | -23.4% to breakout
+
+  71   JMFINANCIL     Mini Large Cap      4.2     4.5   81.0%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs11,779Cr
+       Price: Rs123.16 → 25d: Rs126 | 45d: Rs129
+
+  72   INTLCONV       Small Cap           8.8     9.6   81.0%  +0.8%  +1.7%  Down      T2-BASE
+       Capital Goods  |  MCap Rs445Cr
+       Price: Rs69.74 → 25d: Rs70 | 45d: Rs71
+       Base: 655d | -31.5% to breakout
+
+  73   HINDZINC       Large Cap           6.1     6.1   80.9%  +0.8%  +2.1%  Down      T3-WAIT
+       Metals & Mining  |  MCap Rs2.2L Cr
+       Price: Rs514.75 → 25d: Rs519 | 45d: Rs525
+
+  74   GPTHEALTH      Small Cap           5.5    10.0   80.9%  +1.8%  +3.2%  Side      T3-WAIT
+       Healthcare  |  MCap Rs990Cr
+       Price: Rs120.65 → 25d: Rs123 | 45d: Rs125
+
+  75   LGBBROSLTD     Mini Large Cap      8.3     8.4   80.8%  +1.0%  +2.9%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs5,454Cr
+       Price: Rs1710.00 → 25d: Rs1728 | 45d: Rs1759
+
+  76   TANLA          Mini Large Cap      7.6     8.3   80.4%  +1.3%  +1.8%  Side      T3-WAIT
+       Information Technology  |  MCap Rs5,592Cr
+       Price: Rs426.00 → 25d: Rs432 | 45d: Rs434
+
+  77   BPCL           Large Cap           6.9     8.3   80.3%  +0.8%  +2.7%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs1.2L Cr
+       Price: Rs287.80 → 25d: Rs290 | 45d: Rs296
+
+  78   IREDA          Large Cap           8.7     8.7   80.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs32,691Cr
+       Price: Rs116.37 → 25d: Rs119 | 45d: Rs121
+
+  79   RELIABLE       Small Cap           7.7     8.5   80.3%  +2.6%  +4.6%  Down      T3-WAIT
+       Financial Services  |  MCap Rs126Cr
+       Price: Rs120.93 → 25d: Rs124 | 45d: Rs126
+
+  80   CDSL           Large Cap           9.9     9.9   80.2%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs24,888Cr
+       Price: Rs1190.80 → 25d: Rs1220 | 45d: Rs1240
+
+  81   DBCORP         Mid Cap             6.9    10.0   80.2%  +1.0%  +1.2%  Down      T3-WAIT
+       Media, Entertainment & Publica  |  MCap Rs3,701Cr
+       Price: Rs207.61 → 25d: Rs210 | 45d: Rs210
+
+  82   FORCEMOT       Large Cap           9.6     9.8   80.1%  +3.2%  +4.4%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs28,441Cr
+       Price: Rs21585.00 → 25d: Rs22272 | 45d: Rs22528
+
+  83   SYMPHONY       Mini Large Cap      7.0     7.8   79.8%  +1.0%  +2.0%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs5,298Cr
+       Price: Rs773.20 → 25d: Rs781 | 45d: Rs789
+
+  84   SJS            Mini Large Cap      6.1     6.2   79.8%  +1.5%  +3.0%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs5,064Cr
+       Price: Rs1570.80 → 25d: Rs1595 | 45d: Rs1618
+
+  85   HUHTAMAKI      Mid Cap             4.5     4.5   79.7%  +0.4%  +1.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,230Cr
+       Price: Rs162.93 → 25d: Rs164 | 45d: Rs165
+
+  86   JKIL           Mid Cap             5.4     5.4   79.6%  +0.6%  +2.3%  Down      T3-WAIT
+       Construction  |  MCap Rs3,702Cr
+       Price: Rs488.30 → 25d: Rs491 | 45d: Rs500
+
+  87   MIDHANI        Mini Large Cap      5.0     5.1   79.6%  +0.8%  +2.5%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs5,919Cr
+       Price: Rs315.30 → 25d: Rs318 | 45d: Rs323
+
+  88   GPPL           Mini Large Cap      6.1     6.2   79.6%  +0.4%  +1.3%  Down      T3-WAIT
+       Services  |  MCap Rs7,335Cr
+       Price: Rs151.67 → 25d: Rs152 | 45d: Rs154
+
+  89   GNA            Mid Cap             7.6     7.6   79.6%  +1.5%  +3.5%  Side      T2-BASE
+       Automobile and Auto Components  |  MCap Rs1,611Cr
+       Price: Rs375.35 → 25d: Rs381 | 45d: Rs388
+       Base: 355d | -13.5% to breakout
+
+  90   JKTYRE         Mini Large Cap      6.6     6.7   79.5%  +1.6%  +3.2%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs12,038Cr
+       Price: Rs417.25 → 25d: Rs424 | 45d: Rs430
+
+  91   RAINBOW        Mini Large Cap      8.8     8.9   79.4%  +1.2%  +2.2%  Down      T2-BASE
+       Healthcare  |  MCap Rs11,312Cr
+       Price: Rs1110.30 → 25d: Rs1124 | 45d: Rs1135
+       Base: 542d | -31.2% to breakout
+
+  92   IPL            Mid Cap             4.5     4.8   79.3%  +0.4%  +2.6%  Down      T3-WAIT
+       Chemicals  |  MCap Rs1,579Cr
+       Price: Rs136.99 → 25d: Rs137 | 45d: Rs141
+
+  93   SKIPPER        Mid Cap             8.0     8.0   79.3%  +0.6%  +1.4%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs3,954Cr
+       Price: Rs350.10 → 25d: Rs352 | 45d: Rs355
+
+  94   CHOLAHLDNG     Large Cap           8.3     8.3   79.2%  +2.5%  +3.8%  Str-Dn    T2-BASE
+       Financial Services  |  MCap Rs26,467Cr
+       Price: Rs1407.60 → 25d: Rs1442 | 45d: Rs1461
+       Base: 393d | -32.8% to breakout
+
+  95   GRAVITA        Mini Large Cap      8.1     9.9   79.1%  +0.1%  +1.1%  Str-Dn    T3-WAIT
+       Metals & Mining  |  MCap Rs10,235Cr
+       Price: Rs1405.20 → 25d: Rs1406 | 45d: Rs1421
+
+  96   PNBHOUSING     Large Cap           4.6     4.6   79.1%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs20,630Cr
+       Price: Rs790.60 → 25d: Rs810 | 45d: Rs823
+       Base: 472d | -27.6% to breakout
+
+  97   FORTIS         Large Cap           5.7     6.7   79.1%  +1.3%  +2.2%  Down      T3-WAIT
+       Healthcare  |  MCap Rs62,061Cr
+       Price: Rs822.05 → 25d: Rs833 | 45d: Rs840
+
+  98   HARIOMPIPE     Small Cap           4.1     4.5   78.9%  +0.7%  +2.1%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs947Cr
+       Price: Rs305.55 → 25d: Rs308 | 45d: Rs312
+
+  99   RECLTD         Large Cap           7.6     7.6   78.8%  +2.5%  +4.1%  Side      T3-WAIT
+       Financial Services  |  MCap Rs87,040Cr
+       Price: Rs330.10 → 25d: Rs338 | 45d: Rs344
+
+  100  SBFC           Mini Large Cap      5.3     5.8   78.7%  +2.5%  +4.1%  Str-Dn    T3-WAIT
+       Financial Services  |  MCap Rs9,594Cr
+       Price: Rs87.38 → 25d: Rs90 | 45d: Rs91
+
+  101  DHABRIYA       Small Cap           8.8     9.6   78.7%  +1.6%  +3.0%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs364Cr
+       Price: Rs334.05 → 25d: Rs339 | 45d: Rs344
+
+  102  MEDANTA        Large Cap           7.5     8.8   78.3%  +1.4%  +2.1%  Str-Dn    T2-BASE
+       Healthcare  |  MCap Rs27,023Cr
+       Price: Rs1005.70 → 25d: Rs1020 | 45d: Rs1027
+       Base: 580d | -29.6% to breakout
+
+  103  APOLLOTYRE     Large Cap           5.5     5.7   78.3%  +1.1%  +1.7%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs26,653Cr
+       Price: Rs420.85 → 25d: Rs425 | 45d: Rs428
+       Base: 567d | -21.4% to breakout
+
+  104  EVEREADY       Mid Cap             4.3     4.7   78.3%  +0.3%  +1.8%  Str-Dn    T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs2,192Cr
+       Price: Rs300.70 → 25d: Rs302 | 45d: Rs306
+
+  105  SEALMATIC      Small Cap           6.5     7.2   78.0%  +1.1%  +2.2%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs376Cr
+       Price: Rs346.25 → 25d: Rs350 | 45d: Rs354
+
+  106  ENGINERSIN     Mini Large Cap      6.8     7.2   77.8%  +0.2%  +2.0%  Side      T3-WAIT
+       Construction  |  MCap Rs10,780Cr
+       Price: Rs191.64 → 25d: Rs192 | 45d: Rs196
+
+  107  BLUESTARCO     Large Cap           8.5     9.0   77.8%  +0.6%  +2.4%  Down      T2-BASE
+       Consumer Durables  |  MCap Rs35,127Cr
+       Price: Rs1708.60 → 25d: Rs1719 | 45d: Rs1750
+       Base: 424d | -20.8% to breakout
+
+  108  PRICOLLTD      Mini Large Cap      6.7     6.8   77.6%  +0.4%  +2.1%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs6,503Cr
+       Price: Rs533.25 → 25d: Rs536 | 45d: Rs545
+
+  109  IOC            Large Cap           4.1     4.9   77.6%  +0.3%  +1.8%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs2.0L Cr
+       Price: Rs144.60 → 25d: Rs145 | 45d: Rs147
+       Base: 552d | -15.9% to breakout
+
+  110  GALAXYSURF     Mini Large Cap      6.0     6.1   77.5%  +0.0%  +0.0%  Str-Dn    T3-WAIT
+       Chemicals  |  MCap Rs6,002Cr
+       Price: Rs1641.00 → 25d: Rs1641 | 45d: Rs1642
+
+  111  PNB            Large Cap           7.1     7.1   77.4%  +2.5%  +4.1%  Down      T2-BASE
+       Financial Services  |  MCap Rs1.3L Cr
+       Price: Rs111.55 → 25d: Rs114 | 45d: Rs116
+       Base: 552d | -13.5% to breakout
+
+  112  VOLTAS         Large Cap           5.8     6.2   77.4%  +1.5%  +2.3%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs43,826Cr
+       Price: Rs1324.00 → 25d: Rs1344 | 45d: Rs1354
+       Base: 334d | -24.3% to breakout
+
+  113  MMP            Small Cap           8.1    10.0   77.3%  +0.0%  +1.8%  Down      T3-WAIT
+       Metals & Mining  |  MCap Rs553Cr
+       Price: Rs217.67 → 25d: Rs218 | 45d: Rs221
+
+  114  GARFIBRES      Mini Large Cap      9.4    10.0   77.2%  +0.5%  +1.7%  Down      T2-BASE
+       Textiles  |  MCap Rs6,072Cr
+       Price: Rs611.70 → 25d: Rs615 | 45d: Rs622
+       Base: 544d | -34.3% to breakout
+
+  115  NAM-INDIA      Large Cap          10.0    10.0   77.1%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs53,468Cr
+       Price: Rs838.90 → 25d: Rs860 | 45d: Rs877
+
+  116  ROTO           Mid Cap             9.1     9.1   77.0%  +1.4%  +2.0%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs1,071Cr
+       Price: Rs56.70 → 25d: Rs58 | 45d: Rs58
+
+  117  ELGIEQUIP      Mini Large Cap      7.8     7.9   77.0%  +0.4%  +2.0%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs15,160Cr
+       Price: Rs480.05 → 25d: Rs482 | 45d: Rs489
+
+  118  ENDURANCE      Large Cap           6.9     7.0   76.9%  +0.1%  +1.7%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs32,075Cr
+       Price: Rs2280.30 → 25d: Rs2283 | 45d: Rs2319
+
+  119  JMA            Small Cap           5.5     5.8   76.9%  +1.5%  +3.1%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs184Cr
+       Price: Rs80.57 → 25d: Rs82 | 45d: Rs83
+       Base: 323d | -20.0% to breakout
+
+  120  CANBK          Large Cap           6.7     6.7   76.9%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs1.2L Cr
+       Price: Rs136.44 → 25d: Rs140 | 45d: Rs143
+
+  121  UNOMINDA       Large Cap           9.3     9.5   76.7%  +0.2%  +2.4%  Str-Dn    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs61,610Cr
+       Price: Rs1058.00 → 25d: Rs1060 | 45d: Rs1084
+
+  122  ASKAUTOLTD     Mini Large Cap      7.8     7.9   76.4%  +0.5%  +1.0%  Down      T2-BASE
+       Automobile and Auto Components  |  MCap Rs8,067Cr
+       Price: Rs409.20 → 25d: Rs411 | 45d: Rs413
+       Base: 387d | -23.8% to breakout
+
+  123  AURIONPRO      Mid Cap             8.1     8.8   76.2%  +1.5%  +2.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs4,503Cr
+       Price: Rs815.50 → 25d: Rs827 | 45d: Rs836
+
+  124  ADOR           Mid Cap             7.6     7.6   76.2%  +0.1%  +1.6%  Str-Dn    T2-BASE
+       Capital Goods  |  MCap Rs1,596Cr
+       Price: Rs917.10 → 25d: Rs918 | 45d: Rs932
+       Base: 346d | -23.9% to breakout
+
+  125  GRWRHITECH     Mini Large Cap      8.9     9.0   75.9%  +1.3%  +3.9%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs8,489Cr
+       Price: Rs3650.80 → 25d: Rs3700 | 45d: Rs3793
+
+  126  MARUTI         Large Cap           8.7     8.9   75.7%  +0.8%  +2.3%  Str-Dn    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs4.0L Cr
+       Price: Rs12601.00 → 25d: Rs12706 | 45d: Rs12890
+
+  127  MAYURUNIQ      Mid Cap             8.7     8.7   75.5%  +0.3%  +1.1%  Down      T2-BASE
+       Consumer Durables  |  MCap Rs2,217Cr
+       Price: Rs509.35 → 25d: Rs511 | 45d: Rs515
+       Base: 638d | -21.1% to breakout
+
+  128  BCLIND         Small Cap           8.7    10.0   75.2%  +1.5%  +4.6%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs800Cr
+       Price: Rs27.10 → 25d: Rs28 | 45d: Rs28
+
+  129  IOB            Large Cap           6.7     6.7   75.2%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs64,969Cr
+       Price: Rs33.72 → 25d: Rs35 | 45d: Rs35
+
+  130  LTTS           Large Cap           7.2     7.7   75.1%  +3.1%  +3.7%  Down      T3-WAIT
+       Information Technology  |  MCap Rs34,228Cr
+       Price: Rs3229.10 → 25d: Rs3329 | 45d: Rs3349
+
+  131  SUMICHEM       Mini Large Cap      6.6     6.7   75.0%  +0.4%  +1.6%  Down      T3-WAIT
+       Chemicals  |  MCap Rs19,317Cr
+       Price: Rs387.00 → 25d: Rs388 | 45d: Rs393
+
+  132  INDUSTOWER     Large Cap          10.0    10.0   75.0%  +1.2%  +2.1%  Side      T3-WAIT
+       Telecommunication  |  MCap Rs1.1L Cr
+       Price: Rs434.55 → 25d: Rs440 | 45d: Rs444
+
+  133  APLAPOLLO      Large Cap           8.4     8.4   74.9%  +1.6%  +3.0%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs54,793Cr
+       Price: Rs1973.10 → 25d: Rs2004 | 45d: Rs2033
+
+  134  INDIANB        Large Cap           7.7     7.7   74.8%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs1.2L Cr
+       Price: Rs878.65 → 25d: Rs901 | 45d: Rs919
+
+  135  KIMS           Large Cap           8.5    10.0   74.3%  +1.4%  +2.1%  Side      T3-WAIT
+       Healthcare  |  MCap Rs25,813Cr
+       Price: Rs645.10 → 25d: Rs654 | 45d: Rs658
+
+  136  ACE            Mini Large Cap      9.9    10.0   74.2%  +0.4%  +1.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs9,869Cr
+       Price: Rs829.15 → 25d: Rs832 | 45d: Rs844
+
+  137  PETRONET       Large Cap           6.2     7.5   74.2%  +0.9%  +3.8%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs38,648Cr
+       Price: Rs256.95 → 25d: Rs259 | 45d: Rs267
+
+  138  NH             Large Cap           8.3     9.7   74.0%  +0.5%  +1.3%  Down      T3-WAIT
+       Healthcare  |  MCap Rs33,556Cr
+       Price: Rs1652.20 → 25d: Rs1660 | 45d: Rs1673
+
+  139  CENTRALBK      Large Cap           4.1     4.1   73.9%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs30,945Cr
+       Price: Rs34.17 → 25d: Rs35 | 45d: Rs36
+
+  140  RAYMOND        Mid Cap             6.7     6.7   73.9%  +5.4% +24.4%  Down      T3-WAIT
+       Realty  |  MCap Rs2,482Cr
+       Price: Rs374.35 → 25d: Rs394 | 45d: Rs466
+
+  141  AEGISLOG       Large Cap           6.6     7.9   73.8%  +0.1%  +1.7%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs21,471Cr
+       Price: Rs611.70 → 25d: Rs612 | 45d: Rs622
+
+  142  IKS            Large Cap           9.3    10.0   73.5%  +1.2%  +1.1%  Down      T3-WAIT
+       Information Technology  |  MCap Rs22,326Cr
+       Price: Rs1332.80 → 25d: Rs1349 | 45d: Rs1347
+
+  143  BANKBARODA     Large Cap           6.8     6.8   73.1%  +2.5%  +4.1%  Side      T3-WAIT
+       Financial Services  |  MCap Rs1.4L Cr
+       Price: Rs279.95 → 25d: Rs287 | 45d: Rs292
+
+  144  MAXHEALTH      Large Cap           8.2     9.6   73.0%  +0.7%  +1.3%  Str-Dn    T2-BASE
+       Healthcare  |  MCap Rs93,888Cr
+       Price: Rs964.80 → 25d: Rs971 | 45d: Rs977
+       Base: 373d | -24.4% to breakout
+
+  145  SUNDARMFIN     Large Cap           6.4     6.4   72.8%  +3.2%  +5.3%  Down      T3-WAIT
+       Financial Services  |  MCap Rs51,558Cr
+       Price: Rs4698.50 → 25d: Rs4850 | 45d: Rs4948
+
+  146  BERGEPAINT     Large Cap           8.1     8.6   72.6%  +0.0%  +1.2%  Str-Dn    T3-WAIT
+       Consumer Durables  |  MCap Rs48,705Cr
+       Price: Rs416.70 → 25d: Rs417 | 45d: Rs422
+
+  147  SATIN          Mid Cap             4.8     5.2   72.5%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1,597Cr
+       Price: Rs145.55 → 25d: Rs149 | 45d: Rs152
+       Base: 366d | -16.3% to breakout
+
+  148  FINPIPE        Mini Large Cap      6.9     7.0   71.3%  +0.0%  +1.0%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs10,798Cr
+       Price: Rs174.63 → 25d: Rs175 | 45d: Rs176
+
+  149  CIPLA          Large Cap           6.8     8.0   71.1%  +0.3%  +0.5%  Down      T3-WAIT
+       Healthcare  |  MCap Rs1.0L Cr
+       Price: Rs1256.40 → 25d: Rs1260 | 45d: Rs1262
+       Base: 594d | -22.7% to breakout
+
+  150  VINATIORGA     Mini Large Cap      6.2     6.4   70.6%  +0.2%  +0.9%  Down      T3-WAIT
+       Chemicals  |  MCap Rs14,381Cr
+       Price: Rs1394.00 → 25d: Rs1397 | 45d: Rs1407
+
+  151  LUMAXIND       Mid Cap             7.6     7.6   70.6%  +2.1%  +3.3%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs4,730Cr
+       Price: Rs5055.50 → 25d: Rs5163 | 45d: Rs5224
+
+  152  AUBANK         Large Cap           5.2     5.2   69.4%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs67,358Cr
+       Price: Rs901.50 → 25d: Rs925 | 45d: Rs943
+
+  153  EICHERMOT      Large Cap           9.8    10.0   69.4%  +0.7%  +2.4%  Side      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs1.9L Cr
+       Price: Rs6909.00 → 25d: Rs6955 | 45d: Rs7075
+
+  154  ULTRACEMCO     Large Cap           7.5     7.5   69.1%  +0.0%  +1.8%  Down      T3-WAIT
+       Construction Materials  |  MCap Rs3.2L Cr
+       Price: Rs10921.00 → 25d: Rs10924 | 45d: Rs11122
+
+  155  INDIASHLTR     Mini Large Cap      5.8     6.2   68.1%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs7,475Cr
+       Price: Rs686.15 → 25d: Rs703 | 45d: Rs715
+
+  156  COLPAL         Large Cap           6.3     6.3   67.4%  +0.3%  +0.8%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs51,571Cr
+       Price: Rs1896.10 → 25d: Rs1902 | 45d: Rs1912
+
+  157  BRITANNIA      Large Cap           7.1     7.1   66.7%  +0.5%  +2.0%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs1.4L Cr
+       Price: Rs5618.50 → 25d: Rs5649 | 45d: Rs5730
+
+  158  WEALTH         Small Cap           9.1    10.0   66.5%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs952Cr
+       Price: Rs893.80 → 25d: Rs916 | 45d: Rs931
+
+  159  RSYSTEMS       Mid Cap             7.6     8.2   66.5%  +1.1%  -0.4%  Down      T3-WAIT
+       Information Technology  |  MCap Rs3,133Cr
+       Price: Rs264.85 → 25d: Rs268 | 45d: Rs264
+
+  160  KAMAHOLD       Mini Large Cap      6.9     7.4   65.0%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs7,940Cr
+       Price: Rs2474.35 → 25d: Rs2535 | 45d: Rs2577
+
+  161  AXISBANK       Large Cap           6.3     6.3   64.8%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs3.7L Cr
+       Price: Rs1203.90 → 25d: Rs1233 | 45d: Rs1254
+       Base: 483d | -10.6% to breakout
+
+  162  BAJAJHLDNG     Large Cap           5.8     5.8   62.9%  +2.5%  +3.5%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1.1L Cr
+       Price: Rs9512.00 → 25d: Rs9745 | 45d: Rs9843
+
+  163  SBIN           Large Cap           6.7     6.7   60.3%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs9.8L Cr
+       Price: Rs1058.30 → 25d: Rs1085 | 45d: Rs1107
+
+  164  VEEDOL         Mid Cap             7.2     7.8   59.3%  +0.8%  +0.7%  Down      T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs2,263Cr
+       Price: Rs1337.50 → 25d: Rs1349 | 45d: Rs1347
+
+
+──────────────────────────────────────────────────────────────────────────────────
+  REVERSAL  (241 stocks)
+  In downtrend — ML sees high bounce probability
+──────────────────────────────────────────────────────────────────────────────────
+  #    Symbol         Cap               SecRnk  CapRnk   Conf   25d%   45d%  Trend     Tier
+  ──────────────────────────────────────────────────────────────────────────────
+  1    ASHAPURMIN     Mid Cap             6.3     9.0   93.6%  +8.3% +13.0%  Down      T3-WAIT
+       Metals & Mining  |  MCap Rs4,804Cr
+       Price: Rs502.85 → 25d: Rs544 | 45d: Rs568
+
+  2    ECOSMOBLTY     Small Cap           8.7     9.4   91.9%  +8.5%  +9.5%  Str-Dn    T1-REV
+       Services  |  MCap Rs671Cr
+       Price: Rs111.86 → 25d: Rs121 | 45d: Rs123
+
+  3    GENESYS        Mid Cap             4.9     5.3   91.6% +10.1% +16.5%  Side      T3-WAIT
+       Information Technology  |  MCap Rs1,127Cr
+       Price: Rs269.70 → 25d: Rs297 | 45d: Rs314
+
+  4    VERTOZ         Small Cap           9.7    10.0   91.4% +10.3% +15.6%  Down      T2-WATCH
+       Media, Entertainment & Publica  |  MCap Rs321Cr
+       Price: Rs38.00 → 25d: Rs42 | 45d: Rs44
+
+  5    MASTERTR       Small Cap           8.5     9.4   91.3%  +6.6%  +9.8%  Down      T2-WATCH
+       Financial Services  |  MCap Rs846Cr
+       Price: Rs68.77 → 25d: Rs73 | 45d: Rs76
+
+  6    ECORECO        Small Cap          10.0    10.0   91.2%  +7.9% +10.8%  Str-Dn    T1-REV
+       Utilities  |  MCap Rs574Cr
+       Price: Rs297.65 → 25d: Rs321 | 45d: Rs330
+
+  7    ECLERX         Mini Large Cap      9.8    10.0   91.0%  +7.9% +12.5%  Down      T1-REV
+       Services  |  MCap Rs13,690Cr
+       Price: Rs1469.00 → 25d: Rs1585 | 45d: Rs1652
+
+  8    DAMCAPITAL     Small Cap           5.9     6.5   91.0%  +6.6%  +8.4%  Down      T3-WAIT
+       Financial Services  |  MCap Rs918Cr
+       Price: Rs129.85 → 25d: Rs138 | 45d: Rs141
+
+  9    SAKSOFT        Mid Cap             8.7     9.4   89.8%  +9.0%  +8.9%  Down      T1-REV
+       Information Technology  |  MCap Rs1,529Cr
+       Price: Rs119.71 → 25d: Rs130 | 45d: Rs130
+
+  10   MEDIASSIST     Mid Cap             7.0     7.6   89.7%  +2.8%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs2,426Cr
+       Price: Rs325.15 → 25d: Rs334 | 45d: Rs339
+
+  11   INNOVATORS     Small Cap           4.2     4.6   89.6%  +6.4% +10.9%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs226Cr
+       Price: Rs118.00 → 25d: Rs126 | 45d: Rs131
+
+  12   DREAMFOLKS     Small Cap           7.9     8.5   89.3%  +9.1% +25.0%  Down      T1-REV
+       Services  |  MCap Rs376Cr
+       Price: Rs70.61 → 25d: Rs77 | 45d: Rs88
+
+  13   FIVESTAR       Mini Large Cap      4.9     5.3   89.2%  +5.0%  +7.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs10,332Cr
+       Price: Rs350.65 → 25d: Rs368 | 45d: Rs376
+
+  14   ASHOKA         Mid Cap            10.0    10.0   89.1%  +6.4% +10.3%  Down      T1-REV
+       Construction  |  MCap Rs3,194Cr
+       Price: Rs113.73 → 25d: Rs121 | 45d: Rs125
+
+  15   OPTIFIN        Small Cap           7.4     8.1   88.9%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs96Cr
+       Price: Rs12.71 → 25d: Rs13 | 45d: Rs13
+
+  16   SHAREINDIA     Mid Cap             8.4     9.1   88.4%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs2,736Cr
+       Price: Rs125.20 → 25d: Rs128 | 45d: Rs130
+
+  17   VASCONEQ       Small Cap           7.0    10.0   88.1%  +3.7%  +4.3%  Down      T3-WAIT
+       Realty  |  MCap Rs725Cr
+       Price: Rs31.79 → 25d: Rs33 | 45d: Rs33
+
+  18   DEEPAKFERT     Mini Large Cap      6.9     7.0   88.1%  +2.9%  +6.3%  Down      T2-WATCH
+       Chemicals  |  MCap Rs11,481Cr
+       Price: Rs908.55 → 25d: Rs935 | 45d: Rs966
+
+  19   JINDWORLD      Mid Cap             6.0     6.0   88.1%  +2.6%  +8.4%  Down      T3-WAIT
+       Textiles  |  MCap Rs2,139Cr
+       Price: Rs21.32 → 25d: Rs22 | 45d: Rs23
+
+  20   MCLOUD         Mid Cap             8.5     9.2   88.1% +15.4% +30.6%  Down      T1-REV
+       Information Technology  |  MCap Rs1,284Cr
+       Price: Rs21.75 → 25d: Rs25 | 45d: Rs28
+
+  21   ORIENTPPR      Small Cap           8.7    10.0   87.5%  +4.7%  +8.0%  Str-Dn    T3-WAIT
+       Forest Materials  |  MCap Rs332Cr
+       Price: Rs15.85 → 25d: Rs17 | 45d: Rs17
+
+  22   OPTIEMUS       Mid Cap             5.3     5.5   87.4%  +4.9%  +8.8%  Str-Dn    T3-WAIT
+       Telecommunication  |  MCap Rs2,964Cr
+       Price: Rs335.65 → 25d: Rs352 | 45d: Rs365
+
+  23   SANGHVIMOV     Mid Cap             4.9     6.0   87.2%  +5.9%  +7.2%  Down      T3-WAIT
+       Services  |  MCap Rs2,090Cr
+       Price: Rs241.00 → 25d: Rs255 | 45d: Rs258
+
+  24   MANINFRA       Mid Cap             7.5     7.5   87.1%  +3.1%  +5.5%  Str-Dn    T3-WAIT
+       Construction  |  MCap Rs3,677Cr
+       Price: Rs91.09 → 25d: Rs94 | 45d: Rs96
+
+  25   RESPONIND      Mid Cap             8.3     8.3   87.0%  +1.5%  +3.3%  Down      T2-WATCH
+       Consumer Durables  |  MCap Rs4,056Cr
+       Price: Rs152.00 → 25d: Rs154 | 45d: Rs157
+
+  26   PFS            Mid Cap             3.7     4.0   87.0%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1,755Cr
+       Price: Rs27.21 → 25d: Rs28 | 45d: Rs28
+
+  27   TBOTEK         Mini Large Cap      7.1     7.1   87.0%  +6.2%  +4.4%  Down      T1-REV
+       Consumer Services  |  MCap Rs11,379Cr
+       Price: Rs1067.00 → 25d: Rs1133 | 45d: Rs1114
+
+  28   LIKHITHA       Small Cap           6.3     8.0   87.0%  +4.1%  +5.7%  Down      T3-WAIT
+       Construction  |  MCap Rs562Cr
+       Price: Rs141.74 → 25d: Rs148 | 45d: Rs150
+
+  29   INTELLECT      Mini Large Cap      7.1     7.7   87.0%  +3.7%  +7.5%  Down      T2-WATCH
+       Information Technology  |  MCap Rs9,025Cr
+       Price: Rs650.55 → 25d: Rs674 | 45d: Rs699
+
+  30   ARIHANTCAP     Small Cap           7.3     8.1   86.9%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs746Cr
+       Price: Rs68.01 → 25d: Rs70 | 45d: Rs71
+
+  31   PDSL           Mid Cap             8.1     8.1   86.8%  +3.5%  +4.9%  Down      T2-WATCH
+       Textiles  |  MCap Rs3,695Cr
+       Price: Rs260.75 → 25d: Rs270 | 45d: Rs273
+
+  32   RPEL           Mid Cap             6.7     6.7   86.7%  +5.9%  +7.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs2,950Cr
+       Price: Rs652.00 → 25d: Rs691 | 45d: Rs703
+
+  33   HPL            Mid Cap             7.1     7.1   86.5%  +1.9%  +1.9%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,823Cr
+       Price: Rs283.55 → 25d: Rs289 | 45d: Rs289
+
+  34   INDOAMIN       Small Cap           8.1    10.0   86.5%  +4.9%  +7.5%  Str-Dn    T1-REV
+       Chemicals  |  MCap Rs641Cr
+       Price: Rs88.27 → 25d: Rs93 | 45d: Rs95
+
+  35   ROUTE          Mid Cap             9.7    10.0   86.3%  +5.3%  +8.4%  Down      T1-REV
+       Telecommunication  |  MCap Rs2,948Cr
+       Price: Rs467.35 → 25d: Rs492 | 45d: Rs507
+
+  36   NBCC           Large Cap           8.0    10.0   86.3%  +3.3%  +4.3%  Down      T1-REV
+       Construction  |  MCap Rs22,656Cr
+       Price: Rs83.91 → 25d: Rs87 | 45d: Rs88
+
+  37   KNRCON         Mid Cap             9.0     9.0   86.3%  +3.2%  +5.2%  Str-Dn    T1-REV
+       Construction  |  MCap Rs3,319Cr
+       Price: Rs118.01 → 25d: Rs122 | 45d: Rs124
+
+  38   BRIGADE        Mini Large Cap      7.7    10.0   86.2%  +3.6%  +5.2%  Down      T1-REV
+       Realty  |  MCap Rs15,749Cr
+       Price: Rs643.90 → 25d: Rs667 | 45d: Rs678
+
+  39   DOLLAR         Mid Cap             6.2     6.2   86.2%  +3.9%  +5.3%  Down      T3-WAIT
+       Textiles  |  MCap Rs1,478Cr
+       Price: Rs260.05 → 25d: Rs270 | 45d: Rs274
+
+  40   JOSTS          Small Cap           6.2     6.8   85.9%  +2.4%  +3.8%  Str-Dn    T3-WAIT
+       Capital Goods  |  MCap Rs261Cr
+       Price: Rs220.80 → 25d: Rs226 | 45d: Rs229
+
+  41   PREVEST        Small Cap           5.3     9.8   85.6%  +3.5%  +5.8%  Str-Dn    T3-WAIT
+       Healthcare  |  MCap Rs455Cr
+       Price: Rs381.00 → 25d: Rs394 | 45d: Rs403
+
+  42   AHLUCONT       Mid Cap             8.5     8.5   85.5%  +2.5%  +5.0%  Down      T1-REV
+       Construction  |  MCap Rs4,856Cr
+       Price: Rs724.95 → 25d: Rs743 | 45d: Rs761
+
+  43   GREENPLY       Mid Cap             6.0     6.0   85.2%  +1.8%  +3.8%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,410Cr
+       Price: Rs192.90 → 25d: Rs196 | 45d: Rs200
+
+  44   TAJGVK         Mid Cap             6.9     8.4   85.2%  +1.1%  +4.2%  Down      T2-WATCH
+       Consumer Services  |  MCap Rs1,893Cr
+       Price: Rs302.00 → 25d: Rs305 | 45d: Rs315
+
+  45   BHARATRAS      Mid Cap             4.0     4.3   85.2%  +7.4%  +6.4%  Down      T3-WAIT
+       Chemicals  |  MCap Rs2,121Cr
+       Price: Rs1275.80 → 25d: Rs1370 | 45d: Rs1357
+
+  46   LODHA          Large Cap           7.2     8.7   85.1%  +2.4%  +4.4%  Str-Dn    T3-WAIT
+       Realty  |  MCap Rs79,590Cr
+       Price: Rs796.90 → 25d: Rs816 | 45d: Rs832
+
+  47   KRITINUT       Small Cap           5.2     6.0   85.1%  +1.7%  +4.8%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs319Cr
+       Price: Rs63.52 → 25d: Rs65 | 45d: Rs67
+
+  48   CYIENT         Mini Large Cap      5.8     6.3   84.9%  +3.1%  +4.2%  Down      T3-WAIT
+       Information Technology  |  MCap Rs9,113Cr
+       Price: Rs825.35 → 25d: Rs851 | 45d: Rs860
+
+  49   SYNCOMF        Mid Cap             8.4     8.4   84.8%  +2.5%  +5.4%  Str-Dn    T1-REV
+       Healthcare  |  MCap Rs1,108Cr
+       Price: Rs11.84 → 25d: Rs12 | 45d: Rs12
+
+  50   KRBL           Mini Large Cap      4.5     4.6   84.8%  +1.1%  +2.6%  Str-Dn    T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs6,577Cr
+       Price: Rs287.35 → 25d: Rs291 | 45d: Rs295
+
+  51   AARTIPHARM     Mini Large Cap      3.1     3.2   84.6%  +1.8%  +1.3%  Down      T3-WAIT
+       Healthcare  |  MCap Rs5,853Cr
+       Price: Rs644.60 → 25d: Rs656 | 45d: Rs653
+
+  52   REFEX          Mid Cap             8.3     8.9   84.4%  +4.2% +10.7%  Down      T1-REV
+       Chemicals  |  MCap Rs2,751Cr
+       Price: Rs202.40 → 25d: Rs211 | 45d: Rs224
+
+  53   SAFARI         Mini Large Cap      8.9    10.0   84.3%  +2.7%  +3.8%  Down      T2-WATCH
+       Consumer Durables  |  MCap Rs7,449Cr
+       Price: Rs1522.00 → 25d: Rs1563 | 45d: Rs1580
+
+  54   KRSNAA         Mid Cap             5.3     5.3   84.2%  +1.2%  +1.8%  Down      T3-WAIT
+       Healthcare  |  MCap Rs1,906Cr
+       Price: Rs587.65 → 25d: Rs595 | 45d: Rs598
+
+  55   MOTILALOFS     Large Cap           9.0     9.0   84.1%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs39,927Cr
+       Price: Rs662.60 → 25d: Rs679 | 45d: Rs690
+
+  56   MUFTI          Small Cap           5.6     6.3   84.1%  +1.1%  +3.7%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs488Cr
+       Price: Rs74.61 → 25d: Rs75 | 45d: Rs77
+
+  57   ADFFOODS       Mid Cap             7.6     8.1   84.0%  +2.4%  +1.1%  Str-Dn    T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs1,916Cr
+       Price: Rs174.43 → 25d: Rs179 | 45d: Rs176
+
+  58   AGARIND        Small Cap           7.8     9.6   83.8%  +4.2%  +2.9%  Str-Dn    T1-REV
+       Chemicals  |  MCap Rs617Cr
+       Price: Rs412.45 → 25d: Rs430 | 45d: Rs424
+
+  59   SURYAROSNI     Mid Cap             7.3     7.3   83.7%  +1.3%  +2.2%  Down      T2-WATCH
+       Capital Goods  |  MCap Rs4,550Cr
+       Price: Rs209.01 → 25d: Rs212 | 45d: Rs214
+
+  60   SONATSOFTW     Mini Large Cap      6.6     7.2   83.6%  +3.0%  +5.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs6,569Cr
+       Price: Rs237.00 → 25d: Rs244 | 45d: Rs250
+
+  61   DELTACORP      Mid Cap             4.8     5.9   83.5%  +0.9%  +3.5%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs1,443Cr
+       Price: Rs53.89 → 25d: Rs54 | 45d: Rs56
+
+  62   EMUDHRA        Mid Cap             8.6     9.2   83.3%  +3.9%  +1.6%  Down      T1-REV
+       Information Technology  |  MCap Rs3,242Cr
+       Price: Rs395.45 → 25d: Rs411 | 45d: Rs402
+
+  63   SERVOTECH      Mid Cap             4.3     4.3   83.3%  +3.1%  +5.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs1,552Cr
+       Price: Rs68.60 → 25d: Rs71 | 45d: Rs73
+
+  64   EASEMYTRIP     Mid Cap             7.4     9.0   83.2%  +0.2%  +1.7%  Down      T1-REV
+       Consumer Services  |  MCap Rs2,491Cr
+       Price: Rs6.85 → 25d: Rs7 | 45d: Rs7
+
+  65   PNCINFRA       Mid Cap             5.4     5.4   83.2%  +3.0%  +3.6%  Down      T3-WAIT
+       Construction  |  MCap Rs4,777Cr
+       Price: Rs187.80 → 25d: Rs193 | 45d: Rs195
+
+  66   MAFATIND       Small Cap           6.3     8.2   83.1%  +0.9%  +2.7%  Down      T3-WAIT
+       Textiles  |  MCap Rs872Cr
+       Price: Rs120.90 → 25d: Rs122 | 45d: Rs124
+
+  67   BLS            Mini Large Cap     10.0    10.0   83.1%  +0.7%  +3.4%  Down      T1-REV
+       Consumer Services  |  MCap Rs9,905Cr
+       Price: Rs240.60 → 25d: Rs242 | 45d: Rs249
+
+  68   SHREEPUSHK     Small Cap           6.6     8.2   83.1%  +2.0%  +2.0%  Down      T3-WAIT
+       Chemicals  |  MCap Rs967Cr
+       Price: Rs299.70 → 25d: Rs306 | 45d: Rs306
+
+  69   NICCOPAR       Small Cap           7.0     7.9   83.1%  +1.3%  +3.1%  Down      T1-REV
+       Consumer Services  |  MCap Rs295Cr
+       Price: Rs63.02 → 25d: Rs64 | 45d: Rs65
+
+  70   IIFLCAPS       Mini Large Cap      7.8     8.4   83.0%  +2.6%  +4.6%  Down      T1-REV
+       Financial Services  |  MCap Rs8,406Cr
+       Price: Rs269.80 → 25d: Rs277 | 45d: Rs282
+
+  71   MMFL           Mid Cap             7.8     7.8   83.0%  +2.2%  +4.6%  Side      T2-WATCH
+       Automobile and Auto Components  |  MCap Rs2,068Cr
+       Price: Rs428.25 → 25d: Rs438 | 45d: Rs448
+
+  72   PERMAGN        Small Cap           4.2     4.6   83.0%  +0.9%  +2.5%  Str-Dn    T3-WAIT
+       Capital Goods  |  MCap Rs581Cr
+       Price: Rs675.55 → 25d: Rs682 | 45d: Rs693
+
+  73   HUDCO          Large Cap           6.0     6.0   82.9%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs34,529Cr
+       Price: Rs172.48 → 25d: Rs177 | 45d: Rs180
+       Base: 374d | -28.9% to breakout
+
+  74   METROPOLIS     Mini Large Cap      5.4     5.5   82.9%  +1.6%  +2.4%  Down      T3-WAIT
+       Healthcare  |  MCap Rs9,145Cr
+       Price: Rs441.10 → 25d: Rs448 | 45d: Rs452
+       Base: 482d | -20.3% to breakout
+
+  75   VIDHIING       Mid Cap             5.1     5.5   82.9%  +0.8%  +2.9%  Down      T3-WAIT
+       Chemicals  |  MCap Rs1,403Cr
+       Price: Rs275.00 → 25d: Rs277 | 45d: Rs283
+
+  76   GODFRYPHLP     Large Cap           9.2     9.2   82.8%  +4.0%  +4.9%  Down      T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs31,064Cr
+       Price: Rs1991.50 → 25d: Rs2072 | 45d: Rs2090
+
+  77   LEMONTREE      Mini Large Cap      5.6     5.6   82.8%  +4.4%  +3.5%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs8,367Cr
+       Price: Rs105.66 → 25d: Rs110 | 45d: Rs109
+
+  78   FILATEX        Mid Cap             9.0     9.0   82.7%  +1.6%  +3.7%  Down      T1-REV
+       Textiles  |  MCap Rs1,806Cr
+       Price: Rs40.68 → 25d: Rs41 | 45d: Rs42
+
+  79   JKLAKSHMI      Mini Large Cap      4.5    10.0   82.7%  +1.9%  +2.2%  Down      T3-WAIT
+       Construction Materials  |  MCap Rs7,360Cr
+       Price: Rs592.85 → 25d: Rs604 | 45d: Rs606
+
+  80   GOLDIAM        Mid Cap             9.5     9.5   82.6%  +0.3%  +3.7%  Down      T2-WATCH
+       Consumer Durables  |  MCap Rs3,344Cr
+       Price: Rs296.10 → 25d: Rs297 | 45d: Rs307
+
+  81   BATAINDIA      Mini Large Cap      5.0     5.6   82.5%  +3.8%  +4.5%  Str-Dn    T3-WAIT
+       Consumer Durables  |  MCap Rs8,525Cr
+       Price: Rs663.30 → 25d: Rs688 | 45d: Rs693
+
+  82   RAILTEL        Mini Large Cap      7.1    10.0   82.3%  +0.9%  +1.8%  Down      T3-WAIT
+       Telecommunication  |  MCap Rs8,713Cr
+       Price: Rs272.75 → 25d: Rs275 | 45d: Rs278
+
+  83   ORBTEXP        Small Cap           7.5     9.8   82.2%  +0.5%  +1.9%  Down      T1-REV
+       Textiles  |  MCap Rs395Cr
+       Price: Rs148.20 → 25d: Rs149 | 45d: Rs151
+
+  84   BECTORFOOD     Mini Large Cap      7.5     7.7   82.0%  +0.6%  +3.0%  Down      T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs5,608Cr
+       Price: Rs182.84 → 25d: Rs184 | 45d: Rs188
+
+  85   ONWARDTEC      Small Cap           7.0     7.0   81.9%  +0.2%  +3.3%  Down      T1-REV
+       Information Technology  |  MCap Rs545Cr
+       Price: Rs235.50 → 25d: Rs236 | 45d: Rs243
+
+  86   SHARDACROP     Mini Large Cap      7.5     7.7   81.9%  +2.0%  +4.8%  Side      T2-WATCH
+       Chemicals  |  MCap Rs8,841Cr
+       Price: Rs974.50 → 25d: Rs994 | 45d: Rs1022
+
+  87   APLLTD         Mini Large Cap      4.6     4.7   81.9%  +2.3%  +2.4%  Str-Dn    T3-WAIT
+       Healthcare  |  MCap Rs13,345Cr
+       Price: Rs677.30 → 25d: Rs693 | 45d: Rs693
+
+  88   AMBUJACEM      Large Cap           7.8     7.8   81.6%  +1.3%  +4.3%  Down      T3-WAIT
+       Construction Materials  |  MCap Rs1.0L Cr
+       Price: Rs420.55 → 25d: Rs426 | 45d: Rs439
+
+  89   JUSTDIAL       Mid Cap             5.5     6.7   81.5%  +2.9%  +2.5%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs4,427Cr
+       Price: Rs520.40 → 25d: Rs535 | 45d: Rs534
+
+  90   ELECON         Mini Large Cap      8.9     9.0   81.5%  +0.2%  +1.8%  Down      T2-WATCH
+       Capital Goods  |  MCap Rs8,748Cr
+       Price: Rs389.85 → 25d: Rs390 | 45d: Rs397
+
+  91   GREENPANEL     Mid Cap             7.5     7.5   81.4%  +1.6%  +3.9%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,381Cr
+       Price: Rs194.07 → 25d: Rs197 | 45d: Rs202
+
+  92   RVNL           Large Cap           6.1     7.6   81.3%  +0.3%  +1.6%  Down      T3-WAIT
+       Construction  |  MCap Rs55,175Cr
+       Price: Rs264.20 → 25d: Rs265 | 45d: Rs268
+
+  93   LATENTVIEW     Mini Large Cap      9.2    10.0   81.3%  +9.0% +10.0%  Str-Dn    T1-REV
+       Information Technology  |  MCap Rs5,532Cr
+       Price: Rs267.35 → 25d: Rs291 | 45d: Rs294
+
+  94   FMGOETZE       Mid Cap             7.8     7.8   81.3%  +0.9%  +2.5%  Down      T2-WATCH
+       Automobile and Auto Components  |  MCap Rs2,125Cr
+       Price: Rs382.05 → 25d: Rs386 | 45d: Rs392
+
+  95   FORBESCO       Small Cap           4.7     6.4   81.3%  +1.0%  +1.8%  Side      T3-WAIT
+       Consumer Durables  |  MCap Rs424Cr
+       Price: Rs328.00 → 25d: Rs331 | 45d: Rs334
+
+  96   GULFOILLUB     Mid Cap             5.6     6.1   81.2%  +0.6%  +2.2%  Str-Dn    T3-WAIT
+       Oil, Gas & Consumable Fuels  |  MCap Rs4,541Cr
+       Price: Rs919.30 → 25d: Rs925 | 45d: Rs940
+       Base: 482d | -30.0% to breakout
+
+  97   JAMNAAUTO      Mid Cap             8.6     8.6   81.2%  +1.9%  +4.0%  Side      T1-REV
+       Automobile and Auto Components  |  MCap Rs4,784Cr
+       Price: Rs119.68 → 25d: Rs122 | 45d: Rs124
+
+  98   AIRAN          Small Cap           7.8     7.8   81.1%  +0.3%  +2.9%  Down      T2-WATCH
+       Information Technology  |  MCap Rs190Cr
+       Price: Rs15.22 → 25d: Rs15 | 45d: Rs16
+
+  99   JWL            Mini Large Cap      4.9     4.9   81.0%  +1.6%  +3.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs11,223Cr
+       Price: Rs262.60 → 25d: Rs267 | 45d: Rs271
+
+  100  HMAAGRO        Mid Cap             6.6     7.1   80.9%  +1.0%  +3.5%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs1,200Cr
+       Price: Rs23.96 → 25d: Rs24 | 45d: Rs25
+
+  101  SUBROS         Mid Cap             6.3     6.3   80.9%  +1.2%  +1.7%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs4,414Cr
+       Price: Rs675.10 → 25d: Rs683 | 45d: Rs686
+
+  102  MASTEK         Mid Cap             7.7     8.3   80.8%  +3.3%  +4.9%  Down      T1-REV
+       Information Technology  |  MCap Rs4,493Cr
+       Price: Rs1449.50 → 25d: Rs1497 | 45d: Rs1520
+
+  103  AWHCL          Mid Cap             7.8     9.2   80.7%  +0.1%  +2.1%  Down      T1-REV
+       Utilities  |  MCap Rs1,244Cr
+       Price: Rs438.55 → 25d: Rs439 | 45d: Rs448
+
+  104  SURAKSHA       Mid Cap             6.5     6.5   80.6%  +1.6%  +2.5%  Str-Dn    T3-WAIT
+       Healthcare  |  MCap Rs1,356Cr
+       Price: Rs257.05 → 25d: Rs261 | 45d: Rs263
+
+  105  AFFLE          Mini Large Cap      8.6     9.3   80.5%  +2.0%  +1.3%  Down      T1-REV
+       Information Technology  |  MCap Rs18,077Cr
+       Price: Rs1285.70 → 25d: Rs1312 | 45d: Rs1302
+
+  106  CHOICEIN       Mini Large Cap      7.9     8.5   80.4%  +2.5%  +4.1%  Str-Dn    T1-REV
+       Financial Services  |  MCap Rs13,712Cr
+       Price: Rs614.90 → 25d: Rs630 | 45d: Rs640
+
+  107  ALEMBICLTD     Mid Cap             7.7     7.7   80.4%  +0.8%  +2.2%  Down      T2-WATCH
+       Realty  |  MCap Rs2,052Cr
+       Price: Rs79.90 → 25d: Rs81 | 45d: Rs82
+
+  108  ICIL           Mid Cap             7.7     7.7   80.2%  +0.4%  +2.2%  Down      T1-REV
+       Textiles  |  MCap Rs4,624Cr
+       Price: Rs233.45 → 25d: Rs234 | 45d: Rs239
+
+  109  RANEHOLDIN     Mid Cap             6.5     7.1   80.2%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1,522Cr
+       Price: Rs1072.00 → 25d: Rs1098 | 45d: Rs1116
+
+  110  CNINFOTECH     Small Cap           8.9     8.9   80.1%  +0.8%  -0.4%  Down      T1-REV
+       Information Technology  |  MCap Rs205Cr
+       Price: Rs83.50 → 25d: Rs84 | 45d: Rs83
+
+  111  LALPATHLAB     Large Cap           8.2     9.6   80.1%  +1.0%  +1.7%  Down      T1-REV
+       Healthcare  |  MCap Rs21,843Cr
+       Price: Rs1308.20 → 25d: Rs1321 | 45d: Rs1330
+       Base: 451d | -22.8% to breakout
+
+  112  GOODLUCK       Mid Cap             7.7     7.7   80.0%  +1.4%  +2.7%  Down      T1-REV
+       Capital Goods  |  MCap Rs3,385Cr
+       Price: Rs1017.10 → 25d: Rs1031 | 45d: Rs1045
+
+  113  RAJRATAN       Mid Cap             7.5     7.5   80.0%  +1.1%  +4.8%  Down      T2-WATCH
+       Automobile and Auto Components  |  MCap Rs1,883Cr
+       Price: Rs372.95 → 25d: Rs377 | 45d: Rs391
+
+  114  BSOFT          Mini Large Cap      6.0     6.6   79.9%  +0.3%  +2.4%  Down      T3-WAIT
+       Information Technology  |  MCap Rs10,007Cr
+       Price: Rs358.05 → 25d: Rs359 | 45d: Rs367
+
+  115  MODISONLTD     Small Cap           7.1     7.7   79.9%  +1.6%  +3.1%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs409Cr
+       Price: Rs125.96 → 25d: Rs128 | 45d: Rs130
+
+  116  GRAUWEIL       Mid Cap             7.6     8.2   79.8%  +1.8%  +5.0%  Down      T2-WATCH
+       Chemicals  |  MCap Rs2,593Cr
+       Price: Rs57.19 → 25d: Rs58 | 45d: Rs60
+
+  117  DLF            Large Cap           6.0     7.3   79.7%  +0.2%  +2.0%  Down      T3-WAIT
+       Realty  |  MCap Rs1.3L Cr
+       Price: Rs540.75 → 25d: Rs542 | 45d: Rs551
+
+  118  EPIGRAL        Mid Cap             5.3     5.7   79.4%  +6.8%  +7.5%  Down      T3-WAIT
+       Chemicals  |  MCap Rs3,648Cr
+       Price: Rs845.70 → 25d: Rs903 | 45d: Rs909
+
+  119  WELSPUNLIV     Mini Large Cap      5.6     5.9   79.3%  +0.0%  +1.1%  Down      T3-WAIT
+       Textiles  |  MCap Rs10,960Cr
+       Price: Rs114.42 → 25d: Rs114 | 45d: Rs116
+
+  120  SMCGLOBAL      Mid Cap             6.5     7.1   79.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1,357Cr
+       Price: Rs64.70 → 25d: Rs66 | 45d: Rs67
+
+  121  EDELWEISS      Mini Large Cap      4.7     5.0   79.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs9,914Cr
+       Price: Rs104.70 → 25d: Rs107 | 45d: Rs109
+
+  122  MANYAVAR       Mini Large Cap      7.8     7.8   79.2%  +5.6%  +7.7%  Down      T1-REV
+       Consumer Services  |  MCap Rs8,629Cr
+       Price: Rs355.15 → 25d: Rs375 | 45d: Rs383
+
+  123  BANKINDIA      Large Cap           4.6     4.6   79.1%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs68,513Cr
+       Price: Rs150.49 → 25d: Rs154 | 45d: Rs157
+
+  124  PREMEXPLN      Mid Cap             5.2     5.5   79.1%  +0.7%  +2.3%  Down      T3-WAIT
+       Chemicals  |  MCap Rs2,356Cr
+       Price: Rs438.00 → 25d: Rs441 | 45d: Rs448
+
+  125  5PAISA         Small Cap           5.0     5.6   79.1%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs911Cr
+       Price: Rs291.60 → 25d: Rs299 | 45d: Rs304
+
+  126  DOLATALGO      Mid Cap             9.0     9.8   79.0%  +2.5%  +4.1%  Down      T2-WATCH
+       Financial Services  |  MCap Rs1,256Cr
+       Price: Rs71.32 → 25d: Rs73 | 45d: Rs74
+
+  127  NIITMTS        Mid Cap             4.4     5.4   79.0%  +1.3%  +3.8%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs4,101Cr
+       Price: Rs298.95 → 25d: Rs303 | 45d: Rs310
+
+  128  EIDPARRY       Mini Large Cap      7.3     7.5   79.0%  +0.3%  +1.0%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs14,045Cr
+       Price: Rs789.05 → 25d: Rs792 | 45d: Rs797
+
+  129  AARTIDRUGS     Mid Cap             4.6     4.6   79.0%  +0.2%  +1.4%  Down      T3-WAIT
+       Healthcare  |  MCap Rs3,133Cr
+       Price: Rs343.15 → 25d: Rs344 | 45d: Rs348
+
+  130  MANAPPURAM     Large Cap           3.7     3.7   78.9%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs21,944Cr
+       Price: Rs259.25 → 25d: Rs266 | 45d: Rs270
+
+  131  NINSYS         Small Cap           6.5     6.5   78.8%  +1.7%  +0.7%  Side      T3-WAIT
+       Information Technology  |  MCap Rs539Cr
+       Price: Rs290.20 → 25d: Rs295 | 45d: Rs292
+
+  132  AKSHARCHEM     Small Cap           5.1     6.3   78.7%  +1.4%  +5.5%  Down      T3-WAIT
+       Chemicals  |  MCap Rs148Cr
+       Price: Rs184.03 → 25d: Rs187 | 45d: Rs194
+
+  133  WINDLAS        Mid Cap             7.1     7.1   78.7%  +1.7%  +2.8%  Down      T1-REV
+       Healthcare  |  MCap Rs1,533Cr
+       Price: Rs735.00 → 25d: Rs748 | 45d: Rs756
+
+  134  KIRLFER        Mini Large Cap      3.9     4.8   78.7%  +0.1%  +2.5%  Str-Dn    T3-WAIT
+       Metals & Mining  |  MCap Rs5,936Cr
+       Price: Rs359.90 → 25d: Rs360 | 45d: Rs369
+
+  135  SANSTAR        Mid Cap             6.0     6.4   78.7%  +1.7%  +5.9%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs1,502Cr
+       Price: Rs82.11 → 25d: Rs84 | 45d: Rs87
+
+  136  FIEMIND        Mini Large Cap      8.6     8.7   78.6%  +1.3%  +2.9%  Down      T1-REV
+       Automobile and Auto Components  |  MCap Rs5,334Cr
+       Price: Rs2026.80 → 25d: Rs2054 | 45d: Rs2086
+
+  137  FCL            Mid Cap             9.3    10.0   78.4%  +1.8%  +2.2%  Down      T1-REV
+       Chemicals  |  MCap Rs2,539Cr
+       Price: Rs21.77 → 25d: Rs22 | 45d: Rs22
+
+  138  ASAHIINDIA     Large Cap           6.2     6.4   78.3%  +0.9%  +4.0%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs20,661Cr
+       Price: Rs810.45 → 25d: Rs818 | 45d: Rs843
+
+  139  LICHSGFIN      Large Cap           5.5     5.5   78.3%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs26,741Cr
+       Price: Rs486.15 → 25d: Rs498 | 45d: Rs506
+
+  140  STARPAPER      Small Cap           7.7     8.9   78.2%  +1.0%  +1.2%  Down      T3-WAIT
+       Forest Materials  |  MCap Rs206Cr
+       Price: Rs132.29 → 25d: Rs134 | 45d: Rs134
+
+  141  TRANSRAILL     Mini Large Cap      8.9     9.0   78.2%  +0.2%  +0.6%  Down      T2-WATCH
+       Capital Goods  |  MCap Rs6,718Cr
+       Price: Rs502.50 → 25d: Rs503 | 45d: Rs505
+
+  142  SBCL           Mid Cap             9.6     9.6   78.1%  +0.0%  +1.1%  Str-Dn    T1-REV
+       Capital Goods  |  MCap Rs2,336Cr
+       Price: Rs405.00 → 25d: Rs405 | 45d: Rs410
+
+  143  SHARDAMOTR     Mid Cap            10.0    10.0   78.0%  +0.2%  +1.0%  Str-Dn    T2-WATCH
+       Automobile and Auto Components  |  MCap Rs4,514Cr
+       Price: Rs787.55 → 25d: Rs789 | 45d: Rs795
+
+  144  MENNPIS        Small Cap           5.0     5.2   78.0%  +0.4%  +2.5%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs262Cr
+       Price: Rs51.42 → 25d: Rs52 | 45d: Rs53
+
+  145  XCHANGING      Small Cap           4.3     4.3   77.9%  +1.1%  -0.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs632Cr
+       Price: Rs57.15 → 25d: Rs58 | 45d: Rs57
+
+  146  BBTC           Mini Large Cap      7.4     7.6   77.7%  +0.0%  +0.9%  Down      T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs10,498Cr
+       Price: Rs1504.60 → 25d: Rs1505 | 45d: Rs1519
+
+  147  NRBBEARING     Mid Cap             6.4     6.4   77.7%  +0.2%  +1.7%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs2,352Cr
+       Price: Rs242.60 → 25d: Rs243 | 45d: Rs247
+       Base: 377d | -18.1% to breakout
+
+  148  CAPLIPOINT     Mini Large Cap      9.8    10.0   77.6%  +0.5%  +1.0%  Str-Dn    T2-WATCH
+       Healthcare  |  MCap Rs12,214Cr
+       Price: Rs1604.10 → 25d: Rs1612 | 45d: Rs1621
+
+  149  GRAPHITE       Mini Large Cap      5.4     5.4   77.5%  +1.7%  +4.0%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs11,869Cr
+       Price: Rs607.10 → 25d: Rs617 | 45d: Rs631
+
+  150  SHRIRAMFIN     Large Cap           7.1     7.1   77.5%  +2.6%  +4.6%  Side      T2-WATCH
+       Financial Services  |  MCap Rs1.8L Cr
+       Price: Rs934.00 → 25d: Rs958 | 45d: Rs977
+
+  151  KRYSTAL        Small Cap           4.9     5.3   77.4%  +0.5%  +2.0%  Down      T3-WAIT
+       Services  |  MCap Rs773Cr
+       Price: Rs553.15 → 25d: Rs556 | 45d: Rs564
+
+  152  SRF            Large Cap           5.4     5.4   77.4%  +0.8%  +2.2%  Down      T3-WAIT
+       Chemicals  |  MCap Rs72,757Cr
+       Price: Rs2455.00 → 25d: Rs2474 | 45d: Rs2510
+
+  153  SANATHAN       Mid Cap             3.5     3.5   77.4%  +0.0%  +0.4%  Down      T3-WAIT
+       Textiles  |  MCap Rs3,193Cr
+       Price: Rs374.00 → 25d: Rs374 | 45d: Rs376
+
+  154  EIHOTEL        Mini Large Cap      6.4     6.4   77.3%  +0.7%  +2.2%  Down      T3-WAIT
+       Consumer Services  |  MCap Rs19,355Cr
+       Price: Rs309.50 → 25d: Rs312 | 45d: Rs316
+       Base: 405d | -27.3% to breakout
+
+  155  EMAMILTD       Mini Large Cap      8.8     9.0   77.1%  +0.4%  +1.8%  Str-Dn    T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs17,582Cr
+       Price: Rs402.75 → 25d: Rs404 | 45d: Rs410
+
+  156  POWERMECH      Mini Large Cap      8.7     9.2   77.1%  +0.9%  +1.9%  Down      T1-REV
+       Construction  |  MCap Rs6,304Cr
+       Price: Rs1990.00 → 25d: Rs2008 | 45d: Rs2027
+
+  157  UNIONBANK      Large Cap           6.5     6.5   77.0%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs1.4L Cr
+       Price: Rs177.37 → 25d: Rs182 | 45d: Rs185
+
+  158  CENTURYPLY     Mini Large Cap      6.3     7.1   77.0%  +0.7%  +1.8%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs14,461Cr
+       Price: Rs650.90 → 25d: Rs655 | 45d: Rs662
+       Base: 563d | -25.9% to breakout
+
+  159  UCOBANK        Large Cap           4.3     4.3   76.9%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs31,195Cr
+       Price: Rs24.97 → 25d: Rs26 | 45d: Rs26
+
+  160  DHANUKA        Mid Cap             8.1     8.7   76.9%  +0.4%  +2.4%  Down      T2-WATCH
+       Chemicals  |  MCap Rs4,337Cr
+       Price: Rs962.10 → 25d: Rs966 | 45d: Rs985
+
+  161  IGL            Large Cap           7.9     9.5   76.9%  +0.0%  +1.1%  Down      T1-REV
+       Oil, Gas & Consumable Fuels  |  MCap Rs21,949Cr
+       Price: Rs156.00 → 25d: Rs156 | 45d: Rs158
+
+  162  INFY           Large Cap           7.2     7.7   76.8%  +0.5%  -0.2%  Down      T2-WATCH
+       Information Technology  |  MCap Rs5.1L Cr
+       Price: Rs1255.90 → 25d: Rs1262 | 45d: Rs1254
+
+  163  PLATIND        Mid Cap             4.9     5.2   76.8%  +0.0%  +2.9%  Down      T3-WAIT
+       Chemicals  |  MCap Rs1,155Cr
+       Price: Rs202.52 → 25d: Rs203 | 45d: Rs208
+
+  164  VSTTILLERS     Mid Cap             4.4     4.4   76.8%  +1.5%  +2.3%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs4,528Cr
+       Price: Rs5200.00 → 25d: Rs5276 | 45d: Rs5319
+
+  165  NUVAMA         Large Cap           8.3     8.3   76.8%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs20,898Cr
+       Price: Rs1150.70 → 25d: Rs1179 | 45d: Rs1198
+
+  166  NEULANDLAB     Mini Large Cap      7.4     7.5   76.5%  +1.1%  +1.2%  Down      T2-WATCH
+       Healthcare  |  MCap Rs15,405Cr
+       Price: Rs11995.00 → 25d: Rs12129 | 45d: Rs12143
+
+  167  REPCOHOME      Mid Cap             4.1     4.4   76.2%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs2,197Cr
+       Price: Rs351.80 → 25d: Rs360 | 45d: Rs366
+       Base: 348d | -25.3% to breakout
+
+  168  CAMPUS         Mini Large Cap      8.7     9.8   76.2%  +0.4%  +1.6%  Down      T1-REV
+       Consumer Durables  |  MCap Rs6,876Cr
+       Price: Rs225.00 → 25d: Rs226 | 45d: Rs229
+       Base: 657d | -29.0% to breakout
+
+  169  EXPLEOSOL      Mid Cap             8.7     9.4   76.2%  +2.3%  +2.5%  Down      T1-REV
+       Information Technology  |  MCap Rs1,118Cr
+       Price: Rs720.30 → 25d: Rs737 | 45d: Rs738
+
+  170  JYOTICNC       Mini Large Cap      6.6     6.7   76.0%  +0.3%  +1.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs16,828Cr
+       Price: Rs739.95 → 25d: Rs742 | 45d: Rs753
+
+  171  INDIAMART      Mini Large Cap      9.6     9.6   75.7%  +0.1%  +0.8%  Down      T1-REV
+       Consumer Services  |  MCap Rs11,983Cr
+       Price: Rs1994.40 → 25d: Rs1996 | 45d: Rs2009
+       Base: 353d | -24.4% to breakout
+
+  172  COMSYN         Small Cap           5.3     5.8   75.6%  +3.3%  +6.6%  Side      T3-WAIT
+       Capital Goods  |  MCap Rs613Cr
+       Price: Rs153.41 → 25d: Rs158 | 45d: Rs163
+
+  173  AIAENG         Large Cap           6.5     6.5   75.4%  +0.1%  +2.1%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs31,819Cr
+       Price: Rs3409.60 → 25d: Rs3412 | 45d: Rs3481
+       Base: 645d | -22.5% to breakout
+
+  174  ALLDIGI        Mid Cap             8.2    10.0   75.3%  +0.2%  +1.4%  Down      T2-WATCH
+       Services  |  MCap Rs1,118Cr
+       Price: Rs733.80 → 25d: Rs735 | 45d: Rs744
+
+  175  HESTERBIO      Mid Cap             5.3     5.3   75.1%  +0.5%  +1.6%  Down      T3-WAIT
+       Healthcare  |  MCap Rs1,187Cr
+       Price: Rs1395.00 → 25d: Rs1402 | 45d: Rs1418
+
+  176  ADANIPORTS     Large Cap          10.0    10.0   75.0%  +0.7%  +1.7%  Down      T2-WATCH
+       Services  |  MCap Rs3.1L Cr
+       Price: Rs1365.40 → 25d: Rs1375 | 45d: Rs1388
+       Base: 530d | -11.4% to breakout
+
+  177  KOTHARIPET     Small Cap           4.0     4.9   75.0%  +1.2%  +4.0%  Down      T3-WAIT
+       Chemicals  |  MCap Rs652Cr
+       Price: Rs110.88 → 25d: Rs112 | 45d: Rs115
+
+  178  ADANIENT       Large Cap           7.4     7.4   74.9%  +0.0%  +2.7%  Down      T1-REV
+       Metals & Mining  |  MCap Rs2.6L Cr
+       Price: Rs1927.10 → 25d: Rs1928 | 45d: Rs1979
+
+  179  HAVELLS        Large Cap           8.3     8.9   74.9%  +0.5%  +2.2%  Down      T1-REV
+       Consumer Durables  |  MCap Rs80,369Cr
+       Price: Rs1281.20 → 25d: Rs1288 | 45d: Rs1310
+
+  180  POKARNA        Mid Cap            10.0    10.0   74.8%  +0.0%  +1.9%  Down      T1-REV
+       Consumer Durables  |  MCap Rs2,570Cr
+       Price: Rs826.00 → 25d: Rs826 | 45d: Rs842
+
+  181  ACC            Large Cap           7.2     7.2   74.7%  +1.2%  +2.5%  Str-Dn    T3-WAIT
+       Construction Materials  |  MCap Rs25,941Cr
+       Price: Rs1381.40 → 25d: Rs1399 | 45d: Rs1416
+
+  182  BEEZAASAN      Small Cap           4.4     5.4   74.6%  +0.6%  +2.6%  Str-Dn    T3-WAIT
+       Chemicals  |  MCap Rs297Cr
+       Price: Rs197.85 → 25d: Rs199 | 45d: Rs203
+
+  183  ASIANPAINT     Large Cap           7.7     8.2   74.4%  +0.8%  +2.4%  Down      T1-REV
+       Consumer Durables  |  MCap Rs2.1L Cr
+       Price: Rs2195.40 → 25d: Rs2212 | 45d: Rs2248
+
+  184  CIGNITITEC     Mid Cap             7.7     8.3   74.3%  +4.8%  +8.4%  Down      T2-WATCH
+       Information Technology  |  MCap Rs2,943Cr
+       Price: Rs1068.30 → 25d: Rs1120 | 45d: Rs1158
+
+  185  MASFIN         Mini Large Cap      7.1     7.6   74.3%  +2.5%  +4.1%  Down      T2-WATCH
+       Financial Services  |  MCap Rs5,490Cr
+       Price: Rs302.55 → 25d: Rs310 | 45d: Rs315
+       Base: 687d | -9.9% to breakout
+
+  186  CONCOR         Large Cap           6.3     6.3   74.2%  +0.1%  +0.6%  Str-Dn    T3-WAIT
+       Services  |  MCap Rs34,067Cr
+       Price: Rs447.30 → 25d: Rs448 | 45d: Rs450
+
+  187  INDNIPPON      Mid Cap             6.9     6.9   74.1%  +0.0%  +1.2%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs1,663Cr
+       Price: Rs735.20 → 25d: Rs736 | 45d: Rs744
+
+  188  POLYCAB        Large Cap          10.0    10.0   74.0%  +1.2%  +2.5%  Down      T2-WATCH
+       Capital Goods  |  MCap Rs1.1L Cr
+       Price: Rs7150.00 → 25d: Rs7235 | 45d: Rs7330
+
+  189  BOROLTD        Mid Cap             7.1     7.1   74.0%  +0.5%  +3.0%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs2,655Cr
+       Price: Rs222.01 → 25d: Rs223 | 45d: Rs229
+
+  190  KEI            Large Cap           7.7     7.7   73.7%  +1.3%  +3.1%  Side      T1-REV
+       Capital Goods  |  MCap Rs40,038Cr
+       Price: Rs4188.00 → 25d: Rs4241 | 45d: Rs4319
+
+  191  CREDITACC      Mini Large Cap      4.5     4.9   73.7%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs18,523Cr
+       Price: Rs1156.90 → 25d: Rs1185 | 45d: Rs1205
+
+  192  COFORGE        Large Cap           7.3     7.9   73.3%  +5.3%  +7.6%  Down      T1-REV
+       Information Technology  |  MCap Rs36,591Cr
+       Price: Rs1089.30 → 25d: Rs1147 | 45d: Rs1173
+
+  193  PRUDENT        Mini Large Cap      9.3    10.0   73.2%  +2.5%  +4.1%  Down      T2-WATCH
+       Financial Services  |  MCap Rs9,263Cr
+       Price: Rs2242.20 → 25d: Rs2297 | 45d: Rs2335
+
+  194  PERSISTENT     Large Cap           8.8     9.5   72.8%  +1.7%  +1.4%  Down      T2-WATCH
+       Information Technology  |  MCap Rs73,753Cr
+       Price: Rs4739.00 → 25d: Rs4818 | 45d: Rs4806
+       Base: 390d | -26.6% to breakout
+
+  195  AADHARHFC      Mini Large Cap      8.0     8.6   72.7%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs19,561Cr
+       Price: Rs449.85 → 25d: Rs461 | 45d: Rs468
+
+  196  360ONE         Large Cap           5.4     5.4   72.6%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs42,240Cr
+       Price: Rs1040.60 → 25d: Rs1066 | 45d: Rs1084
+       Base: 428d | -15.0% to breakout
+
+  197  ABCAPITAL      Large Cap           7.1     7.1   72.2%  +2.6%  +4.6%  Side      T2-WATCH
+       Financial Services  |  MCap Rs81,531Cr
+       Price: Rs311.25 → 25d: Rs319 | 45d: Rs325
+
+  198  ICICIPRULI     Large Cap           5.0     5.0   72.1%  +2.5%  +4.1%  Str-Dn    T3-WAIT
+       Financial Services  |  MCap Rs79,979Cr
+       Price: Rs552.10 → 25d: Rs566 | 45d: Rs575
+       Base: 485d | -27.3% to breakout
+
+  199  KIRLPNU        Mini Large Cap      8.0     8.1   72.1%  +0.0%  +0.9%  Down      T2-WATCH
+       Capital Goods  |  MCap Rs6,825Cr
+       Price: Rs1050.70 → 25d: Rs1050 | 45d: Rs1060
+
+  200  TATAELXSI      Large Cap           7.5     8.1   72.0%  +0.2%  +1.2%  Down      T2-WATCH
+       Information Technology  |  MCap Rs26,399Cr
+       Price: Rs4236.00 → 25d: Rs4244 | 45d: Rs4287
+
+  201  ALUFLUOR       Small Cap           5.4     6.6   72.0%  +0.4%  +2.5%  Down      T3-WAIT
+       Chemicals  |  MCap Rs329Cr
+       Price: Rs421.05 → 25d: Rs423 | 45d: Rs432
+
+  202  DABUR          Large Cap           5.7     5.7   72.0%  +0.7%  +2.5%  Str-Dn    T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs76,393Cr
+       Price: Rs430.70 → 25d: Rs434 | 45d: Rs442
+
+  203  LTF            Large Cap           4.4     4.4   72.0%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs65,415Cr
+       Price: Rs261.20 → 25d: Rs268 | 45d: Rs273
+
+  204  UNIECOM        Mid Cap             4.8     5.2   71.8%  +0.2%  +0.5%  Down      T3-WAIT
+       Information Technology  |  MCap Rs1,030Cr
+       Price: Rs90.65 → 25d: Rs91 | 45d: Rs91
+
+  205  HYUNDAI        Large Cap           5.6     5.7   71.3%  +0.2%  +0.4%  Str-Dn    T3-WAIT
+       Automobile and Auto Components  |  MCap Rs1.6L Cr
+       Price: Rs1951.00 → 25d: Rs1955 | 45d: Rs1959
+
+  206  KPITTECH       Mini Large Cap      7.8     8.5   71.3%  +6.8% +13.0%  Down      T1-REV
+       Information Technology  |  MCap Rs18,018Cr
+       Price: Rs660.95 → 25d: Rs706 | 45d: Rs747
+
+  207  LICI           Large Cap           8.2     8.2   71.3%  +2.5%  +4.1%  Str-Dn    T1-REV
+       Financial Services  |  MCap Rs4.9L Cr
+       Price: Rs776.75 → 25d: Rs796 | 45d: Rs809
+       Base: 383d | -21.2% to breakout
+
+  208  KOTAKBANK      Large Cap           7.0     7.0   70.9%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs3.6L Cr
+       Price: Rs366.75 → 25d: Rs376 | 45d: Rs382
+
+  209  CAMS           Mini Large Cap      8.0     8.6   70.8%  +2.5%  +4.1%  Down      T2-WATCH
+       Financial Services  |  MCap Rs15,899Cr
+       Price: Rs640.70 → 25d: Rs656 | 45d: Rs667
+
+  210  BAJAJ-AUTO     Large Cap           7.3     7.5   69.7%  +0.6%  +1.6%  Down      T2-WATCH
+       Automobile and Auto Components  |  MCap Rs2.5L Cr
+       Price: Rs9051.00 → 25d: Rs9101 | 45d: Rs9197
+       Base: 533d | -16.6% to breakout
+
+  211  BAJFINANCE     Large Cap           8.9     8.9   69.6%  +2.5%  +4.1%  Down      T1-REV
+       Financial Services  |  MCap Rs5.2L Cr
+       Price: Rs830.55 → 25d: Rs851 | 45d: Rs865
+
+  212  SKFINDIA       Mini Large Cap      5.2     5.2   69.4%  +0.3% +11.8%  Down      T3-WAIT
+       Capital Goods  |  MCap Rs7,601Cr
+       Price: Rs1533.00 → 25d: Rs1537 | 45d: Rs1713
+
+  213  WIPRO          Large Cap           6.0     6.5   69.1%  +1.1%  +1.3%  Down      T3-WAIT
+       Information Technology  |  MCap Rs2.0L Cr
+       Price: Rs190.90 → 25d: Rs193 | 45d: Rs193
+
+  214  SPITZE         Small Cap           5.7     7.7   69.0% +12.4% +23.0%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs390Cr
+       Price: Rs73.20 → 25d: Rs82 | 45d: Rs90
+
+  215  UNITDSPR       Large Cap           8.1     8.1   68.9%  +0.8%  +2.4%  Down      T2-WATCH
+       Fast Moving Consumer Goods  |  MCap Rs94,569Cr
+       Price: Rs1300.00 → 25d: Rs1310 | 45d: Rs1331
+       Base: 356d | -17.5% to breakout
+
+  216  GODREJCP       Large Cap           5.5     5.5   68.8%  +0.0%  +1.7%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs1.0L Cr
+       Price: Rs1017.60 → 25d: Rs1018 | 45d: Rs1035
+       Base: 546d | -29.1% to breakout
+
+  217  CRISIL         Large Cap           8.8     8.8   68.6%  +2.5%  +4.1%  Str-Dn    T1-REV
+       Financial Services  |  MCap Rs29,279Cr
+       Price: Rs4000.40 → 25d: Rs4098 | 45d: Rs4166
+       Base: 517d | -32.2% to breakout
+
+  218  HDFCBANK       Large Cap           6.4     6.4   68.6%  +2.5%  +4.1%  Str-Dn    T3-WAIT
+       Financial Services  |  MCap Rs12.0L Cr
+       Price: Rs780.45 → 25d: Rs800 | 45d: Rs813
+
+  219  TATACONSUM     Large Cap           6.8     6.8   68.2%  +0.4%  +1.9%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs1.0L Cr
+       Price: Rs1049.00 → 25d: Rs1053 | 45d: Rs1069
+       Base: 605d | -13.1% to breakout
+
+  220  ZFCVINDIA      Large Cap           5.1     5.2   68.2%  +0.4%  +1.2%  Down      T3-WAIT
+       Automobile and Auto Components  |  MCap Rs26,177Cr
+       Price: Rs13780.00 → 25d: Rs13839 | 45d: Rs13941
+       Base: 379d | -14.1% to breakout
+
+  221  DICIND         Small Cap           2.9     3.6   68.0%  +0.3%  +1.8%  Down      T3-WAIT
+       Chemicals  |  MCap Rs457Cr
+       Price: Rs497.75 → 25d: Rs499 | 45d: Rs507
+
+  222  HCLTECH        Large Cap           7.3     7.9   67.4%  +0.4%  +0.3%  Down      T2-WATCH
+       Information Technology  |  MCap Rs3.6L Cr
+       Price: Rs1333.70 → 25d: Rs1340 | 45d: Rs1338
+       Base: 528d | -27.3% to breakout
+
+  223  BOSCHLTD       Large Cap           7.7     7.9   67.1%  +0.1%  +1.1%  Str-Dn    T1-REV
+       Automobile and Auto Components  |  MCap Rs89,657Cr
+       Price: Rs30390.00 → 25d: Rs30421 | 45d: Rs30737
+
+  224  ATUL           Mini Large Cap      4.6     4.7   66.6%  +1.0%  +2.4%  Side      T3-WAIT
+       Chemicals  |  MCap Rs18,386Cr
+       Price: Rs6245.00 → 25d: Rs6310 | 45d: Rs6392
+       Base: 782d | -21.0% to breakout
+
+  225  ALKYLAMINE     Mini Large Cap      9.8    10.0   66.0%  +0.2%  +1.9%  Str-Dn    T1-REV
+       Chemicals  |  MCap Rs6,608Cr
+       Price: Rs1292.00 → 25d: Rs1294 | 45d: Rs1316
+
+  226  3MINDIA        Large Cap          10.0    10.0   65.3%  +0.5%  +1.9%  Down      T3-WAIT
+       Diversified  |  MCap Rs36,352Cr
+       Price: Rs32270.00 → 25d: Rs32447 | 45d: Rs32898
+       Base: 682d | -13.5% to breakout
+
+  227  HDFCLIFE       Large Cap           5.7     5.7   65.1%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1.3L Cr
+       Price: Rs623.65 → 25d: Rs639 | 45d: Rs650
+
+  228  MFSL           Large Cap           4.4     4.4   64.9%  +2.6%  +4.6%  Side      T3-WAIT
+       Financial Services  |  MCap Rs56,610Cr
+       Price: Rs1639.30 → 25d: Rs1681 | 45d: Rs1714
+
+  229  BHARTIARTL     Large Cap           6.6     6.6   64.1%  +1.3%  +1.6%  Down      T3-WAIT
+       Telecommunication  |  MCap Rs11.2L Cr
+       Price: Rs1846.10 → 25d: Rs1871 | 45d: Rs1876
+
+  230  HINDUNILVR     Large Cap           7.7     7.7   63.4%  +0.2%  +1.5%  Str-Dn    T1-REV
+       Fast Moving Consumer Goods  |  MCap Rs4.9L Cr
+       Price: Rs2082.70 → 25d: Rs2087 | 45d: Rs2115
+
+  231  BAJAJFINSV     Large Cap           8.6     8.6   63.0%  +2.5%  +4.1%  Str-Dn    T1-REV
+       Financial Services  |  MCap Rs2.7L Cr
+       Price: Rs1710.30 → 25d: Rs1752 | 45d: Rs1781
+
+  232  CHOLAFIN       Large Cap           9.0     9.0   63.0%  +2.5%  +4.1%  Down      T2-WATCH
+       Financial Services  |  MCap Rs1.2L Cr
+       Price: Rs1440.50 → 25d: Rs1476 | 45d: Rs1500
+
+  233  NESTLEIND      Large Cap           5.9     5.9   61.4%  +0.5%  +1.8%  Down      T3-WAIT
+       Fast Moving Consumer Goods  |  MCap Rs2.3L Cr
+       Price: Rs1193.60 → 25d: Rs1200 | 45d: Rs1215
+       Base: 726d | -8.9% to breakout
+
+  234  SHAWGELTIN     Small Cap           5.3     6.6   61.3%  +1.3%  +3.4%  Down      T3-WAIT
+       Chemicals  |  MCap Rs211Cr
+       Price: Rs349.90 → 25d: Rs355 | 45d: Rs362
+
+  235  HDFCAMC        Large Cap           6.7     6.7   61.2%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs1.0L Cr
+       Price: Rs2385.90 → 25d: Rs2444 | 45d: Rs2485
+
+  236  3BBLACKBIO     Mid Cap            10.0    10.0   61.2%  +5.3%  +7.6%  Down      T2-WATCH
+       Healthcare  |  MCap Rs1,112Cr
+       Price: Rs1284.90 → 25d: Rs1353 | 45d: Rs1383
+
+  237  NEWGEN         Mini Large Cap      8.6     9.4   61.2% +10.5% +14.3%  Down      T1-REV
+       Information Technology  |  MCap Rs6,203Cr
+       Price: Rs440.60 → 25d: Rs487 | 45d: Rs504
+
+  238  ICRA           Mini Large Cap      6.7     7.2   60.4%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs5,008Cr
+       Price: Rs5203.50 → 25d: Rs5331 | 45d: Rs5419
+       Base: 516d | -26.4% to breakout
+
+  239  FINEORG        Mini Large Cap      8.5     8.7   59.9%  +0.5%  +2.1%  Down      T1-REV
+       Chemicals  |  MCap Rs13,049Cr
+       Price: Rs4256.10 → 25d: Rs4279 | 45d: Rs4346
+       Base: 799d | -21.9% to breakout
+
+  240  REDTAPE        Mini Large Cap      6.4     7.2   55.2%  +0.8%  +2.1%  Down      T3-WAIT
+       Consumer Durables  |  MCap Rs6,479Cr
+       Price: Rs118.90 → 25d: Rs120 | 45d: Rs121
+
+  241  BENGALASM      Mini Large Cap      4.5     4.9   53.1%  +2.5%  +4.1%  Down      T3-WAIT
+       Financial Services  |  MCap Rs6,668Cr
+       Price: Rs5898.90 → 25d: Rs6044 | 45d: Rs6144
+
+══════════════════════════════════════════════════════════════════════════════════
+  Bullish Continual = uptrend confirmed, ML sees continuation
+  Bullish           = potential upside, no confirmed setup yet
+  Reversal          = oversold, ML sees high bounce probability
+  SecRnk/CapRnk out of 10 — higher = stronger relative rank
+  Trend = EMA alignment + ADX strength + RSI + MACD + Volume
+══════════════════════════════════════════════════════════════════════════════════
