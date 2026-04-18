@@ -54,9 +54,9 @@ MAX_HOLD_DAYS  = 30
 MIN_CARRY_CONF = 65.0
 MIN_CONF       = 40.0
 MIN_FUND_SWING = 40.0
-TOP_N          = 10
+TOP_N          = 10   # overridden by user input at startup
 MAX_REVERSAL   = 2
-SWING_TOP_N    = 10
+SWING_TOP_N    = 10   # overridden by user input at startup
 CAP_ORDER      = ['Large Cap', 'Mini Large Cap', 'Mid Cap', 'Small Cap']
 
 LT_COLS = [
@@ -671,13 +671,13 @@ def build_lt_recommendations():
           f"{'ML Prediction':<20} {'Conf':>5}  "
           f"{'Setup':<9} {'Tech':>4}  {'EMA50%':>6}  "
           f"{'SecRnk':>6}  {'CapRnk':>6}  "
-          f"{'Price':>8}  {'MCap':>12}")
+          f"{'Price':>8}  {'MCap':>12}  {'VolRatio':>8}")
         p(f"  {'─'*3}  {'─'*3}  {'─'*12} {'─'*6} "
           f"{'─'*14} {'─'*12} "
           f"{'─'*20} {'─'*5}  "
           f"{'─'*9} {'─'*4}  {'─'*6}  "
           f"{'─'*6}  {'─'*6}  "
-          f"{'─'*8}  {'─'*12}")
+          f"{'─'*8}  {'─'*12}  {'─'*8}")
 
         for serial, (_, row) in enumerate(all_picks.iterrows(), 1):
             tier_n   = int(row.get('Priority_Tier', 0) or 0)
@@ -700,7 +700,8 @@ def build_lt_recommendations():
               f"{float(row.get('Sector Score',0) or 0):>6.1f}  "
               f"{float(row.get('Cap Score',0) or 0):>6.1f}  "
               f"{price:>8.2f}  "
-              f"{mcap_str(mcap):>12}")
+              f"{mcap_str(mcap):>12}  "
+              f"{float(row.get('Vol Ratio',0) or 0):>7.2f}x")
 
     p(f"\n{'─'*112}")
     p(f"  ★★★ Sector+ML+Tech all bullish  |  "
@@ -785,13 +786,13 @@ def build_swing_recommendations(lt_symbols):
            f"{'ML':<10} {'Conf':>5}  "
            f"{'Tech':>4}  {'EMA50%':>6}  "
            f"{'SecRnk':>6}  {'CapRnk':>6}  "
-           f"{'Price':>8}  {'MCap':>12}  {'25d%':>5}  {'45d%':>5}")
+           f"{'Price':>8}  {'MCap':>12}  {'25d%':>5}  {'45d%':>5}  {'VolRatio':>8}")
         ps(f"  {'─'*3}  {'─'*3}  {'─'*12} {'─'*4} {'─'*6} "
            f"{'─'*14} {'─'*12} "
            f"{'─'*10} {'─'*5}  "
            f"{'─'*4}  {'─'*6}  "
            f"{'─'*6}  {'─'*6}  "
-           f"{'─'*8}  {'─'*12}  {'─'*5}  {'─'*5}")
+           f"{'─'*8}  {'─'*12}  {'─'*5}  {'─'*5}  {'─'*8}")
 
         for serial, (_, row) in enumerate(all_picks.iterrows(), 1):
             tier_n   = int(row.get('Swing_Priority_Tier', 0) or 0)
@@ -819,7 +820,8 @@ def build_swing_recommendations(lt_symbols):
                f"{price:>8.2f}  "
                f"{mcap_str(mcap):>12}  "
                f"{f25:>+5.1f}  "
-               f"{f45:>+5.1f}")
+               f"{f45:>+5.1f}  "
+               f"{float(row.get('Vol Ratio',0) or 0):>7.2f}x")
 
     ps(f"\n{'─'*110}")
     ps(f"  ★★★ Sector+ML+Tech all bullish  |  "
@@ -1485,6 +1487,15 @@ def review_model_portfolios():
 # MAIN FLOW FUNCTIONS
 # ═══════════════════════════════════════════════════════════════
 def run_lt_full():
+    global TOP_N
+    try:
+        top_n_input = input(
+            f"\n  Stocks to show per cap category [default {TOP_N}]: "
+        ).strip()
+        TOP_N = int(top_n_input) if top_n_input else TOP_N
+    except:
+        pass
+
     all_lines            = []
     lt_lines, lt_symbols = build_lt_recommendations()
     for line in lt_lines:
@@ -1511,6 +1522,15 @@ def run_lt_full():
     return lt_symbols
 
 def run_swing_full(lt_symbols=None):
+    global SWING_TOP_N
+    try:
+        swing_n_input = input(
+            f"\n  Stocks to show per cap category [default {SWING_TOP_N}]: "
+        ).strip()
+        SWING_TOP_N = int(swing_n_input) if swing_n_input else SWING_TOP_N
+    except:
+        pass
+
     if lt_symbols is None:
         _, lt_symbols = build_lt_recommendations()
 
