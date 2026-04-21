@@ -1,15 +1,21 @@
 # ============================================================
 # run_reversal.py — AI Stock Screener (Indian Markets)
 # Reversal Hunter + Fundamental Deep Dive + Rank Movers
+# + Watchlist Manager + Watchlist Screen
 #
 # Run manually whenever needed:
 #   python run_reversal.py
 #
 # Menu:
-#   1. Reversal Candidates     (Best Setup=Reversal, BotProb>=40%, Rank>=6.5)
-#   2. Fundamental Deep Dive   (any stock — full data + absolute metrics)
-#   3. Score & Rank Movers     (vs previous quarter snapshot)
-#   4. All
+#   1. Reversal Candidates
+#      1A. ML Confirmed Reversal
+#      1B. Technical & Fundamental Watch
+#      1C. Basing Watch
+#   2. Fundamental Deep Dive   (any stock)
+#   3. Score & Rank Movers     (vs previous quarter)
+#   4. Watchlist — Add/Remove
+#   5. Watchlist — Screen
+#   6. All Reversal (1A + 1B + 1C + Watchlist Screen)
 #
 # Reads from existing files — no yfinance calls, very fast.
 #
@@ -22,6 +28,7 @@
 import pandas as pd
 import numpy as np
 import os
+import pickle
 from datetime import datetime
 from difflib import get_close_matches
 
@@ -31,9 +38,11 @@ DATA_DIR     = os.path.join(BASE_DIR, 'data')
 SCORES_DIR   = os.path.join(DATA_DIR, 'scores')
 FUND_DIR     = os.path.join(DATA_DIR, 'fundamentals')
 UNIVERSE_DIR = os.path.join(DATA_DIR, 'universe')
+PORTFOLIO_DIR= os.path.join(DATA_DIR, 'portfolio')
 REPORT_DIR   = os.path.join(DATA_DIR, 'reports', 'reversal')
 
-os.makedirs(REPORT_DIR, exist_ok=True)
+os.makedirs(REPORT_DIR,   exist_ok=True)
+os.makedirs(PORTFOLIO_DIR,exist_ok=True)
 
 today_str  = datetime.now().strftime('%Y-%m-%d')
 today_file = datetime.now().strftime('%Y%m%d')
@@ -49,6 +58,8 @@ FUND_FILE        = os.path.join(FUND_DIR,     'fundamental_scores_full.csv')
 FUND_PREV_FILE   = os.path.join(FUND_DIR,     'fundamental_scores_prev.csv')
 FUND_METRICS_CSV = os.path.join(FUND_DIR,     'fundamental_metrics_full.csv')
 PREFILT_FILE     = os.path.join(UNIVERSE_DIR, 'prefilt_passed.csv')
+PRICE_FILE       = os.path.join(DATA_DIR,     'prices', 'price_data_full.pkl')
+WATCHLIST_FILE   = os.path.join(PORTFOLIO_DIR,'reversal_watchlist.csv')
 
 print("=" * 65)
 print("  AI Stock Screener — Reversal & Fundamental Analysis")
@@ -77,7 +88,16 @@ print(f"  Tech report   : {len(tech_df)} stocks")
 print(f"  Fund scores   : {len(fund_df)} stocks")
 print(f"  Fund metrics  : {len(fund_metrics_df)} stocks")
 
-# ── MERGE Market_Cap_Cr into fund_df if missing ───────────────
+# Load price data for VMax
+try:
+    with open(PRICE_FILE, 'rb') as f:
+        price_data = pickle.load(f)
+    print(f"  Price data    : {len(price_data)} stocks")
+except:
+    price_data = {}
+    print(f"  Price data    : not loaded (VMax will show 0.00x)")
+
+# ── MERGE Market_Cap_Cr ───────────────────────────────────────
 if 'Market_Cap_Cr' not in fund_df.columns:
     fund_df = fund_df.merge(
         prefilt_df[['Symbol', 'Market_Cap_Cr']], on='Symbol', how='left')
@@ -96,7 +116,6 @@ def classify_mcap(mcap_cr):
 fund_df['Cap Category'] = fund_df['Market_Cap_Cr'].apply(classify_mcap)
 
 # ── COMPUTE SECTOR SCORE + CAP SCORE ─────────────────────────
-# Sector Score: relative rank within same sector (0-10)
 fund_df['Sector Score'] = 0.0
 for sector in fund_df['Sector'].unique():
     mask      = fund_df['Sector'] == sector
@@ -105,7 +124,6 @@ for sector in fund_df['Sector'].unique():
         fund_df.loc[mask, 'Sector Score'] = (
             fund_df[mask]['Final Score'] / max_score * 10).round(1)
 
-# Cap Score: relative rank within same sector + cap category (0-10)
 fund_df['Cap Score'] = 0.0
 for sector in fund_df['Sector'].unique():
     for cap in CAP_ORDER:
@@ -119,8 +137,6 @@ for sector in fund_df['Sector'].unique():
                 subset['Final Score'] / max_score * 10).round(1)
 
 # ── BUILD WORKING DATAFRAME ───────────────────────────────────
-# tech_df is base (has all signals + Sector Score + Cap Score from weekly run)
-# Merge fund breakdown columns from fund_df
 merge_cols = ['Symbol', 'Historical Score', 'Peer Score', 'Quality Score',
               'Promoter Holding %', 'FII + DII %', 'Final Score', 'Market_Cap_Cr']
 
@@ -129,8 +145,8 @@ for col in ['Historical Score', 'Peer Score', 'Quality Score',
             'Promoter Holding %', 'FII + DII %', 'Final Score', 'Market_Cap_Cr']:
     if col in work_df.columns:
         work_df = work_df.drop(columns=[col])
-
 work_df = work_df.merge(fund_df[merge_cols], on='Symbol', how='left')
+
 print(f"  Working df    : {work_df.shape[0]} stocks, {work_df.shape[1]} columns")
 
 # ── HELPER FUNCTIONS ──────────────────────────────────────────
@@ -168,6 +184,39 @@ def trend_arrow(val):
     except:
         return '—'
 
+def get_vmax(symbol):
+    try:
+        df = price_data.get(symbol)
+        if df is None or len(df) < 20:
+            return 0.0
+        vol_max5  = df['Volume'].iloc[-5:].max()
+        vol_20avg = df['Volume'].iloc[-20:].mean()
+        return round(vol_max5 / vol_20avg if vol_20avg > 0 else 0.0, 2)
+    except:
+        return 0.0
+
+valid_symbols = set(work_df['Symbol'].tolist())
+
+def validate_symbol_wl(user_input):
+    s = user_input.strip().upper()
+    if s in valid_symbols:
+        return s
+    matches = get_close_matches(s, list(valid_symbols), n=3, cutoff=0.6)
+    if not matches:
+        print(f"  '{s}' not found in universe. No close matches.")
+        return None
+    print(f"  '{s}' not found. Did you mean:")
+    for i, m in enumerate(matches, 1):
+        row = work_df[work_df['Symbol'] == m].iloc[0]
+        print(f"    {i}. {m:<12} {row['Sector']:<25} "
+              f"Rs{row['Current Price']:.2f}  "
+              f"MCap {mcap_str(row['Market Cap Cr'])}")
+    print(f"    0. None / skip")
+    choice = input("  Enter number: ").strip()
+    if choice in [str(i) for i in range(1, len(matches)+1)]:
+        return matches[int(choice)-1]
+    return None
+
 all_symbols = fund_metrics_df['Symbol'].tolist()
 
 def validate_symbol(user_input):
@@ -183,102 +232,194 @@ def validate_symbol(user_input):
         print(f"    {i}. {m}")
     print(f"    0. None / skip")
     choice = input("  Enter number: ").strip()
-    if choice in [str(i) for i in range(1, len(matches) + 1)]:
-        return matches[int(choice) - 1]
+    if choice in [str(i) for i in range(1, len(matches)+1)]:
+        return matches[int(choice)-1]
     return None
 
-# ── SECTION 1: REVERSAL CANDIDATES ───────────────────────────
-def run_reversal_candidates():
-    print("=" * 65)
-    print("  REVERSAL HUNTER — Settings")
-    print("=" * 65)
+# ── REVERSAL TABLE PRINTER ────────────────────────────────────
+def print_reversal_table(df, show_botprob=True, show_ema50pct=False, top_n=10):
+    if show_ema50pct:
+        print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
+              f"{'EMA50%':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+              f"{'RSI':>5}  {'ADX':>5}  {'V5D':>5}  {'VMax':>5}")
+        print(f"  {'─'*108}")
+    else:
+        print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
+              f"{'BotProb':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+              f"{'RSI':>5}  {'ADX':>5}  {'MACD':>7}  {'V5D':>5}  {'VMax':>5}")
+        print(f"  {'─'*112}")
+
+    serial = 1
+    for cap in CAP_ORDER:
+        cap_df = df[df['Cap Category'] == cap].head(top_n)
+        if len(cap_df) == 0:
+            continue
+        cap_short = {'Large Cap':'L','Mini Large Cap':'ML',
+                     'Mid Cap':'M','Small Cap':'S'}.get(cap,'?')
+        print(f"\n  [{cap_short}] {cap}")
+        for _, row in cap_df.iterrows():
+            v5d  = float(row.get('Vol 5D Ratio', row.get('Vol Ratio', 0)) or 0)
+            vmax = get_vmax(row['Symbol'])
+            if show_ema50pct:
+                price = float(row.get('Current Price', 0) or 0)
+                ema50 = float(row.get('EMA50', 0) or 0)
+                pct   = round((price - ema50) / ema50 * 100, 1) if ema50 > 0 else 0
+                print(f"  {serial:<3}  "
+                      f"{row['Symbol']:<8}  "
+                      f"{mcap_str(row['Market Cap Cr']):>11}  "
+                      f"Rs{price:>7.2f}  "
+                      f"{pct:>+6.1f}%  "
+                      f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                      f"{float(row.get('Sector Score',0)):>6.1f}  "
+                      f"{float(row.get('Cap Score',0)):>6.1f}  "
+                      f"{float(row.get('RSI',0)):>5.1f}  "
+                      f"{float(row.get('ADX',0)):>5.1f}  "
+                      f"{v5d:>4.2f}x  "
+                      f"{vmax:>4.2f}x")
+            else:
+                print(f"  {serial:<3}  "
+                      f"{row['Symbol']:<8}  "
+                      f"{mcap_str(row['Market Cap Cr']):>11}  "
+                      f"Rs{float(row.get('Current Price',0)):>7.2f}  "
+                      f"{float(row.get('Bottom_Rev_Prob',0)):>6.1f}%  "
+                      f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                      f"{float(row.get('Sector Score',0)):>6.1f}  "
+                      f"{float(row.get('Cap Score',0)):>6.1f}  "
+                      f"{float(row.get('RSI',0)):>5.1f}  "
+                      f"{float(row.get('ADX',0)):>5.1f}  "
+                      f"{float(row.get('MACD Hist',0)):>+7.3f}  "
+                      f"{v5d:>4.2f}x  "
+                      f"{vmax:>4.2f}x")
+            serial += 1
+
+# ── SECTION 1A: ML CONFIRMED REVERSAL ────────────────────────
+def run_section_1a():
+    print(f"\n{'='*65}")
+    print(f"  1A — ML CONFIRMED REVERSAL")
+    print(f"  Filter: Best Setup=Reversal | BotProb>={MIN_BOTTOM_PROB}% | Rank>={MIN_RANK}")
+    print(f"{'='*65}")
     try:
         top_n = int(input(
-            "\n  How many stocks per cap category? [default 10]: "
+            "\n  Stocks per cap category [default 10]: "
         ).strip() or 10)
     except:
         top_n = 10
 
-    reversal_df = work_df[
+    df = work_df[
         (work_df['Best Setup']       == 'Reversal') &
         (work_df['Bottom_Rev_Prob']  >= MIN_BOTTOM_PROB) &
         (
             (work_df['Sector Score'] >= MIN_RANK) |
             (work_df['Cap Score']    >= MIN_RANK)
         )
-    ].copy()
-    reversal_df = reversal_df.sort_values('Bottom_Rev_Prob', ascending=False)
+    ].copy().sort_values('Bottom_Rev_Prob', ascending=False)
 
-    print(f"\n  Total candidates : {len(reversal_df)}")
+    print(f"\n  Total candidates : {len(df)}")
+    if len(df) == 0:
+        print(f"  No candidates — market likely in strong uptrend.")
+        return set()
 
-    if len(reversal_df) == 0:
-        print(f"\n  No reversal candidates found with current filters.")
-        print(f"  Market may be in strong uptrend — check again next week.")
-        return
+    print_reversal_table(df, show_botprob=True, top_n=top_n)
+    print(f"\n  {'─'*112}")
+    print(f"  BotProb=ML reversal prob | RevScr=Tech score | "
+          f"SecRnk/CapRnk=Relative rank 0-10 | V5D=5day avg | VMax=peak day")
 
-    print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
-          f"{'BotProb':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
-          f"{'RSI':>5}  {'ADX':>5}  {'MACD':>7}  {'Vol':>5}")
-    print(f"  {'─'*102}")
-
-    serial = 1
+    # Save report
+    report_lines = [f"REVERSAL 1A — ML CONFIRMED — {today_str}",
+                    f"Filter: Best Setup=Reversal | BotProb>={MIN_BOTTOM_PROB}% | Rank>={MIN_RANK}",
+                    f"Total: {len(df)}", ""]
     for cap in CAP_ORDER:
-        cap_df = reversal_df[reversal_df['Cap Category'] == cap].head(top_n)
-        if len(cap_df) == 0:
-            continue
-        cap_short = {'Large Cap': 'L', 'Mini Large Cap': 'ML',
-                     'Mid Cap': 'M', 'Small Cap': 'S'}.get(cap, '?')
-        print(f"\n  [{cap_short}] {cap}")
-        for _, row in cap_df.iterrows():
-            print(f"  {serial:<3}  "
-                  f"{row['Symbol']:<8}  "
-                  f"{mcap_str(row['Market Cap Cr']):>11}  "
-                  f"Rs{row['Current Price']:>7.2f}  "
-                  f"{row['Bottom_Rev_Prob']:>6.1f}%  "
-                  f"{row['Reversal Score']:>6.0f}  "
-                  f"{row['Sector Score']:>6.1f}  "
-                  f"{row['Cap Score']:>6.1f}  "
-                  f"{row['RSI']:>5.1f}  "
-                  f"{row['ADX']:>5.1f}  "
-                  f"{row['MACD Hist']:>+7.3f}  "
-                  f"{row['Vol Ratio']:>4.2f}x")
-            serial += 1
-
-    print(f"\n  {'─'*102}")
-    print(f"  BotProb=ML reversal prob  RevScr=Reversal tech score  "
-          f"SecRnk/CapRnk=Relative rank 0-10")
-
-    # Save report to file
-    report_lines = []
-    report_lines.append(f"REVERSAL CANDIDATES — {today_str}")
-    report_lines.append(
-        f"Filter: Best Setup=Reversal | BotProb>={MIN_BOTTOM_PROB}% | "
-        f"SecRnk or CapRnk>={MIN_RANK}")
-    report_lines.append(f"Total candidates: {len(reversal_df)}")
-    report_lines.append("")
-    for cap in CAP_ORDER:
-        cap_df = reversal_df[reversal_df['Cap Category'] == cap].head(top_n)
-        if len(cap_df) == 0:
-            continue
+        cap_df = df[df['Cap Category'] == cap].head(top_n)
+        if len(cap_df) == 0: continue
         report_lines.append(f"[{cap}]")
         for _, row in cap_df.iterrows():
             report_lines.append(
-                f"  {row['Symbol']:<8}  "
-                f"{mcap_str(row['Market Cap Cr']):>11}  "
+                f"  {row['Symbol']:<8}  {mcap_str(row['Market Cap Cr']):>11}  "
                 f"Rs{row['Current Price']:>7.2f}  "
                 f"BotProb:{row['Bottom_Rev_Prob']:.1f}%  "
                 f"RevScr:{row['Reversal Score']:.0f}  "
-                f"SecRnk:{row['Sector Score']:.1f}  "
-                f"CapRnk:{row['Cap Score']:.1f}  "
-                f"RSI:{row['RSI']:.1f}  "
-                f"ADX:{row['ADX']:.1f}  "
-                f"MACD:{row['MACD Hist']:+.3f}  "
-                f"Vol:{row['Vol Ratio']:.2f}x")
+                f"RSI:{row['RSI']:.1f}  ADX:{row['ADX']:.1f}")
         report_lines.append("")
-    report_path = os.path.join(REPORT_DIR, f'reversal_{today_file}.txt')
-    with open(report_path, 'w', encoding='utf-8') as f:
+    rpath = os.path.join(REPORT_DIR, f'reversal_1a_{today_file}.txt')
+    with open(rpath, 'w', encoding='utf-8') as f:
         f.write('\n'.join(report_lines))
-    print(f"\n  Report saved: {report_path}")
+    print(f"\n  Report saved: {rpath}")
+    return set(df['Symbol'].tolist())
+
+# ── SECTION 1B: TECHNICAL WATCH ───────────────────────────────
+def run_section_1b(symbols_1a=set()):
+    print(f"\n{'='*65}")
+    print(f"  1B — TECHNICAL & FUNDAMENTAL WATCH")
+    print(f"  Filter: RevScore>=50 | Rank>={MIN_RANK} | Setup!=Momentum | excl 1A")
+    print(f"{'='*65}")
+    try:
+        top_n = int(input(
+            "\n  Stocks per cap category [default 10]: "
+        ).strip() or 10)
+    except:
+        top_n = 10
+
+    df = work_df[
+        (work_df['Reversal Score']   >= 50) &
+        (
+            (work_df['Sector Score'] >= MIN_RANK) |
+            (work_df['Cap Score']    >= MIN_RANK)
+        ) &
+        (work_df['Best Setup']       != 'Momentum') &
+        (~work_df['Symbol'].isin(symbols_1a))
+    ].copy().sort_values('Reversal Score', ascending=False)
+
+    print(f"\n  Total candidates : {len(df)}")
+    if len(df) == 0:
+        print(f"  No candidates currently.")
+        return set()
+
+    print_reversal_table(df, show_botprob=True, top_n=top_n)
+    print(f"\n  {'─'*112}")
+    print(f"  RevScr=Technical reversal score | BotProb=ML prob | "
+          f"SecRnk/CapRnk=Relative rank 0-10 | V5D=5day avg | VMax=peak day")
+    return set(df['Symbol'].tolist())
+
+# ── SECTION 1C: BASING WATCH ──────────────────────────────────
+def run_section_1c(symbols_1a=set(), symbols_1b=set()):
+    print(f"\n{'='*65}")
+    print(f"  1C — BASING WATCH")
+    print(f"  Filter: Price<EMA50 | Rank>={MIN_RANK} | Setup=Watching | ADX<30 | RSI>35")
+    print(f"  Catches stocks basing below EMA50 with trend fading")
+    print(f"{'='*65}")
+    try:
+        top_n = int(input(
+            "\n  Stocks per cap category [default 10]: "
+        ).strip() or 10)
+    except:
+        top_n = 10
+
+    df = work_df[
+        (work_df['Current Price']    <  work_df['EMA50']) &
+        (
+            (work_df['Sector Score'] >= MIN_RANK) |
+            (work_df['Cap Score']    >= MIN_RANK)
+        ) &
+        (work_df['Best Setup']       == 'Watching') &
+        (work_df['ADX']              <  30) &
+        (work_df['RSI']              >  35) &
+        (~work_df['Symbol'].isin(symbols_1a)) &
+        (~work_df['Symbol'].isin(symbols_1b))
+    ].copy()
+    df['_rank_sum'] = df['Sector Score'] + df['Cap Score']
+    df = df.sort_values('_rank_sum', ascending=False)
+    df['EMA50_pct'] = ((df['Current Price'] - df['EMA50']) / df['EMA50'] * 100).round(1)
+
+    print(f"\n  Total candidates : {len(df)}")
+    if len(df) == 0:
+        print(f"  No candidates currently.")
+        return set()
+
+    print_reversal_table(df, show_botprob=False, show_ema50pct=True, top_n=top_n)
+    print(f"\n  {'─'*108}")
+    print(f"  EMA50% = how far below EMA50 | RevScr=Tech score | "
+          f"ADX<30 trend fading | RSI>35 stabilizing")
+    return set(df['Symbol'].tolist())
 
 # ── SECTION 2: FUNDAMENTAL DEEP DIVE ─────────────────────────
 def show_fundamental(symbol):
@@ -305,7 +446,6 @@ def show_fundamental(symbol):
     print(f"  {cap_cat}  |  MCap {mcap}  |  Price {price}")
     print(f"  {'═'*65}")
 
-    # SCORES
     if s is not None:
         print(f"\n  FUNDAMENTAL SCORES")
         print(f"  {'─'*65}")
@@ -323,7 +463,6 @@ def show_fundamental(symbol):
         print(f"  Quality Score    : {na(qual_s)}/20   "
               f"(Promoter + FII/DII + CF + consistency)")
 
-    # RELATIVE RANKING
     if t is not None:
         print(f"\n  RELATIVE RANKING")
         print(f"  {'─'*65}")
@@ -332,7 +471,6 @@ def show_fundamental(symbol):
         print(f"  Cap Rank     : {t['Cap Score']:.1f}/10  "
               f"(vs {cap_cat} {sector} stocks)")
 
-    # GROWTH
     print(f"\n  GROWTH")
     print(f"  {'─'*65}")
     print(f"  TTM Revenue      : Rs{na(m.get('TTM Revenue'))} Cr")
@@ -351,15 +489,13 @@ def show_fundamental(symbol):
     print(f"  EPS Latest Q     : {na(m.get('Latest EPS Q'))}")
     print(f"  EPS YoY Growth   : {na(m.get('EPS YoY Growth'),  suffix='%')}")
 
-    # MARGINS & RETURNS
     print(f"\n  MARGINS & RETURNS")
     print(f"  {'─'*65}")
     print(f"  OPM 5Y Avg       : {na(m.get('Avg OPM 5Y'),  suffix='%')}  "
           f"{flag(m.get('Avg OPM 5Y'),  good_above=20, bad_below=10)}")
     print(f"  OPM 10Y Avg      : {na(m.get('Avg OPM 10Y'), suffix='%')}")
     margin_status = 'Improving ✅' if m.get('Margin Improving') == True \
-                    else 'Declining ⚠️' if m.get('Margin Improving') == False \
-                    else ''
+                    else 'Declining ⚠️' if m.get('Margin Improving') == False else ''
     print(f"  OPM Latest Q     : {na(m.get('Latest OPM Q'), suffix='%')}  "
           f"{margin_status}")
     print(f"  ROE              : {na(m.get('Final ROE'),     suffix='%')}  "
@@ -367,8 +503,7 @@ def show_fundamental(symbol):
     latest_roce = m.get('Latest ROCE')
     avg_roce    = m.get('Avg ROCE 5Y')
     roce_status = 'Improving ✅' if m.get('ROCE Improving') == True \
-                  else 'Declining ⚠️' if m.get('ROCE Improving') == False \
-                  else ''
+                  else 'Declining ⚠️' if m.get('ROCE Improving') == False else ''
     print(f"  ROCE Latest      : {na(latest_roce, suffix='%')}  {roce_status}")
     if avg_roce is not None and latest_roce is not None:
         if round(float(avg_roce), 1) != round(float(latest_roce), 1):
@@ -378,17 +513,14 @@ def show_fundamental(symbol):
     else:
         print(f"  ROCE 5Y Avg      : {na(avg_roce, suffix='%')}")
 
-    # BALANCE SHEET
     print(f"\n  BALANCE SHEET")
     print(f"  {'─'*65}")
     debt_status = 'Reducing ✅' if m.get('Debt Reducing') == True \
-                  else 'Rising ⚠️' if m.get('Debt Reducing') == False \
-                  else ''
+                  else 'Rising ⚠️' if m.get('Debt Reducing') == False else ''
     print(f"  Debt to Equity   : {na(m.get('Debt to Equity'))}  {debt_status}")
     print(f"  Latest Debt      : Rs{na(m.get('Latest Debt'))} Cr")
     print(f"  Latest Equity    : Rs{na(m.get('Latest Equity'))} Cr")
 
-    # CASH FLOW
     print(f"\n  CASH FLOW")
     print(f"  {'─'*65}")
     cf_pos   = float(m.get('CF Positive Years') or 0)
@@ -401,7 +533,6 @@ def show_fundamental(symbol):
           f"({cf_pct}%)  "
           f"{flag(cf_pct, good_above=90, bad_below=70)}")
 
-    # OWNERSHIP
     print(f"\n  OWNERSHIP")
     print(f"  {'─'*65}")
     fii = float(m.get('FII Holding') or 0)
@@ -415,7 +546,6 @@ def show_fundamental(symbol):
           f"4Q: {trend_arrow(m.get('DII Change 4Q'))}")
     print(f"  FII + DII Total  : {na(fii + dii, suffix='%')}")
 
-    # TECHNICAL SNAPSHOT
     if t is not None:
         print(f"\n  TECHNICAL SNAPSHOT")
         print(f"  {'─'*65}")
@@ -470,14 +600,12 @@ def run_rank_movers():
         """)
         return
 
-    # Load and process previous quarter data
     fund_prev_df = pd.read_csv(FUND_PREV_FILE)
     if 'Market_Cap_Cr' not in fund_prev_df.columns:
         fund_prev_df = fund_prev_df.merge(
             prefilt_df[['Symbol', 'Market_Cap_Cr']], on='Symbol', how='left')
     fund_prev_df['Cap Category'] = fund_prev_df['Market_Cap_Cr'].apply(classify_mcap)
 
-    # Recompute previous sector + cap ranks
     fund_prev_df['Prev Sector Score'] = 0.0
     for sector in fund_prev_df['Sector'].unique():
         mask      = fund_prev_df['Sector'] == sector
@@ -499,7 +627,6 @@ def run_rank_movers():
                 fund_prev_df.loc[mask, 'Prev Cap Score'] = (
                     subset['Final Score'] / max_score * 10).round(1)
 
-    # Merge current vs previous
     compare_df = fund_df[['Symbol', 'Sector', 'Final Score',
                            'Sector Score', 'Cap Score']].merge(
         fund_prev_df[['Symbol', 'Final Score',
@@ -526,7 +653,6 @@ def run_rank_movers():
 
     compare_df['Verdict'] = compare_df.apply(verdict, axis=1)
 
-    # ── 3A: Absolute Score Movers ──────────────────────────────
     print(f"\n  3A — ABSOLUTE SCORE CHANGE")
     print(f"  Note: market-wide decline may pull all scores down — "
           f"use 3B for true signal")
@@ -559,7 +685,6 @@ def run_rank_movers():
               f"▼{abs(row['Score Change']):>5.1f}  "
               f"{row['Verdict']}")
 
-    # ── 3B: Relative Rank Movers ───────────────────────────────
     print(f"\n  3B — RELATIVE RANK CHANGE")
     print(f"  Key insight: score can fall but rank can improve "
           f"if peers fell more")
@@ -601,11 +726,296 @@ def run_rank_movers():
               f"{row['Verdict']}")
 
     print(f"\n  {'─'*90}")
-    print(f"  AbsScr = Final Score change  |  "
-          f"SecRnk/CapRnk = relative rank 0-10")
+    print(f"  AbsScr = Final Score change  |  SecRnk/CapRnk = relative rank 0-10")
     print(f"  RELATIVELY STRONGER ✅ = both ranks improved vs peers")
     print(f"  RELATIVELY WEAKER ⚠️  = both ranks declined vs peers")
     print(f"  {'─'*90}")
+
+# ── SECTION 4: WATCHLIST MANAGER ─────────────────────────────
+def load_watchlist():
+    if not os.path.exists(WATCHLIST_FILE):
+        return pd.DataFrame(columns=['Symbol', 'Added_Date', 'Notes'])
+    df = pd.read_csv(WATCHLIST_FILE)
+    df['Notes'] = df['Notes'].fillna('')
+    return df
+
+def save_watchlist(df):
+    df['Notes'] = df['Notes'].fillna('')
+    df.to_csv(WATCHLIST_FILE, index=False)
+    print(f"  ✅ Watchlist saved — {len(df)} stocks")
+
+def show_watchlist(wl_df):
+    if len(wl_df) == 0:
+        print(f"  Watchlist is empty.")
+        return
+    print(f"\n  {'#':<3}  {'Symbol':<10}  {'Sector':<25}  "
+          f"{'Price':>8}  {'MCap':>12}  {'Setup':<12}  {'Added':>12}  Notes")
+    print(f"  {'─'*105}")
+    for i, row in wl_df.reset_index(drop=True).iterrows():
+        sym  = str(row['Symbol'])
+        t    = work_df[work_df['Symbol'] == sym]
+        if len(t) > 0:
+            tr    = t.iloc[0]
+            sec   = str(tr['Sector'])[:24]
+            price = f"Rs{tr['Current Price']:.2f}"
+            mcap  = mcap_str(tr['Market Cap Cr'])
+            setup = str(tr['Best Setup'])
+        else:
+            sec = price = mcap = setup = '—'
+        notes = str(row.get('Notes', '') or '')
+        print(f"  {i+1:<3}  {sym:<10}  {sec:<25}  "
+              f"{price:>8}  {mcap:>12}  {setup:<12}  "
+              f"{str(row['Added_Date']):>12}  {notes}")
+
+def run_watchlist_manager():
+    while True:
+        wl_df = load_watchlist()
+        print(f"\n{'='*65}")
+        print(f"  REVERSAL WATCHLIST — {len(wl_df)} stocks")
+        print(f"{'='*65}")
+        show_watchlist(wl_df)
+        print(f"\n  Options:")
+        print(f"  1. Add stocks")
+        print(f"  2. Remove stocks")
+        print(f"  3. Exit watchlist manager")
+        sub = input("\n  Choice: ").strip()
+
+        if sub == '1':
+            print(f"\n  Enter symbols to add. Type 'done' when finished.")
+            print(f"  (Any stock — bull or reversal candidate)")
+            while True:
+                user_inp = input("\n  Symbol (or 'done'): ").strip()
+                if user_inp.lower() == 'done':
+                    break
+                sym = validate_symbol_wl(user_inp)
+                if sym is None:
+                    continue
+                if sym in wl_df['Symbol'].values:
+                    print(f"  ⚠️  {sym} already in watchlist.")
+                    continue
+                notes = input(f"  Notes for {sym} (optional): ").strip()
+                new_row = pd.DataFrame([{
+                    'Symbol'    : sym,
+                    'Added_Date': today_str,
+                    'Notes'     : notes,
+                }])
+                wl_df = pd.concat([wl_df, new_row], ignore_index=True)
+                tr = work_df[work_df['Symbol'] == sym].iloc[0]
+                print(f"  ✅ Added {sym} — {tr['Sector']} | "
+                      f"Rs{tr['Current Price']:.2f} | "
+                      f"MCap {mcap_str(tr['Market Cap Cr'])} | "
+                      f"Setup: {tr['Best Setup']}")
+            save_watchlist(wl_df)
+
+        elif sub == '2':
+            if len(wl_df) == 0:
+                print(f"  Watchlist is empty.")
+                continue
+            to_remove = input(
+                "\n  Row numbers to remove (comma separated): "
+            ).strip()
+            try:
+                indices = [int(x.strip()) - 1 for x in to_remove.split(',')]
+                removed = wl_df.iloc[indices]['Symbol'].tolist()
+                wl_df   = wl_df.drop(wl_df.index[indices]).reset_index(drop=True)
+                save_watchlist(wl_df)
+                print(f"  ✅ Removed: {', '.join(removed)}")
+            except:
+                print(f"  Invalid input. No changes made.")
+
+        elif sub == '3':
+            print(f"  Exiting watchlist manager.")
+            break
+        else:
+            print(f"  Invalid choice.")
+
+# ── SECTION 5: WATCHLIST SCREEN ──────────────────────────────
+def get_status(row):
+    price  = float(row.get('Current Price', 0) or 0)
+    ema50  = float(row.get('EMA50', 0) or 0)
+    adx    = float(row.get('ADX', 0) or 0)
+    rsi    = float(row.get('RSI', 0) or 0)
+    rev    = float(row.get('Reversal Score', 0) or 0)
+    setup  = str(row.get('Best Setup', ''))
+    ml     = str(row.get('ML_Prediction', ''))
+
+    if setup == 'Momentum' and ml == 'Bullish Continual':
+        return 'Momentum confirmed ✅ — check LT portfolio'
+    if price < ema50 and adx >= 30:
+        return 'Downtrend still strong — wait (ADX high)'
+    if price < ema50 and adx < 30 and rsi <= 35:
+        return 'Deeply oversold — watch for bounce'
+    if price < ema50 and adx < 30 and rsi > 35:
+        return 'Basing below EMA50 — ADX fading'
+    if price >= ema50 and rev < 50:
+        return 'Above EMA50 — no reversal signal yet'
+    if rev >= 50:
+        return 'Reversal score building — watch closely'
+    return 'Watching — no signal yet'
+
+def run_watchlist_screen():
+    wl_df = load_watchlist()
+    print(f"\n{'='*65}")
+    print(f"  WATCHLIST SCREEN — {len(wl_df)} stocks")
+    print(f"{'='*65}")
+
+    if len(wl_df) == 0:
+        print(f"  Watchlist is empty. Add stocks via Section 4.")
+        return
+
+    passed_1a  = []
+    passed_1b  = []
+    passed_1c  = []
+    passed_mom = []
+    not_yet    = []
+
+    for _, wrow in wl_df.iterrows():
+        sym = str(wrow['Symbol'])
+        t   = work_df[work_df['Symbol'] == sym]
+        if len(t) == 0:
+            not_yet.append((sym, None))
+            continue
+        row    = t.iloc[0]
+        price  = float(row.get('Current Price', 0) or 0)
+        ema50  = float(row.get('EMA50', 0) or 0)
+        ema200 = float(row.get('EMA200', 0) or 0)
+        adx    = float(row.get('ADX', 0) or 0)
+        rsi    = float(row.get('RSI', 0) or 0)
+        rev    = float(row.get('Reversal Score', 0) or 0)
+        bot    = float(row.get('Bottom_Rev_Prob', 0) or 0)
+        setup  = str(row.get('Best Setup', ''))
+        ml     = str(row.get('ML_Prediction', ''))
+
+        if setup == 'Reversal' and bot >= MIN_BOTTOM_PROB:
+            passed_1a.append(row)
+        elif rev >= 50 and setup != 'Momentum':
+            passed_1b.append(row)
+        elif (price < ema50 and setup == 'Watching'
+              and adx < 30 and rsi > 35):
+            passed_1c.append(row)
+        elif (ml == 'Bullish Continual' and setup == 'Momentum'
+              and price > ema50 > ema200):
+            passed_mom.append(row)
+        else:
+            not_yet.append((sym, row))
+
+    def print_screen_table(rows, show_ema50pct=False, show_conf=False):
+        if show_conf:
+            print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
+                  f"{'Conf':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+                  f"{'RSI':>5}  {'ADX':>5}  {'V5D':>5}  {'VMax':>5}")
+            print(f"  {'─'*100}")
+        elif show_ema50pct:
+            print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
+                  f"{'EMA50%':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+                  f"{'RSI':>5}  {'ADX':>5}  {'V5D':>5}  {'VMax':>5}")
+            print(f"  {'─'*108}")
+        else:
+            print(f"\n  {'#':<3}  {'Symbol':<8}  {'MCap':>11}  {'Price':>8}  "
+                  f"{'BotProb':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+                  f"{'RSI':>5}  {'ADX':>5}  {'V5D':>5}  {'VMax':>5}")
+            print(f"  {'─'*110}")
+
+        for i, row in enumerate(rows, 1):
+            v5d  = float(row.get('Vol 5D Ratio', row.get('Vol Ratio', 0)) or 0)
+            vmax = get_vmax(row['Symbol'])
+            price = float(row.get('Current Price', 0) or 0)
+            if show_conf:
+                print(f"  {i:<3}  "
+                      f"{row['Symbol']:<8}  "
+                      f"{mcap_str(row['Market Cap Cr']):>11}  "
+                      f"Rs{price:>7.2f}  "
+                      f"{float(row.get('ML_Confidence',0)):>5.1f}%  "
+                      f"{float(row.get('Sector Score',0)):>6.1f}  "
+                      f"{float(row.get('Cap Score',0)):>6.1f}  "
+                      f"{float(row.get('RSI',0)):>5.1f}  "
+                      f"{float(row.get('ADX',0)):>5.1f}  "
+                      f"{v5d:>4.2f}x  "
+                      f"{vmax:>4.2f}x")
+            elif show_ema50pct:
+                ema50 = float(row.get('EMA50', 0) or 0)
+                pct   = round((price - ema50) / ema50 * 100, 1) if ema50 > 0 else 0
+                print(f"  {i:<3}  "
+                      f"{row['Symbol']:<8}  "
+                      f"{mcap_str(row['Market Cap Cr']):>11}  "
+                      f"Rs{price:>7.2f}  "
+                      f"{pct:>+6.1f}%  "
+                      f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                      f"{float(row.get('Sector Score',0)):>6.1f}  "
+                      f"{float(row.get('Cap Score',0)):>6.1f}  "
+                      f"{float(row.get('RSI',0)):>5.1f}  "
+                      f"{float(row.get('ADX',0)):>5.1f}  "
+                      f"{v5d:>4.2f}x  "
+                      f"{vmax:>4.2f}x")
+            else:
+                print(f"  {i:<3}  "
+                      f"{row['Symbol']:<8}  "
+                      f"{mcap_str(row['Market Cap Cr']):>11}  "
+                      f"Rs{price:>7.2f}  "
+                      f"{float(row.get('Bottom_Rev_Prob',0)):>6.1f}%  "
+                      f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                      f"{float(row.get('Sector Score',0)):>6.1f}  "
+                      f"{float(row.get('Cap Score',0)):>6.1f}  "
+                      f"{float(row.get('RSI',0)):>5.1f}  "
+                      f"{float(row.get('ADX',0)):>5.1f}  "
+                      f"{v5d:>4.2f}x  "
+                      f"{vmax:>4.2f}x")
+
+    print(f"\n  {'─'*65}")
+    print(f"  ✅ PASSED — 1A ML Confirmed Reversal ({len(passed_1a)} stocks)")
+    if passed_1a:
+        print_screen_table(passed_1a)
+    else:
+        print(f"  None currently.")
+
+    print(f"\n  {'─'*65}")
+    print(f"  ✅ PASSED — 1B Technical Watch ({len(passed_1b)} stocks)")
+    if passed_1b:
+        print_screen_table(passed_1b)
+    else:
+        print(f"  None currently.")
+
+    print(f"\n  {'─'*65}")
+    print(f"  ✅ PASSED — 1C Basing Watch ({len(passed_1c)} stocks)")
+    if passed_1c:
+        print_screen_table(passed_1c, show_ema50pct=True)
+    else:
+        print(f"  None currently.")
+
+    print(f"\n  {'─'*65}")
+    print(f"  🚀 PASSED — Momentum (Bullish Continual + EMA OK) "
+          f"({len(passed_mom)} stocks)")
+    if passed_mom:
+        print_screen_table(passed_mom, show_conf=True)
+    else:
+        print(f"  None currently.")
+
+    print(f"\n  {'─'*65}")
+    print(f"  ⏳ NOT YET TRIGGERED ({len(not_yet)} stocks)")
+    if not_yet:
+        print(f"\n  {'Symbol':<10}  {'RSI':>5}  {'ADX':>5}  "
+              f"{'RevScr':>6}  {'EMA50%':>7}  {'Setup':<12}  Status")
+        print(f"  {'─'*90}")
+        for sym, row in not_yet:
+            if row is None:
+                print(f"  {sym:<10}  —  Not found in universe")
+                continue
+            price = float(row.get('Current Price', 0) or 0)
+            ema50 = float(row.get('EMA50', 0) or 0)
+            pct   = round((price - ema50) / ema50 * 100, 1) if ema50 > 0 else 0
+            print(f"  {sym:<10}  "
+                  f"{float(row.get('RSI',0)):>5.1f}  "
+                  f"{float(row.get('ADX',0)):>5.1f}  "
+                  f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                  f"{pct:>+6.1f}%  "
+                  f"{str(row.get('Best Setup','')):< 12}  "
+                  f"{get_status(row)}")
+
+    print(f"\n  {'─'*65}")
+    print(f"  Summary: 1A={len(passed_1a)} | 1B={len(passed_1b)} | "
+          f"1C={len(passed_1c)} | Momentum={len(passed_mom)} | "
+          f"Waiting={len(not_yet)}")
+    print(f"  {'─'*65}")
 
 # ── MAIN MENU ─────────────────────────────────────────────────
 print("\n")
@@ -614,24 +1024,33 @@ print("  AI Stock Screener — Reversal & Fundamental Analysis")
 print(f"  Date : {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 print("=" * 65)
 print()
-print("  1. Reversal Candidates")
+print("  1. Reversal Candidates  (1A ML + 1B Technical + 1C Basing)")
 print("  2. Fundamental Deep Dive  (any stock)")
 print("  3. Score & Rank Movers    (vs previous quarter)")
-print("  4. All")
+print("  4. Watchlist — Add / Remove")
+print("  5. Watchlist — Screen")
+print("  6. All Reversal  (1A + 1B + 1C + Watchlist Screen)")
 print()
 
-choice = input("  Enter choice (1/2/3/4): ").strip()
+choice = input("  Enter choice (1/2/3/4/5/6): ").strip()
 
 if choice == '1':
-    run_reversal_candidates()
+    s1a = run_section_1a()
+    s1b = run_section_1b(s1a)
+    run_section_1c(s1a, s1b)
 elif choice == '2':
     run_fundamental_deepdive()
 elif choice == '3':
     run_rank_movers()
 elif choice == '4':
-    run_reversal_candidates()
-    run_fundamental_deepdive()
-    run_rank_movers()
+    run_watchlist_manager()
+elif choice == '5':
+    run_watchlist_screen()
+elif choice == '6':
+    s1a = run_section_1a()
+    s1b = run_section_1b(s1a)
+    run_section_1c(s1a, s1b)
+    run_watchlist_screen()
 else:
     print("  Invalid choice.")
 

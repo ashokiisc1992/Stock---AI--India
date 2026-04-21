@@ -25,6 +25,7 @@
 import pandas as pd
 import numpy as np
 import os
+import pickle
 from datetime import datetime
 from difflib import get_close_matches
 
@@ -90,6 +91,16 @@ tech_df    = pd.read_csv(os.path.join(SCORES_DIR,   'technical_report_full.csv')
 fund_df    = pd.read_csv(os.path.join(FUND_DIR,     'fundamental_scores_full.csv'))
 prefilt_df = pd.read_csv(os.path.join(UNIVERSE_DIR, 'prefilt_passed.csv'))
 quality_df = pd.read_csv(os.path.join(UNIVERSE_DIR, 'quality_passed.csv'))
+
+# Load price data for VMax computation (max single day vol / 20d avg)
+PRICE_FILE = os.path.join(DATA_DIR, 'prices', 'price_data_full.pkl')
+try:
+    with open(PRICE_FILE, 'rb') as f:
+        price_data = pickle.load(f)
+    print(f"     Price data   : {len(price_data)} stocks")
+except:
+    price_data = {}
+    print(f"     Price data   : not loaded (VMax will show 0.00x)")
 
 if 'Market_Cap_Cr' not in fund_df.columns:
     fund_df = fund_df.merge(
@@ -168,6 +179,19 @@ if price_filter_choice in ['2', '3']:
 print("─" * 60)
 
 # ── HELPER FUNCTIONS ───────────────────────────────────────────
+
+def get_vmax(symbol):
+    """Max single day volume in last 5 days / 20-day avg volume."""
+    try:
+        df = price_data.get(symbol)
+        if df is None or len(df) < 20:
+            return 0.0
+        vol_max5  = df['Volume'].iloc[-5:].max()
+        vol_20avg = df['Volume'].iloc[-20:].mean()
+        return round(vol_max5 / vol_20avg if vol_20avg > 0 else 0.0, 2)
+    except:
+        return 0.0
+
 SECTOR_SHORT = {
     'Information Technology'            : 'IT',
     'Financial Services'                : 'Financial',
@@ -671,13 +695,13 @@ def build_lt_recommendations():
           f"{'ML Prediction':<20} {'Conf':>5}  "
           f"{'Setup':<9} {'Tech':>4}  {'EMA50%':>6}  "
           f"{'SecRnk':>6}  {'CapRnk':>6}  "
-          f"{'Price':>8}  {'MCap':>12}  {'VolRatio':>8}")
+          f"{'Price':>8}  {'MCap':>12}  {'V5D':>5}  {'VMax':>5}")
         p(f"  {'─'*3}  {'─'*3}  {'─'*12} {'─'*6} "
           f"{'─'*14} {'─'*12} "
           f"{'─'*20} {'─'*5}  "
           f"{'─'*9} {'─'*4}  {'─'*6}  "
           f"{'─'*6}  {'─'*6}  "
-          f"{'─'*8}  {'─'*12}  {'─'*8}")
+          f"{'─'*8}  {'─'*12}  {'─'*5}  {'─'*5}")
 
         for serial, (_, row) in enumerate(all_picks.iterrows(), 1):
             tier_n   = int(row.get('Priority_Tier', 0) or 0)
@@ -701,7 +725,8 @@ def build_lt_recommendations():
               f"{float(row.get('Cap Score',0) or 0):>6.1f}  "
               f"{price:>8.2f}  "
               f"{mcap_str(mcap):>12}  "
-              f"{float(row.get('Vol Ratio',0) or 0):>7.2f}x")
+              f"{float(row.get('Vol 5D Ratio', row.get('Vol Ratio', 0)) or 0):>4.2f}x  "
+              f"{get_vmax(row['Symbol']):>4.2f}x")
 
     p(f"\n{'─'*112}")
     p(f"  ★★★ Sector+ML+Tech all bullish  |  "
@@ -786,13 +811,13 @@ def build_swing_recommendations(lt_symbols):
            f"{'ML':<10} {'Conf':>5}  "
            f"{'Tech':>4}  {'EMA50%':>6}  "
            f"{'SecRnk':>6}  {'CapRnk':>6}  "
-           f"{'Price':>8}  {'MCap':>12}  {'25d%':>5}  {'45d%':>5}  {'VolRatio':>8}")
+           f"{'Price':>8}  {'MCap':>12}  {'25d%':>5}  {'45d%':>5}  {'V5D':>5}  {'VMax':>5}")
         ps(f"  {'─'*3}  {'─'*3}  {'─'*12} {'─'*4} {'─'*6} "
            f"{'─'*14} {'─'*12} "
            f"{'─'*10} {'─'*5}  "
            f"{'─'*4}  {'─'*6}  "
            f"{'─'*6}  {'─'*6}  "
-           f"{'─'*8}  {'─'*12}  {'─'*5}  {'─'*5}  {'─'*8}")
+           f"{'─'*8}  {'─'*12}  {'─'*5}  {'─'*5}  {'─'*5}  {'─'*5}")
 
         for serial, (_, row) in enumerate(all_picks.iterrows(), 1):
             tier_n   = int(row.get('Swing_Priority_Tier', 0) or 0)
@@ -821,7 +846,8 @@ def build_swing_recommendations(lt_symbols):
                f"{mcap_str(mcap):>12}  "
                f"{f25:>+5.1f}  "
                f"{f45:>+5.1f}  "
-               f"{float(row.get('Vol Ratio',0) or 0):>7.2f}x")
+               f"{float(row.get('Vol 5D Ratio', row.get('Vol Ratio', 0)) or 0):>4.2f}x  "
+               f"{get_vmax(row['Symbol']):>4.2f}x")
 
     ps(f"\n{'─'*110}")
     ps(f"  ★★★ Sector+ML+Tech all bullish  |  "

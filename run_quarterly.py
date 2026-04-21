@@ -2336,6 +2336,18 @@ def build_sector_summary(tech_df):
     p()
     return lines
 
+def get_vmax(symbol):
+    """Max single day volume in last 5 days / 20-day avg volume."""
+    try:
+        df = price_data.get(symbol)
+        if df is None or len(df) < 20:
+            return 0.0
+        vol_max5  = df['Volume'].iloc[-5:].max()
+        vol_20avg = df['Volume'].iloc[-20:].mean()
+        return round(vol_max5 / vol_20avg if vol_20avg > 0 else 0.0, 2)
+    except:
+        return 0.0
+
 def generate_tech_report(is_short=True):
     fmt   = 'SHORT' if is_short else 'LONG'
     now   = datetime.now().strftime('%d %B %Y')
@@ -2390,7 +2402,7 @@ def generate_tech_report(is_short=True):
                     p(f"    Break   : {get_breakout_vol_inference(week_vol, break_vol)}")
                 p(f"    Tech    : RSI {row['RSI']:.0f}  ADX {row['ADX']:.0f}  "
                   f"MACD {round(row['MACD Hist']):+d}  → {get_reason(row)}")
-                p(f"    Volume  : Week Vol:{week_vol:.2f}x "
+                p(f"    Volume  : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
                   f"({row['Vol Label']}) → {row['Vol Inference']}")
                 p(f"    Sector  : {row['Sector Trend']} | {row['Sector Detail']}")
             else:
@@ -2410,7 +2422,7 @@ def generate_tech_report(is_short=True):
                     p(f"    Break   : {get_breakout_vol_inference(week_vol, break_vol)}")
                 p(f"    Tech    : RSI:{row['RSI']:3.0f}  ADX:{row['ADX']:3.0f}  "
                   f"MACD:{round(row['MACD Hist']):+d}  → {get_reason(row)}")
-                p(f"    Volume  : Week Vol:{week_vol:.2f}x "
+                p(f"    Volume  : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
                   f"({row['Vol Label']}) → {row['Vol Inference']}")
                 p(f"    Sector  : {row['Sector Trend']} | {row['Sector Detail']}")
                 if weeks_count and not pd.isna(weeks_count):
@@ -2446,7 +2458,7 @@ def generate_tech_report(is_short=True):
                       f"Cap Rank {row.get('Cap Score',0):.1f}/10")
                     p(f"    Tech    : RSI {row['RSI']:.0f}  ADX {row['ADX']:.0f}  "
                       f"MACD {round(row['MACD Hist']):+d}  → {get_reason(row)}")
-                    p(f"    Volume  : Week Vol:{week_vol:.2f}x "
+                    p(f"    Volume  : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
                       f"({row['Vol Label']}) → {row['Vol Inference']}")
                     p(f"    Sector  : {row['Sector Trend']} | {row['Sector Detail']}")
                 else:
@@ -2462,7 +2474,7 @@ def generate_tech_report(is_short=True):
                       f"Cap:{row.get('Cap Score',0):.1f}")
                     p(f"    Tech    : RSI:{row['RSI']:3.0f}  ADX:{row['ADX']:3.0f}  "
                       f"MACD:{round(row['MACD Hist']):+d}  → {get_reason(row)}")
-                    p(f"    Volume  : Week Vol:{week_vol:.2f}x "
+                    p(f"    Volume  : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
                       f"({row['Vol Label']}) → {row['Vol Inference']}")
                     p(f"    Sector  : {row['Sector Trend']} | {row['Sector Detail']}")
                 serial += 1
@@ -2515,7 +2527,7 @@ def generate_tech_report(is_short=True):
         p(f"      Technical : [{row['Best Setup']}|{row['Tech Score']:.0f}]  "
           f"RSI:{row['RSI']:3.0f}  ADX:{row['ADX']:3.0f}  "
           f"MACD:{round(row['MACD Hist']):+d}  → {get_reason(row)}")
-        p(f"      Volume    : Week Vol:{week_vol:.2f}x "
+        p(f"      Volume    : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
           f"({row['Vol Label']}) → {row['Vol Inference']}")
         p(f"      Sector    : {row['Sector Trend']} | {row['Sector Detail']}")
         serial += 1
@@ -2575,7 +2587,7 @@ def generate_tech_report(is_short=True):
               f"{jump_marker}")
             p(f"      Tech    : RSI:{row['RSI']:3.0f}  ADX:{row['ADX']:3.0f}  "
               f"MACD:{round(row['MACD Hist']):+d}  → {get_reason(row)}")
-            p(f"      Volume  : Week Vol:{week_vol:.2f}x "
+            p(f"      Volume  : Week Vol:{week_vol:.2f}x  VMax:{get_vmax(row['Symbol']):.2f}x "
               f"({row['Vol Label']}) → {row['Vol Inference']}")
             p(f"      Sector  : {row['Sector Trend']} | {row['Sector Detail']}")
             serial += 1
