@@ -292,6 +292,85 @@ def print_reversal_table(df, show_botprob=True, show_ema50pct=False, top_n=10):
                       f"{vmax:>4.2f}x")
             serial += 1
 
+def save_reversal_report(df, filepath, title, filter_desc,
+                         show_botprob=True, show_ema50pct=False, top_n=10):
+    """Save reversal report in same table format as terminal output."""
+    lines = []
+    lines.append(title)
+    lines.append(f"Filter: {filter_desc}")
+    lines.append(f"Total: {len(df)}")
+    lines.append("")
+
+    # Header
+    if show_ema50pct:
+        lines.append(f"  {'#':<3}  {'Symbol':<12}  {'MCap':>11}  {'Price':>9}  "
+                     f"{'EMA50%':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+                     f"{'RSI':>5}  {'ADX':>5}  {'V5D':>5}  {'VMax':>5}")
+        lines.append(f"  {'─'*108}")
+    else:
+        lines.append(f"  {'#':<3}  {'Symbol':<12}  {'MCap':>11}  {'Price':>9}  "
+                     f"{'BotProb':>7}  {'RevScr':>6}  {'SecRnk':>6}  {'CapRnk':>6}  "
+                     f"{'RSI':>5}  {'ADX':>5}  {'MACD':>8}  {'V5D':>5}  {'VMax':>5}")
+        lines.append(f"  {'─'*116}")
+
+    serial = 1
+    for cap in CAP_ORDER:
+        cap_df = df[df['Cap Category'] == cap].head(top_n)
+        if len(cap_df) == 0:
+            continue
+        cap_short = {'Large Cap':'L','Mini Large Cap':'ML',
+                     'Mid Cap':'M','Small Cap':'S'}.get(cap,'?')
+        lines.append("")
+        lines.append(f"  [{cap_short}] {cap}")
+        for _, row in cap_df.iterrows():
+            v5d  = float(row.get('Vol 5D Ratio', row.get('Vol Ratio', 0)) or 0)
+            vmax = get_vmax(row['Symbol'])
+            if show_ema50pct:
+                price = float(row.get('Current Price', 0) or 0)
+                ema50 = float(row.get('EMA50', 0) or 0)
+                pct   = round((price - ema50) / ema50 * 100, 1) if ema50 > 0 else 0
+                lines.append(
+                    f"  {serial:<3}  "
+                    f"{row['Symbol']:<12}  "
+                    f"{mcap_str(row['Market Cap Cr']):>11}  "
+                    f"Rs{price:>8.2f}  "
+                    f"{pct:>+6.1f}%  "
+                    f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                    f"{float(row.get('Sector Score',0)):>6.1f}  "
+                    f"{float(row.get('Cap Score',0)):>6.1f}  "
+                    f"{float(row.get('RSI',0)):>5.1f}  "
+                    f"{float(row.get('ADX',0)):>5.1f}  "
+                    f"{v5d:>4.2f}x  "
+                    f"{vmax:>4.2f}x")
+            else:
+                lines.append(
+                    f"  {serial:<3}  "
+                    f"{row['Symbol']:<12}  "
+                    f"{mcap_str(row['Market Cap Cr']):>11}  "
+                    f"Rs{float(row.get('Current Price',0)):>8.2f}  "
+                    f"{float(row.get('Bottom_Rev_Prob',0)):>6.1f}%  "
+                    f"{float(row.get('Reversal Score',0)):>6.0f}  "
+                    f"{float(row.get('Sector Score',0)):>6.1f}  "
+                    f"{float(row.get('Cap Score',0)):>6.1f}  "
+                    f"{float(row.get('RSI',0)):>5.1f}  "
+                    f"{float(row.get('ADX',0)):>5.1f}  "
+                    f"{float(row.get('MACD Hist',0)):>+8.3f}  "
+                    f"{v5d:>4.2f}x  "
+                    f"{vmax:>4.2f}x")
+            serial += 1
+
+    lines.append("")
+    if show_ema50pct:
+        lines.append("EMA50%=how far below EMA50 | RevScr=Tech score | "
+                     "SecRnk/CapRnk=Relative rank 0-10 | V5D=5day avg | VMax=peak day")
+    else:
+        lines.append("BotProb=ML reversal prob | RevScr=Tech score | "
+                     "SecRnk/CapRnk=Relative rank 0-10 | MACD=histogram | "
+                     "V5D=5day avg | VMax=peak day")
+
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+
 # ── SECTION 1A: ML CONFIRMED REVERSAL ────────────────────────
 def run_section_1a():
     print(f"\n{'='*65}")
@@ -324,25 +403,12 @@ def run_section_1a():
     print(f"  BotProb=ML reversal prob | RevScr=Tech score | "
           f"SecRnk/CapRnk=Relative rank 0-10 | V5D=5day avg | VMax=peak day")
 
-    # Save report
-    report_lines = [f"REVERSAL 1A — ML CONFIRMED — {today_str}",
-                    f"Filter: Best Setup=Reversal | BotProb>={MIN_BOTTOM_PROB}% | Rank>={MIN_RANK}",
-                    f"Total: {len(df)}", ""]
-    for cap in CAP_ORDER:
-        cap_df = df[df['Cap Category'] == cap].head(top_n)
-        if len(cap_df) == 0: continue
-        report_lines.append(f"[{cap}]")
-        for _, row in cap_df.iterrows():
-            report_lines.append(
-                f"  {row['Symbol']:<8}  {mcap_str(row['Market Cap Cr']):>11}  "
-                f"Rs{row['Current Price']:>7.2f}  "
-                f"BotProb:{row['Bottom_Rev_Prob']:.1f}%  "
-                f"RevScr:{row['Reversal Score']:.0f}  "
-                f"RSI:{row['RSI']:.1f}  ADX:{row['ADX']:.1f}")
-        report_lines.append("")
     rpath = os.path.join(REPORT_DIR, f'reversal_1a_{today_file}.txt')
-    with open(rpath, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(report_lines))
+    save_reversal_report(
+        df, rpath,
+        title=f"REVERSAL 1A — ML CONFIRMED — {today_str}",
+        filter_desc=f"Best Setup=Reversal | BotProb>={MIN_BOTTOM_PROB}% | Rank>={MIN_RANK}",
+        show_botprob=True, show_ema50pct=False, top_n=top_n)
     print(f"\n  Report saved: {rpath}")
     return set(df['Symbol'].tolist())
 
@@ -378,6 +444,14 @@ def run_section_1b(symbols_1a=set()):
     print(f"\n  {'─'*112}")
     print(f"  RevScr=Technical reversal score | BotProb=ML prob | "
           f"SecRnk/CapRnk=Relative rank 0-10 | V5D=5day avg | VMax=peak day")
+
+    rpath_1b = os.path.join(REPORT_DIR, f'reversal_1b_{today_file}.txt')
+    save_reversal_report(
+        df, rpath_1b,
+        title=f"REVERSAL 1B — TECHNICAL WATCH — {today_str}",
+        filter_desc=f"RevScore>=50 | Rank>={MIN_RANK} | Setup!=Momentum",
+        show_botprob=True, show_ema50pct=False, top_n=top_n)
+    print(f"  Report saved: {rpath_1b}")
     return set(df['Symbol'].tolist())
 
 # ── SECTION 1C: BASING WATCH ──────────────────────────────────
@@ -419,6 +493,14 @@ def run_section_1c(symbols_1a=set(), symbols_1b=set()):
     print(f"\n  {'─'*108}")
     print(f"  EMA50% = how far below EMA50 | RevScr=Tech score | "
           f"ADX<30 trend fading | RSI>35 stabilizing")
+
+    rpath_1c = os.path.join(REPORT_DIR, f'reversal_1c_{today_file}.txt')
+    save_reversal_report(
+        df, rpath_1c,
+        title=f"REVERSAL 1C — BASING WATCH — {today_str}",
+        filter_desc=f"Price<EMA50 | Rank>={MIN_RANK} | Setup=Watching | ADX<30 | RSI>35",
+        show_botprob=False, show_ema50pct=True, top_n=top_n)
+    print(f"  Report saved: {rpath_1c}")
     return set(df['Symbol'].tolist())
 
 # ── SECTION 2: FUNDAMENTAL DEEP DIVE ─────────────────────────
@@ -839,7 +921,7 @@ def get_status(row):
     setup  = str(row.get('Best Setup', ''))
     ml     = str(row.get('ML_Prediction', ''))
 
-    if setup == 'Momentum' and ml == 'Bullish Continual':
+    if setup == 'Momentum' and ml in ('Bullish Continual', 'Tech Bullish'):
         return 'Momentum confirmed ✅ — check LT portfolio'
     if price < ema50 and adx >= 30:
         return 'Downtrend still strong — wait (ADX high)'
@@ -893,7 +975,7 @@ def run_watchlist_screen():
         elif (price < ema50 and setup == 'Watching'
               and adx < 30 and rsi > 35):
             passed_1c.append(row)
-        elif (ml == 'Bullish Continual' and setup == 'Momentum'
+        elif (ml in ('Bullish Continual', 'Tech Bullish') and setup == 'Momentum'
               and price > ema50 > ema200):
             passed_mom.append(row)
         else:
@@ -983,7 +1065,7 @@ def run_watchlist_screen():
         print(f"  None currently.")
 
     print(f"\n  {'─'*65}")
-    print(f"  🚀 PASSED — Momentum (Bullish Continual + EMA OK) "
+    print(f"  🚀 PASSED — Momentum (Bullish Continual / Tech Bullish + EMA OK) "
           f"({len(passed_mom)} stocks)")
     if passed_mom:
         print_screen_table(passed_mom, show_conf=True)
@@ -1008,7 +1090,7 @@ def run_watchlist_screen():
                   f"{float(row.get('ADX',0)):>5.1f}  "
                   f"{float(row.get('Reversal Score',0)):>6.0f}  "
                   f"{pct:>+6.1f}%  "
-                  f"{str(row.get('Best Setup','')):< 12}  "
+                  f"{str(row.get('Best Setup','')):<12}  "
                   f"{get_status(row)}")
 
     print(f"\n  {'─'*65}")

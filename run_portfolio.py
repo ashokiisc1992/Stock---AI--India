@@ -264,7 +264,9 @@ def short_trend(trend):
     return t[:12]
 
 def short_ml(pred):
-    return 'Bull Cont' if pred == 'Bullish Continual' else str(pred)[:12]
+    if pred == 'Bullish Continual': return 'Bull Cont'
+    if pred == 'Tech Bullish':       return 'Tech Bull'
+    return str(pred)[:12]
 
 def is_sector_bullish(row):
     return 'Uptrend' in str(row.get('Sector Trend', ''))
@@ -405,10 +407,10 @@ def get_priority_tier(row):
     ema_ok     = passes_price_filter(row)
     conf_ok    = float(row.get('ML_Confidence', 0) or 0) >= MIN_CONF
 
-    if (ml_pred == 'Bullish Continual' and best_setup == 'Momentum'
+    if (ml_pred in ('Bullish Continual', 'Tech Bullish') and best_setup == 'Momentum'
             and ema_ok and conf_ok and is_sector_bullish(row)):
         return 1
-    if (ml_pred == 'Bullish Continual' and best_setup == 'Momentum'
+    if (ml_pred in ('Bullish Continual', 'Tech Bullish') and best_setup == 'Momentum'
             and ema_ok and conf_ok):
         return 2
     if (ml_pred == 'Reversal' and best_setup == 'Reversal'
@@ -426,7 +428,7 @@ def get_priority_tier_swing(row):
     if fund_score < MIN_FUND_SWING:    return None
     if not ema_ok:                     return None
     if not conf_ok:                    return None
-    if ml_pred != 'Bullish Continual': return None
+    if ml_pred not in ('Bullish Continual', 'Tech Bullish'): return None
     if best_setup != 'Momentum':       return None
     if is_sector_bullish(row):         return 1
     return 2
@@ -964,7 +966,7 @@ def run_lt_review(lt_df):
         if sec_chg >= 1.0 and cap_chg >= 1.0:
             add_reasons.append(
                 f"Both ranks improved ({sec_chg:+.1f} / {cap_chg:+.1f})")
-        if ml_pred == 'Bullish Continual' and ml_conf >= 65:
+        if ml_pred in ('Bullish Continual', 'Tech Bullish') and ml_conf >= 65:
             add_reasons.append(
                 f"Strong ML: {ml_pred} ({ml_conf:.1f}%)")
         if tech_score >= 70 and best_setup == 'Momentum':
@@ -1210,14 +1212,14 @@ def run_swing_review(swing_df):
         warn_reasons  = []
         carry_forward = False
 
-        if ml_pred != 'Bullish Continual':
+        if ml_pred not in ('Bullish Continual', 'Tech Bullish'):
             exit_reasons.append(
                 f"ML changed: {ml_pred} — no longer Bull Cont")
         if forecast25 < 0 and forecast45 < 0:
             exit_reasons.append(
                 f"Forecast negative: 25d={forecast25:+.1f}%  "
                 f"45d={forecast45:+.1f}%")
-        if not ema_ok and ml_pred == 'Bullish Continual':
+        if not ema_ok and ml_pred in ('Bullish Continual', 'Tech Bullish'):
             exit_reasons.append(
                 f"EMA structure broken — Price no longer > EMA50 > EMA200")
         if drawdown_hit and not weakest_flagged:
@@ -1227,7 +1229,7 @@ def run_swing_review(swing_df):
             weakest_flagged = True
         if cycle_days >= MAX_HOLD_DAYS:
             if (ml_conf >= MIN_CARRY_CONF and forecast25 >= 0
-                    and ml_pred == 'Bullish Continual' and ema_ok):
+                    and ml_pred in ('Bullish Continual', 'Tech Bullish') and ema_ok):
                 carry_forward = True
             else:
                 exit_reasons.append(
@@ -1245,7 +1247,7 @@ def run_swing_review(swing_df):
                 f"Price {pct_ema:+.1f}% above EMA50 — "
                 f"already run up, watch for pullback")
         if (ml_conf >= 75 and forecast25 > 3
-                and ml_pred == 'Bullish Continual'):
+                and ml_pred in ('Bullish Continual', 'Tech Bullish')):
             add_reasons.append(
                 f"Strong ML: conf={ml_conf:.1f}%  "
                 f"forecast={forecast25:+.1f}%")

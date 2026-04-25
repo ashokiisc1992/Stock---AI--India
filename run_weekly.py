@@ -81,7 +81,13 @@ for i, symbol in enumerate(symbols):
 
         today    = datetime.now().strftime('%Y-%m-%d')
         tomorrow = (datetime.now() + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
-        if start_date > today:
+
+        # Skip if start_date is in the future OR is a weekend (market closed)
+        start_dt    = pd.Timestamp(start_date)
+        is_future   = start_date > today
+        is_weekend  = start_dt.weekday() >= 5  # Sat=5, Sun=6
+
+        if is_future or is_weekend:
             skipped += 1
             continue
 
@@ -517,7 +523,12 @@ for i, symbol in enumerate(remaining):
         mom_score, _ = score_momentum_simple(df)
         rev_score, _ = score_reversal_simple(df)
 
-        if mom_score >= rev_score and mom_score >= 50:
+        # EMA alignment check — Momentum requires Price > EMA50 at minimum
+        latest_close = df.iloc[-1]['Close']
+        latest_ema50 = df.iloc[-1]['EMA50']
+        price_above_ema50 = latest_close > latest_ema50
+
+        if mom_score >= rev_score and mom_score >= 50 and price_above_ema50:
             best_setup = 'Momentum'
             tech_score = mom_score
         elif rev_score >= mom_score and rev_score >= 50:
@@ -577,6 +588,18 @@ ml_merge_cols = [
     'Bullish_Cont_Prob', 'Bearish_Cont_Prob',
 ]
 tech_final = tech_df.merge(ml_scores_df[ml_merge_cols], on='Symbol', how='left')
+
+# Rule-based Bullish Continual (ML_Confidence=0) → rename to 'Tech Bullish'
+# These were assigned by price/EMA rules, not scored by ML model
+mask = (
+    (tech_final['ML_Prediction'] == 'Bullish Continual') &
+    (tech_final['ML_Confidence'].fillna(0) == 0)
+)
+tech_final.loc[mask, 'ML_Prediction'] = 'Tech Bullish'
+print(f"     Tech Bullish (rule-based) : {mask.sum()} stocks")
+print(f"     Bullish Continual (ML)    : "
+      f"{(tech_final['ML_Prediction']=='Bullish Continual').sum()} stocks")
+
 tech_final.to_csv(os.path.join(SCORES_DIR, 'technical_report_full.csv'), index=False)
 ml_scores_df.to_csv(os.path.join(SCORES_DIR, 'ml_scores_full.csv'), index=False)
 
@@ -726,6 +749,12 @@ for idx, row in tech_df.iterrows():
 # Sector trend
 # Primary sector index map — best available ETF/index per sector
 # Sectors with no dedicated ETF fall through to stock aggregation
+# Only sectors with a DEDICATED, ACCURATE index or ETF
+# Removed wrong mappings:
+#   Power/Utilities → ^CNXENERGY is Oil & Gas dominated (ONGC/Reliance heavy)
+#   Construction Materials → ^CNXCMDT is Commodities index, NOT cement stocks
+#   Telecom/Media/Textiles/Forest → MID150BEES is meaningless proxy
+# These sectors use stock aggregation which is always accurate (stocks ARE the index)
 SECTOR_INDEX_MAP = {
     'Information Technology'            : '^CNXIT',
     'Healthcare'                        : '^CNXPHARMA',
@@ -739,22 +768,12 @@ SECTOR_INDEX_MAP = {
     'Metals & Mining'                   : '^CNXMETAL',
     'Realty'                            : '^CNXREALTY',
     'Services'                          : '^CNXSERVICE',
-    'Construction'                      : '^CNXINFRA',
-    'Power'                             : '^CNXENERGY',
-    'Cement'                            : '^CNXCMDT',
-    'Utilities'                         : '^CNXENERGY',
-    # ETF-based sectors — will use if available on yfinance
+    'Construction'                      : '^CNXINFRA',   # infra proxy — acceptable
     'Pharmaceuticals'                   : 'PHARMABEES.NS',
-    'Defence'                           : 'DEFENCEETF.NS',
-    'Agriculture'                       : 'AGRIBEES.NS',
     'Chemicals'                         : 'MOGSEC.NS',
     'Consumer Services'                 : 'CONSUMBEES.NS',
-    'Telecommunication'                 : 'TELECOMNSC.NS',
     'Diversified'                       : 'JUNIORBEES.NS',
-    'Media, Entertainment & Publication': 'MEDIAIETF.NS',
-    # No dedicated ETF — stock aggregation only
-    'Textiles'                          : 'MID150BEES.NS',
-    'Forest Materials'                  : 'MID150BEES.NS',
+    # All other sectors → stock aggregation (no dedicated index)
 }
 
 print(f"      Fetching sector index data...")
@@ -805,16 +824,12 @@ with open(SECTOR_INDEX_FILE, 'wb') as f:
     pickle.dump(ticker_data, f)
 print(f"      Sector index saved: {SECTOR_INDEX_FILE}")
 
-# Only assign real index data — no fallback to MID150BEES
-# Sectors without a working index will use stock aggregation instead
+# Assign index data only for sectors in SECTOR_INDEX_MAP
+# All other sectors use stock aggregation (get_sector_trend_from_stocks)
 sector_price = {}
 for sector, ticker in SECTOR_INDEX_MAP.items():
-    if ticker in ticker_data and ticker != 'MID150BEES.NS':
+    if ticker in ticker_data:
         sector_price[sector] = ticker_data[ticker]
-# Textiles and Forest Materials explicitly use MID150BEES as their best proxy
-for sector in ['Textiles', 'Forest Materials']:
-    if 'MID150BEES.NS' in ticker_data:
-        sector_price[sector] = ticker_data['MID150BEES.NS']
 
 def calculate_sector_indicators(df):
     data = df.copy()
@@ -850,11 +865,11 @@ def calculate_sector_indicators(df):
 
 # Sectors with real unique index — use index data
 # All sectors with a dedicated index or ETF — try index first, fall to stocks if download fails
+# Sectors that use index data (must match SECTOR_INDEX_MAP keys exactly)
 REAL_INDEX_SECTORS = {
     'Automobile and Auto Components',  # ^CNXAUTO
     'Banking',                         # ^NSEBANK
     'Capital Goods',                   # ^CNXINFRA
-    'Cement',                          # ^CNXCMDT
     'Consumer Durables',               # ^CNXCONSUM
     'Fast Moving Consumer Goods',      # ^CNXFMCG
     'Financial Services',              # FINIETF.NS
@@ -864,14 +879,13 @@ REAL_INDEX_SECTORS = {
     'Oil, Gas & Consumable Fuels',     # ^CNXENERGY
     'Realty',                          # ^CNXREALTY
     'Services',                        # ^CNXSERVICE
+    'Construction',                    # ^CNXINFRA (acceptable proxy)
     'Pharmaceuticals',                 # PHARMABEES.NS
-    'Defence',                         # DEFENCEETF.NS
-    'Agriculture',                     # AGRIBEES.NS
     'Chemicals',                       # MOGSEC.NS
     'Consumer Services',               # CONSUMBEES.NS
-    'Telecommunication',               # TELECOMNSC.NS
     'Diversified',                     # JUNIORBEES.NS
-    'Media, Entertainment & Publication', # MEDIAIETF.NS
+    # Removed: Power, Utilities, Construction Materials → stock aggregation
+    # Removed: Telecom, Media, Textiles, Forest → stock aggregation
 }
 
 def derive_trend_label(rsi, adx, above_ema200, above_ema50,
@@ -1277,15 +1291,19 @@ tech_for_ml   = pd.read_csv(os.path.join(SCORES_DIR, 'technical_report_full.csv'
 
 CONF_THRESHOLD = {
     'Bullish Continual': 40.0,
+    'Tech Bullish'     :  0.0,  # no confidence threshold — rule-based
     'Bullish'          : 50.0,
     'Reversal'         : 50.0,
 }
 
-buy_labels = ['Bullish Continual', 'Bullish', 'Reversal']
+buy_labels = ['Bullish Continual', 'Tech Bullish', 'Bullish', 'Reversal']
 
 filtered = tech_for_ml[
     tech_for_ml['ML_Prediction'].isin(buy_labels) &
-    tech_for_ml['ML_Confidence'].notna()
+    (
+        tech_for_ml['ML_Confidence'].notna() |
+        (tech_for_ml['ML_Prediction'] == 'Tech Bullish')
+    )
 ].copy()
 filtered = filtered[
     filtered.apply(
@@ -1347,7 +1365,7 @@ def build_ml_report(df, fmt='long'):
             continue
         p(f"\n{'─' * 74}")
         p(f"  {label.upper()}  ({len(section)} stocks)")
-        if label == 'Bullish Continual':
+        if label in ('Bullish Continual', 'Tech Bullish'):
             p(f"  Already in uptrend — ML confirms continuation  [threshold: >=40%]")
         elif label == 'Bullish':
             p(f"  No clear setup yet — ML sees upside potential  [threshold: >=50%]")
