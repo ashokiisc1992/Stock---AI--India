@@ -1,0 +1,5 @@
+Two steps:
+1. Open Anaconda Prompt and navigate to the project folder:
+cd E:\learn\Project 1 AI Screener\stock-ai-india
+2. Run the script:
+python run_quarterly.py --force

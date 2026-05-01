@@ -1,0 +1,5 @@
+@echo off
+call D:\installations\anaconda\Scripts\activate.bat base
+cd /d "E:\learn\Project 1 AI Screener\stock-ai-india"
+python run_weekly.py
+pause

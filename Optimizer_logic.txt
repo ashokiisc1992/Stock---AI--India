@@ -1,0 +1,180 @@
+Here is each layer in plain language using real stocks from your test.
+
+---
+
+## Layer 1 — The Bouncer
+
+**Job:** Stand at the door and reject anyone who does not meet the minimum standard. No exceptions.
+
+Six questions asked about every stock. All six must be yes:
+
+```
+1. Is ML saying Bullish Continual?     FORCEMOT said yes at entry → later no → lost 11.8%
+2. Is ML confidence ≥ 73%?             Filters out weak ML signals
+3. Is price ≥ 5% above EMA50?          FORCEMOT was only +1.8% → would have been rejected
+                                        ORICONENT was +0.7% → would have been rejected
+4. Is Tech Score ≥ 75?                 Filters out technically weak stocks
+5. Is sector in Strong Uptrend or      Rejects stocks in sideways/falling sectors
+   Uptrend?                            ZEAL was in Sideways sector → lost 4.2%
+6. Is it Tier 1?                       Sector + ML + Tech all aligned simultaneously
+```
+
+Out of 752 stocks → roughly 25–53 pass. Everyone else goes home.
+
+**From your test:** FORCEMOT and ORICONENT both failed question 3. If Layer 1 had been active they would never have entered any portfolio. That alone would have saved -11.8% and -4.8%.
+
+---
+
+## Layer 2 — The Judge
+
+**Job:** Of the 25–53 stocks that passed Layer 1, rank them from best to worst. Give each a score.
+
+Five ingredients, combined into one number:
+
+```
+EMA50%  × 33%   How far above EMA50 is the price? Sweet spot 8-30%.
+                 MTARTECH was +33% → high score → selected → gained +54.4%
+
+Tech    × 23%   Technical score from RSI, ADX, MACD, EMA alignment
+
+ML Conf × 20%   How confident is the ML model? 73% minimum already passed
+                 Layer 1. Here higher conf gets more points.
+
+Ranks   × 20%   SecRnk + CapRnk — how good is this stock within its
+                 sector and cap category?
+
+F25d    × 4%    25-day forecast — only a tiebreaker. You were right
+                 not to trust it primarily. INDSWFTLAB had highest F25d
+                 (+10.5%) but actually lost -2%.
+
+Then multiply the whole score by sector strength:
+  Strong Uptrend ↑↑ sector → score × 1.3  (30% bonus)
+  Plain Uptrend ↑ sector   → score × 1.0  (no change)
+```
+
+Output: a ranked list. GMDCLTD scores 90.7. TORNTPOWER scores 93.8. Top 15 go to Layer 3.
+
+---
+
+## Layer 3 — The Accountant
+
+**Job:** Decide how much money to put in each stock. Make sure we do not over-concentrate anywhere.
+
+Uses **equal allocation** — confirmed by your test data. Rank weighted vs equal made only 0.28% difference. Stock selection matters 30x more than allocation method.
+
+```
+Allocation per stock = Capital ÷ number of qualifying stocks
+
+Example: Rs 2,00,000 capital, 10 stocks qualify
+         → Rs 20,000 per stock
+
+Then apply three caps:
+
+Cap 1 — Per stock: never more than 15% in one stock
+         Rs 2,00,000 × 15% = Rs 30,000 maximum per stock
+
+Cap 2 — Per sector: dynamic based on how many sectors qualify
+         If 6 sectors qualify → each sector gets up to 25%
+         If 2 sectors qualify → each sector gets up to 50%
+         If 1 sector qualifies → maximum 60% (absolute ceiling)
+         
+         This is important for bear markets when only metals or
+         pharma is holding up — you should concentrate there,
+         not force diversification into weak sectors.
+
+Cap 3 — Total: never exceed 100% of capital
+```
+
+Also computes and shows the **ATR stop** for each stock — not as an exit trigger but as a reference. Exit is decided by indicators, not by a price level.
+
+---
+
+## Layer 4 — The Doctor
+
+**Job:** Check if the stock is healthy right now. A stock can pass Layers 1–3 perfectly but still be in the middle of a pullback from a recent peak. Layer 4 catches this.
+
+This is what catches the **Torrent Power problem** — price is +15% above EMA50 (passes Layer 1) but the stock peaked at +25% two weeks ago and is now sliding down. Layer 1 cannot see this. Layer 4 can.
+
+Five signals, each scores +1 (healthy) or -1 (problem):
+
+```
+Signal 1 — 5-day momentum
+  Is price higher than 5 days ago?
+  Yes → +1   No → -1
+  
+Signal 2 — Position in recent range
+  Is price closing near its recent highs or near its recent lows?
+  Near highs (top 60% of 5-day range) → +1  ← RECOVERING stock scores well here
+  Near lows  (bottom 40% of range)    → -1  ← TORNTPOWER scores -1 here
+  
+  TORNTPOWER: High=1790, Low=1675, Close=1699
+  Position = (1699-1675)/(1790-1675) = 0.21 → closing near lows → -1
+
+Signal 3 — EMA20 slope
+  Is the short-term trend (EMA20) still rising?
+  Rising → +1   Flattening or falling → -1
+
+Signal 4 — RSI direction
+  Is RSI rising while below 75? → momentum building → +1
+  Is RSI falling while above 65? → momentum fading at highs → -1
+
+Signal 5 — Higher low and higher close (RECOVERY BONUS)
+  Is today's low higher than 5 days ago's low?
+  AND is today's close higher than 5 days ago's close?
+  Both yes → +1 bonus (stock retraced and is now resuming uptrend)
+  
+  This is the signal that CAPTURES a stock that retracted
+  to 8% above EMA50, turned up, and is now at 10% above EMA50.
+  Signal 2 would show it closing near highs. Signal 5 gives it a bonus.
+  These stocks are often the best entries — weak holders cleared out,
+  RSI reset, ready for next leg up.
+```
+
+Total score -4 to +5:
+
+```
++4 or +5  →  ✅ RISING or RECOVERING    Clean entry, full allocation
++1 to +3  →  ⚠️ MIXED                  Show with caution label
+   0      →  ⚠️ NEUTRAL                Consolidating, not ideal timing
+-1 to -4  →  🚫 RETREATING             Peaked and falling — exclude
+```
+
+---
+
+## How the four layers connect
+
+```
+752 stocks
+    ↓
+Layer 1 — Bouncer        → 25-53 pass
+    ↓
+Layer 2 — Judge          → scored and ranked, top 15 selected
+    ↓
+Layer 3 — Accountant     → equal allocation, sector + stock caps applied
+    ↓
+Layer 4 — Doctor         → each stock gets health label
+    ↓
+OUTPUT:
+  ✅ RISING stocks   → buy, full allocation
+  ⚠️ MIXED stocks    → buy, shown with caution
+  🚫 RETREATING      → skip for now, re-evaluate next run
+```
+
+---
+
+## Exit logic (auto-tester)
+
+```
+Every time data updates (not just weekly — any time):
+
+  Check each holding:
+    ML degraded from Bull Cont → anything else?  → EXIT immediately
+    Layer 4 score ≤ -3 (clearly RETREATING)?     → EXIT immediately
+    
+  Log the exit with full reason.
+  
+  After 3 trading days → same stock eligible for re-entry
+  if it passes all 4 layers again.
+```
+
+Ready to write Cell 3?

@@ -82,12 +82,8 @@ for i, symbol in enumerate(symbols):
         today    = datetime.now().strftime('%Y-%m-%d')
         tomorrow = (datetime.now() + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
 
-        # Skip if start_date is in the future OR is a weekend (market closed)
-        start_dt    = pd.Timestamp(start_date)
-        is_future   = start_date > today
-        is_weekend  = start_dt.weekday() >= 5  # Sat=5, Sun=6
-
-        if is_future or is_weekend:
+        # Skip only if start_date is strictly after today
+        if start_date > today:
             skipped += 1
             continue
 
@@ -1446,3 +1442,15 @@ print("=" * 60)
 print("  Weekly run complete!")
 print(f"  Finished : {datetime.now().strftime('%Y-%m-%d %H:%M')}")
 print("=" * 60)
+
+
+# ── TRIGGER PORTFOLIO OPTIMIZER ──────────────────────────────
+import subprocess
+optimizer = r'E:\learn\Project 1 AI Screener\stock-ai-india\run_portfolio_optimizer.py'
+if os.path.exists(optimizer):
+    print("\nTriggering portfolio optimizer...")
+    subprocess.Popen(
+        ['python', optimizer, '--auto'],
+        creationflags=subprocess.CREATE_NEW_CONSOLE
+    )
+    print("Optimizer running in background.")
